@@ -28,6 +28,8 @@ const state = Object.assign(
   (() => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } })()
 );
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
+// Mỗi tướng chỉ có một lần trong Bàn của tôi (dữ liệu cũ có thể có ×2, ×3).
+state.mine = [...new Set(Array.isArray(state.mine) ? state.mine : [])];
 // 7 nhà khác. Dữ liệu "Nhà khác tranh" cũ (state.contested) chuyển vào Nhà 1.
 const newOpponents = (first = []) => Array.from({ length: 7 }, (_, i) => ({ name: 'Nhà ' + (i + 1), units: i === 0 ? [...first] : [] }));
 if (!Array.isArray(state.opponents) || state.opponents.length !== 7) state.opponents = newOpponents(state.contested || []);
@@ -364,12 +366,10 @@ function stepValue(key, dir, mult) {
 }
 
 function renderTrays() {
-  const counts = {};
-  state.mine.forEach(id => counts[id] = (counts[id] || 0) + 1);
-  const uniq = Object.keys(counts);
-  $('#mine-count').textContent = state.mine.length ? `· ${uniq.length} tướng` : '';
+  const uniq = [...state.mine];
+  $('#mine-count').textContent = uniq.length ? `· ${uniq.length} tướng` : '';
   $('#mine-list').innerHTML = uniq.length ? uniq.sort((a, b) => (U.get(a)?.cost || 0) - (U.get(b)?.cost || 0))
-    .map(id => uIcon(id, { attr: `data-rm-mine="${esc(id)}" data-tipunit="${esc(id)}"`, badge: counts[id] > 1 ? '×' + counts[id] : '' })).join('')
+    .map(id => uIcon(id, { attr: `data-rm-mine="${esc(id)}" data-tipunit="${esc(id)}"` })).join('')
     : '<span class="empty">Bấm tướng ở bảng bên dưới để thêm. Bấm vào tướng ở đây để bỏ.</span>';
   renderOpps();
 }
@@ -379,6 +379,7 @@ function renderOpps() {
     const g = L[i].g;
     return `<div class="opp ${i === state.activeOpp ? 'on' : ''}" data-opp="${i}">
       <span class="oname" data-opp-name="${i}" data-tip-text="Bấm để chọn nhà · bấm đúp để đổi tên · phím ${i + 1}">${i + 1}. ${esc(o.name)}</span>
+      ${o.hp != null ? `<span class="ohp ${o.hp <= 0 ? 'dead' : ''}" data-tip-text="Máu (đọc từ màn hình)">${o.hp}</span>` : ''}
       <span class="ounits">${o.units.map(id => uIcon(id, { size: 'xs', attr: `data-rm-opp="${i}|${esc(id)}" data-tipunit="${esc(id)}"` })).join('') || `<span class="empty">${i === state.activeOpp ? 'bấm phải vào tướng để thêm' : '—'}</span>`}</span>
       ${g ? `<span class="oguess" data-comp-detail="${esc(g.c.id)}" data-tip-text="Tool đoán nhà này chơi đội này (${g.hit.length} tướng khớp). Bấm để xem.">≈ ${esc(g.c.name)}</span>` : ''}
     </div>`;
@@ -411,14 +412,13 @@ function renderPool() {
   markPool();
 }
 function markPool() {
-  const counts = {}; state.mine.forEach(id => counts[id] = (counts[id] || 0) + 1);
-  const cont = new Set(state.contested);
+  const mine = new Set(state.mine), cont = new Set(state.contested);
   document.querySelectorAll('#board-unit-pool .tile').forEach(t => {
-    const id = t.dataset.pick, u = t.querySelector('.u');
-    t.classList.toggle('picked', !!counts[id]); t.classList.toggle('contested', cont.has(id));
-    u.classList.toggle('owned', !!counts[id]); u.classList.toggle('contested', cont.has(id));
+    const id = t.dataset.pick, u = t.querySelector('.u'), has = mine.has(id);
+    t.classList.toggle('picked', has); t.classList.toggle('contested', cont.has(id));
+    u.classList.toggle('owned', has); u.classList.toggle('contested', cont.has(id));
     let b = u.querySelector('.badge');
-    if (counts[id]) { if (!b) { b = document.createElement('span'); b.className = 'badge'; u.appendChild(b); } b.textContent = counts[id] > 1 ? '×' + counts[id] : '✓'; }
+    if (has) { if (!b) { b = document.createElement('span'); b.className = 'badge'; u.appendChild(b); } b.textContent = '✓'; }
     else if (b) b.remove();
     const h = holders(id); let hb = u.querySelector('.hbadge');
     if (h >= 1) { if (!hb) { hb = document.createElement('span'); hb.className = 'hbadge'; u.appendChild(hb); } hb.textContent = h; hb.title = h + ' nhà đang giữ'; }
@@ -608,11 +608,11 @@ function renderTargetView(c) {
 // =====================================================================
 const TRAIT_BY_NAME = new Map(D.traits.map(t => [t.nameEn.toLowerCase(), t.id]));
 const UNIT_BY_NAME = (() => { const m = new Map(); D.units.forEach(u => { const k = u.nameEn.toLowerCase(); m.set(k, m.has(k) ? null : u.id); }); return m; })();
-const copiesOf = id => state.mine.filter(x => x === id).length;
-const starOf = n => n >= 9 ? 3 : n >= 3 ? 2 : n >= 1 ? 1 : 0;
+// Mỗi tướng chỉ nhập một lần nên không biết cấp sao: điều kiện cấp sao để người dùng tự theo dõi trong game.
+const hasMine = id => state.mine.includes(id);
 const uniqMine = () => [...new Set(state.mine)];
 const traitUnitCount = tid => uniqMine().filter(u => U.get(u)?.traits.includes(tid)).length;
-const traitStarLevels = tids => uniqMine().filter(u => U.get(u)?.traits.some(t => tids.includes(t))).reduce((s, u) => s + starOf(copiesOf(u)), 0);
+const traitUnitsOf = tids => uniqMine().filter(u => U.get(u)?.traits.some(t => tids.includes(t))).length;
 const traitIds = str => String(str).split(/\s+or\s+|,\s*/i).map(x => TRAIT_BY_NAME.get(x.trim().toLowerCase())).filter(Boolean);
 function roundIndex(r) { const m = /^(\d)-(\d)$/.exec(r || ''); return m ? Number(m[1]) * 10 + Number(m[2]) : null; }
 
@@ -624,21 +624,20 @@ function unlockCheck(u) {
   if (u.unlockLevel && lvl < u.unlockLevel) return { ...base, level: 'grey', status: `Từ cấp ${u.unlockLevel} (đang cấp ${lvl})` };
   let m;
   if ((m = /^(\d)-star (.+?) with (\d+) items?/i.exec(txt))) {
-    const id = UNIT_BY_NAME.get(m[2].toLowerCase()); const need = m[1] === '3' ? 9 : 3; const have = id ? copiesOf(id) : 0;
+    const id = UNIT_BY_NAME.get(m[2].toLowerCase());
     if (!id) return { ...base, level: 'orange', status: 'Tự theo dõi trong game' };
-    return have >= need ? { ...base, level: 'red', status: `Đủ ${esc(uname(id))} ${m[1]}★ → <b>nhớ cho ${esc(uname(id))} cầm ${m[3]} đồ!</b>` }
-      : { ...base, level: 'orange', status: `${esc(uname(id))}: ${have}/${need} bản (cần ${m[1]}★ + ${m[3]} đồ)` };
+    return hasMine(id) ? { ...base, level: 'orange', status: `Đang có ${esc(uname(id))} · tự theo dõi <b>${m[1]}★ + ${m[3]} đồ</b> trong game` }
+      : { ...base, level: 'orange', status: `Chưa có ${esc(uname(id))} (cần ${m[1]}★ + ${m[3]} đồ)` };
   }
   if ((m = /^(\d)-star (.+?) or (.+?)\.?$/i.exec(txt))) {
-    const ids = [m[2], m[3]].map(n => UNIT_BY_NAME.get(n.trim().toLowerCase())).filter(Boolean); const need = m[1] === '3' ? 9 : 3;
-    const best = Math.max(0, ...ids.map(copiesOf));
-    return best >= need ? { ...base, level: 'green', status: 'Đủ điều kiện ✔ (kiểm tra trong game đã mở chưa)' }
-      : { ...base, level: 'orange', status: ids.map(i => `${esc(uname(i))} ${copiesOf(i)}/${need}`).join(' · ') };
+    const ids = [m[2], m[3]].map(n => UNIT_BY_NAME.get(n.trim().toLowerCase())).filter(Boolean);
+    const got = ids.filter(hasMine);
+    return { ...base, level: 'orange', status: got.length ? `Đang có ${got.map(i => esc(uname(i))).join(', ')} · tự theo dõi <b>${m[1]}★</b> trong game`
+      : `Chưa có ${ids.map(i => esc(uname(i))).join(' / ') || 'tướng cần'} (cần ${m[1]}★)` };
   }
   if ((m = /^(\d+) unique star levels of (.+?)( Champions)?( without .*)?\.?$/i.exec(txt))) {
-    const tids = traitIds(m[2]); const need = Number(m[1]); const have = traitStarLevels(tids);
-    return have >= need ? { ...base, level: 'green', status: `Ước tính đủ ${have}/${need} cấp sao ✔` }
-      : { ...base, level: 'orange', status: `Ước tính ${have}/${need} cấp sao (theo số bản bạn nhập)` };
+    const tids = traitIds(m[2]); const need = Number(m[1]); const n = traitUnitsOf(tids);
+    return { ...base, level: 'orange', status: `Có ${n} tướng ${tids.map(t => esc(T.get(t)?.name || t)).join(' / ')} · tự đếm <b>${need} cấp sao</b> trong game` };
   }
   if ((m = /^(\d+) unique (.+?) Champions/i.exec(txt))) {
     const tids = traitIds(m[2]); const need = Number(m[1]);
@@ -657,7 +656,7 @@ function unlockCheck(u) {
   }
   if ((m = /while fielding (\w[\w' ]*)/i.exec(txt))) {
     const id = UNIT_BY_NAME.get(m[1].trim().toLowerCase());
-    return { ...base, level: id && !copiesOf(id) ? 'red' : 'orange', status: id ? (copiesOf(id) ? `Đang có ${esc(uname(id))} ✔ · tự theo dõi tiến độ` : `<b>Cần đặt ${esc(uname(id))} lên bàn</b>`) : 'Tự theo dõi trong game' };
+    return { ...base, level: id && !hasMine(id) ? 'red' : 'orange', status: id ? (hasMine(id) ? `Đang có ${esc(uname(id))} ✔ · tự theo dõi tiến độ` : `<b>Cần đặt ${esc(uname(id))} lên bàn</b>`) : 'Tự theo dõi trong game' };
   }
   if ((m = /^Field (.+?) for (\d+) combats/i.exec(txt))) {
     const tid = TRAIT_BY_NAME.get(m[1].toLowerCase()); const on = tid && activeTraits(state.mine).find(x => x.id === tid && x.on);
@@ -678,8 +677,8 @@ const AUG_RULES = [
       return { level: n < 7 ? 'red' : 'orange', status: `${n < 7 ? `<b>Đang có ${n}/7 Pentakill</b>` : `Đủ ${n}/7 Pentakill ✔`} · cấp ${l}/10 · để tướng Pentakill hạ gục liên tiếp.` }; } },
   { re: /TrueDamagePrismaticTour/, run: () => { const n = traitUnitCount('DA_TrueDamage19');
       return { level: n < 5 ? 'red' : 'orange', status: `${n < 5 ? `<b>Đang có ${n}/5 True Damage</b>` : `Đủ ${n}/5 True Damage ✔`} · nhớ <b>giữ đúng chuỗi thắng / thua</b> theo yêu cầu nhiệm vụ.` }; } },
-  { re: /KDAPrismaticTour/, run: () => { const n = traitStarLevels(['DA_KDA19']);
-      return { level: n < 21 ? 'orange' : 'green', status: n < 21 ? `Ước tính <b>${n}/21 cấp sao K/DA</b> — nâng sao tướng K/DA (dùng Máy Sao Chép).` : `Ước tính đủ ${n}/21 cấp sao K/DA ✔` }; } },
+  { re: /KDAPrismaticTour/, run: () => { const n = traitUnitCount('DA_KDA19');
+      return { level: 'orange', status: `Có ${n} tướng K/DA · tự đếm <b>21 cấp sao K/DA</b> trong game — nâng sao tướng K/DA (dùng Máy Sao Chép).` }; } },
   { re: /DeathByAThousandCuts/, run: () => { const n = traitUnitCount('DA_Swiftstriker19');
       return { level: n ? 'orange' : 'red', status: n ? `Có ${n} tướng Tốc Kích ✔ để chúng đánh đủ 250 rồi 1000 đòn.` : '<b>Chưa có tướng Tốc Kích trên bàn</b> — cần Tốc Kích đánh 250 / 1000 đòn mới nhận thưởng.' }; } },
   { re: /Manager_StakeholderMeeting/, run: () => { const n = traitUnitCount('DA_Manager19');
@@ -707,7 +706,7 @@ function collectReminders() {
   const pathUnits = comp ? Object.values(comp.path || {}).flatMap(l => l.boards[0]?.units || []) : [];
   if (comp) [...new Set([...comp.units, ...pathUnits])].forEach(id => {
     const u = U.get(id);
-    if (!u?.unlock || state.unlocked.includes(id) || copiesOf(id)) return; // đã có tướng trên bàn tức là đã mở
+    if (!u?.unlock || state.unlocked.includes(id) || hasMine(id)) return; // đã có tướng trên bàn tức là đã mở
     list.push({ key: 'unlock:' + id, unit: id, kind: 'unlock', ...unlockCheck(u) });
   });
   state.augs.forEach(aid => {
@@ -739,7 +738,7 @@ function remindersHtml() {
 function renderOutput() {
   const out = $('#board-output');
   const target = state.target && D.comps.find(c => c.id === state.target);
-  const rem = remindersHtml();
+  const rem = shopCardHtml() + liveCardHtml() + remindersHtml();
   if (target) { out.innerHTML = rem + renderTargetView(target); return; }
   const empty = !state.mine.length && !compTotal(state.comps);
   if (empty) {
@@ -762,10 +761,140 @@ function renderOutput() {
     ${ranked.map(r => suggCard(r, { analysis: targetAnalysis(r.c) })).join('')}
     ${now.length ? `<div class="card"><div class="card-title">🧩 Ghép được ngay</div>${now.map(recipeHtml).join('')}</div>` : ''}`;
 }
+// =====================================================================
+// Tự đọc ảnh chụp game: Claude ghi web/live.js (scripts/write-live.mjs), web đọc lại mỗi 3 giây.
+// Chỉ chạy khi mở trên máy (file:// hoặc localhost), bản online không có live.js.
+// =====================================================================
+const LIVE_ON = location.protocol === 'file:' || /^(localhost|127\.0\.0\.1|\[::1\])$/.test(location.hostname);
+function liveCardHtml() {
+  const L = state.liveInfo;
+  if (!L || !L.advice?.length) return '';
+  const line = s => esc(s).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>');
+  return `<div class="card live" id="live-card">
+    <div class="card-title">🤖 Lời khuyên <span class="hint-inline">📸 ${esc(L.at)} · ${L.kind === 'opp' ? 'soi ' + esc(L.opp) : 'bàn của bạn'}</span>
+      <button class="btn ghost live-x" data-live-hide data-tip-text="Ẩn lời khuyên này">✕</button></div>
+    ${L.advice.map(s => `<div class="live-line">${line(s)}</div>`).join('')}
+  </div>`;
+}
+function applyLive(L) {
+  const ids = (L.units || []).filter(id => U.has(id));
+  if (L.kind === 'opp') {
+    const key = norm(L.opp);
+    let i = state.opponents.findIndex(o => norm(o.name) === key);
+    if (i < 0) i = state.opponents.findIndex(o => /^Nhà \d$/.test(o.name) && !o.units.length);
+    if (i < 0) i = state.opponents.findIndex(o => /^Nhà \d$/.test(o.name));
+    if (i < 0) i = state.activeOpp;
+    state.opponents[i].name = String(L.opp || state.opponents[i].name).slice(0, 24);
+    state.opponents[i].units = [...new Set(ids)];
+    syncContested();
+  } else {
+    if (Array.isArray(L.units)) state.mine = [...new Set(ids)]; // ảnh không đọc được tướng thì giữ nguyên
+    if (L.stage) state.stage = L.stage;
+    ['level', 'gold', 'hp'].forEach(k => { if (Number.isFinite(L[k])) state[k] = L[k]; });
+    if (L.comps) state.comps = Object.fromEntries(Object.entries(L.comps).filter(([id, n]) => I.has(id) && n > 0));
+  }
+  state.liveSeq = L.seq;
+  state.liveInfo = { at: L.at, kind: L.kind, opp: L.opp || '', advice: L.advice || [] };
+  save(); renderBoardState();
+  toast(`📸 Đã cập nhật từ ảnh lúc <b>${esc(L.at)}</b> · ${L.kind === 'opp' ? esc(L.opp) : 'bàn của bạn'}`, 3000);
+}
+function pollLive() {
+  const old = document.getElementById('live-src'); if (old) old.remove();
+  const s = document.createElement('script');
+  s.id = 'live-src'; s.src = 'live.js?v=' + Date.now();
+  s.onload = () => {
+    const L = window.TFT_LIVE; if (!L || !L.seq || L.seq === state.liveSeq) return;
+    // live.js cũ (từ ván trước, quá 10 phút) thì bỏ qua, không ghi đè bàn hiện tại.
+    if (Date.now() - L.seq > 10 * 60 * 1000) { state.liveSeq = L.seq; save(); return; }
+    applyLive(L);
+  };
+  document.head.appendChild(s);
+  // Đọc màn hình bằng OCR (Doc-man-hinh.bat → scripts/ocr-live.ps1 → live-ocr.js).
+  const old2 = document.getElementById('ocr-src'); if (old2) old2.remove();
+  const s2 = document.createElement('script');
+  s2.id = 'ocr-src'; s2.src = 'live-ocr.js?v=' + Date.now();
+  s2.onload = () => {
+    const O = window.TFT_OCR; if (!O || !O.seq || O.seq === ui.ocrSeq) return;
+    ui.ocrSeq = O.seq;
+    if (Date.now() - O.seq > 30 * 60 * 1000) return; // file cũ từ ván trước
+    applyOcr(O);
+  };
+  document.head.appendChild(s2);
+}
+
+// ---------- Đọc màn hình (OCR) ----------
+// Chữ OCR hay sai dấu / sai 1–2 ký tự: so gần đúng theo khoảng cách sửa chữ.
+const ocrKey = s => norm(s).replace(/[^a-z0-9]/g, '');
+function lev(a, b) {
+  const m = a.length, n = b.length; if (!m || !n) return m || n;
+  let prev = Array.from({ length: n + 1 }, (_, j) => j);
+  for (let i = 1; i <= m; i++) {
+    const cur = [i];
+    for (let j = 1; j <= n; j++) cur[j] = Math.min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1));
+    prev = cur;
+  }
+  return prev[n];
+}
+function fuzzyPick(text, list, names) {
+  const k = ocrKey(text); if (k.length < 2) return null;
+  let best = null, bd = 99;
+  for (const it of list) for (const s of names(it)) {
+    const t = ocrKey(s); if (!t) continue;
+    const d = t === k ? 0 : lev(k, t);
+    if (d < bd) { bd = d; best = it; }
+  }
+  return bd <= Math.max(1, Math.floor(Math.min(k.length, 12) / 4)) ? best : null;
+}
+const isDefaultOpp = o => /^Nhà \d$/.test(o.name);
+function applyOcr(O) {
+  if (O.stage) state.stage = O.stage;
+  ['level', 'gold', 'hp'].forEach(k => { if (Number.isFinite(O[k])) state[k] = O[k]; });
+  // Tên + máu các nhà: khớp với nhà đã có tên, chưa có thì lấy nhà còn tên mặc định.
+  (O.players || []).filter(p => !p.self && p.name).forEach(p => {
+    const k = ocrKey(p.name);
+    let i = state.opponents.findIndex(o => !isDefaultOpp(o) && (ocrKey(o.name) === k || lev(ocrKey(o.name), k) <= 2));
+    if (i < 0) i = state.opponents.findIndex(isDefaultOpp);
+    if (i < 0) return;
+    const o = state.opponents[i];
+    if (isDefaultOpp(o)) o.name = p.name.slice(0, 24);
+    if (Number.isFinite(p.hp)) o.hp = p.hp;
+  });
+  ui.ocr = O;
+  save(); renderSteppers(); renderOpps(); renderOutput();
+}
+function shopCardHtml() {
+  const O = ui.ocr; if (!O) return '';
+  const comp = (state.target && COMP_BY_ID.get(state.target)) ||
+    (state.mine.length ? D.comps.map(c => scoreComp(c, LOBBY())).sort((a, b) => b.s - a.s)[0]?.c : null);
+  const want = new Set(comp ? comp.units : []);
+  const cells = (O.shop || []).map(n => {
+    if (!n) return '<div class="shop-cell empty">—</div>';
+    const u = fuzzyPick(n, D.units, x => [x.name, x.nameEn]);
+    if (!u) return `<div class="shop-cell unk">${esc(n)}</div>`;
+    const own = hasMine(u.id), w = want.has(u.id), h = holders(u.id);
+    const tip = [own && 'Đã có: mua để nâng sao', w && `Trong đội ${comp.name}`, h && `${h} nhà khác đang giữ`].filter(Boolean).join(' · ');
+    return `<div class="shop-cell ${own || w ? 'buy' : ''}" data-tipunit="${esc(u.id)}">${uIcon(u.id, { size: 'sm' })}
+      <span class="nm">${esc(u.name)}</span>
+      <span class="marks" ${tip ? `data-tip-text="${esc(tip)}"` : ''}>${own ? '<b class="good">✓</b>' : ''}${w ? '<b class="warn">★</b>' : ''}${h ? `<b class="bad">⚔${h}</b>` : ''}</span></div>`;
+  }).join('');
+  const traits = (O.traits || []).map(t => ({ t: fuzzyPick(t.n, D.traits, x => [x.name, x.nameEn]), c: t.c })).filter(x => x.t);
+  return `<div class="card shop" id="shop-card">
+    <div class="card-title">🛒 Cửa hàng <span class="hint-inline">🟢 đọc màn hình ${esc(O.at || '')}${comp ? ` · ★ = ${esc(comp.name)}` : ''}</span></div>
+    ${cells ? `<div class="shop-row">${cells}</div>` : '<div class="muted">Chưa thấy cửa hàng (đang chọn lõi / vòng chọn đồ chung).</div>'}
+    ${traits.length ? `<div class="shop-traits"><span class="muted">Tộc hệ trên bàn:</span> ${traits.map(x => `${esc(x.t.name)}${x.c ? ' ' + x.c : ''}`).join(' · ')}</div>` : ''}
+  </div>`;
+}
+
 function renderBoardState() { renderSteppers(); renderTrays(); renderComponents(); renderAugChosen(); markPool(); renderOutput(); }
 function renderBoard() { renderPool(); renderBoardState(); }
 
-function addMine(id) { state.mine.push(id); save(); renderTrays(); markPool(); renderOutput(); }
+// Bấm tướng chưa có: thêm; đã có: bỏ. Trả về true nếu vừa thêm.
+function toggleMine(id) {
+  const i = state.mine.indexOf(id);
+  if (i >= 0) state.mine.splice(i, 1); else state.mine.push(id);
+  save(); renderTrays(); markPool(); renderOutput();
+  return i < 0;
+}
 function addContested(id) {
   const o = state.opponents[state.activeOpp];
   if (!o.units.includes(id)) o.units.push(id);
@@ -785,14 +914,14 @@ function bindBoard() {
   search.addEventListener('keydown', e => {
     if (e.key === 'Enter') {
       const first = poolMatches()[0]; if (!first) return;
-      e.shiftKey ? addContested(first.id) : addMine(first.id);
-      toast(`${e.shiftKey ? '⚔ ' + esc(state.opponents[state.activeOpp].name) : '✅ Đã thêm'}: <b>${esc(first.name)}</b>`, 1500);
+      const added = e.shiftKey ? (addContested(first.id), true) : toggleMine(first.id);
+      toast(`${e.shiftKey ? '⚔ ' + esc(state.opponents[state.activeOpp].name) : added ? '✅ Đã thêm' : '↩ Đã bỏ'}: <b>${esc(first.name)}</b>`, 1500);
       search.select();
     } else if (e.key === 'Escape') { search.value = ''; renderPool(); search.blur(); }
   });
   $('#cost-filter').addEventListener('click', e => { const c = e.target.closest('.chip'); if (c) { ui.poolCost = Number(c.dataset.v); renderPool(); } });
   const pool = $('#board-unit-pool');
-  pool.addEventListener('click', e => { const t = e.target.closest('[data-pick]'); if (t) addMine(t.dataset.pick); });
+  pool.addEventListener('click', e => { const t = e.target.closest('[data-pick]'); if (t) toggleMine(t.dataset.pick); });
   pool.addEventListener('contextmenu', e => { const t = e.target.closest('[data-pick]'); if (t) { e.preventDefault(); addContested(t.dataset.pick); } });
   $('#mine-list').addEventListener('click', e => {
     const t = e.target.closest('[data-rm-mine]'); if (!t) return;
@@ -819,7 +948,7 @@ function bindBoard() {
   });
   $('#new-game').addEventListener('click', () => {
     if (!confirm('Bắt đầu ván mới? Sẽ xoá tướng, mảnh đồ, lõi, đội đang nhắm và các dấu đã xong / đã mở khoá.')) return;
-    Object.assign(state, { mine: [], contested: [], opponents: newOpponents(), activeOpp: 0, comps: {}, augs: [], augAt: {}, unlocked: [], done: [], stage: '1-2', level: 1, gold: 0, hp: 100, target: null });
+    Object.assign(state, { mine: [], contested: [], opponents: newOpponents(), activeOpp: 0, comps: {}, augs: [], augAt: {}, unlocked: [], done: [], stage: '1-2', level: 1, gold: 0, hp: 100, target: null, liveInfo: null });
     ui.pathLevel = null; save(); renderBoard(); toast('🆕 Đã bắt đầu ván mới', 2000);
   });
   $('#clear-units').addEventListener('click', () => { state.mine = []; state.opponents.forEach(o => { o.units = []; }); syncContested(); save(); renderBoardState(); });
@@ -1164,6 +1293,7 @@ function init() {
     if (e.target.closest('[data-pos-full]')) { ui.posFull = !ui.posFull; renderOutput(); return; }
     const st = e.target.closest('[data-set-target]'); if (st) { e.preventDefault(); setTarget(st.dataset.setTarget); return; }
     if (e.target.closest('[data-untarget]')) { state.target = null; save(); renderOutput(); hideTip(); return; }
+    if (e.target.closest('[data-live-hide]')) { state.liveInfo = null; save(); renderOutput(); hideTip(); return; }
     const gt = e.target.closest('[data-goto]'); if (gt) { e.preventDefault(); showTab(gt.dataset.goto); return; }
     const cd = e.target.closest('[data-comp-detail]'); if (cd) { e.preventDefault(); compDetail(cd.dataset.compDetail); return; }
     if (e.target.closest('#board-unit-pool, #mine-list, #opp-list, #component-picker, #aug-chosen, #steppers')) return;
@@ -1189,6 +1319,7 @@ function init() {
 
   let start = 'board'; try { start = localStorage.getItem('tft-helper-tab') || 'board'; } catch {}
   showTab(start);
+  if (LIVE_ON) { pollLive(); setInterval(pollLive, 3000); }
 }
 init();
 })();

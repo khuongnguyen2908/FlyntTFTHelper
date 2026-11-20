@@ -193,6 +193,26 @@ main { padding: 14px 18px 20px; }
 .steps3 div { background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font-size: 13px; }
 .steps3 b { display: block; color: var(--gold-hi); margin-bottom: 2px; }
 
+/* ---------- Cửa hàng đọc từ màn hình (OCR) ---------- */
+.shop .hint-inline { text-transform: none; letter-spacing: 0; font-weight: 500; }
+.shop-row { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; }
+.shop-cell { display: flex; align-items: center; gap: 6px; min-width: 0; padding: 4px 6px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel2); }
+.shop-cell.buy { border-color: var(--good); background: #12301f; }
+.shop-cell.empty, .shop-cell.unk { color: var(--dim); font-size: 12px; justify-content: center; }
+.shop-cell .nm { flex: 1; min-width: 0; font-size: 12.5px; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.shop-cell .marks { flex: none; display: flex; gap: 3px; font-size: 12px; }
+.shop-traits { margin-top: 6px; font-size: 12px; }
+.opp .ohp { flex: none; font-size: 11px; font-weight: 700; color: var(--good); border: 1px solid var(--line); border-radius: 10px; padding: 0 6px; }
+.opp .ohp.dead { color: var(--dim); text-decoration: line-through; }
+
+/* ---------- Lời khuyên từ ảnh chụp (Claude) ---------- */
+.live { border: 1px solid var(--hex); background: linear-gradient(180deg, #0d2430, #0c1724); }
+.live .card-title { color: var(--hex); }
+.live .hint-inline { text-transform: none; letter-spacing: 0; font-weight: 500; }
+.live-x { margin-left: auto; }
+.live-line { padding: 3px 0 3px 14px; position: relative; }
+.live-line::before { content: '›'; position: absolute; left: 2px; color: var(--hex); font-weight: 800; }
+
 /* ---------- Nhắc việc ---------- */
 .steprow { display: flex; gap: 8px; align-items: stretch; }
 .steprow .steppers { flex: 1; }

@@ -1,4 +1,4 @@
-# Ghi chú làm tiếp (cập nhật 20/11/2026, lần 7)
+# Ghi chú làm tiếp (cập nhật 20/11/2026, lần 9)
 
 ## Mở dự án ở máy mới
 - Cài Node.js 18+ (máy hiện tại: Node 24.14). Python chỉ dùng để chạy server xem thử (không bắt buộc).
@@ -11,7 +11,15 @@
   - Web tra cứu 7 tab: Tình huống của tôi, Đội hình mạnh, Tướng, Tộc hệ, Trang bị, Lõi, Mẹo nhanh.
   - Skill tư vấn `tft-tu-van` (đọc ảnh chụp game).
   - Lần 2: nút Copy mã đội hình; khung "Đội đang nhắm" (mức khớp, việc nên làm, đồ cần, lõi hợp).
-  - Lần 7: theo dõi 7 nhà (state.opponents, state.activeOpp; state.contested = hợp các nhà, giữ cho logic cũ), thẻ 🏟 Sảnh đấu + xếp hạng gợi ý có tính sảnh (`guessComp`, `lobbyImpact`), bàn 📍 xếp vị trí lục giác (`hexBoardHtml`), mục ⚔ Khắc chế trong chi tiết đội. Chưa push.
+  - Lần 9: đã push.
+    - Đọc màn hình bằng OCR của Windows (không cần Claude): bấm đúp `Doc-man-hinh.bat` → `scripts/ocr-live.ps1` cứ 2 giây chụp cửa sổ game (process `League of Legends` đang ở trên cùng), đọc vòng / cấp + XP / vàng / máu / 5 tướng cửa hàng / tộc hệ / tên + máu các nhà, ghi `web/live-ocr.js` khi có thay đổi (~0,8 giây mỗi lần đọc). Web: `applyOcr` (cập nhật ô số, đặt tên Nhà 1–7 + máu `o.hp`), khung 🛒 Cửa hàng (`shopCardHtml`: ✓ đã có, ★ trong đội nhắm / gợi ý số 1, ⚔ nhà khác giữ), so tên gần đúng `fuzzyPick` / `lev`.
+    - Vùng đọc tính theo khung 1920x1080, tự co giãn (chỉ đúng màn 16:9). Chỉnh vùng: `-Image <ảnh> -Dump` in chữ thô từng vùng. Số nhỏ đọc bằng đen trắng + chữ mồi "Gold" (`Read-Number`). Máy chỉ có OCR tiếng Anh nên tên tộc hệ hay sai dấu / sót (vd Vệ Sĩ).
+    - Đã thử trên 4 ảnh thật (1-1, 1-3, 2-1 chọn lõi, 4-7): vòng, cấp, vàng, máu, cửa hàng đúng; nhà đang hiện bảng nổi (vd tên + tướng) có thể bị sót. Chưa thử trong ván thật.
+  - Lần 8: đã push. Chế độ Claude đọc ảnh (bên dưới) chạy được nhưng chậm 20–46 giây / ảnh, người dùng thấy không dùng được trong ván → thay bằng OCR (lần 9), giữ lại để hỏi sâu khi cần.
+    - Mỗi tướng chỉ chọn một lần (bấm lại / Enter lại = bỏ). `toggleMine()`; dữ liệu cũ ×2 ×3 tự gộp khi mở. Không còn đếm số bản → điều kiện cấp sao trong Nhắc việc ghi "tự theo dõi trong game" (`hasMine`, `traitUnitsOf`).
+    - Tự đọc ảnh chụp: Win+PrtScn → `scripts/wait-shot.mjs` (chạy nền, chép ảnh vào `shots/`, giữ 20 ảnh, mốc ở `shots/.last`) → Claude đọc ảnh, ghi `shots/live-input.json` → `scripts/write-live.mjs` đổi tên sang mã, ghi `web/live.js` → web (chỉ file:// / localhost) đọc lại mỗi 3 giây (`pollLive`, `applyLive`), cập nhật bàn / nhà khác / vòng cấp vàng máu / mảnh, khung 🤖 Lời khuyên (`liveCardHtml`, `state.liveInfo`). live.js cũ hơn 10 phút lúc mở trang thì bỏ qua. Các bước Claude làm: skill `tft-tu-van`, mục "Chế độ tự đọc ảnh".
+    - Chưa thử với ảnh game thật và chưa thử bấm đúp (file://) trên trình duyệt của người dùng.
+  - Lần 7: theo dõi 7 nhà (state.opponents, state.activeOpp; state.contested = hợp các nhà, giữ cho logic cũ), thẻ 🏟 Sảnh đấu + xếp hạng gợi ý có tính sảnh (`guessComp`, `lobbyImpact`), bàn 📍 xếp vị trí lục giác (`hexBoardHtml`), mục ⚔ Khắc chế trong chi tiết đội. Đã push (commit d72ef38).
     Dữ liệu mới trong comps: `counters [{id, d, s}]` (d = hạng đổi khi sảnh có đội id, dương = tệ hơn; s = độ giống), `selfMirror`, `positions {unit: [{cell, n}]}` (cell 1..28, hàng = floor((cell-1)/7), 0 = hàng cuối).
   - Lần 6: khung 🔔 Nhắc việc (mở khoá tướng + lõi nhiệm vụ, nút Đã xong / Đã mở khoá) và nút 🆕 Ván mới. Đã push.
     Luật nằm trong `web/app.js`: `unlockCheck()` (đọc điều kiện tiếng Anh bằng regex) và `AUG_RULES` (lõi nhiệm vụ theo id). Riot đổi câu điều kiện thì regex có thể không khớp → rơi về "Tự theo dõi trong game".
@@ -30,6 +38,8 @@
 - **Kiểu làm việc:** B (sửa trực tiếp). Không có công cụ ngoài giữ file.
 - **Ngôn ngữ:** JavaScript thuần. Không cài thư viện, không có bước build.
 - **File tự sinh, không sửa tay:** `web/data.js` và `data/set19/*.json` (do `scripts/update-data.mjs` tạo).
+  `web/live.js` (do `scripts/write-live.mjs` tạo), `web/live-ocr.js` (do `scripts/ocr-live.ps1` tạo) và thư mục `shots/` không đưa lên git (`.gitignore`).
+  `scripts/ocr-live.ps1` phải lưu UTF-8 **có BOM** (PowerShell 5.1), xuống dòng CRLF.
 - **File sửa thẳng:**
   - `scripts/update-data.mjs`: tải và rút gọn dữ liệu, dịch thẻ số trong mô tả.
   - `web/index.html`, `web/app.js` (phần tính toán ở đầu file, phần hiển thị theo từng tab), `web/style.css` (biến màu ở `:root`).
@@ -49,6 +59,8 @@
 - **Lệnh quen của người dùng:**
   - "cập nhật dữ liệu" = chạy `node scripts/update-data.mjs` (đã được đồng ý sẵn, không cần hỏi lại).
   - Dán ảnh game / hỏi về TFT = tư vấn theo skill `tft-tu-van`, trả lời luôn.
+  - Trong ván: người dùng tự bấm đúp `Doc-man-hinh.bat` (đọc màn hình OCR), không cần chat.
+  - "bắt đầu chơi" / "dừng chơi" = bật / tắt chế độ Claude đọc ảnh Win+PrtScn (chậm, dùng khi muốn hỏi sâu; skill `tft-tu-van`), làm luôn.
 
 ## Build và phát hành
 - Không có bước build. Repo: https://github.com/khuongnguyen2908/FlyntTFTHelper (nhánh `main`, công khai).

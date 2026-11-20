@@ -1,6 +1,6 @@
 ---
 name: tft-tu-van
-description: Tư vấn khi chơi Teamfight Tactics (TFT) Set 19. Dùng khi người dùng dán ảnh chụp màn hình trận TFT, hoặc hỏi nên roll / lên cấp / giữ vàng, mua bán tướng nào, chơi đội hình nào, lên đồ gì từ mảnh đang có, chọn lõi (augment) nào, nhà khác đang chơi gì / tranh tướng nào, hay bất cứ câu hỏi nào về tướng, tộc hệ, trang bị, lõi TFT.
+description: Tư vấn khi chơi Teamfight Tactics (TFT) Set 19. Dùng khi người dùng dán ảnh chụp màn hình trận TFT, hoặc hỏi nên roll / lên cấp / giữ vàng, mua bán tướng nào, chơi đội hình nào, lên đồ gì từ mảnh đang có, chọn lõi (augment) nào, nhà khác đang chơi gì / tranh tướng nào, hay bất cứ câu hỏi nào về tướng, tộc hệ, trang bị, lõi TFT. Cũng dùng khi người dùng nói "bắt đầu chơi" / "dừng chơi" (chế độ tự đọc ảnh Win+PrtScn rồi cập nhật web), hoặc khi lệnh nền scripts/wait-shot.mjs thoát với dòng "SHOT ...".
 ---
 
 # Tư vấn TFT
@@ -68,6 +68,38 @@ Ngắn gọn, mỗi mục 1–3 dòng, bỏ mục không liên quan:
 ```
 
 Nếu người dùng chỉ hỏi một câu (vd "Jinx lên đồ gì?"), trả lời đúng câu đó, có số liệu từ dữ liệu, không dùng cả mẫu.
+
+## Chế độ tự đọc ảnh (Win+PrtScn → web tự cập nhật)
+
+> Chậm (20–46 giây / ảnh). Trong ván người dùng dùng `Doc-man-hinh.bat` (OCR trên máy, không cần Claude).
+> Chế độ này chỉ để hỏi sâu khi người dùng nói "bắt đầu chơi".
+
+Người dùng chụp bằng **Win+PrtScn** trong game; Claude tự đọc ảnh rồi ghi `web/live.js`, web (mở trên máy) đọc lại mỗi 3 giây
+và cập nhật Bàn của tôi / Nhà khác / vòng, cấp, vàng, máu / mảnh đồ + khung 🤖 Lời khuyên. Việc này đã được người dùng đồng ý, làm luôn không hỏi.
+
+**"bắt đầu chơi":**
+1. Đọc `shots/config.json` (`{"name": "<tên trong game>"}`). Chưa có thì hỏi tên trong game một lần rồi lưu vào đó
+   (`shots/` không đưa lên git, repo công khai nên không ghi tên vào file khác).
+2. Chạy `node scripts/wait-shot.mjs` ở **chế độ nền** (run_in_background). Báo một dòng: đang chờ ảnh, nhớ mở `web/index.html`,
+   game để chế độ Borderless.
+
+**Khi lệnh nền thoát:**
+- In `SHOT <đường dẫn>`:
+  1. Chạy lại ngay `node scripts/wait-shot.mjs` ở chế độ nền (để không lỡ ảnh tiếp; ảnh chụp lúc đang bận vẫn được nhận nhờ `shots/.last`).
+  2. Đọc ảnh (Read). Không phải màn hình TFT → bỏ qua, không ghi gì.
+  3. Xác định bàn của ai: cửa hàng, vàng, cấp ở dưới luôn là của người dùng; bàn cờ là của nhà khác khi đang soi
+     (tên người chơi khác hiện trên bàn / dòng của họ được chọn ở danh sách bên phải). So với tên trong `shots/config.json`.
+  4. Ghi `shots/live-input.json` (mẫu đầy đủ ở đầu `scripts/write-live.mjs`):
+     - Bàn mình: `kind: "self"`, `units` = tướng trên bàn + hàng chờ (không lấy cửa hàng), `stage`, `level`, `gold`, `hp`, `comps` = mảnh trong kho.
+     - Nhà khác: `kind: "opp"`, `opp` = tên người chơi đó, `units` = tướng trên bàn họ.
+     - Chỉ ghi thứ đọc rõ; ô không đọc được thì bỏ (null). Tướng trùng tên ghi kèm tộc: `"Akali (True Damage)"`.
+     - `advice`: 2–4 dòng rất ngắn theo **Cách suy nghĩ** ở trên, dòng đầu là việc làm ngay (mua / bán / roll / lên cấp), có nhắc mở khoá / lõi nhiệm vụ nếu gấp.
+       Ảnh nhà khác: nói họ đang đi đội gì, có tranh tướng của người dùng không. `**chữ**` = in đậm. Thứ không chắc thì thêm dòng "Chưa chắc: …".
+  5. Chạy `node scripts/write-live.mjs`. Báo lỗi tên thì sửa theo gợi ý rồi chạy lại.
+  6. Trả lời trong chat **một dòng** (giờ ảnh + đã cập nhật gì). Người dùng đang chơi, không đọc chat dài.
+- In `TIMEOUT` (3 giờ không có ảnh): hỏi có chơi tiếp không, không tự chạy lại.
+
+**"dừng chơi":** dừng lệnh nền wait-shot (TaskStop), báo một dòng.
 
 ## Web tra cứu
 

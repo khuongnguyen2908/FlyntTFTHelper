@@ -11,7 +11,8 @@ Quy trình và lúc nào cần ghi: `.claude/skills/quy-trinh-lam-viec/SKILL.md`
 |---|---|---|
 | 1. Dữ liệu | Sửa `scripts/update-data.mjs` hoặc dữ liệu trong `data/` | |
 | 2. Web | Sửa `web/` | CSS cũ bị lưu đệm khi thử; Nút bấm không thấy kết quả; Trình duyệt tích hợp không chạy JS của file:// |
-| 3. Tư vấn | Sửa skill `tft-tu-van` hoặc khi tư vấn sai | |
+| 3. Tư vấn | Sửa skill `tft-tu-van` hoặc khi tư vấn sai | Claude đọc ảnh quá chậm để dùng trong ván |
+| 4. Đọc màn hình | Sửa `scripts/ocr-live.ps1` | OCR Windows bỏ sót số đứng riêng |
 
 Mẫu một bài (ghi vào đúng nhóm, mới nhất lên đầu nhóm; trùng chủ đề thì bổ sung bài cũ; tối đa khoảng 8 dòng):
 
@@ -57,3 +58,19 @@ Mẫu một bài (ghi vào đúng nhóm, mới nhất lên đầu nhóm; trùng 
 - Lần sau tránh bằng cách: muốn tự thử web thì luôn `preview_start` với `tft-web`, không mở file://. Người dùng bấm đúp file thì vẫn chạy bình thường.
 
 ## 3. Tư vấn
+
+### Claude đọc ảnh quá chậm để dùng trong ván
+- Ngày: 20/11/2026
+- Chuyện gì xảy ra: chế độ Win+PrtScn → Claude đọc ảnh → web: mỗi ảnh 20–46 giây, xử lý từng ảnh một; người dùng thấy không dùng được khi đang chơi. Claude cũng không nhận ra chắc tướng trên bàn (hình 3D nhỏ).
+- Nguyên nhân: mỗi ảnh là một lượt chat (đánh thức, đọc ảnh, tra dữ liệu, ghi file), không thể nhanh như tool chạy trên máy.
+- Đã sửa thế nào: thêm `scripts/ocr-live.ps1` (OCR Windows, ~0,8 giây, tự chạy liên tục); chế độ Claude giữ lại để hỏi sâu.
+- Lần sau tránh bằng cách: việc cần kết quả trong vài giây khi đang chơi thì làm bằng script chạy trên máy; Claude chỉ dùng cho câu hỏi chờ được.
+
+## 4. Đọc màn hình
+
+### OCR Windows bỏ sót số đứng riêng
+- Ngày: 20/11/2026
+- Chuyện gì xảy ra: vàng "2", máu "68", "50" đọc ra rỗng; vòng "1-3" đôi khi rỗng.
+- Nguyên nhân: OCR của Windows hay bỏ qua chuỗi số ngắn đứng một mình trên nền nhiều chi tiết.
+- Đã sửa thế nào: `Read-Number` trong `scripts/ocr-live.ps1`: đổi vùng sang đen trắng (ColorMatrix + SetThreshold), chừa lề, viết chữ mồi "Gold" bên trái rồi mới đọc; thử vài ngưỡng; sửa chữ hay nhầm (o→0, s→5).
+- Lần sau tránh bằng cách: vùng chỉ có số thì đọc qua `Read-Number`. Chỉnh vùng bằng `-Image <ảnh> -Dump`, thử trên đủ ảnh đầu / giữa / cuối trận.
