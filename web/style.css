@@ -72,13 +72,13 @@ main { padding: 14px 18px 20px; }
 .col-input .box.grow { flex: 1 0 auto; min-height: 340px; height: 0; display: flex; flex-direction: column; gap: 6px; }
 .col-output { display: flex; flex-direction: column; gap: 12px; padding-right: 4px; }
 
-.steppers { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.steppers { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; min-width: 0; }
 .stepper { background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 4px 6px; text-align: center; }
 .stepper label { display: block; font-size: 11px; color: var(--muted); font-weight: 600; text-transform: uppercase; }
 .stepper .row { display: flex; align-items: center; justify-content: center; gap: 4px; }
-.stepper button { width: 26px; height: 26px; border-radius: 6px; border: 1px solid var(--line2); background: var(--panel3); cursor: pointer; font-weight: 800; line-height: 1; }
+.stepper button { flex: none; width: 26px; height: 26px; border-radius: 6px; border: 1px solid var(--line2); background: var(--panel3); cursor: pointer; font-weight: 800; line-height: 1; }
 .stepper button:hover { border-color: var(--gold); }
-.stepper input { width: 48px; background: transparent; border: 0; text-align: center; font-size: 18px; font-weight: 800; color: var(--gold-hi); outline: none; }
+.stepper input { width: 100%; min-width: 0; flex: 1; background: transparent; border: 0; text-align: center; font-size: 18px; font-weight: 800; color: var(--gold-hi); outline: none; }
 .stepper.hp input { color: var(--good); } .stepper.hp.low input { color: var(--bad); } .stepper.hp.mid input { color: var(--warn); }
 
 .tray { display: flex; gap: 5px; flex-wrap: wrap; min-height: 46px; align-items: center; }
@@ -218,6 +218,38 @@ main { padding: 14px 18px 20px; }
 .ritem .rcond { color: var(--dim); font-size: 11.5px; margin-top: 2px; }
 .ritem .raug { width: 34px; height: 34px; border-radius: 50%; flex: none; }
 .ritem .btn { flex: none; }
+
+/* ---------- Nhà khác ---------- */
+.opps { display: flex; flex-direction: column; gap: 3px; }
+.opp { display: flex; align-items: center; gap: 6px; padding: 3px 6px; border-radius: 7px; border: 1px solid transparent; cursor: pointer; min-height: 32px; }
+.opp:hover { background: var(--panel2); }
+.opp.on { border-color: var(--bad); background: #2a1416; }
+.opp .oname { flex: none; width: 86px; font-size: 12px; font-weight: 700; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.opp.on .oname { color: #ffb3ae; }
+.opp .ounits { flex: 1; display: flex; flex-wrap: wrap; gap: 3px; min-width: 0; }
+.opp .ounits .empty { color: var(--dim); font-size: 11px; }
+.opp .oguess { flex: none; max-width: 42%; font-size: 11.5px; color: var(--gold-hi); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-decoration: underline dotted; }
+.u.xs { width: 26px; height: 26px; border-radius: 5px; border-width: 1.5px; }
+.u.xs .lock { display: none; }
+.u .hbadge { position: absolute; top: 0; right: 0; background: var(--bad); color: #fff; font-size: 10px; font-weight: 800; padding: 0 4px; border-bottom-left-radius: 5px; }
+
+/* ---------- Sảnh đấu ---------- */
+.lobby.hot { border: 2px solid #a3302b; }
+.lrow { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; padding: 5px 0; border-bottom: 1px dashed var(--line); font-size: 13px; }
+.lrow:last-of-type { border-bottom: 0; }
+.lrow .lname { width: 90px; font-weight: 700; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.lrow .lguess { flex: 1; min-width: 180px; }
+.lbest { margin-top: 8px; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; background: #10261b; border: 1px solid #2c6b45; border-radius: 8px; padding: 6px 10px; }
+.sub-title.good { color: var(--good); } .sub-title.bad { color: var(--bad); }
+
+/* ---------- Bàn lục giác ---------- */
+.hexb { display: inline-flex; flex-direction: column; gap: 2px; padding: 8px 10px; background: var(--bg2); border: 1px solid var(--line); border-radius: 10px; margin-top: 4px; }
+.hrow { display: flex; gap: 4px; }
+.hrow.off { margin-left: 24px; }
+.hex { width: 44px; height: 48px; clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%); background: #1a2740; display: flex; align-items: center; justify-content: center; }
+.hex.has { background: #2a3b5e; }
+.hex .u { border-radius: 50%; width: 36px; height: 36px; }
+.hlabel { font-size: 10.5px; color: var(--dim); text-align: center; }
 
 /* ---------- Lộ trình theo cấp ---------- */
 .lvl-chips { margin-bottom: 4px; }

@@ -1,4 +1,4 @@
-# Ghi chú làm tiếp (cập nhật 20/11/2026, lần 6)
+# Ghi chú làm tiếp (cập nhật 20/11/2026, lần 7)
 
 ## Mở dự án ở máy mới
 - Cài Node.js 18+ (máy hiện tại: Node 24.14). Python chỉ dùng để chạy server xem thử (không bắt buộc).
@@ -11,7 +11,9 @@
   - Web tra cứu 7 tab: Tình huống của tôi, Đội hình mạnh, Tướng, Tộc hệ, Trang bị, Lõi, Mẹo nhanh.
   - Skill tư vấn `tft-tu-van` (đọc ảnh chụp game).
   - Lần 2: nút Copy mã đội hình; khung "Đội đang nhắm" (mức khớp, việc nên làm, đồ cần, lõi hợp).
-  - Lần 6: khung 🔔 Nhắc việc (mở khoá tướng + lõi nhiệm vụ, nút Đã xong / Đã mở khoá) và nút 🆕 Ván mới. Chưa push.
+  - Lần 7: theo dõi 7 nhà (state.opponents, state.activeOpp; state.contested = hợp các nhà, giữ cho logic cũ), thẻ 🏟 Sảnh đấu + xếp hạng gợi ý có tính sảnh (`guessComp`, `lobbyImpact`), bàn 📍 xếp vị trí lục giác (`hexBoardHtml`), mục ⚔ Khắc chế trong chi tiết đội. Chưa push.
+    Dữ liệu mới trong comps: `counters [{id, d, s}]` (d = hạng đổi khi sảnh có đội id, dương = tệ hơn; s = độ giống), `selfMirror`, `positions {unit: [{cell, n}]}` (cell 1..28, hàng = floor((cell-1)/7), 0 = hàng cuối).
+  - Lần 6: khung 🔔 Nhắc việc (mở khoá tướng + lõi nhiệm vụ, nút Đã xong / Đã mở khoá) và nút 🆕 Ván mới. Đã push.
     Luật nằm trong `web/app.js`: `unlockCheck()` (đọc điều kiện tiếng Anh bằng regex) và `AUG_RULES` (lõi nhiệm vụ theo id). Riot đổi câu điều kiện thì regex có thể không khớp → rơi về "Tự theo dõi trong game".
   - Lần 5: lộ trình theo cấp (bàn cờ cấp 4–10 cho từng đội) trong khung Đội đang nhắm và chi tiết đội. Đã push.
   - Lần 3: làm lại giao diện: tối kiểu TFT, tab Tình huống 2 cột vừa một màn hình (nhập trái / kết quả phải), chọn tướng chuột trái/phải + phím (/ , Enter, Shift+Enter), nút −/+ cho vòng/cấp/vàng/máu, ô thông tin khi rê chuột, chi tiết mở ở ngăn trượt bên phải, lọc bằng chip. Đã thử ở 1920×1000 và 1366×768.

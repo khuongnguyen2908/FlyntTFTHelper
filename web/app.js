@@ -16,6 +16,7 @@ const RECIPE = new Map(); // "a|b" (đã sắp xếp) -> item
 D.items.filter(i => i.from.length === 2 && ['craftable', 'emblem', 'support'].includes(i.kind))
   .forEach(i => RECIPE.set([...i.from].sort().join('|'), i));
 const unitTraits = u => u.traits.map(id => T.get(id)).filter(Boolean);
+const COMP_BY_ID = new Map(D.comps.map(c => [c.id, c]));
 const LEVELS = [...new Set(D.comps.map(c => c.levellingVi))];
 const COSTS = [...new Set(D.units.map(u => u.cost))].sort((a, b) => a - b);
 const ROUNDS = ['1-2', '1-3', '1-4'];
@@ -27,8 +28,14 @@ const state = Object.assign(
   (() => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } })()
 );
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
+// 7 nhà khác. Dữ liệu "Nhà khác tranh" cũ (state.contested) chuyển vào Nhà 1.
+const newOpponents = (first = []) => Array.from({ length: 7 }, (_, i) => ({ name: 'Nhà ' + (i + 1), units: i === 0 ? [...first] : [] }));
+if (!Array.isArray(state.opponents) || state.opponents.length !== 7) state.opponents = newOpponents(state.contested || []);
+if (!(state.activeOpp >= 0 && state.activeOpp < 7)) state.activeOpp = 0;
+function syncContested() { state.contested = [...new Set(state.opponents.flatMap(o => o.units))]; }
+syncContested();
 // Bộ lọc giao diện (không lưu)
-const ui = { pathLevel: null, pathAlt: false, poolCost: 0, compLevel: '', unitCost: 0, unitTrait: '', traitType: '', itemKind: 'craftable', augRarity: '', augTag: '' };
+const ui = { pathLevel: null, pathAlt: false, posFull: false, poolCost: 0, compLevel: '', unitCost: 0, unitTrait: '', traitType: '', itemKind: 'craftable', augRarity: '', augTag: '' };
 
 // =====================================================================
 // Tiện ích
@@ -152,7 +159,36 @@ function unitTargets(unitId) {
 }
 const recipeHtml = item => `<span class="recipe">${iIcon(item.from[0])}+${iIcon(item.from[1])} → ${iIcon(item.id, 'md')} ${esc(item.name)}</span>`;
 
-function scoreComp(c) {
+// Đoán đội của một nhà từ các tướng đã đánh dấu (cần ít nhất 2 tướng khớp).
+function guessComp(units) {
+  if (!units || units.length < 2) return null;
+  let best = null;
+  for (const c of D.comps) {
+    const hit = c.units.filter(u => units.includes(u));
+    if (hit.length < 2) continue;
+    const sc = hit.reduce((t, u) => t + 1 + (U.get(u)?.cost || 1) * 0.5, 0) + c.carries.filter(u => units.includes(u)).length * 2 + Math.log10((c.count || 0) + 1) * 0.3;
+    if (!best || sc > best.sc) best = { c, hit, sc };
+  }
+  return best;
+}
+const lobby = () => state.opponents.map((o, i) => ({ i, o, g: guessComp(o.units) }));
+// d > 0: sảnh làm hạng của đội c tệ đi; d < 0: tốt lên (số liệu MetaTFT "counters").
+function lobbyImpact(c, L = lobby()) {
+  let d = 0; const parts = [];
+  for (const l of L) {
+    if (!l.g) continue;
+    const x = l.g.c.id === c.id ? { d: c.selfMirror ?? 0.8, s: 1 } : (c.counters || []).find(k => k.id === l.g.c.id);
+    if (!x) continue;
+    d += x.d; parts.push({ ...l, d: x.d, s: x.s });
+  }
+  return { d, parts };
+}
+let _lobbyCache = null, _lobbyKey = '';
+function LOBBY() { const k = JSON.stringify(state.opponents); if (k !== _lobbyKey) { _lobbyKey = k; _lobbyCache = lobby(); } return _lobbyCache; }
+const holders = id => state.opponents.filter(o => o.units.includes(id)).length;
+const signed = d => (d > 0 ? '+' : '') + d.toFixed(2);
+
+function scoreComp(c, L) {
   const mine = new Set(state.mine), cont = new Set(state.contested);
   let s = 0; const why = [];
   const have = c.units.filter(u => mine.has(u));
@@ -172,6 +208,11 @@ function scoreComp(c) {
   const augTraits = new Set(state.augs.flatMap(a => A.get(a)?.traits || []));
   if (c.traits.some(t => augTraits.has(t.id))) { s += 3; why.push('✨ hợp lõi'); }
   if (c.avg != null) s += (4.5 - c.avg) * 2;
+  const li = lobbyImpact(c, L);
+  if (li.parts.length) {
+    s -= li.d * 2;
+    if (Math.abs(li.d) >= 0.1) why.push(`<span class="${li.d > 0 ? 'bad' : 'good'}">🏟 sảnh ${signed(li.d)}</span>`);
+  }
   return { c, s, why };
 }
 
@@ -330,8 +371,18 @@ function renderTrays() {
   $('#mine-list').innerHTML = uniq.length ? uniq.sort((a, b) => (U.get(a)?.cost || 0) - (U.get(b)?.cost || 0))
     .map(id => uIcon(id, { attr: `data-rm-mine="${esc(id)}" data-tipunit="${esc(id)}"`, badge: counts[id] > 1 ? '×' + counts[id] : '' })).join('')
     : '<span class="empty">Bấm tướng ở bảng bên dưới để thêm. Bấm vào tướng ở đây để bỏ.</span>';
-  $('#contested-list').innerHTML = state.contested.length ? state.contested.map(id => uIcon(id, { size: 'sm', attr: `data-rm-cont="${esc(id)}" data-tipunit="${esc(id)}"` })).join('')
-    : '<span class="empty">Bấm phải vào tướng để đánh dấu nhà khác đang giữ.</span>';
+  renderOpps();
+}
+function renderOpps() {
+  const L = LOBBY();
+  $('#opp-list').innerHTML = state.opponents.map((o, i) => {
+    const g = L[i].g;
+    return `<div class="opp ${i === state.activeOpp ? 'on' : ''}" data-opp="${i}">
+      <span class="oname" data-opp-name="${i}" data-tip-text="Bấm để chọn nhà · bấm đúp để đổi tên · phím ${i + 1}">${i + 1}. ${esc(o.name)}</span>
+      <span class="ounits">${o.units.map(id => uIcon(id, { size: 'xs', attr: `data-rm-opp="${i}|${esc(id)}" data-tipunit="${esc(id)}"` })).join('') || `<span class="empty">${i === state.activeOpp ? 'bấm phải vào tướng để thêm' : '—'}</span>`}</span>
+      ${g ? `<span class="oguess" data-comp-detail="${esc(g.c.id)}" data-tip-text="Tool đoán nhà này chơi đội này (${g.hit.length} tướng khớp). Bấm để xem.">≈ ${esc(g.c.name)}</span>` : ''}
+    </div>`;
+  }).join('');
 }
 function renderComponents() {
   $('#component-picker').innerHTML = COMPONENTS.map(c => {
@@ -369,6 +420,9 @@ function markPool() {
     let b = u.querySelector('.badge');
     if (counts[id]) { if (!b) { b = document.createElement('span'); b.className = 'badge'; u.appendChild(b); } b.textContent = counts[id] > 1 ? '×' + counts[id] : '✓'; }
     else if (b) b.remove();
+    const h = holders(id); let hb = u.querySelector('.hbadge');
+    if (h >= 1) { if (!hb) { hb = document.createElement('span'); hb.className = 'hbadge'; u.appendChild(hb); } hb.textContent = h; hb.title = h + ' nhà đang giữ'; }
+    else if (hb) hb.remove();
   });
 }
 
@@ -421,12 +475,63 @@ function levelPathCard(c, mine) {
     ${pathBoardHtml(main, mine, { label: 'Bàn chính' })}
     ${alts.length ? `<button class="btn ghost" data-path-alt="1">${ui.pathAlt ? '▲ Ẩn bàn thay thế' : `▼ Xem ${alts.length} bàn thay thế`}</button>
       ${ui.pathAlt ? alts.map((b, i) => pathBoardHtml(b, mine, { alt: true, label: 'Thay thế ' + (i + 1) })).join('') : ''}` : ''}
+    ${c.positions ? `<div class="sub-title">📍 Xếp vị trí ${ui.posFull ? '— <b>bàn đủ đội</b>' : `— <b>bàn chính cấp ${L}</b>`}
+        <button class="btn ghost" data-pos-full="1">${ui.posFull ? `Xem bàn cấp ${L}` : 'Xem bàn đủ đội'}</button></div>
+      ${hexBoardHtml(c, ui.posFull ? c.units : main.units, mine)}` : ''}
   </div>`;
+}
+
+function lobbyCard(c) {
+  const L = LOBBY();
+  const known = L.filter(l => l.o.units.length);
+  if (!known.length) return '';
+  const li = lobbyImpact(c, L);
+  const tone = li.d > 0.15 ? 'bad' : li.d < -0.15 ? 'good' : '';
+  const exp = c.avg != null ? c.avg + li.d : null;
+  const best = D.comps.filter(x => x.tier !== '?' && x.avg != null).map(x => ({ x, e: x.avg + lobbyImpact(x, L).d })).sort((a, b) => a.e - b.e)[0];
+  const ours = new Set(c.units);
+  return `<div class="card lobby ${tone === 'bad' ? 'hot' : ''}"><div class="card-title">🏟 Sảnh đấu
+      <span class="pill ${tone}">${li.parts.length ? `${signed(li.d)} hạng ${li.d > 0.15 ? '(tệ hơn)' : li.d < -0.15 ? '(tốt hơn)' : '(không đáng kể)'}` : 'chưa đoán được đội nhà nào'}</span>
+      ${exp != null && li.parts.length ? `<span class="pill">hạng dự kiến <b>${fmt(exp)}</b></span>` : ''}</div>
+    ${known.map(l => {
+      const part = li.parts.find(p => p.i === l.i);
+      const clash = l.o.units.filter(u => ours.has(u));
+      return `<div class="lrow"><span class="lname">${esc(l.o.name)}</span>
+        <span class="lguess">${l.g ? `<a href="#" data-comp-detail="${esc(l.g.c.id)}">${esc(l.g.c.name)}</a> <span class="muted">(${l.g.hit.length} tướng khớp)</span>` : '<span class="muted">chưa đoán được (cần ≥2 tướng của một đội)</span>'}</span>
+        ${part ? `<span class="pill ${part.d > 0.1 ? 'bad' : part.d < -0.1 ? 'good' : ''}">${signed(part.d)}</span>` : ''}
+        ${clash.length ? `<span class="pill bad">⚔ tranh ${clash.map(uname).map(esc).join(', ')}</span>` : ''}</div>`;
+    }).join('')}
+    ${best && best.x.id !== c.id && exp != null && best.e < exp - 0.15 ? `<div class="lbest">💡 Đội hợp sảnh này nhất: <b>${esc(best.x.name)}</b> <span class="pill">hạng dự kiến <b>${fmt(best.e)}</b></span> <button class="btn primary" data-set-target="${esc(best.x.id)}">🎯 Nhắm</button></div>` : ''}
+  </div>`;
+}
+
+// ---------- Xếp vị trí: bàn lục giác 4 hàng × 7 ô ----------
+// cell n (1..28): hàng f = floor((n-1)/7) với f = 0 là hàng cuối, cột = (n-1) % 7.
+function hexBoardHtml(c, unitIds, mine) {
+  const pos = c.positions || {};
+  const taken = new Map(), none = [];
+  [...new Set(unitIds)].sort((a, b) => (pos[b]?.[0]?.n || 0) - (pos[a]?.[0]?.n || 0)).forEach(u => {
+    const cell = (pos[u] || []).map(p => p.cell).find(x => !taken.has(x));
+    if (cell) taken.set(cell, u); else none.push(u);
+  });
+  const track = mine && mine.size > 0;
+  let h = '<div class="hexb"><div class="hlabel">▲ Hàng đầu (phía địch)</div>';
+  for (let f = 3; f >= 0; f--) {
+    h += `<div class="hrow ${(3 - f) % 2 ? 'off' : ''}">`;
+    for (let col = 0; col < 7; col++) {
+      const u = taken.get(f * 7 + col + 1);
+      h += `<div class="hex ${u ? 'has' : ''}">${u ? uIcon(u, { size: 'sm', owned: track && mine.has(u), dim: track && !mine.has(u) }) : ''}</div>`;
+    }
+    h += '</div>';
+  }
+  h += '<div class="hlabel">▼ Hàng cuối</div></div>';
+  if (none.length) h += `<div class="sub-title">Chưa có số liệu vị trí: ${none.map(uname).map(esc).join(', ')}</div>`;
+  return h;
 }
 
 function renderTargetView(c) {
   const a = targetAnalysis(c);
-  const ranked = D.comps.map(scoreComp).sort((x, y) => y.s - x.s);
+  const ranked = D.comps.map(c => scoreComp(c, LOBBY())).sort((x, y) => y.s - x.s);
   const self = ranked.find(r => r.c.id === c.id);
   const better = ranked.filter(r => r.c.id !== c.id && self && r.s > self.s + 3).slice(0, 3);
   const [st] = String(state.stage || '').split('-').map(Number);
@@ -456,6 +561,8 @@ function renderTargetView(c) {
     if (a.hasComps) pills.push(`<span class="pill ${a.pick.length ? 'good' : ''}">🧩 <b>${a.pick.length}</b> món ghép ngay</span>`);
     if (a.contested.length) pills.push(`<span class="pill bad">⚔ bị tranh: ${a.contested.map(uname).join(', ')}</span>`);
   }
+  const liHero = lobbyImpact(c, LOBBY());
+  if (liHero.parts.length && Math.abs(liHero.d) >= 0.1) pills.push(`<span class="pill ${liHero.d > 0 ? 'bad' : 'good'}">🏟 sảnh ${signed(liHero.d)} hạng</span>`);
 
   return `<div class="card hero" id="target-hero">
       <div class="hero-h"><span class="tier ${esc(c.tier)}">${esc(c.tier)}</span><span class="name">🎯 ${esc(c.name)}</span>
@@ -469,12 +576,13 @@ function renderTargetView(c) {
       ${compUnitsRow(c, { mine: a.mine, cont: a.cont, dimMissing: !a.empty })}
       <div style="margin-top:8px">${traitGoal}</div>
     </div>
+    ${lobbyCard(c)}
     ${levelPathCard(c, a.mine)}
     <div class="cards2">
       <div class="card"><div class="card-title">📋 Việc cần làm</div>${linesHtml(todo)}</div>
       <div class="card"><div class="card-title">🛒 Mua / bán</div>
         <div class="sub-title">Mua theo thứ tự</div>
-        <div class="icons">${buyOrder.map(u => uIcon(u, { size: 'sm', contested: a.cont.has(u) })).join('') || '<span class="good">Đã đủ tướng 👍</span>'}</div>
+        <div class="icons">${buyOrder.map(u => uIcon(u, { size: 'sm', contested: a.cont.has(u), badge: holders(u) ? '⚔' + holders(u) : '', badgeCls: 'bad' })).join('') || '<span class="good">Đã đủ tướng 👍</span>'}</div>
         ${locked.length ? `<div class="sub-title">🔒 Cần mở khoá</div><ul class="lines">${locked.map(u => `<li><span class="ic">${uIcon(u, { size: 'sm' })}</span><span><b>${esc(uname(u))}</b>${U.get(u).unlockLevel ? ' · từ cấp ' + U.get(u).unlockLevel : ''}<br><span class="muted">${esc(U.get(u).unlock)}</span></span></li>`).join('')}</ul>` : ''}
         ${sell.length ? `<div class="sub-title">Có thể bán (không thuộc đội)</div><div class="icons">${sell.map(u => uIcon(u, { size: 'sm' })).join('')}</div>` : ''}
         ${c.extraUnits.length ? `<div class="sub-title">Thêm khi lên cấp</div><div class="icons">${c.extraUnits.slice(0, 6).map(u => uIcon(u, { size: 'sm' })).join('')}</div>` : ''}
@@ -594,7 +702,7 @@ function collectReminders() {
   const list = [];
   const target = state.target && D.comps.find(c => c.id === state.target);
   const hasInput = state.mine.length || compTotal(state.comps);
-  const comp = target || (hasInput ? D.comps.map(scoreComp).sort((a, b) => b.s - a.s)[0]?.c : null);
+  const comp = target || (hasInput ? D.comps.map(c => scoreComp(c, LOBBY())).sort((a, b) => b.s - a.s)[0]?.c : null);
   // Tướng của đội cuối + tướng trong bàn chính của lộ trình theo cấp (vd Seraphine phải mở từ đầu trận).
   const pathUnits = comp ? Object.values(comp.path || {}).flatMap(l => l.boards[0]?.units || []) : [];
   if (comp) [...new Set([...comp.units, ...pathUnits])].forEach(id => {
@@ -644,7 +752,7 @@ function renderOutput() {
       <div class="section-title">Đội mạnh nhất hiện tại</div>${top.map(r => suggCard(r)).join('')}`;
     return;
   }
-  const ranked = D.comps.map(scoreComp).sort((a, b) => b.s - a.s).slice(0, 5);
+  const ranked = D.comps.map(c => scoreComp(c, LOBBY())).sort((a, b) => b.s - a.s).slice(0, 5);
   const now = compTotal(state.comps) ? craftableNow(state.comps) : [];
   out.innerHTML = rem + `<div class="cards2">
       <div class="card"><div class="card-title">📋 Bước tiếp theo</div>${linesHtml(tempoLines(null))}</div>
@@ -658,7 +766,11 @@ function renderBoardState() { renderSteppers(); renderTrays(); renderComponents(
 function renderBoard() { renderPool(); renderBoardState(); }
 
 function addMine(id) { state.mine.push(id); save(); renderTrays(); markPool(); renderOutput(); }
-function addContested(id) { if (!state.contested.includes(id)) state.contested.push(id); save(); renderTrays(); markPool(); renderOutput(); }
+function addContested(id) {
+  const o = state.opponents[state.activeOpp];
+  if (!o.units.includes(id)) o.units.push(id);
+  syncContested(); save(); renderTrays(); markPool(); renderOutput();
+}
 function setTarget(id) {
   state.target = id; ui.pathLevel = null; save();
   if (!$('#tab-board').classList.contains('active')) showTab('board'); else renderOutput();
@@ -674,7 +786,7 @@ function bindBoard() {
     if (e.key === 'Enter') {
       const first = poolMatches()[0]; if (!first) return;
       e.shiftKey ? addContested(first.id) : addMine(first.id);
-      toast(`${e.shiftKey ? '⚔ Nhà khác tranh' : '✅ Đã thêm'}: <b>${esc(first.name)}</b>`, 1500);
+      toast(`${e.shiftKey ? '⚔ ' + esc(state.opponents[state.activeOpp].name) : '✅ Đã thêm'}: <b>${esc(first.name)}</b>`, 1500);
       search.select();
     } else if (e.key === 'Escape') { search.value = ''; renderPool(); search.blur(); }
   });
@@ -687,16 +799,30 @@ function bindBoard() {
     const i = state.mine.lastIndexOf(t.dataset.rmMine); if (i >= 0) state.mine.splice(i, 1);
     save(); renderTrays(); markPool(); renderOutput(); hideTip();
   });
-  $('#contested-list').addEventListener('click', e => {
-    const t = e.target.closest('[data-rm-cont]'); if (!t) return;
-    state.contested = state.contested.filter(x => x !== t.dataset.rmCont); save(); renderTrays(); markPool(); renderOutput(); hideTip();
+  const opp = $('#opp-list');
+  opp.addEventListener('click', e => {
+    const rm = e.target.closest('[data-rm-opp]');
+    if (rm) {
+      const [i, id] = rm.dataset.rmOpp.split('|');
+      state.opponents[+i].units = state.opponents[+i].units.filter(x => x !== id);
+      syncContested(); save(); renderTrays(); markPool(); renderOutput(); hideTip(); return;
+    }
+    if (e.target.closest('[data-comp-detail]')) return;
+    const row = e.target.closest('[data-opp]');
+    if (row) { state.activeOpp = +row.dataset.opp; save(); renderOpps(); }
+  });
+  opp.addEventListener('dblclick', e => {
+    const n = e.target.closest('[data-opp-name]'); if (!n) return;
+    const i = +n.dataset.oppName;
+    const name = prompt('Tên nhà ' + (i + 1) + ':', state.opponents[i].name);
+    if (name && name.trim()) { state.opponents[i].name = name.trim().slice(0, 24); save(); renderOpps(); renderOutput(); }
   });
   $('#new-game').addEventListener('click', () => {
     if (!confirm('Bắt đầu ván mới? Sẽ xoá tướng, mảnh đồ, lõi, đội đang nhắm và các dấu đã xong / đã mở khoá.')) return;
-    Object.assign(state, { mine: [], contested: [], comps: {}, augs: [], augAt: {}, unlocked: [], done: [], stage: '1-2', level: 1, gold: 0, hp: 100, target: null });
+    Object.assign(state, { mine: [], contested: [], opponents: newOpponents(), activeOpp: 0, comps: {}, augs: [], augAt: {}, unlocked: [], done: [], stage: '1-2', level: 1, gold: 0, hp: 100, target: null });
     ui.pathLevel = null; save(); renderBoard(); toast('🆕 Đã bắt đầu ván mới', 2000);
   });
-  $('#clear-units').addEventListener('click', () => { state.mine = []; state.contested = []; save(); renderBoardState(); });
+  $('#clear-units').addEventListener('click', () => { state.mine = []; state.opponents.forEach(o => { o.units = []; }); syncContested(); save(); renderBoardState(); });
   $('#copy-mine').addEventListener('click', () => copyTeam(state.mine, 'bàn của bạn'));
   $('#clear-comps').addEventListener('click', () => { state.comps = {}; save(); renderComponents(); renderOutput(); });
   const comp = $('#component-picker');
@@ -781,6 +907,19 @@ function compDetail(id) {
       return `<div class="plevel"><div class="sub-title">Cấp ${L}${lv.stage ? ` · thường ở vòng <b>${esc(lv.stage)}</b>` : ''}</div>
         ${lv.boards.map((b, i) => pathBoardHtml(b, new Set(), { alt: i > 0, label: i ? 'Thay thế ' + i : 'Bàn chính' })).join('')}</div>`;
     }).join('')}` : ''}
+    ${c.positions ? `<h3>📍 Xếp vị trí</h3>${hexBoardHtml(c, c.units, null)}` : ''}
+    ${(c.counters || []).length ? (() => {
+      const cs = c.counters.filter(x => COMP_BY_ID.has(x.id));
+      const row = x => `<div class="build-row"><span class="tier sm ${esc(COMP_BY_ID.get(x.id).tier)}">${esc(COMP_BY_ID.get(x.id).tier)}</span><a href="#" data-comp-detail="${esc(x.id)}">${esc(COMP_BY_ID.get(x.id).name)}</a><span class="pill ${x.d > 0.1 ? 'bad' : x.d < -0.1 ? 'good' : ''}">${signed(x.d)} hạng</span>${x.s >= 0.3 ? `<span class="muted" style="font-size:12px">giống ${Math.round(x.s * 100)}%</span>` : ''}</div>`;
+      const diff = cs.filter(x => x.s < 0.3);
+      const strong = [...diff].sort((a, b) => a.d - b.d).slice(0, 3).filter(x => x.d < 0);
+      const weak = [...diff].sort((a, b) => b.d - a.d).slice(0, 3).filter(x => x.d > 0);
+      const similar = cs.filter(x => x.s >= 0.3).sort((a, b) => b.s - a.s).slice(0, 4);
+      return `<h3>⚔ Khắc chế</h3><div class="hint-inline">Hạng của đội này thay đổi bao nhiêu khi trong sảnh có đội kia (âm = tốt hơn).</div>
+        ${strong.length ? `<div class="sub-title good">Mạnh khi gặp</div>${strong.map(row).join('')}` : ''}
+        ${weak.length ? `<div class="sub-title bad">Yếu khi gặp</div>${weak.map(row).join('')}` : ''}
+        ${similar.length || c.selfMirror != null ? `<div class="sub-title">Hay bị tranh tướng với</div>${c.selfMirror != null ? `<div class="build-row"><span>Chính đội này (2 nhà cùng chơi)</span><span class="pill bad">${signed(c.selfMirror)} hạng</span></div>` : ''}${similar.map(row).join('')}` : ''}`;
+    })() : ''}
     <h3>Lên đồ chủ lực</h3>${c.builds.map(b => `<div class="build-row"><span class="who">${uIcon(b.unit, { size: 'sm' })}${esc(uname(b.unit))}</span>${b.items.map(x => iIcon(x, 'md')).join('')}<span class="muted" style="font-size:12px">hạng TB ${fmt(b.avg)} · ${b.count} trận</span></div>`).join('')}
     <h3>Đồ hay dùng trong đội</h3><div class="icons">${c.topItems.map(x => iIcon(x, 'md')).join('')}</div>
     ${c.extraUnits.length ? `<h3>Thêm khi lên cấp</h3><div class="icons">${c.extraUnits.map(u => uIcon(u, { size: 'sm' })).join('')}</div>` : ''}`);
@@ -1020,13 +1159,14 @@ function init() {
     }
     const dn = e.target.closest('[data-done]'); if (dn) { state.done.push(dn.dataset.done); save(); renderOutput(); hideTip(); return; }
     const ul = e.target.closest('[data-unlocked]'); if (ul) { if (!state.unlocked.includes(ul.dataset.unlocked)) state.unlocked.push(ul.dataset.unlocked); save(); renderBoard(); hideTip(); toast(`🔓 Đã đánh dấu mở khoá <b>${esc(uname(ul.dataset.unlocked))}</b>`, 2000); return; }
-    const pl = e.target.closest('[data-path-level]'); if (pl) { ui.pathLevel = Number(pl.dataset.pathLevel); renderOutput(); return; }
+    const pl = e.target.closest('[data-path-level]'); if (pl) { ui.pathLevel = Number(pl.dataset.pathLevel); ui.posFull = false; renderOutput(); return; }
     if (e.target.closest('[data-path-alt]')) { ui.pathAlt = !ui.pathAlt; renderOutput(); return; }
+    if (e.target.closest('[data-pos-full]')) { ui.posFull = !ui.posFull; renderOutput(); return; }
     const st = e.target.closest('[data-set-target]'); if (st) { e.preventDefault(); setTarget(st.dataset.setTarget); return; }
     if (e.target.closest('[data-untarget]')) { state.target = null; save(); renderOutput(); hideTip(); return; }
     const gt = e.target.closest('[data-goto]'); if (gt) { e.preventDefault(); showTab(gt.dataset.goto); return; }
     const cd = e.target.closest('[data-comp-detail]'); if (cd) { e.preventDefault(); compDetail(cd.dataset.compDetail); return; }
-    if (e.target.closest('#board-unit-pool, #mine-list, #contested-list, #component-picker, #aug-chosen, #steppers')) return;
+    if (e.target.closest('#board-unit-pool, #mine-list, #opp-list, #component-picker, #aug-chosen, #steppers')) return;
     const u = e.target.closest('[data-unit]'); if (u && u.dataset.unit) { unitDetail(u.dataset.unit); return; }
     const it = e.target.closest('[data-item]'); if (it) { itemDetail(it.dataset.item); return; }
     const tr = e.target.closest('[data-trait]'); if (tr) { traitDetail(tr.dataset.trait); return; }
@@ -1036,6 +1176,10 @@ function init() {
   document.addEventListener('keydown', e => {
     if (e.key === 'Escape') { closeDrawer(); hideTip(); return; }
     const typing = /INPUT|TEXTAREA|SELECT/.test(document.activeElement?.tagName || '');
+    if (!typing && /^[1-7]$/.test(e.key) && !e.ctrlKey && !e.altKey && !e.metaKey && $('#tab-board').classList.contains('active')) {
+      state.activeOpp = Number(e.key) - 1; save(); renderOpps();
+      toast(`Đang chọn <b>${esc(state.opponents[state.activeOpp].name)}</b> — bấm phải vào tướng để thêm`, 1500); return;
+    }
     if (e.key === '/' && !typing) {
       e.preventDefault();
       if (!$('#tab-board').classList.contains('active')) showTab('board');

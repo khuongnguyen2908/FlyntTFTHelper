@@ -15,8 +15,11 @@ Giao diện tối kiểu TFT, hợp nhất khi mở trên màn hình thứ 2. R�
 Các tab:
 - **🎯 Tình huống**: chia 2 cột.
   - Cột trái nhập: Vòng / Cấp / Vàng / Máu bằng nút − / + (lăn chuột cũng được, Shift = ×5); Bàn của tôi; Nhà khác tranh; mảnh trang bị (trái thêm, phải bớt); lõi đang có; bảng chọn tướng.
-  - Chọn tướng: **bấm trái** = thêm vào Bàn của tôi, **bấm phải** = Nhà khác tranh. Hoặc bấm `/`, gõ vài chữ tên rồi **Enter** (Shift+Enter = Nhà khác tranh). Bấm tướng ở Bàn của tôi để bỏ.
+  - Chọn tướng: **bấm trái** = thêm vào Bàn của tôi, **bấm phải** = thêm vào **nhà khác đang chọn**. Hoặc bấm `/`, gõ vài chữ tên rồi **Enter** (Shift+Enter = vào nhà đang chọn). Bấm tướng ở Bàn của tôi để bỏ.
+  - **Nhà khác** (7 nhà): bấm vào hàng hoặc **phím 1–7** để chọn nhà, rồi bấm phải vào tướng. Bấm đúp tên để đổi tên. Tool tự đoán đội của từng nhà (≈ tên đội); tướng bị nhiều nhà giữ có số đỏ trên ảnh.
   - Cột phải: gợi ý đội hợp nhất (thanh % khớp). Bấm **🎯 Nhắm** để xem kế hoạch: mức khớp, **🪜 lộ trình theo cấp**, việc cần làm, mua / bán (kèm điều kiện mở khoá), đồ cần cho chủ lực (ghép ngay / thiếu mảnh nào), lõi hợp tộc hệ.
+  - **🏟 Sảnh đấu** (khi đã đánh dấu tướng nhà khác): đội bạn nhắm bị sảnh này làm hạng tệ / tốt đi bao nhiêu (số liệu khắc chế của MetaTFT), hạng dự kiến, từng nhà đang chơi gì và tranh tướng nào, và gợi ý đội hợp sảnh nhất. Danh sách đội hợp nhất cũng tính ảnh hưởng của sảnh.
+  - **📍 Xếp vị trí**: bàn lục giác 4 hàng × 7 ô trong thẻ Lộ trình theo cấp, theo cấp đang xem (nút "Xem bàn đủ đội"). Ngăn chi tiết đội có bàn xếp vị trí và mục **⚔ Khắc chế** (mạnh / yếu khi gặp, hay bị tranh tướng với).
   - **🪜 Lộ trình theo cấp**: bàn cờ nên đặt ở cấp 4 → 10 của đội đang nhắm (số liệu MetaTFT), tự chọn đúng cấp bạn đang ở, đánh dấu tướng có / thiếu, vòng thường lên cấp đó, 1 bàn chính + 2 bàn thay thế, nút 📋 copy mã từng bàn. Ngăn chi tiết đội cũng có đủ các cấp.
   - **🔔 Nhắc việc** (đầu cột phải, viền đỏ khi có việc cần làm ngay):
     - Mở khoá tướng của đội đang nhắm (kể cả tướng trong lộ trình theo cấp): điều kiện (tiếng Anh), cấp tối thiểu, và tiến độ tự kiểm tra được từ bàn của bạn (vd đủ Ziggs 2★ → "nhớ cho Ziggs cầm 1 đồ!"; Seraphine phải làm trước vòng 2-4). Nút **✓ Đã mở khoá** ẩn lời nhắc và bỏ 🔒.

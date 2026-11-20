@@ -19,7 +19,7 @@ Tất cả ở `data/set19/` (tạo bởi `scripts/update-data.mjs`, nguồn Met
 | `traits.json` | Tộc hệ: `name`, `type` (origin/class/unique), `steps` (mốc kích + hiệu ứng), `units` |
 | `items.json` | Trang bị: `kind` (component/craftable/emblem/artifact/radiant/support/other), `from` (2 mảnh), `desc` |
 | `augments.json` | Lõi: `rarity` (Silver/Gold/Prismatic), `tags`, `traits` liên quan, `desc` |
-| `comps.json` | Đội hình mạnh: `units`, `carries`, `builds` (đồ của chủ lực + hạng TB), `avg` (hạng trung bình, thấp = tốt), `count`, `tier` S–D, `levelling` (lvl 5/6/7 = reroll; Standard; Fast 8/9), `extraUnits`, `path` (lộ trình theo cấp: `path["5"] = { stage: "3-2", boards: [{units, avg, win, count}, ...] }`, phần tử đầu là bàn chính) |
+| `comps.json` | Đội hình mạnh: `units`, `carries`, `builds` (đồ của chủ lực + hạng TB), `avg` (hạng trung bình, thấp = tốt), `count`, `tier` S–D, `levelling` (lvl 5/6/7 = reroll; Standard; Fast 8/9), `extraUnits`, `counters` (khắc chế: `{id, d, s}`, d = hạng đổi khi sảnh có đội `id`, dương = tệ hơn, s = độ giống), `selfMirror`, `positions` (ô hay đặt của từng tướng, cell 1..28, hàng = floor((cell-1)/7), 0 = hàng cuối, 3 = hàng đầu), `path` (lộ trình theo cấp: `path["5"] = { stage: "3-2", boards: [{units, avg, win, count}, ...] }`, phần tử đầu là bàn chính) |
 | `unitItems.json` | Theo từng tướng: đồ hay lên nhất (`items` có `avg`) và bộ 3 món tốt (`builds`) |
 
 - Tìm bằng Grep theo tên (Việt hoặc Anh) hay id, **không đọc nguyên file lớn**. Ví dụ: Grep `"nameEn": "Jinx"` trong `data/set19/units.json` với vài dòng sau.
@@ -44,6 +44,8 @@ Chỗ nào mờ / bị che / không chắc: ghi vào mục **Chưa chắc**, đ�
 - **Nhắc mở khoá (Set 19):** với đội đang khuyên, liệt kê tướng có `unlock` mà người dùng chưa có, kèm điều kiện và việc cần làm ngay (vd đủ Ziggs 2★ thì nhắc cho cầm 1 đồ; Seraphine phải roll 4 lần trước vòng 2-4). Đưa lên đầu câu trả lời nếu sắp lỡ.
 - **Nhắc lõi nhiệm vụ:** thấy lõi Prismatic Tour (Ionic Spark cần giữ 7 Ionic Spark kích hoạt 10 vòng để nhận chữ ký rồi đặt 10; Heartsteel 7; Pentakill 7 + cấp 10; True Damage 5 + đúng chuỗi; K/DA 21 cấp sao) hoặc lõi có điều kiện (Ngàn Nhát Cắt, Quản Lý Cổ Đông, Nhà Máy Tái Chế...) thì nhắc rõ đang thiếu gì.
 - **Bàn theo cấp:** khi khuyên nên đặt tướng gì ở cấp hiện tại, lấy `path[cấp].boards[0]` của đội đang nhắm, so với tướng người dùng có; thiếu tướng thì xem 2 bàn thay thế.
+- **Sảnh đấu:** khi thấy bàn nhà khác, đoán đội của từng nhà rồi cộng `counters[].d` của đội đang khuyên với các đội đó (đội trùng chính nó dùng `selfMirror`). Tổng > +0.3 hạng thì cân nhắc đổi sang đội có `avg + tổng d` thấp nhất.
+- **Vị trí:** khi được hỏi xếp vị trí, dùng `positions` của đội (ô có `n` lớn nhất cho từng tướng, tránh trùng ô).
 - **Tướng bị tranh:** đếm số nhà đang giữ cùng tướng chủ lực / cùng tộc hệ chính. Hai nhà trở lên chơi cùng đội reroll thì nên đổi hướng.
 - **Mở khoá (Set 19):** tướng có `unlock` chỉ ra shop khi đạt điều kiện. Đừng khuyên đi đội cần tướng chưa mở khoá trừ khi điều kiện dễ đạt, và nói rõ điều kiện.
 - **Lên cấp / roll:** mốc chuẩn 2-1 cấp 4, 2-5 cấp 5, 3-2 cấp 6, 3-5/4-1 cấp 7, 4-2 cấp 8, 5-1 cấp 9 (tuỳ đội). Đội reroll thì giữ cấp và roll phần vàng trên 50 tới khi chủ lực 3★. Đội lên nhanh thì giữ 50 vàng, roll mạnh ở cấp 8 / 9. Máu ≤ 30–40 thì ưu tiên mạnh ngay.

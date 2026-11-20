@@ -28,6 +28,13 @@ Mẫu một bài (ghi vào đúng nhóm, mới nhất lên đầu nhóm; trùng 
 
 ## 2. Web
 
+### Thêm nút cạnh lưới làm cột trái tràn ngang ở 1366
+- Ngày: 20/11/2026
+- Chuyện gì xảy ra: thêm nút Ván mới cạnh 4 ô Vòng / Cấp / Vàng / Máu, ở màn 1366 nút bị đẩy ra ngoài cột (tràn 61px).
+- Nguyên nhân: lưới dùng `1fr` (không co nhỏ hơn nội dung) và ô số có `width: 48px` cố định.
+- Đã sửa thế nào: `web/style.css` `.steppers` dùng `repeat(4, minmax(0, 1fr))`, `min-width: 0`; ô nhập `width: 100%; min-width: 0`.
+- Lần sau tránh bằng cách: lưới / flex chứa ô nhập luôn dùng `minmax(0, 1fr)` và `min-width: 0`. Sau mỗi lần thêm phần tử vào cột, đo `scrollWidth - clientWidth` của cột ở 1366.
+
 ### CSS / JS cũ bị lưu đệm khi tự thử trên server
 - Ngày: 20/11/2026
 - Chuyện gì xảy ra: sửa `style.css` rồi tải lại trang trong trình duyệt tích hợp, giao diện vẫn như cũ.

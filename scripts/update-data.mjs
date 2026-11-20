@@ -305,6 +305,19 @@ async function fetchLevelPaths(comps, clusterId, resolve) {
           if (boards.length) levels[L] = { stage: stageOf[L] || null, boards };
         }
         if (Object.keys(levels).length) { c.path = levels; ok++; } else fail++;
+        // Khắc chế: d = hạng của đội này thay đổi bao nhiêu khi trong sảnh có đội kia (dương = tệ hơn), s = độ giống nhau.
+        c.counters = (r.counters || []).filter(x => String(x.against) !== String(c.id))
+          .map(x => ({ id: String(x.against), d: +Number(x.place_change).toFixed(3), s: +Number(x.similarity).toFixed(3) }));
+        c.selfMirror = (r.counters || []).find(x => String(x.against) === String(c.id))?.place_change ?? null;
+        // Vị trí: 3 ô hay đặt nhất của từng tướng (cell_1..28; hàng = floor((n-1)/7), 0 = hàng cuối).
+        const pos = {};
+        for (const [raw, v] of Object.entries(r.positioning?.units || {})) {
+          const id = resolve(raw);
+          if (!id || id === SKIP) continue;
+          const list = (v.positions || []).slice(0, 3).map(p => ({ cell: Number(String(p.cell).replace('cell_', '')), n: p.count }));
+          if (!pos[id] || (pos[id][0]?.n || 0) < (list[0]?.n || 0)) pos[id] = list;
+        }
+        if (Object.keys(pos).length) c.positions = pos;
       } catch { fail++; }
     }
   }
