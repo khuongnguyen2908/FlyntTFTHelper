@@ -1,0 +1,2822 @@
+[
+ {
+  "id": "DA_19_Ahri",
+  "name": "Ahri",
+  "nameEn": "Ahri",
+  "cost": 4,
+  "code": "3e9",
+  "traits": [
+   "DA_KDA19",
+   "DA_Choreographer19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_19_ahri.png",
+  "pool": 10,
+  "stats": {
+   "hp": 850,
+   "armor": 40,
+   "mr": 40,
+   "ad": 30,
+   "as": 0.8,
+   "range": 4,
+   "mana": 30,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Thiêu Rụi Tất Cả",
+   "desc": "Passive: Start combat with 6 fox-fires and gain 2 after casting, up to 14. Then enter a flow state, moving faster and empowering subsequent casts.\r\n\r\nActive: Launch all fox-fires at the target, each dealing 28/42/400 (SMPT) magic damage. If in the flow, instead launch a heart at the target that deals 235/350/2000 (SMPT) magic damage and split the fox-fires among all enemies within 2 hexes of them."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_AkaliKDA19",
+  "name": "Akali",
+  "nameEn": "Akali",
+  "cost": 5,
+  "code": "3ec",
+  "traits": [
+   "DA_KDA19"
+  ],
+  "role": "Sát Thủ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_akalikda19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1200,
+   "armor": 60,
+   "mr": 60,
+   "ad": 60,
+   "as": 0.85,
+   "range": 1,
+   "mana": 45,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Sk8er Gurl",
+   "desc": "Trượt ván xuyên qua đường thẳng dài nhất gồm những kẻ địch chưa bị sơn, gây 80/120/5999 (SMCK+SMPT) sát thương vật lý lên những kẻ địch trúng chiêu và xịt sơn lên chúng cũng như bất kỳ ô nào trên đường đi. Những kẻ địch bị dính sơn hoặc đứng trên các ô bị xịt sơn sẽ chịu Tổn Thương 10%.\r\n\r\nSau mỗi lần tung chiêu thứ 3, châm ngòi vệt sơn, gây 260/390/19497 (SMCK+SMPT) sát thương vật lý lên tất cả kẻ địch bị dính sơn hoặc đang đứng trên 1 ô bị xịt sơn.\r\n\r\nTổn Thương: Tăng Sát Thương Gánh Chịu"
+  },
+  "unlockLevel": null,
+  "unlock": "12 unique star levels of K/DA without True Damage Akali unlocked."
+ },
+ {
+  "id": "DA_Akali_TrueDamage19",
+  "name": "Akali",
+  "nameEn": "Akali",
+  "cost": 5,
+  "code": "3ea",
+  "traits": [
+   "DA_TrueDamage19",
+   "DA_Akali_TrueDamage19_UniqueTrait"
+  ],
+  "role": "Đấu Sĩ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_akali_truedamage19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1200,
+   "armor": 65,
+   "mr": 65,
+   "ad": 50,
+   "as": 0.9,
+   "range": 1,
+   "mana": 50,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Killin' like Domino",
+   "desc": "Nội Tại Mặt B: Sau mỗi 4 lần tham gia hạ gục, nhận 1 Máu Người Chơi. (?/4)\r\n\r\nKích Hoạt: Chém liên tục xuyên qua mục tiêu hiện tại, gây 550/825/9999 (SMPT) sát thương phép, tăng thêm 50% lên tướng Đỡ Đòn. Trong lúc thi triển, nhận 25% Chống Chịu và không thể bị đòn đánh nhắm tới. \r\n\r\nSau đó, dịch chuyển tức thời qua mục tiêu và ném một quả bom gây 620/930/9999 (SMPT) sát thương phép chia đều cho tất cả kẻ địch trong phạm vi 2 ô."
+  },
+  "unlockLevel": null,
+  "unlock": "Earn 350 True Damage Bling without K/DA Akali unlocked."
+ },
+ {
+  "id": "DA_Alistar19",
+  "name": "Alistar",
+  "nameEn": "Alistar",
+  "cost": 4,
+  "code": "3ed",
+  "traits": [
+   "DA_Alistar19_UniqueTrait"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_alistar19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 1400,
+   "armor": 60,
+   "mr": 60,
+   "ad": 60,
+   "as": 0.65,
+   "range": 1,
+   "mana": 155,
+   "startMana": 70
+  },
+  "ability": {
+   "name": "Bò Xanh Khóc Trong Mưa",
+   "desc": "Hồi 265/300/2000 (SMPT) Máu, tăng lên tới 100% dựa trên Máu đã mất. Sau đó đập mạnh mục tiêu, hất tung những kẻ địch trong phạm vi 3 ô xung quanh mục tiêu trong 1.5 giây và gây 100/150/2500 (SMPT) sát thương phép lên tất cả kẻ địch trúng đòn."
+  },
+  "unlockLevel": 7,
+  "unlock": "A Chain Vest equipped to a Caster or Marksman."
+ },
+ {
+  "id": "DA_Alune19",
+  "name": "Alune",
+  "nameEn": "Alune",
+  "cost": 4,
+  "code": "3ee",
+  "traits": [
+   "DA_Heartsteel19",
+   "DA_Manager19",
+   "DA_Prodigy19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_alune19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 800,
+   "armor": 40,
+   "mr": 40,
+   "ad": 30,
+   "as": 0.75,
+   "range": 4,
+   "mana": 65,
+   "startMana": 20
+  },
+  "ability": {
+   "name": "Tiêu Điểm",
+   "desc": "Gọi một ánh đèn rọi xuống mục tiêu, gây 315/475/2250 (SMPT) sát thương phép. Tất cả kẻ địch trong phạm vi 2 ô xung quanh chúng chịu 340/510/2500 (SMPT) sát thương phép chia đều. Nếu mục tiêu bị hạ gục, chia đều sát thương vượt trội lên 2 kẻ địch gần nhất.\r\n\r\nNâng Cấp Heartsteel: Bắn ra 5 tia năng lượng vào mục tiêu, gây 30/45/72 (SMPT)30/45/72 (SMPT) sát thương phép."
+  },
+  "unlockLevel": 7,
+  "unlock": "4 unique Heartsteel or Prodigy Champions."
+ },
+ {
+  "id": "DA_Amumu19",
+  "name": "Amumu",
+  "nameEn": "Amumu",
+  "cost": 3,
+  "code": "3ef",
+  "traits": [
+   "DA_Amumu19_UniqueTrait"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_amumu19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 1200,
+   "armor": 60,
+   "mr": 60,
+   "ad": 50,
+   "as": 0.65,
+   "range": 1,
+   "mana": 120,
+   "startMana": 60
+  },
+  "ability": {
+   "name": "Buồn Bã Cô Đơn",
+   "desc": "Hồi 450/575/725 (SMPT) Máu. Quăng dải băng vào 4 kẻ địch gần nhất, gây 100/150/240 (SMPT) sát thương phép và Làm Choáng kẻ đó trong 1.25 giây."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Annie19",
+  "name": "Annie",
+  "nameEn": "Annie",
+  "cost": 2,
+  "code": "3f0",
+  "traits": [
+   "DA_IonicSpark19",
+   "DA_Arcanist19",
+   "DA_Juggernaut19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_annie19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 900,
+   "armor": 45,
+   "mr": 45,
+   "ad": 50,
+   "as": 0.6,
+   "range": 1,
+   "mana": 80,
+   "startMana": 20
+  },
+  "ability": {
+   "name": "We DID Start the Fire",
+   "desc": "Nhận 350/425/600 (SMPT) Lá Chắn trong 4 giây. Phóng ra một vùng lửa hình nón, gây 80/120/180 (SMPT) sát thương phép lên kẻ địch. Thiêu Đốt 1% và gây Vết Thương Sâu lên chúng trong 4 giây."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Aphelios19",
+  "name": "Aphelios",
+  "nameEn": "Aphelios",
+  "cost": 5,
+  "code": "3f1",
+  "traits": [
+   "DA_Heartsteel19"
+  ],
+  "role": "Xạ Thủ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_aphelios19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 900,
+   "armor": 45,
+   "mr": 45,
+   "ad": 60,
+   "as": 0.8,
+   "range": 5,
+   "mana": 180,
+   "startMana": 40
+  },
+  "ability": {
+   "name": "BANG BANG BANGERS",
+   "desc": "Nội Tại: Nhận một Thăng Hoa Luân sau mỗi 4 đòn đánh, tối đa 15. Đòn đánh gây 7/10/200 (SMCK) sát thương vật lý cộng thêm với mỗi Thăng Hoa Luân được trang bị. Sau khi thu thập đủ 15, nhận 30% Sức Mạnh Công Kích và tầm đánh vô hạn.\r\n\r\nKích Hoạt: Bắn tia sét vào 3 kẻ địch gần nhất gây 340/510/3300 (SMCK+SMPT) sát thương vật lý, sau đó tách ra thành 16 tia sét gây 51/77/3300 (SMCK+SMPT) sát thương vật lý lên những kẻ địch mà chúng bay qua. Nhận 75% Tốc Độ Đánh trong 4 giây.\r\n\r\nNâng Cấp Heartsteel: Bắt đầu giao tranh với 5 Thăng Hoa Luân được trang bị."
+  },
+  "unlockLevel": null,
+  "unlock": "2-star Alune or Yone."
+ },
+ {
+  "id": "DA_Ashe19",
+  "name": "Ashe",
+  "nameEn": "Ashe",
+  "cost": 2,
+  "code": "3f2",
+  "traits": [
+   "DA_OceanSong19",
+   "DA_Swiftstriker19"
+  ],
+  "role": "Xạ Thủ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_ashe19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 550,
+   "armor": 30,
+   "mr": 30,
+   "ad": 50,
+   "as": 0.75,
+   "range": 5,
+   "mana": 60,
+   "startMana": 20
+  },
+  "ability": {
+   "name": "Feelin' Shot Shot Shot",
+   "desc": "6 đòn đánh tiếp theo nhận 50% (SMPT) Tốc Độ Đánh và được thay thế bằng những loạt 3 mũi tên. Mỗi mũi tên gây 35/53/80 (SMCK) sát thương vật lý."
+  },
+  "unlockLevel": null,
+  "unlock": "A Beach Pop Champion with 2 items."
+ },
+ {
+  "id": "DA_Aurora19",
+  "name": "Aurora",
+  "nameEn": "Aurora",
+  "cost": 4,
+  "code": "3f3",
+  "traits": [
+   "DA_IonicSpark19",
+   "DA_Renegade19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_aurora19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 850,
+   "armor": 40,
+   "mr": 40,
+   "ad": 35,
+   "as": 0.75,
+   "range": 4,
+   "mana": 60,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Hai Thế Giới Cách Biệt",
+   "desc": "Chớp nhoáng thoát ra và movistar r7 - msi 2023 một luồng năng lượng xuyên qua tuyến đường tốt nhất. Vụ nổ gây 275/415/2000 (SMPT) sát thương phép lên 2 kẻ địch có 1907 Fenerbahçe Esports MSI 2021 cao nhất, và gây 90/135/1500 (SMPT) sát thương phép lên những kẻ còn lại. Sau đó, dịch chuyển ngược lại."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Bard19",
+  "name": "Bard",
+  "nameEn": "Bard",
+  "cost": 3,
+  "code": "3f4",
+  "traits": [
+   "DA_Jazz19",
+   "DA_Swiftstriker19"
+  ],
+  "role": "Xạ Thủ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_bard19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 650,
+   "armor": 35,
+   "mr": 35,
+   "ad": 30,
+   "as": 0.75,
+   "range": 4,
+   "mana": 80,
+   "startMana": 20
+  },
+  "ability": {
+   "name": "Rung Chuông Cùng Tôi Nào",
+   "desc": "Nội tại: Nhận Sừng Du Hành. Khi được trang bị, sử dụng kỹ năng sẽ tạo ra XP và các đòn đánh thường sẽ cho thêm Đi Trước 2 Bước.Kích hoạt: Triệu hồi một làn sóng meep gây 210/315/505 (SMPT) sát thương phép lên kẻ địch trúng phải, giảm đi 30% cho mỗi kẻ địch mà làn sóng đi qua."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_BaronNashor19",
+  "name": "Baron Nashor",
+  "nameEn": "Baron Nashor",
+  "cost": 7,
+  "code": "3f5",
+  "traits": [
+   "DA_BaronNashor19_UniqueTrait"
+  ],
+  "role": "Đấu Sĩ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_baronnashor19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 2500,
+   "armor": 80,
+   "mr": 80,
+   "ad": 140,
+   "as": 0.55,
+   "range": 2,
+   "mana": 120,
+   "startMana": 80
+  },
+  "ability": {
+   "name": "Tập Hợp Dàn Giao Hưởng",
+   "desc": "Summon an 8-man orchestra and a Riff Herald, knocking up all enemies for 1 seconds. Deal 550/825/2475 (SMCK) physical damage and 650/1000/3000 (SMPT) magic damage split among all enemies.\r\n\r\nEach minion attacks 4 times, with each attack dealing 33/50/250 (SMCK) physical damage."
+  },
+  "unlockLevel": null,
+  "unlock": "Collect all 5 members of Baron's ensemble. / Deal 60000 damage with your strongest Malzahar."
+ },
+ {
+  "id": "DA_Braum19",
+  "name": "Braum",
+  "nameEn": "Braum",
+  "cost": 3,
+  "code": "3f6",
+  "traits": [
+   "DA_Illbeats19",
+   "DA_Juggernaut19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_braum19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 1100,
+   "armor": 50,
+   "mr": 50,
+   "ad": 55,
+   "as": 0.6,
+   "range": 1,
+   "mana": 135,
+   "startMana": 75
+  },
+  "ability": {
+   "name": "Cú Nện Dồn Nhịp",
+   "desc": "Gain 385/435/485 (SMPT+Máu) Shield for 4 seconds. Then slam the ground, dealing 120/180/300 (SMPT) magic damage to adjacent enemies and Stunning them for 1.5 seconds."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Briar19",
+  "name": "Briar",
+  "nameEn": "Briar",
+  "cost": 3,
+  "code": "3f7",
+  "traits": [
+   "DA_IonicSpark19",
+   "DA_Mosher19"
+  ],
+  "role": "Sát Thủ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_briar19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 850,
+   "armor": 50,
+   "mr": 50,
+   "ad": 50,
+   "as": 0.8,
+   "range": 1,
+   "mana": 30,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Snack Attack",
+   "desc": "Leona Sư Tử Chiến Binh 100/150/200 (SMPT) và đá một món ăn nhẹ về phía kẻ địch xa nhất trong phạm vi 3 ô. Lao tới mục tiêu, gây 100/150/240 (SMCK) sát thương vật lý trong một khu vực 1 ô.Sau đó cắn xé, nhận thêm 200% Morgana Thần Sứ cho 3 đòn đánh tiếp theo và thay thế chúng bằng các nhát chém gây 100/150/240 (SMCK) sát thương vật lý."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Camille19",
+  "name": "Camille",
+  "nameEn": "Camille",
+  "cost": 2,
+  "code": "3f8",
+  "traits": [
+   "DA_DemonVision19",
+   "DA_Mosher19"
+  ],
+  "role": "Đấu Sĩ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_camille19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 750,
+   "armor": 45,
+   "mr": 45,
+   "ad": 45,
+   "as": 0.8,
+   "range": 1,
+   "mana": 40,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Bắn Móc Xuyên Tim",
+   "desc": "Passive: When the target dies, hookshot to the next one and deal 90/135/210 (SMCK) physical damage to them.\r\n\r\nActive: Do a sweeping kick, dealing 260/390/600 (SMCK+SMPT) physical damage in a cone."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Draven19",
+  "name": "Draven",
+  "nameEn": "Draven",
+  "cost": 3,
+  "code": "3fa",
+  "traits": [
+   "DA_Illbeats19",
+   "DA_Trickshot19"
+  ],
+  "role": "Thuật Sư Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_draven19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 650,
+   "armor": 35,
+   "mr": 35,
+   "ad": 45,
+   "as": 0.75,
+   "range": 4,
+   "mana": 60,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "You Spin Me Round (Like An Axe)",
+   "desc": "Ném một đĩa nhạc khổng lồ đang xoay vào mục tiêu, gây 155/235/370 (SMCK) sát thương vật lý. Đĩa nhạc để lại một vòng xoáy tồn tại trong 3 giây và gây 130/200/310 (SMCK+SMPT) sát thương vật lý mỗi giây chia đều cho các kẻ địch trong phạm vi 1 ô."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_DrMundo19",
+  "name": "Dr. Mundo",
+  "nameEn": "Dr. Mundo",
+  "cost": 5,
+  "code": "3fb",
+  "traits": [
+   "DA_DrMundo19_UniqueTrait",
+   "DA_Manager19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_drmundo19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1300,
+   "armor": 60,
+   "mr": 60,
+   "ad": 80,
+   "as": 0.6,
+   "range": 1,
+   "mana": 80,
+   "startMana": 20
+  },
+  "ability": {
+   "name": "Làm Ăn Lớn",
+   "desc": "Nội tại: Khi Dr. Mundo có 3000 1907 Fenerbahçe Esports MSI 2021 trở lên, hắn trở nên Rồng Siêu Nhân, nhận thêm 20% 1907 Fenerbahçe Esports MSI 2021 và khiến các đòn đánh gây thêm 89/114/2300 (Máu) sát thương phép.Kích hoạt: Hồi phục 480/530/4300 (Máu) 1907 Fenerbahçe Esports MSI 2021 trong 5 giây và gây 25/29/102 (Máu+SMPT) sát thương phép mỗi giây lên tất cả kẻ địch trong 2 ô."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Ekko19",
+  "name": "Ekko",
+  "nameEn": "Ekko",
+  "cost": 3,
+  "code": "3fc",
+  "traits": [
+   "DA_TrueDamage19",
+   "DA_Juggernaut19",
+   "DA_Prodigy19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_ekko19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 1100,
+   "armor": 50,
+   "mr": 50,
+   "ad": 50,
+   "as": 0.65,
+   "range": 1,
+   "mana": 120,
+   "startMana": 30
+  },
+  "ability": {
+   "name": "Quay Ngược Thời Gian",
+   "desc": "Passive: Rewind 30% of damage taken over 4 seconds.\r\n\r\nActive: Instantly heal all damage being rewinded + 150/180/250 (SMPT) Health. Then whack the current target for 230/345/675 (SMPT) magic damage."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Elise19",
+  "name": "Elise",
+  "nameEn": "Elise",
+  "cost": 1,
+  "code": "3fd",
+  "traits": [
+   "DA_IonicSpark19",
+   "DA_Frontman19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_elise19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 700,
+   "armor": 40,
+   "mr": 40,
+   "ad": 50,
+   "as": 0.6,
+   "range": 1,
+   "mana": 120,
+   "startMana": 60
+  },
+  "ability": {
+   "name": "Cocoon",
+   "desc": "Transform into Spider Form, gaining 280/330/400 (SMPT) Health. Then, fire webbing at the enemy that dealt the most damage this round, Stunning the first enemy hit for 1.5 seconds and dealing 90/135/200 (SMPT) magic damage.\r\n\r\nSubsequent casts heal 230/300/350 (SMPT), then fire webbing."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Evelynn19",
+  "name": "Evelynn",
+  "nameEn": "Evelynn",
+  "cost": 3,
+  "code": "3fe",
+  "traits": [
+   "DA_KDA19",
+   "DA_Renegade19"
+  ],
+  "role": "Đấu Sĩ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_evelynn19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 850,
+   "armor": 50,
+   "mr": 50,
+   "ad": 30,
+   "as": 0.8,
+   "range": 1,
+   "mana": 40,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Hung Ác",
+   "desc": "Nội Tại: Khi bắt đầu giao tranh, dịch chuyển ra phía sau mục tiêu hiện tại, sau đó tiến vào trạng thái ẩn mình trong 15 giây. Trong trạng thái ẩn mình, không thể bị đòn đánh chọn làm mục tiêu và nhận 50% Chống Chịu nếu còn ít nhất 3 đồng minh khác sống sót.\r\n\r\nKích Hoạt: Gây 280/420/700 (SMPT) sát thương phép lên mục tiêu hiện tại và 120/180/300 (SMPT) sát thương phép lên những kẻ địch khác trong phạm vi hình bán nguyệt. Bỏ qua 40% Kháng Phép của kẻ địch."
+  },
+  "unlockLevel": null,
+  "unlock": "3 unique K/DA or Renegade Champions."
+ },
+ {
+  "id": "DA_Ezreal19",
+  "name": "Ezreal",
+  "nameEn": "Ezreal",
+  "cost": 2,
+  "code": "3ff",
+  "traits": [
+   "DA_Heartsteel19",
+   "DA_Encore19"
+  ],
+  "role": "Thuật Sư Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_ezreal19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 550,
+   "armor": 30,
+   "mr": 30,
+   "ad": 40,
+   "as": 0.75,
+   "range": 4,
+   "mana": 35,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Cắn Răng Chịu Đựng",
+   "desc": "Fire a missile that marks the target, then fire a second blast that detonates it. The explosion deals 240/360/545 (SMCK+SMPT) physical damage to the target and 79/119/180 (SMCK+SMPT) physical damage to enemies within 1 hex.\r\n\r\nHeartsteel Upgrade: Detonation deals 25% more damage. Every 3rd cast hits enemies in a 2 hex radius instead."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Galio19",
+  "name": "Galio",
+  "nameEn": "Galio",
+  "cost": 3,
+  "code": "400",
+  "traits": [
+   "DA_Jazz19",
+   "DA_Frontman19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_galio19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 1100,
+   "armor": 50,
+   "mr": 50,
+   "ad": 50,
+   "as": 0.65,
+   "range": 1,
+   "mana": 120,
+   "startMana": 50
+  },
+  "ability": {
+   "name": "Blow Up a Storm",
+   "desc": "Nhận 435/510/610 (Máu+SMPT) Lá Chắn trong 4 giây Làm choáng trong 1 giây và gây 120/180/300 (SMPT) sát thương phép lên kẻ địch gây nhiều sát thương nhất trong giao tranh này."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Garen19",
+  "name": "Garen",
+  "nameEn": "Garen",
+  "cost": 4,
+  "code": "401",
+  "traits": [
+   "DA_Garen19_UniqueTrait",
+   "DA_Choreographer19"
+  ],
+  "role": "Đỡ Đòn Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_garen19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 1300,
+   "armor": 70,
+   "mr": 70,
+   "ad": 60,
+   "as": 0.65,
+   "range": 1,
+   "mana": 100,
+   "startMana": 30
+  },
+  "ability": {
+   "name": "Thanh Kiếm Chân Lý",
+   "desc": "Hồi 456/506/2556 (Máu+SMPT) Máu, sau đó bắn một luồng sóng về phía mục tiêu hiện tại, gây 70/105/3000 (SMCK) sát thương vật lý lên kẻ địch trúng chiêu và Làm Suy Yếu chúng 10% trong 4 giây.\r\n\r\nSuy Yếu: Giảm Sát Thương Gây Ra"
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Gnar19",
+  "name": "Gnar",
+  "nameEn": "Gnar",
+  "cost": 1,
+  "code": "402",
+  "traits": [
+   "DA_Pentakill19",
+   "DA_Trickshot19"
+  ],
+  "role": "Đặc Thù Hỗn Hợp",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_gnar19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 500,
+   "armor": 25,
+   "mr": 25,
+   "ad": 40,
+   "as": 0.7,
+   "range": 4,
+   "mana": 3,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Làm Việc Chăm Chỉ",
+   "desc": "Nội Tại: Mỗi đòn đánh thứ 3 sẽ được thay thế bằng một tảng đá gây 120/180/270 (SMCK) sát thương vật lý và trao cho Gnar 9% (SMPT) Tốc Độ Đánh."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Gragas19",
+  "name": "Gragas",
+  "nameEn": "Gragas",
+  "cost": 2,
+  "code": "403",
+  "traits": [
+   "DA_KDA19",
+   "DA_Juggernaut19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_gragas19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 950,
+   "armor": 45,
+   "mr": 45,
+   "ad": 50,
+   "as": 0.55,
+   "range": 1,
+   "mana": 80,
+   "startMana": 30
+  },
+  "ability": {
+   "name": "Fan Clubbing",
+   "desc": "Trở nên phấn khích trong 5 giây, hồi 75/80/87 (Máu+SMPT) máu mỗi giây và gây thêm 117/137/157 (Máu+SMPT) sát thương phép trên đòn đánh.\r\n\r\nVới mỗi đồng minh K/DA 3 sao, tăng cả hai hiệu ứng thêm 15%. (Tổng Tăng: ?)"
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Graves19",
+  "name": "Graves",
+  "nameEn": "Graves",
+  "cost": 4,
+  "code": null,
+  "traits": [
+   "DA_OceanSong19",
+   "DA_Renegade19"
+  ],
+  "role": "Đấu Sĩ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_graves19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 1100,
+   "armor": 60,
+   "mr": 60,
+   "ad": 85,
+   "as": 0.6,
+   "range": 2,
+   "mana": 30,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Left Hand Free",
+   "desc": "Trong 2 đòn đánh tiếp theo, nhận 125% Tốc Độ Đánh, lướt tới mục tiêu và thay thế các đòn đánh bằng 5 viên đạn theo hình nón, mỗi viên gây 45/67/360 (SMCK+SMPT) sát thương vật lý. Khi hạ gục, cường hóa thêm 1 đòn đánh."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Gwen19",
+  "name": "Gwen",
+  "nameEn": "Gwen",
+  "cost": 5,
+  "code": "404",
+  "traits": [
+   "DA_IonicSpark19",
+   "DA_Gwen19_UniqueTrait"
+  ],
+  "role": "Đấu Sĩ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_gwen19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1200,
+   "armor": 60,
+   "mr": 60,
+   "ad": 10,
+   "as": 0.8,
+   "range": 2,
+   "mana": 100,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Glimmer in the Night",
+   "desc": "Nội Tại: Đòn đánh gây thêm 60/90/1000 (SMPT) sát thương phép lên mục tiêu và 22/35/500 (SMPT) sát thương phép lên những kẻ địch khác trong phạm vi hình nón. Lướt tới các mục tiêu mới.\r\n\r\nKích Hoạt: Triệu hồi một chiếc kéo khổng lồ trên đấu trường. Sau một khoảng trễ ngắn, chiếc kéo cắt ngang qua mục tiêu, gây 90/135/4000 (SMPT) sát thương phép lên tất cả kẻ địch trúng phải, cộng thêm 830/1300/8000 (SMPT) sát thương chia đều giữa chúng. Nếu đánh trúng 1 kẻ địch trở xuống, hoàn lại 50 Năng Lượng."
+  },
+  "unlockLevel": null,
+  "unlock": "Ionic Spark fans cheer 250 times."
+ },
+ {
+  "id": "DA_Illaoi19",
+  "name": "Illaoi",
+  "nameEn": "Illaoi",
+  "cost": 2,
+  "code": "405",
+  "traits": [
+   "DA_Illbeats19",
+   "DA_Frontman19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_illaoi19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 950,
+   "armor": 45,
+   "mr": 45,
+   "ad": 50,
+   "as": 0.65,
+   "range": 1,
+   "mana": 90,
+   "startMana": 30
+  },
+  "ability": {
+   "name": "Tiền Bản Quyền Bom Tấn",
+   "desc": "Active: Heal 275/325/475 (SMPT) and deal 120/180/270 (SMPT) magic damage in a 2 hex line.\r\n\r\nQuest: On cast during player combat, Illaoi gains 2 Fame + 1 more for every 10g you have, up to 70g. At 200 Fame, Illaoi goes Platinum, gaining 15% Durability and dropping 1 gold on cast instead. \r\n\r\n(Current Fame: ?/200)Illaoi has gone Platinum! (Gold Generated: ?)"
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Janna19",
+  "name": "Janna",
+  "nameEn": "Janna",
+  "cost": 5,
+  "code": "406",
+  "traits": [
+   "DA_Janna19_UniqueTrait",
+   "DA_Heavenscale19",
+   "DA_Prodigy19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_janna19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 900,
+   "armor": 45,
+   "mr": 45,
+   "ad": 35,
+   "as": 0.85,
+   "range": 4,
+   "mana": 45,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Thánh Ca Cuồng Phong Thiên Giới",
+   "desc": "Phóng thiên long vào tối đa 3 kẻ địch ở gần, mỗi thiên long gây 155/250/9999 (SMPT) sát thương phép.\r\n\r\nSau 4 lần thi triển, Cuồng Phong Thiên Giới bao phủ đấu trường, gây 1800/2700/9000 (SMPT) sát thương phép lên tất cả kẻ địch trong 45 giây."
+  },
+  "unlockLevel": null,
+  "unlock": "Earn 25 interest while fielding Xayah."
+ },
+ {
+  "id": "DA_Jax19",
+  "name": "Jax",
+  "nameEn": "Jax",
+  "cost": 2,
+  "code": "407",
+  "traits": [
+   "DA_EDM19",
+   "DA_Bodyguard19",
+   "DA_Swiftstriker19"
+  ],
+  "role": "Đấu Sĩ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_jax19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 750,
+   "armor": 50,
+   "mr": 50,
+   "ad": 15,
+   "as": 0.75,
+   "range": 1,
+   "mana": 30,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Nghiền Nát Tức Thì",
+   "desc": "Đập mục tiêu hiện tại, gây 200/300/480 (SMPT) sát thương phép và hồi máu bằng 20% lượng sát thương gây ra. Nhận 15% Tốc Độ Đánh cho đến hết giao tranh.\r\n\r\nNâng Cấp EDM: Bắn tia năng lượng vào 2 kẻ địch gần nhất gây 50/75/115 (SMPT)50/75/115 (SMPT) sát thương phép, giảm đi 40% với mỗi kẻ địch tia năng lượng xuyên qua."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Jhin19",
+  "name": "Jhin",
+  "nameEn": "Jhin",
+  "cost": 4,
+  "code": "408",
+  "traits": [
+   "DA_Virtuosos19",
+   "DA_Encore19"
+  ],
+  "role": "Đặc Thù Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_jhin19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 804,
+   "armor": 44,
+   "mr": 44,
+   "ad": 30,
+   "as": 0.84,
+   "range": 5,
+   "mana": 4,
+   "startMana": 4
+  },
+  "ability": {
+   "name": "String Quartet",
+   "desc": "Passive: Convert 1% bonus Attack Speed into 0.8% Attack Damage.\r\n\r\nAttacks summon violins that attack in unison, dealing 27/41/124 (SMCK) physical damage and Captivating the target for 4 seconds. Every 4th attack is empowered, dealing 94/141/848 (SMCK+SMPT) physical damage and resetting the violins.\r\n\r\nOn the 4th sequence onwards, all violins remain out, Jhin gains infinite range, and attacks pierce, dealing 60% reduced damage for each target hit."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Jinx19",
+  "name": "Jinx",
+  "nameEn": "Jinx",
+  "cost": 4,
+  "code": "409",
+  "traits": [
+   "DA_IonicSpark19",
+   "DA_Hitmaker19"
+  ],
+  "role": "Xạ Thủ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_jinx19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 850,
+   "armor": 40,
+   "mr": 40,
+   "ad": 55,
+   "as": 0.8,
+   "range": 4,
+   "mana": 90,
+   "startMana": 30
+  },
+  "ability": {
+   "name": "Boom Boom POW POW",
+   "desc": "Rapidly fire ? missiles at nearby enemies, each dealing 49/74/330 (SMCK+SMPT) physical damage."
+  },
+  "unlockLevel": 7,
+  "unlock": "3 items on an Ionic Spark or Hitmaker Champion."
+ },
+ {
+  "id": "DA_Kaisa19",
+  "name": "Kai'Sa",
+  "nameEn": "Kai'Sa",
+  "cost": 3,
+  "code": "40a",
+  "traits": [
+   "DA_KDA19",
+   "DA_Trickshot19"
+  ],
+  "role": "Xạ Thủ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_kaisa19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 650,
+   "armor": 35,
+   "mr": 35,
+   "ad": 30,
+   "as": 0.75,
+   "range": 5,
+   "mana": 30,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Make it Rain",
+   "desc": "Nội Tại: Cứ mỗi 3 đòn đánh, bắn 3 tên lửa gây 39/59/95 (SMCK+SMPT) sát thương vật lý. \r\n\r\nKích Hoạt: Nhận 15% Tốc Độ Đánh cho đến hết giao tranh."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Karthus19",
+  "name": "Karthus",
+  "nameEn": "Karthus",
+  "cost": 2,
+  "code": "40b",
+  "traits": [
+   "DA_Pentakill19",
+   "DA_Arcanist19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_karthus19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 550,
+   "armor": 30,
+   "mr": 30,
+   "ad": 30,
+   "as": 0.75,
+   "range": 4,
+   "mana": 50,
+   "startMana": 10
+  },
+  "ability": {
+   "name": "Khúc Cầu Hồn",
+   "desc": "Sau một khoảng trễ ngắn, gây 440/660/930 (SMPT) sát thương phép lên mục tiêu hiện tại. Nếu hạ gục mục tiêu, tái kích hoạt kỹ năng này với 70% hiệu lực."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Katarina19",
+  "name": "Katarina",
+  "nameEn": "Katarina",
+  "cost": 1,
+  "code": "40c",
+  "traits": [
+   "DA_Virtuosos19",
+   "DA_Mosher19"
+  ],
+  "role": "Đấu Sĩ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_katarina19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 650,
+   "armor": 35,
+   "mr": 35,
+   "ad": 30,
+   "as": 0.75,
+   "range": 1,
+   "mana": 40,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Bản Sonata Lưỡi Kiếm",
+   "desc": "Xoay tròn, chém những kẻ địch liền kề gây 120/180/285 (SMPT) sát thương phép. Sau đó, xẻ thịt mục tiêu hiện tại, gây 240/360/575 (SMPT) sát thương phép lên chúng. Kẻ địch trúng chiêu bị Mê Hoặc trong 5 giây.\r\n\r\nKẻ địch bị Mê Hoặc sẽ trao hiệu ứng thưởng cho tướng Cổ Điển."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Kayle19",
+  "name": "Kayle",
+  "nameEn": "Kayle",
+  "cost": 4,
+  "code": "40d",
+  "traits": [
+   "DA_Pentakill19",
+   "DA_Swiftstriker19"
+  ],
+  "role": "Xạ Thủ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_kayle19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 850,
+   "armor": 40,
+   "mr": 40,
+   "ad": 10,
+   "as": 0.8,
+   "range": 4,
+   "mana": 50,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Bậc Thang Tới Địa Ngục",
+   "desc": "Nội Tại: Đòn đánh gây thêm 40/60/500 (SMPT) sát thương phép.\r\n\r\nKích Hoạt: Trong 4 giây, nhận 80% Tốc Độ Đánh, tầm đánh vô hạn và triệu hồi một thanh kiếm với mỗi đòn đánh. Sau đó, trút mưa kiếm xuống mục tiêu, gây 180/270/2000 (SMPT) lên tất cả kẻ địch trong phạm vi 2 ô, cộng thêm 37/55/400 (SMPT) sát thương phép lên mục tiêu với mỗi thanh kiếm."
+  },
+  "unlockLevel": 7,
+  "unlock": "4 unique Pentakill or Swiftstriker Champions."
+ },
+ {
+  "id": "DA_Kayn19",
+  "name": "Kayn",
+  "nameEn": "Kayn",
+  "cost": 1,
+  "code": "40e",
+  "traits": [
+   "DA_Heartsteel19",
+   "DA_Mosher19"
+  ],
+  "role": "Đấu Sĩ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_kayn19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 650,
+   "armor": 35,
+   "mr": 35,
+   "ad": 42,
+   "as": 0.75,
+   "range": 1,
+   "mana": 30,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Bóng Đêm Huyền Bí",
+   "desc": "Dash and swipe, dealing 130/200/315 (SMCK+SMPT) physical damage to enemies in a 2 hex line.\r\n\r\nHeartsteel Upgrade: At 70% Health, turn into the Shadow Assassin, briefly becoming untargetable and dealing 35% bonus magic damage for the rest of combat."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Kennen19",
+  "name": "Kennen",
+  "nameEn": "Kennen",
+  "cost": 1,
+  "code": "40f",
+  "traits": [
+   "DA_TrueDamage19",
+   "DA_Bodyguard19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_kennen19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 700,
+   "armor": 45,
+   "mr": 45,
+   "ad": 45,
+   "as": 0.65,
+   "range": 1,
+   "mana": 0,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Điện Giật",
+   "desc": "Passive: Reduce all incoming damage by 12/15/19 (SMPT). Every second, zap adjacent enemies, dealing 12/18/30 (SMPT) magic damage."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Kobuko19",
+  "name": "Kobuko",
+  "nameEn": "Kobuko",
+  "cost": 1,
+  "code": "410",
+  "traits": [
+   "DA_GlitterBomb19",
+   "DA_Frontman19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_kobuko19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 700,
+   "armor": 40,
+   "mr": 40,
+   "ad": 65,
+   "as": 0.6,
+   "range": 1,
+   "mana": 90,
+   "startMana": 40
+  },
+  "ability": {
+   "name": "Pump It Up!",
+   "desc": "Nội Tại: Kobuko mạnh nhất của bạn nhận Máu cộng thêm bằng 85% lượng Phấn Khích Hyperpop của bạn. (Máu Hiện Tại: ?)\r\n\r\nKích Hoạt: Tăng Cường Sức Mạnh trong 8 giây, hồi 57/67/92 (Máu+SMPT) máu mỗi giây."
+  },
+  "unlockLevel": null,
+  "unlock": "2-star Ziggs with 1 item"
+ },
+ {
+  "id": "DA_KSante19",
+  "name": "K'Sante",
+  "nameEn": "K'Sante",
+  "cost": 3,
+  "code": "411",
+  "traits": [
+   "DA_Heartsteel19",
+   "DA_Bodyguard19"
+  ],
+  "role": "Đỡ Đòn Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_ksante19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 1100,
+   "armor": 50,
+   "mr": 50,
+   "ad": 50,
+   "as": 0.65,
+   "range": 1,
+   "mana": 140,
+   "startMana": 70
+  },
+  "ability": {
+   "name": "Đến Rồi Đây!",
+   "desc": "Gain 550/650/800 (SMPT) Shield for 4 seconds. Charge and push the target, Stunning them and other enemies hit for 1.25 seconds. Then slam them, dealing 150/225/360 (SMCK) physical damage. After charging, Taunt nearby enemies.\r\n\r\nHeartsteel Upgrade: Gain 2525 Armor and Magic Resist and deal 50/75/120 (Giáp+Kháng phép)50/75/120 (Giáp+Kháng phép) bonus physical damage on attack."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_LeeSin19",
+  "name": "Lee Sin",
+  "nameEn": "Lee Sin",
+  "cost": 5,
+  "code": "44f",
+  "traits": [
+   "DA_Heavenscale19"
+  ],
+  "role": "Đấu Sĩ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_leesin19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1200,
+   "armor": 70,
+   "mr": 70,
+   "ad": 60,
+   "as": 0.85,
+   "range": 1,
+   "mana": 50,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Combo Thượng Giới Đại Náo Thiên Cung",
+   "desc": "Tung ra combo 2/2/99 đòn tấn công uy lực, bắt đầu bằng Long Kích rồi lần lượt thực hiện các chiêu thức tiếp theo. Các lần thi triển sau sẽ kéo dài combo.\r\n\r\nLong Kích: Gây 190/300/10560 (SMCK+SMPT) sát thương vật lý lên mục tiêu. Những kẻ địch khác trong phạm vi 2 ô chịu 40% sát thương từ đòn đánh này.\r\n\r\nCuồng Phong Quyền: Gây 257/405/14256 (SMCK+SMPT) sát thương vật lý lên mục tiêu và hất tung chúng trong 1 giây. Những kẻ địch khác trong phạm vi 1 ô chịu 50% sát thương từ đòn đánh này.\r\n\r\nThiên Quyền: Gây 475/750/26400 (SMCK+SMPT) sát thương vật lý lên mục tiêu và đánh dấu chúng. Nếu mục tiêu đã bị đánh dấu, cú đấm sẽ đánh thẳng vào điểm yếu của kẻ đó, gây 400% sát thương chuẩn cộng thêm."
+  },
+  "unlockLevel": null,
+  "unlock": "Deal 40 player damage while fielding Xayah."
+ },
+ {
+  "id": "DA_Leona19",
+  "name": "Leona",
+  "nameEn": "Leona",
+  "cost": 4,
+  "code": "412",
+  "traits": [
+   "DA_KDA19",
+   "DA_Bodyguard19",
+   "DA_Manager19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_leona19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 1300,
+   "armor": 60,
+   "mr": 60,
+   "ad": 60,
+   "as": 0.65,
+   "range": 1,
+   "mana": 115,
+   "startMana": 60
+  },
+  "ability": {
+   "name": "Màn Trình Diễn Ánh Sáng Đồng Bộ",
+   "desc": "Nhận 600/750/2000 (SMPT) Lá Chắn trong 4 giây Gọi xuống 7 tia mad lions - msi 2023 lên kẻ địch xung quanh, mỗi tia gây 50/75/2000 (SMPT) sát thương phép và giảm Kháng Phép của mục tiêu đi 4."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Lillia19",
+  "name": "Lillia",
+  "nameEn": "Lillia",
+  "cost": 1,
+  "code": "413",
+  "traits": [
+   "DA_KDA19",
+   "DA_Bodyguard19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_lillia19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 700,
+   "armor": 40,
+   "mr": 40,
+   "ad": 45,
+   "as": 0.6,
+   "range": 1,
+   "mana": 100,
+   "startMana": 40
+  },
+  "ability": {
+   "name": "Chúng Tôi Yêu K/DA",
+   "desc": "Heal 280/350/550 (SMPT) Health and strike the target, dealing 120/180/270 (SMPT) magic damage to enemies in a 1 Hex circle and 10% Weakening them for 5 seconds. \r\n\r\nWeaken: Reduce Damage Dealt"
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Locke19",
+  "name": "Locke",
+  "nameEn": "Locke",
+  "cost": 4,
+  "code": "414",
+  "traits": [
+   "DA_DemonVision19",
+   "DA_Swiftstriker19"
+  ],
+  "role": "Sát Thủ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_locke19.png",
+  "pool": 10,
+  "stats": {
+   "armor": 65,
+   "mr": 65,
+   "ad": 10,
+   "as": 0.9,
+   "range": 1,
+   "mana": 30,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Truy Đuổi Tội Lỗi (Bài Hát Đinh Hồn)",
+   "desc": "Passive: Attacks deal 45/68/500 (SMPT) bonus magic damage. All damage Locke deals to enemies is increased by 15% for each mark he has applied to them.\r\n\r\nActive: Hurl 3 Soul Nails at the furthest enemy within 4 hexes, each dealing 15/22/400 (SMPT) magic damage and marking all enemies hit. Then, teleport to the enemy and deal 135/205/2000 (SMPT) magic damage."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Lucian19",
+  "name": "Lucian",
+  "nameEn": "Lucian",
+  "cost": 2,
+  "code": "415",
+  "traits": [
+   "DA_Jazz19",
+   "DA_Hitmaker19",
+   "DA_Encore19"
+  ],
+  "role": "Thuật Sư Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_lucian19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 550,
+   "armor": 30,
+   "mr": 30,
+   "ad": 30,
+   "as": 0.75,
+   "range": 4,
+   "mana": 20,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Truy Cùng Diệt Tận",
+   "desc": "Lướt tới một ô gần đó, sau đó bắn 2 phát vào mục tiêu, mỗi phát gây 88/132/198 (SMCK+SMPT) sát thương vật lý."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Lulu19",
+  "name": "Lulu",
+  "nameEn": "Lulu",
+  "cost": 2,
+  "code": "416",
+  "traits": [
+   "DA_GlitterBomb19",
+   "DA_Choreographer19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_lulu19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 550,
+   "armor": 30,
+   "mr": 30,
+   "ad": 35,
+   "as": 0.75,
+   "range": 4,
+   "mana": 40,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Cô Nàng Phấn Khích",
+   "desc": "Rotate between 2 effects:\r\n\r\nWhimsy!: Grant an ally 80%/90%/100% (SMPT) decaying Attack Speed and 20/30/45 (SMPT) magic damage on hit for 5 seconds. \r\n\r\nWild Growth: Increase an ally's Health by 175/260/395 (SMPT) for 5 seconds. While active, adjacent enemies take 20/30/45 (SMPT) magic damage each second."
+  },
+  "unlockLevel": null,
+  "unlock": "Have your Hyperpop Champions cast 10 times with the trait active."
+ },
+ {
+  "id": "DA_Lux19",
+  "name": "Lux",
+  "nameEn": "Lux",
+  "cost": 2,
+  "code": "417",
+  "traits": [
+   "DA_IonicSpark19",
+   "DA_Prodigy19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_lux19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 550,
+   "armor": 30,
+   "mr": 30,
+   "ad": 30,
+   "as": 0.75,
+   "range": 4,
+   "mana": 40,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Tia Lux Lux!",
+   "desc": "Tung một lăng kính lên không trung, sau đó bắn một tia sáng vào nó. Tia sáng phân tách, gây 300/450/675 (SMPT) sát thương phép lên mục tiêu, và 160/240/360 (SMPT) sát thương lên một kẻ địch khác ở gần. Với mỗi kẻ bị hạ gục, nhận 8 Năng Lượng."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Malzahar19",
+  "name": "Malzahar",
+  "nameEn": "Malzahar",
+  "cost": 3,
+  "code": "418",
+  "traits": [
+   "DA_Malzahar19_UniqueTrait",
+   "DA_Prodigy19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_malzahar19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 800,
+   "armor": 35,
+   "mr": 35,
+   "ad": 35,
+   "as": 0.8,
+   "range": 4,
+   "mana": 50,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Tạp Âm Cấm Kỵ",
+   "desc": "Bắn một tia năng lượng vào mục tiêu trong 2 giây, gây 325/485/815 (SMPT) sát thương phép. Năng lượng phát nổ 4 lần theo nhịp, Cào Xé kẻ địch 30% trong phạm vi 1 ô trong 4 giây và gây 40/60/110 (SMPT) sát thương phép mỗi lần nổ.\r\n\r\nCào Xé: Giảm Kháng Phép"
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Mel19",
+  "name": "Mel",
+  "nameEn": "Mel",
+  "cost": 4,
+  "code": "419",
+  "traits": [
+   "DA_RnB19",
+   "DA_Arcanist19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_mel19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 850,
+   "armor": 40,
+   "mr": 40,
+   "ad": 30,
+   "as": 0.75,
+   "range": 4,
+   "mana": 40,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Chuỗi Blues",
+   "desc": "Bắn 30 tia năng lượng chia cho 3 kẻ địch gần nhất, mỗi tia gây 18/28/200 (SMPT) sát thương phép và gây 1 cộng dồn Xanh Lam. Với mỗi 3 cộng dồn Xanh Lam, kẻ địch chịu thêm 5% sát thương từ Kỹ Năng này."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_MissFortune19",
+  "name": "Miss Fortune",
+  "nameEn": "Miss Fortune",
+  "cost": 5,
+  "code": "41a",
+  "traits": [
+   "DA_MissFortune19_UniqueTrait",
+   "DA_Hitmaker19"
+  ],
+  "role": "Thuật Sư Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_missfortune19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 900,
+   "armor": 45,
+   "mr": 45,
+   "ad": 80,
+   "as": 0.8,
+   "range": 4,
+   "mana": 50,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Phù Thủy Bi Lăn",
+   "desc": "Bắn 1 viên bi lăn về phía mục tiêu, gây 155/235/2245 (SMCK+SMPT) sát thương vật lý. Sau khi trúng 1 kẻ địch, nó tiếp tục nảy cho đến khi gây sát thương lên kẻ địch 12 lần, mỗi lần trúng giảm 30% sát thương. (Sát thương tối thiểu: 20%)"
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Mordekaiser19",
+  "name": "Mordekaiser",
+  "nameEn": "Mordekaiser",
+  "cost": 5,
+  "code": null,
+  "traits": [
+   "DA_Pentakill19"
+  ],
+  "role": "Đấu Sĩ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_mordekaiser19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1200,
+   "armor": 65,
+   "mr": 65,
+   "ad": 75,
+   "as": 0.5,
+   "range": 1,
+   "mana": 60,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Bàn Tay Diệt Vong",
+   "desc": "Nhận 40% Chống Chịu trong thời gian ngắn. Triệu hồi một móng vuốt gây 100/150/800 (SMPT) sát thương phép trên một đường thẳng cực rộng. 4 kẻ địch gần nhất chịu thêm 25% sát thương và bị kéo về phía Mordekaiser.\r\n\r\nTrong phần còn lại của giao tranh, nhận 20% Hút Máu Toàn Phần, tăng 1 Tầm Đánh và thay thế đòn đánh bằng cú nện gây 300/480/3000 (SMPT) sát thương phép lên mục tiêu và 70/105/1500 (SMPT) sát thương lên những kẻ địch khác trong phạm vi 2 ô."
+  },
+  "unlockLevel": null,
+  "unlock": "10 unique star levels of Pentakill"
+ },
+ {
+  "id": "DA_Nasus19",
+  "name": "Nasus",
+  "nameEn": "Nasus",
+  "cost": 2,
+  "code": null,
+  "traits": [
+   "DA_Virtuosos19",
+   "DA_Bodyguard19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_nasus19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 950,
+   "armor": 45,
+   "mr": 45,
+   "ad": 50,
+   "as": 0.6,
+   "range": 1,
+   "mana": 75,
+   "startMana": 25
+  },
+  "ability": {
+   "name": "Hộ Thần Nghệ Thuật",
+   "desc": "Tạo ra một vùng ảnh hưởng tráng lệ rộng 2 ô, tồn tại trong 5 giây. Trong thời gian hiệu lực, Nasus hồi 100/150/250 (SMPT) máu mỗi giây và các đồng minh trong vùng được hồi 25/35/60 (SMPT) máu. Kẻ địch chịu 30/45/70 (SMPT) sát thương phép và bị Mê Hoặc nếu có Máu tối đa thấp hơn Nasus.\r\n\r\nKẻ địch bị Mê Hoặc sẽ trao hiệu ứng thưởng cho tướng Cổ Điển."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Neeko19",
+  "name": "Neeko",
+  "nameEn": "Neeko",
+  "cost": 1,
+  "code": "41c",
+  "traits": [
+   "DA_KDA19",
+   "DA_Encore19",
+   "DA_Prodigy19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_neeko19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 500,
+   "armor": 25,
+   "mr": 25,
+   "ad": 30,
+   "as": 0.7,
+   "range": 4,
+   "mana": 40,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "K/DA Fan Club",
+   "desc": "Convene the K/DA fan club, throwing 3 confetti streams at target that each deal 75/115/175 (SMPT) magic damage. If they kill, permanently gain 1% Ability Power.\r\n\r\nCurrent Bonus: ? Ability Power"
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Nidalee19",
+  "name": "Nidalee",
+  "nameEn": "Nidalee",
+  "cost": 5,
+  "code": "41d",
+  "traits": [
+   "DA_Nidalee19_UniqueTrait",
+   "DA_Choreographer19"
+  ],
+  "role": "Đấu Sĩ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_nidalee19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1200,
+   "armor": 65,
+   "mr": 65,
+   "ad": 50,
+   "as": 0.8,
+   "range": 6,
+   "mana": 45,
+   "startMana": 20
+  },
+  "ability": {
+   "name": "Tiệc Vồ/Vũ Điệu Đời Thường",
+   "desc": "Tiệc Vồ Mồi: Vồ 4 lần lên kẻ địch, gây 125/185/1500 (SMPT) sát thương phép, tăng thêm 40% với mỗi cú vồ.\r\n\r\nVũ Điệu Đời Thường: Hồi 325/500/2000 (SMPT) Máu. Phóng một ngọn giáo vào mục tiêu, gây 360/540/3000 (SMPT) sát thương phép và rải 3 bông hoa quanh chúng. Hoa gây 80/120/500 (SMPT) sát thương phép lên kẻ địch trong bán kính 1 ô sau một khoảng trễ ngắn.\r\n\r\nThi triển Tiệc Vồ Mồi ở Dạng Báo và Vũ Điệu Đời Thường ở Dạng Người."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Nunu19",
+  "name": "Nunu & Willump",
+  "nameEn": "Nunu & Willump",
+  "cost": 5,
+  "code": "41e",
+  "traits": [
+   "DA_Nunu19_UniqueTrait",
+   "DA_Frontman19"
+  ],
+  "role": "Đặc Thù Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_nunu19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1200,
+   "armor": 60,
+   "mr": 60,
+   "ad": 15,
+   "as": 0.5,
+   "range": 1,
+   "mana": 75,
+   "startMana": 20
+  },
+  "ability": {
+   "name": "Đã đến giờ nhảy Disco!",
+   "desc": "Nhận Hồi Năng Lượng. Chậm rãi lăn quanh một Biểu cảm động Bạn Vừa Mới?, gây ? sát thương phép lên tất cả kẻ địch mà nó đi qua.Kích hoạt: Trong phần còn lại của giao tranh, di chuyển nhanh hơn và tăng kích thước cũng như sát thương của Biểu cảm động Bạn Vừa Mới? lên 30%."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Olaf19",
+  "name": "Olaf",
+  "nameEn": "Olaf",
+  "cost": 1,
+  "code": "447",
+  "traits": [
+   "DA_Pentakill19",
+   "DA_DemonVision19",
+   "DA_Juggernaut19"
+  ],
+  "role": "Đỡ Đòn Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_olaf19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 650,
+   "armor": 40,
+   "mr": 40,
+   "ad": 60,
+   "as": 0.6,
+   "range": 1,
+   "mana": 0,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Ragnarok 'n' Roll",
+   "desc": "Nội Tại: Khi tấn công, hồi 19/23/32 (Máu+SMPT) máu.\r\n\r\nKhi bị hạ gục, thay vào đó hồi đầy máu và nhận thêm 100% Tốc Độ Đánh, nhưng liên tục mất 22% Máu tối đa mỗi giây."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Pyke19",
+  "name": "Pyke",
+  "nameEn": "Pyke",
+  "cost": 5,
+  "code": "420",
+  "traits": [
+   "DA_DemonVision19",
+   "DA_Renegade19"
+  ],
+  "role": "Đấu Sĩ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_pyke19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1200,
+   "armor": 65,
+   "mr": 65,
+   "ad": 70,
+   "as": 0.9,
+   "range": 1,
+   "mana": 30,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Hành Quyết Tới Đây",
+   "desc": "Nội Tại: Mỗi khi 1 kẻ địch tụt xuống dưới 10%/10%/93% (SMPT) Máu tối đa, lập tức thi triển lên chúng, rồi lướt về mục tiêu hiện tại.\r\n\r\nKích Hoạt: Gây 320/515/4000 (SMCK) sát thương vật lý lên mục tiêu và 130/215/800 (SMCK) lên tất cả kẻ địch khác theo hình chữ X. Hành quyết mọi kẻ địch dưới 10%/10%/93% (SMPT) Máu."
+  },
+  "unlockLevel": 7,
+  "unlock": "Have 85 or more Gold at the end of combat."
+ },
+ {
+  "id": "DA_Qiyana19",
+  "name": "Qiyana",
+  "nameEn": "Qiyana",
+  "cost": 2,
+  "code": "421",
+  "traits": [
+   "DA_TrueDamage19",
+   "DA_Renegade19"
+  ],
+  "role": "Đấu Sĩ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_qiyana19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 750,
+   "armor": 40,
+   "mr": 40,
+   "ad": 45,
+   "as": 0.8,
+   "range": 1,
+   "mana": 40,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Danh Sách Nhạc Ngẫu Nhiên",
+   "desc": "Nội Tại: Vòng của Qiyana thay đổi màu sắc theo chu kỳ, ban cho kỹ năng của cô các hiệu ứng thưởng khác nhau.\r\n\r\nKích Hoạt: Lướt đi để tấn công những kẻ địch trên một đường thẳng, gây 225/335/510 (SMCK+SMPT) sát thương vật lý lên mục tiêu và 113/168/255 (SMCK+SMPT) sát thương lên những kẻ địch khác trúng chiêu.\r\n\r\nĐỏ: Gây 20% sát thương cộng thêm\r\nXanh Lá: Hồi máu bằng 20% lượng sát thương gây ra\r\nXanh Lam: Hoàn trả 10 năng lượng\r\nVàng: Nhận 1 vàng và áp dụng ngẫu nhiên một trong các hiệu ứng khác. (Vàng Nhận Được: ?)"
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Rakan19",
+  "name": "Rakan",
+  "nameEn": "Rakan",
+  "cost": 7,
+  "code": "448",
+  "traits": [
+   "DA_Rakan19_UniqueTrait",
+   "DA_Choreographer19"
+  ],
+  "role": "Sát Thủ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_rakan19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1450,
+   "armor": 80,
+   "mr": 80,
+   "ad": 65,
+   "as": 0.9,
+   "range": 2,
+   "mana": 55,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Bay Lượn Như Chim Công",
+   "desc": "Lao tới một nhóm kẻ địch gần đó, sau đó hất 8 lông vũ chia đều cho các kẻ địch trong phạm vi 1 ô, mỗi chiếc gây 100/180/2400 (SMPT) sát thương phép.LCK Mùa Xuân 2023 chính đánh trúng kẻ địch trong phạm vi 2 ô và hất tung chúng trong chốc lát."
+  },
+  "unlockLevel": null,
+  "unlock": "Win 4 combats in a row at Level 8+ / Lose 3 combats in a row at Level 8+"
+ },
+ {
+  "id": "DA_Rell19",
+  "name": "Rell",
+  "nameEn": "Rell",
+  "cost": 5,
+  "code": "422",
+  "traits": [
+   "DA_RnB19",
+   "DA_Rell19_UniqueTrait"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_rell19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1300,
+   "armor": 65,
+   "mr": 65,
+   "ad": 50,
+   "as": 0.7,
+   "range": 1,
+   "mana": 100,
+   "startMana": 30
+  },
+  "ability": {
+   "name": "Pháo Nhịp Điệu / Kim Mã Chiến",
+   "desc": "Rhythm Blaster: For 4 seconds, gain 600/725/2000 (SMPT) Shield and summon 3 speakers. Each second, they blast a wave of sound, dealing 104/156/1950 (Giáp+Kháng phép) magic damage to enemies hit.\r\n\r\nMetal Pony Club: Slam into a crowd of enemies, dealing 125/187/39000 (Giáp+Kháng phép) magic damage to the center enemy and 187/281/39000 (Giáp+Kháng phép) damage split among enemies within 2 hexes.\r\n\r\nCasts Rhythm Blaster while unmounted and Metal Pony Club while mounted."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_RenataGlasc19",
+  "name": "Renata Glasc",
+  "nameEn": "Renata Glasc",
+  "cost": 2,
+  "code": "423",
+  "traits": [
+   "DA_Virtuosos19",
+   "DA_Choreographer19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_renataglasc19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 550,
+   "armor": 30,
+   "mr": 30,
+   "ad": 30,
+   "as": 0.75,
+   "range": 4,
+   "mana": 45,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Hostile Measures",
+   "desc": "Bắn 1 khuông nhạc vào mục tiêu, áp dụng 2 cộng dồn Độc Tố. Các cộng dồn Độc Tố gây 160/240/580 (SMPT) sát thương phép trong 15 giây. Ngoài ra, áp dụng 1 cộng dồn Độc Tố lên 2 kẻ địch ở gần, ưu tiên những kẻ địch chưa bị trúng độc.\r\n\r\nKẻ địch bị Mê Hoặc trong 3 giây khi trúng Độc Tố, tăng lên 9 giây nếu cấp sao của chúng thấp hơn của Renata.\r\n\r\nKẻ địch bị Mê Hoặc trao hiệu ứng thưởng cho các tướng Cổ Điển."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Renekton19",
+  "name": "Renekton",
+  "nameEn": "Renekton",
+  "cost": 2,
+  "code": "424",
+  "traits": [
+   "DA_OceanSong19",
+   "DA_Frontman19"
+  ],
+  "role": "Đỡ Đòn Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_renekton19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 950,
+   "armor": 40,
+   "mr": 40,
+   "ad": 50,
+   "as": 0.65,
+   "range": 1,
+   "mana": 110,
+   "startMana": 60
+  },
+  "ability": {
+   "name": "Crocodile Rock",
+   "desc": "Hóa lớn, nhận 180/230/325 (SMPT) Máu tối đa cho đến hết giao tranh. Sau đó xoay tròn, gây 176/221/316 (Máu+SMCK) sát thương vật lý lên những kẻ địch liền kề."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Samira19",
+  "name": "Samira",
+  "nameEn": "Samira",
+  "cost": 2,
+  "code": "425",
+  "traits": [
+   "DA_Virtuosos19",
+   "DA_Renegade19",
+   "DA_Trickshot19"
+  ],
+  "role": "Thuật Sư Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_samira19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 550,
+   "armor": 30,
+   "mr": 30,
+   "ad": 42,
+   "as": 0.75,
+   "range": 4,
+   "mana": 55,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Bullets N' Roses",
+   "desc": "Nội Tại: Khi Samira chí mạng một kẻ địch, kẻ đó bị Mê Hoặc trong 3 giây.\r\n\r\nKích Hoạt: Bắn 10 viên đạn vào mục tiêu hiện tại, mỗi viên gây 42/48/95 (SMCK+SMPT) sát thương.\r\n\r\nNhững kẻ địch bị Mê Hoặc sẽ ban hiệu ứng thưởng cho tướng Cổ Điển."
+  },
+  "unlockLevel": null,
+  "unlock": "2 items on a Classical, Renegade, or Trickshot Champion."
+ },
+ {
+  "id": "DA_Senna19",
+  "name": "Senna",
+  "nameEn": "Senna",
+  "cost": 3,
+  "code": "426",
+  "traits": [
+   "DA_TrueDamage19",
+   "DA_Hitmaker19"
+  ],
+  "role": "Thuật Sư Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_senna19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 650,
+   "armor": 35,
+   "mr": 35,
+   "ad": 55,
+   "as": 0.75,
+   "range": 4,
+   "mana": 20,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Reverberation Devastation",
+   "desc": "Bắn vào mục tiêu, gây 185/275/445 (SMCK+SMPT) sát thương vật lý và đánh dấu chúng. Nếu mục tiêu đã bị đánh dấu, thay vào đó kích nổ dấu ấn, gây 278/413/668 (SMCK+SMPT) sát thương.\r\n\r\nKhi kích nổ dấu ấn hoặc hạ gục kẻ địch bị đánh dấu, nhận 8% Khuếch Đại Sát Thương cho đến hết giao tranh."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Seraphine19_Indie",
+  "name": "Seraphine",
+  "nameEn": "Seraphine",
+  "cost": 2,
+  "code": "427",
+  "traits": [
+   "DA_Seraphine19_IndieTrait"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_seraphine19_indie.png",
+  "pool": 25,
+  "stats": {
+   "hp": 700,
+   "armor": 30,
+   "mr": 30,
+   "ad": 30,
+   "as": 0.75,
+   "range": 4,
+   "mana": 50,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Livestream Nổi Bật",
+   "desc": "Indie: Tung ra luồng nốt nhạc về phía mục tiêu trong khi tạo dáng cho người hâm mộ, gây 550/825/1240 (SMPT) sát thương phép trong 2,5 giây.\r\n\r\nTân Binh: Tung thêm nốt nhạc vào những kẻ địch ở gần.\r\n\r\nSiêu Sao: Tung nốt cao vào mọi kẻ địch."
+  },
+  "unlockLevel": null,
+  "unlock": "Reroll 4 times before Stage 2 Carousel."
+ },
+ {
+  "id": "DA_Sett19",
+  "name": "Sett",
+  "nameEn": "Sett",
+  "cost": 1,
+  "code": "428",
+  "traits": [
+   "DA_Heartsteel19",
+   "DA_Frontman19"
+  ],
+  "role": "Đỡ Đòn Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_sett19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 700,
+   "armor": 30,
+   "mr": 30,
+   "ad": 45,
+   "as": 0.6,
+   "range": 1,
+   "mana": 90,
+   "startMana": 30
+  },
+  "ability": {
+   "name": "Live My Life",
+   "desc": "Passive: Gain 30% more max Health from all sources.\r\n\r\nActive: Heal 228/238/248 (SMPT+Máu). Strike the target twice, dealing 49 (Máu) physical damage on each hit.\r\n\r\nHeartsteel Upgrade: Every 4 seconds, heal 4% max Health, increased by up to 100% based on missing Health."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Shyvana19",
+  "name": "Shyvana",
+  "nameEn": "Shyvana",
+  "cost": 4,
+  "code": "429",
+  "traits": [
+   "DA_IonicSpark19",
+   "DA_Frontman19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_shyvana19.png",
+  "pool": 10,
+  "stats": {
+   "armor": 60,
+   "mr": 60,
+   "ad": 55,
+   "as": 0.65,
+   "range": 1,
+   "mana": 100,
+   "startMana": 40
+  },
+  "ability": {
+   "name": "Long Lực",
+   "desc": "Passive: At 70% Health, transform into Dragon Form. While transformed, gain 300 max Health, 150% Attack Speed, and every 3rd attacks deals 100/150/3000 (SMPT) bonus magic damage in a 1 hex area.\r\n\r\nActive: Gain ? Shield for 4 seconds."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Smeech19",
+  "name": "Smeech",
+  "nameEn": "Smeech",
+  "cost": 7,
+  "code": "42a",
+  "traits": [
+   "DA_Jazz19",
+   "DA_Mosher19"
+  ],
+  "role": "Đặc Thù Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_smeech19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1300,
+   "armor": 65,
+   "mr": 65,
+   "ad": 70,
+   "as": 0.9,
+   "range": 1,
+   "mana": 4,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Nổi Lên",
+   "desc": "Nội Tại: Nhận từ 1 đến 4 Nhịp mỗi đòn đánh. Mỗi 4 giây, thi triển.\r\n\r\nKích Hoạt: Nhận 250/375/40000 (SMPT) Lá Chắn trong 3 giây và gây 100/150/4000 (SMCK) sát thương vật lý lên tất cả kẻ địch trong phạm vi 2 ô. Sau đó tấn công mục tiêu hiện tại 4 lần, mỗi lần gây 240/360/2600 (SMCK) sát thương vật lý + 12/18/350 (SMCK) cho mỗi Nhịp.\r\n\r\nSau khi tung ra 15 Nhịp, nhận 1 Ấn của một tộc/hệ bạn chưa kích hoạt và tăng số Nhịp cần thiết.\r\n\r\n(Nhịp đã tung: ?/15)"
+  },
+  "unlockLevel": 9,
+  "unlock": "Have 8 or more non-unique traits active"
+ },
+ {
+  "id": "DA_Sona19",
+  "name": "Sona",
+  "nameEn": "Sona",
+  "cost": 7,
+  "code": "42c",
+  "traits": [
+   "DA_Sona19_UniqueTrait",
+   "DA_Collab19"
+  ],
+  "role": "Đặc Thù Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_sona19.png",
+  "pool": 9,
+  "stats": {
+   "armor": 50,
+   "mr": 50,
+   "ad": 0,
+   "as": 0.8,
+   "range": 10,
+   "mana": 220,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "feat. Sona",
+   "desc": "Passive: Cannot attack, instead every 3 seconds, gain ? Mana, deal 120/180/1000 (SMPT) magic damage to the 3 nearest enemies, and 2 allies gain 40/65/9999 (SMPT) Shield for 3 seconds. Sona is Unstoppable.\r\n\r\nActive: Unleash a sonic wave across the battlefield, dealing 1500/2400/9999999 (SMPT) magic damage split between all enemies and Stunning them for 2 seconds. Allies gain 250/450/99999 (SMPT) Shield split amongst allies for 5 seconds."
+  },
+  "unlockLevel": 10,
+  "unlock": "Collab Champions are inspired 15 times during player combat."
+ },
+ {
+  "id": "DA_Swain19",
+  "name": "Swain",
+  "nameEn": "Swain",
+  "cost": 3,
+  "code": "42d",
+  "traits": [
+   "DA_DemonVision19",
+   "DA_Arcanist19",
+   "DA_Frontman19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_swain19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 1100,
+   "armor": 50,
+   "mr": 50,
+   "ad": 40,
+   "as": 0.6,
+   "range": 1,
+   "mana": 120,
+   "startMana": 70
+  },
+  "ability": {
+   "name": "Luận Án Của Ác Quỷ",
+   "desc": "Tiến vào Dạng Quỷ, nhận 220/275/400 (SMPT) Máu tối đa và gây 20/30/48 (SMPT) sát thương phép lên kẻ địch liền kề mỗi giây. Những lần tung chiêu tiếp theo hồi lại 275/350/475 (SMPT) Máu và tăng sát thương thêm 5/8/12 (SMPT)."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Syndra19",
+  "name": "Syndra",
+  "nameEn": "Syndra",
+  "cost": 3,
+  "code": "42e",
+  "traits": [
+   "DA_OceanSong19",
+   "DA_Choreographer19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_syndra19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 650,
+   "armor": 35,
+   "mr": 35,
+   "ad": 30,
+   "as": 0.75,
+   "range": 4,
+   "mana": 30,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Serve's Up",
+   "desc": "Spike a volleyball at target, dealing 330/495/790 (SMPT) magic damage. It bounces to an enemy behind them with the least items, dealing 110/165/265 (SMPT) magic damage."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Taliyah19",
+  "name": "Taliyah",
+  "nameEn": "Taliyah",
+  "cost": 5,
+  "code": "42f",
+  "traits": [
+   "DA_OceanSong19",
+   "DA_Encore19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_taliyah19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 950,
+   "armor": 50,
+   "mr": 50,
+   "ad": 30,
+   "as": 0.8,
+   "range": 4,
+   "mana": 40,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Lướt Sóng Khán Giả",
+   "desc": "Ném 3 tảng đá vào mục tiêu, mỗi tảng gây 200/300/2000 (SMPT) sát thương phép.\r\n\r\nMỗi lần tung chiêu thứ 3, nhanh chóng đổi vị trí và thay vào đó lướt đi theo một đường thẳng. Kẻ địch trúng chiêu chịu sát thương phép bằng 160/240/2000 (SMPT) + 2%/3%/50% (SMPT) Máu tối đa và bị hất tung trong chốc lát."
+  },
+  "unlockLevel": null,
+  "unlock": "A Champion of each cost starts in a Beach Pop hex."
+ },
+ {
+  "id": "DA_Taric19",
+  "name": "Taric",
+  "nameEn": "Taric",
+  "cost": 1,
+  "code": "430",
+  "traits": [
+   "DA_OceanSong19",
+   "DA_Juggernaut19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_taric19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 700,
+   "armor": 40,
+   "mr": 40,
+   "ad": 65,
+   "as": 0.65,
+   "range": 1,
+   "mana": 90,
+   "startMana": 30
+  },
+  "ability": {
+   "name": "Âm Dội Du Dương",
+   "desc": "Grant 275/350/500 (SMPT) Shield to Taric and a nearby damaged ally for 4 seconds."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Teemo19",
+  "name": "Teemo",
+  "nameEn": "Teemo",
+  "cost": 5,
+  "code": "431",
+  "traits": [
+   "DA_GlitterBomb19",
+   "DA_Teemo19_UniqueTrait"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_teemo19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 900,
+   "armor": 45,
+   "mr": 45,
+   "ad": 55,
+   "as": 0.8,
+   "range": 4,
+   "mana": 100,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Gây Sốt",
+   "desc": "Nội Tại: Đòn đánh áp dụng Lây Lan, gây 90/135/1337 (SMPT) sát thương phép trong 15 giây. Kẻ địch bị lây nhiễm sẽ biến thành thây ma khi bị hạ gục, tìm kiếm những kẻ địch chưa bị ảnh hưởng và phát nổ, gây 70/105/800 (SMPT) sát thương lên kẻ địch liền kề và áp dụng Lây Lan.\r\n\r\nKích Hoạt: Phóng ra một cây nấm áp dụng Lây Lan lên kẻ địch trong bán kính 3 ô và gây 530/800/13337 (SMPT) sát thương phép, giảm đi 20% với mỗi ô cách xa tâm."
+  },
+  "unlockLevel": null,
+  "unlock": "Collect 900 Hyperpop Hype."
+ },
+ {
+  "id": "DA_Thresh19",
+  "name": "Thresh",
+  "nameEn": "Thresh",
+  "cost": 4,
+  "code": "432",
+  "traits": [
+   "DA_Virtuosos19",
+   "DA_Frontman19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_thresh19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 1200,
+   "armor": 60,
+   "mr": 60,
+   "ad": 50,
+   "as": 0.6,
+   "range": 1,
+   "mana": 100,
+   "startMana": 40
+  },
+  "ability": {
+   "name": "Con Đường Tăm Tối (Điệp Khúc)",
+   "desc": "Nội tại: Khi kẻ địch gây sát thương lên Thresh, chúng sẽ bị Mê Hoặc trong 12 giây nếu lượng Máu hiện tại của chúng thấp hơn Thresh.\r\n\r\nKích hoạt: Hồi phục 350/450/2000 (SMPT) Máu. Sau đó, hút 80/100/1200 (SMPT) Máu tối đa từ tối đa 3 kẻ địch gần đó trong 3 giây.\r\n\r\nCác tướng Cổ Điển có thể Thu Hút kẻ địch, nhận thêm hiệu ứng thưởng khi tấn công chúng."
+  },
+  "unlockLevel": null,
+  "unlock": "Have enemies spend 275 seconds Captivated by Classical."
+ },
+ {
+  "id": "DA_Tibbers19",
+  "name": "Tibbers",
+  "nameEn": "Tibbers",
+  "cost": 3,
+  "code": "433",
+  "traits": [
+   "DA_IonicSpark19",
+   "DA_Bodyguard19"
+  ],
+  "role": "Đỡ Đòn Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_tibbers19.png",
+  "pool": 18,
+  "stats": {
+   "armor": 50,
+   "mr": 50,
+   "ad": 50,
+   "as": 0.65,
+   "range": 1,
+   "mana": 100,
+   "startMana": 40
+  },
+  "ability": {
+   "name": "Girl's Best Friend",
+   "desc": "Nội Tại: Khi còn 30% Máu hoặc khi Annie mạnh nhất của bạn bị hạ gục, trở nên điên cuồng, nhận 300 Máu tối đa, 100% Sức Mạnh Công Kích và 200% Tốc Độ Đánh giảm dần trong 6 giây.\r\n\r\nKích Hoạt: Nhận 550/650/800 (SMPT) Lá Chắn trong 4 giây. Nếu đang điên cuồng, làm mới lượng Tốc Độ Đánh đang giảm dần."
+  },
+  "unlockLevel": null,
+  "unlock": "2-star Annie with 1 item"
+ },
+ {
+  "id": "DA_Tristana19",
+  "name": "Tristana",
+  "nameEn": "Tristana",
+  "cost": 2,
+  "code": "434",
+  "traits": [
+   "DA_GlitterBomb19",
+   "DA_Hitmaker19"
+  ],
+  "role": "Thuật Sư Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_tristana19.png",
+  "pool": 25,
+  "stats": {
+   "hp": 550,
+   "armor": 30,
+   "mr": 30,
+   "ad": 45,
+   "as": 0.75,
+   "range": 4,
+   "mana": 55,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Kẻ Lắc Lư",
+   "desc": "Throw bombs at 3 nearby enemies and detonate them, each dealing 140/210/315 (SMCK+SMPT) physical damage. The final blast deals 280/420/630 (SMCK+SMPT) damage instead."
+  },
+  "unlockLevel": null,
+  "unlock": "Get 5 kills with Hyperpop Active"
+ },
+ {
+  "id": "DA_TwistedFate19",
+  "name": "Twisted Fate",
+  "nameEn": "Twisted Fate",
+  "cost": 5,
+  "code": "435",
+  "traits": [
+   "DA_TwistedFate19_UniqueTrait",
+   "DA_Trickshot19"
+  ],
+  "role": "Xạ Thủ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_twistedfate19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 900,
+   "armor": 45,
+   "mr": 45,
+   "ad": 30,
+   "as": 0.8,
+   "range": 4,
+   "mana": 50,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Cortado Biến Số",
+   "desc": "Passive: At Combat Start, draw a card for each champion in the shop. If your shop has refreshed this round, gain loot based on the cards drawn!\r\n\r\n1 or 2 of a Kind: 1 Gold\r\n3 of a Kind: Random champion\r\n4 of a Kind: Item Component\r\n5 of a Kind: Mystery Box!\r\n\r\nActive: The next 5 attacks gain 100% Attack Speed and are replaced with cards that deal 100/150/2000 (SMPT) magic damage to the target and 30/45/1000 (SMPT) magic damage to 2 nearby enemies."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Varus19",
+  "name": "Varus",
+  "nameEn": "Varus",
+  "cost": 1,
+  "code": "436",
+  "traits": [
+   "DA_DemonVision19",
+   "DA_Encore19"
+  ],
+  "role": "Thuật Sư Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_varus19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 500,
+   "armor": 25,
+   "mr": 25,
+   "ad": 35,
+   "as": 0.7,
+   "range": 4,
+   "mana": 70,
+   "startMana": 30
+  },
+  "ability": {
+   "name": "Một Ngàn Mũi Tên",
+   "desc": "Fire a hail of arrows, dealing 260/390/590 (SMCK+SMPT) physical damage to the target and 130/195/295 (SMCK+SMPT) damage to adjacent enemies. 20% Slow them for 4 seconds.\r\n\r\nSlow: Reduce Attack Speed"
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Vayne19",
+  "name": "Vayne",
+  "nameEn": "Vayne",
+  "cost": 4,
+  "code": "437",
+  "traits": [
+   "DA_DemonVision19",
+   "DA_Trickshot19"
+  ],
+  "role": "Xạ Thủ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_vayne19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 850,
+   "armor": 40,
+   "mr": 40,
+   "ad": 62,
+   "as": 0.8,
+   "range": 5,
+   "mana": 50,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Darkest Hour",
+   "desc": "Passive: On cast or when hit, tumble and gain 25% (SMPT) Durability for 2 seconds. (4 second cooldown)\r\n\r\nActive: Gain demonic power, enhancing the next 3 attacks to deal 165/250/2000 (SMCK) physical damage + 1.5% of the target's max Health as true damage."
+  },
+  "unlockLevel": 7,
+  "unlock": "Field Rock for 3 combats."
+ },
+ {
+  "id": "DA_Vi19",
+  "name": "Vi",
+  "nameEn": "Vi",
+  "cost": 5,
+  "code": "438",
+  "traits": [
+   "DA_EDM19",
+   "DA_Juggernaut19"
+  ],
+  "role": "Đấu Sĩ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_vi19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1200,
+   "armor": 65,
+   "mr": 65,
+   "ad": 80,
+   "as": 0.9,
+   "range": 1,
+   "mana": 50,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Thả Beat Thôi Nào",
+   "desc": "Triệu hồi 2 nắm đấm ảo ảnh khổng lồ. Nhận 300/400/500 (SMPT) Lá Chắn trong 2 giây và ban 125/165/215 (SMPT) Lá Chắn cho 2 đồng minh ở gần. Nện mục tiêu 5 lần, mỗi lần gây 130/200/1000 (SMCK) sát thương vật lý lên mục tiêu và 35/55/400 (SMCK) sát thương lên tất cả kẻ địch khác trong phạm vi 2 ô.\r\n\r\nNâng Cấp EDM: Nện thêm một lần nữa và hồi máu bằng 15% lượng sát thương gây ra bởi kỹ năng này."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Viego19",
+  "name": "Viego",
+  "nameEn": "Viego",
+  "cost": 3,
+  "code": "439",
+  "traits": [
+   "DA_Pentakill19",
+   "DA_Choreographer19",
+   "DA_Mosher19"
+  ],
+  "role": "Đấu Sĩ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_viego19.png",
+  "pool": 18,
+  "stats": {
+   "hp": 850,
+   "armor": 55,
+   "mr": 55,
+   "ad": 60,
+   "as": 0.8,
+   "range": 1,
+   "mana": 40,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Tách Biệt",
+   "desc": "Summon ? swords around the target. After a brief delay, impale them, dealing 37/56/89 (SMCK+SMPT) physical damage per sword.\r\n\r\nEvery 8 takedowns, gain a permanent sword. (Current Takedowns: ?)"
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Vladimir19",
+  "name": "Vladimir",
+  "nameEn": "Vladimir",
+  "cost": 5,
+  "code": "43a",
+  "traits": [
+   "DA_Virtuosos19",
+   "DA_Arcanist19"
+  ],
+  "role": "Đấu Sĩ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_vladimir19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 1150,
+   "armor": 60,
+   "mr": 60,
+   "ad": 40,
+   "as": 0.75,
+   "range": 2,
+   "mana": 40,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Bóng Ma Nhà Hát",
+   "desc": "Nội tại: Khi một kẻ địch bị Cào Xé, chúng sẽ bị Thu Hút cho đến hết giao tranh.\r\n\r\nKích hoạt: Gây 120/180/999 (SMPT) sát thương phép lên 3 kẻ địch gần nhất, 20% Cào Xé chúng trong ? giây và hồi máu bằng ? lượng sát thương gây ra.\r\n\r\nCứ mỗi lần thi triển thứ 5, thả một chiếc đèn chùm xuống giữa sân đấu. Chiếc đèn gây 380/600/9999 (SMPT) sát thương phép lên tất cả kẻ địch, giảm đi 10% với mỗi ô mà chúng cách tâm chấn.\r\n\r\nCào Xé: Giảm Kháng Phép\r\nCác tướng Cổ Điển có thể Thu Hút kẻ địch, nhận thêm hiệu ứng thưởng khi tấn công chúng."
+  },
+  "unlockLevel": 8,
+  "unlock": "Only 1 Champion in the two front rows of the battlefield."
+ },
+ {
+  "id": "DA_Wukong19",
+  "name": "Ngộ Không",
+  "nameEn": "Wukong",
+  "cost": 4,
+  "code": "43b",
+  "traits": [
+   "DA_Heavenscale19"
+  ],
+  "role": "Đỡ Đòn Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_wukong19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 1350,
+   "armor": 65,
+   "mr": 65,
+   "ad": 60,
+   "as": 0.65,
+   "range": 1,
+   "mana": 100,
+   "startMana": 40
+  },
+  "ability": {
+   "name": "Những Mánh Khóe của Vô Số Kẻ Lừa Đảo Huyền Thoại",
+   "desc": "Hồi 508/608/2108 (Máu+SMPT) Máu và phóng ra 6 phân thân theo vòng tròn 2 ô rồi nhanh chóng quay lại. Các phân thân đánh cắp 5 Giáp và Kháng Phép từ những kẻ địch chúng đi qua và gây 30/45/3000 (SMCK) sát thương vật lý. Khi phân thân quay lại, Ngộ Không nhận được chỉ số chống chịu đã đánh cắp."
+  },
+  "unlockLevel": null,
+  "unlock": "Allies deal 25000 damage while fielding Xayah."
+ },
+ {
+  "id": "DA_Xayah19",
+  "name": "Xayah",
+  "nameEn": "Xayah",
+  "cost": 4,
+  "code": "43c",
+  "traits": [
+   "DA_Heavenscale19",
+   "DA_Hitmaker19"
+  ],
+  "role": "Thuật Sư Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_xayah19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 850,
+   "armor": 40,
+   "mr": 40,
+   "ad": 55,
+   "as": 0.75,
+   "range": 4,
+   "mana": 60,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Lông Vũ Bay Như Lá Trong Gió",
+   "desc": "Triệu hồi 30 lông vũ tấn công mục tiêu, mỗi chiếc gây 25/38/166 (SMCK+SMPT) sát thương vật lý và giảm 1 Giáp."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Yasuo19",
+  "name": "Yasuo",
+  "nameEn": "Yasuo",
+  "cost": 4,
+  "code": "43d",
+  "traits": [
+   "DA_TrueDamage19",
+   "DA_Mosher19"
+  ],
+  "role": "Đấu Sĩ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_yasuo19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 1100,
+   "armor": 65,
+   "mr": 65,
+   "ad": 60,
+   "as": 0.85,
+   "range": 1,
+   "mana": 30,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Trăng Trối",
+   "desc": "Lao tới và đâm về phía trước, gây 165/250/1400 (SMCK) sát thương vật lý lên kẻ địch theo đường thẳng.Mỗi lần tung chiêu thứ 3, hất tung mục tiêu và gây 400/600/2500 (SMCK) sát thương vật lý.\r\n\r\nSau đó đập chúng xuống, gây 210/315/1700 (SMCK+SMPT) sát thương vật lý lên kẻ địch trong phạm vi 1 Hex."
+  },
+  "unlockLevel": 7,
+  "unlock": "6 unique star levels of True Damage or Slayer Champions."
+ },
+ {
+  "id": "DA_Yone19",
+  "name": "Yone",
+  "nameEn": "Yone",
+  "cost": 4,
+  "code": "43e",
+  "traits": [
+   "DA_Heartsteel19",
+   "DA_Mosher19"
+  ],
+  "role": "Đấu Sĩ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_yone19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 1150,
+   "armor": 70,
+   "mr": 70,
+   "ad": 55,
+   "as": 0.85,
+   "range": 1,
+   "mana": 50,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Hai Mặt",
+   "desc": "Nội Tại: Kỹ năng này tỉ lệ với Sức Mạnh Công Kích hoặc Sức Mạnh Phép Thuật, tùy vào chỉ số nào cao hơn. Đòn đánh gây 55/82/123 (SMCK) sát thương vật lý.\r\n\r\nKích Hoạt: Chém liên hoàn vào mục tiêu và tối đa 2 kẻ địch ở gần 10 lần, mỗi lần gây 35/55/400 (SMCK) sát thương vật lý. Sau loạt tấn công, tung ra một nhát chém cực mạnh gây 175/265/1500 (SMCK) sát thương vật lý lên mục tiêu.\r\n\r\nNâng Cấp Heartsteel: Chiêu thức chém thêm 2 lần và bỏ qua 25%25% Giáp."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Yorick19",
+  "name": "Yorick",
+  "nameEn": "Yorick",
+  "cost": 4,
+  "code": "43f",
+  "traits": [
+   "DA_Pentakill19",
+   "DA_Juggernaut19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_yorick19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 1300,
+   "armor": 60,
+   "mr": 60,
+   "ad": 65,
+   "as": 0.6,
+   "range": 1,
+   "mana": 100,
+   "startMana": 50
+  },
+  "ability": {
+   "name": "Vũ Khúc Tử Thần",
+   "desc": "Chơi một bản solo hoành tráng, hồi 544/629/2104 (Máu+SMPT) Máu và tạo ra một khu vực 2 ô gây 25/40/1250 (SMPT) sát thương phép mỗi giây cho các kẻ địch. Nốt nhạc cuối cùng gây 100/150/2400 (SMPT) sát thương lên những kẻ địch bên trong và Làm Chậm chúng đi 20% trong 4 giây.\r\n\r\nLàm Chậm: Giảm Tốc Độ Đánh"
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Yunara19",
+  "name": "Yunara",
+  "nameEn": "Yunara",
+  "cost": 1,
+  "code": "440",
+  "traits": [
+   "DA_IonicSpark19",
+   "DA_Swiftstriker19"
+  ],
+  "role": "Xạ Thủ Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_yunara19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 500,
+   "armor": 25,
+   "mr": 25,
+   "ad": 50,
+   "as": 0.7,
+   "range": 4,
+   "mana": 80,
+   "startMana": 50
+  },
+  "ability": {
+   "name": "Kết Linh Thiếu Nữ",
+   "desc": "For the rest of combat, attacks fire an additional orb that deals 16/25/37 (SMCK+SMPT) physical damage."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Yuumi19",
+  "name": "Yuumi",
+  "nameEn": "Yuumi",
+  "cost": 4,
+  "code": "441",
+  "traits": [
+   "DA_Illbeats19",
+   "DA_Encore19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_yuumi19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 850,
+   "armor": 40,
+   "mr": 40,
+   "ad": 30,
+   "as": 0.8,
+   "range": 4,
+   "mana": 20,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Girl, Put Your Records On (Your Head)",
+   "desc": "Ném ra một chiếc đĩa xoay gây 185/280/1400 (SMPT) sát thương phép và chồng lên đầu mục tiêu, giảm Kháng Phép của kẻ đó đi 1 mỗi giây.\r\n\r\nKhi mục tiêu có 5 chiếc đĩa, chồng đĩa sẽ đổ sụp, gây 40% tổng sát thương của chồng đĩa trên mục tiêu và 40% sát thương chia đều cho 4 kẻ địch lân cận.\r\n\r\nNếu một kẻ địch bị hạ gục khi đang có đĩa, đĩa sẽ bay sang kẻ địch khác."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Zac19",
+  "name": "Zac",
+  "nameEn": "Zac",
+  "cost": 4,
+  "code": "442",
+  "traits": [
+   "DA_OceanSong19",
+   "DA_Juggernaut19"
+  ],
+  "role": "Đỡ Đòn Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_zac19.png",
+  "pool": 10,
+  "stats": {
+   "hp": 1300,
+   "armor": 60,
+   "mr": 60,
+   "ad": 65,
+   "as": 0.6,
+   "range": 1,
+   "mana": 110,
+   "startMana": 60
+  },
+  "ability": {
+   "name": "Đạn Đại Bác!",
+   "desc": "Vận sức trong 2 giây, nhận 15% Chống Chịu và hồi lại 631/681/2656 (SMPT+Máu) Máu. Sau đó nhảy và giáng xuống mục tiêu, gây 250/375/3500 (SMPT) sát thương phép lên kẻ địch liền kề và hất tung chúng trong thoáng chốc."
+  },
+  "unlockLevel": 7,
+  "unlock": "5 unique Beach Pop or Juggernaut Champions."
+ },
+ {
+  "id": "DA_Zeri19",
+  "name": "Zeri",
+  "nameEn": "Zeri",
+  "cost": 5,
+  "code": "443",
+  "traits": [
+   "DA_Zeri19_UniqueTrait",
+   "DA_Swiftstriker19"
+  ],
+  "role": "Thuật Sư Vật Lý",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_zeri19.png",
+  "pool": 9,
+  "stats": {
+   "hp": 900,
+   "armor": 45,
+   "mr": 45,
+   "ad": 60,
+   "as": 0.8,
+   "range": 4,
+   "mana": 150,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "Lasers After Midnight",
+   "desc": "Lướt nhanh quanh sân đấu, nhắm 6 tia laser vào mục tiêu hiện tại. Các tia laser bắn liên tiếp, mỗi tia gây 165/250/1500 (SMCK+SMPT) sát thương vật lý lên kẻ địch trúng phải và bỏ qua 40% Giáp của chúng."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Ziggs19",
+  "name": "Ziggs",
+  "nameEn": "Ziggs",
+  "cost": 1,
+  "code": "444",
+  "traits": [
+   "DA_GlitterBomb19",
+   "DA_Arcanist19",
+   "DA_Swiftstriker19"
+  ],
+  "role": "Xạ Thủ Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_ziggs19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 500,
+   "armor": 25,
+   "mr": 25,
+   "ad": 10,
+   "as": 0.7,
+   "range": 4,
+   "mana": 50,
+   "startMana": 0
+  },
+  "ability": {
+   "name": "GlitterBOM3S",
+   "desc": "Nội Tại: Đòn đánh gây 40/60/90 (SMPT) sát thương phép cộng thêm.\r\n\r\nKích Hoạt: Ném một quả bom vào mục tiêu gây 155/235/355 (SMPT) sát thương phép lên kẻ đó và 70/105/160 (SMPT) sát thương phép lên những kẻ địch liền kề."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ },
+ {
+  "id": "DA_Zoe19",
+  "name": "Zoe",
+  "nameEn": "Zoe",
+  "cost": 1,
+  "code": "445",
+  "traits": [
+   "DA_OceanSong19",
+   "DA_Arcanist19"
+  ],
+  "role": "Thuật Sư Phép",
+  "icon": "https://cdn.metatft.com/file/metatft/champions/da_zoe19.png",
+  "pool": 30,
+  "stats": {
+   "hp": 500,
+   "armor": 25,
+   "mr": 25,
+   "ad": 30,
+   "as": 0.7,
+   "range": 4,
+   "mana": 90,
+   "startMana": 15
+  },
+  "ability": {
+   "name": "Nghịch Bóng",
+   "desc": "Bắn một quả bóng nảy về phía sau và chuyển hướng nó về phía kẻ địch xa nhất, gây 450/675/1000 (SMPT) sát thương phép lên kẻ địch đầu tiên trúng phải. Nếu mục tiêu bị hạ gục, bóng sẽ nảy đi, gây sát thương phụ trội lên kẻ địch tiếp theo trúng đòn."
+  },
+  "unlockLevel": null,
+  "unlock": null
+ }
+]

@@ -1,0 +1,52 @@
+# Ghi chú làm tiếp (cập nhật 20/11/2026, lần 2)
+
+## Mở dự án ở máy mới
+- Cài Node.js 18+ (máy hiện tại: Node 24.14). Python chỉ dùng để chạy server xem thử (không bắt buộc).
+- Chép / clone thư mục, chạy `node scripts/update-data.mjs` để tải dữ liệu mới, rồi mở `web/index.html`.
+
+## Đang ở đâu
+- Đã xong (20/11/2026):
+  - Cài quy trình làm việc.
+  - Script tải dữ liệu Set 19 từ MetaTFT.
+  - Web tra cứu 7 tab: Tình huống của tôi, Đội hình mạnh, Tướng, Tộc hệ, Trang bị, Lõi, Mẹo nhanh.
+  - Skill tư vấn `tft-tu-van` (đọc ảnh chụp game).
+  - Lần 2: nút Copy mã đội hình; khung "Đội đang nhắm" ở đầu tab Tình huống (mức khớp, việc nên làm, đồ cần, lõi hợp).
+- Mã đội hình: "02" + 10 ô × mã 3 ký tự (`units.json` → `code`, "000" = trống) + `meta.setKey`, theo đúng cách MetaTFT tạo.
+  Chưa thử dán vào game thật. Mã trùng giữa nhiều tướng (PBE: Graves / Mordekaiser / Nasus cùng `449`) bị script bỏ (`code: null`).
+- Dữ liệu: Set 19 bản PBE. Đội hình lấy từ queue PBE.
+- Chưa có:
+  - Số liệu tỉ lệ thắng của lõi Set 19 (MetaTFT chưa có cho PBE).
+  - Số liệu tướng / đồ riêng (các API thống kê của MetaTFT vẫn trả Set 18).
+- Khi Set 19 lên bản chính thức (~1/12/2026): chạy script với `--queue 1100`, kiểm tra lại đội hình. Xem API thống kê lõi đã có Set 19 chưa (`api-hc.metatft.com/tft-stat-api/augments_tiers`).
+- Chưa quyết: có thêm số liệu lõi vào web khi có nguồn không.
+
+## Công cụ
+- **Kiểu làm việc:** B (sửa trực tiếp). Không có công cụ ngoài giữ file.
+- **Ngôn ngữ:** JavaScript thuần. Không cài thư viện, không có bước build.
+- **File tự sinh, không sửa tay:** `web/data.js` và `data/set19/*.json` (do `scripts/update-data.mjs` tạo).
+- **File sửa thẳng:**
+  - `scripts/update-data.mjs`: tải và rút gọn dữ liệu, dịch thẻ số trong mô tả.
+  - `web/index.html`, `web/app.js`, `web/style.css`.
+  - `.claude/skills/tft-tu-van/SKILL.md`.
+- **Nguồn dữ liệu (MetaTFT, không chính thức):**
+  - `data.metatft.com/lookups/TFTSet19_latest_{en_us|vi_vn}.json`: tướng, tộc hệ, đồ, lõi.
+  - `api-hc.metatft.com/tft-comps-api/comps_data?queue=PBE`: đội hình.
+  - Ảnh: `cdn.metatft.com/file/metatft/{champions|items|traits|augments}/<apiName viết thường>.png`.
+- **Lệnh kiểm tra:**
+  - `node --check web/app.js`
+  - `node scripts/update-data.mjs`: chạy được và in ra số tướng / đội hình.
+- **Cách tự chạy thử:**
+  - Trình duyệt tích hợp không chạy JS khi mở file trực tiếp. Dùng cấu hình `tft-web` trong `.claude/launch.json`: server Python ở `http://localhost:8765`, thư mục `web/`.
+  - Người dùng thì bấm đúp `web/index.html` là chạy.
+- **Lệnh quen của người dùng:**
+  - "cập nhật dữ liệu" = chạy `node scripts/update-data.mjs` (đã được đồng ý sẵn, không cần hỏi lại).
+  - Dán ảnh game / hỏi về TFT = tư vấn theo skill `tft-tu-van`, trả lời luôn.
+
+## Build và phát hành
+- Không có build, không đưa lên web. Chỉ dùng trên máy.
+- Git: đã `git init` (nhánh mặc định), chưa commit. Chưa có remote.
+
+## Quy tắc riêng khi sửa
+- Người dùng chơi TFT nhiều, hiểu cơ chế: tư vấn ngắn, đi thẳng vào việc cần làm.
+- Không bịa số liệu. Dữ liệu PBE luôn ghi rõ là tham khảo.
+- Chữ hiển thị trong web viết tiếng Việt. Dữ liệu từ ngoài luôn đi qua `esc()` trước khi chèn HTML.

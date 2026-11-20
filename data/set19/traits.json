@@ -1,0 +1,1452 @@
+[
+ {
+  "id": "DA_Akali_TrueDamage19_UniqueTrait",
+  "name": "Freestyle",
+  "nameEn": "Freestyle",
+  "type": "unique",
+  "desc": "Akali nhận một nội tại khác nhau ở mỗi mặt của đĩa nhạc True Damage. Mặt A sinh vàng. Mặt B hồi Máu Người Chơi.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Akali_TrueDamage19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_akali_truedamage19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Alistar19_UniqueTrait",
+  "name": "Country",
+  "nameEn": "Country",
+  "type": "unique",
+  "desc": "Bắt Đầu Giao Tranh: Nếu Alistar mạnh nhất của bạn có trên 500 Máu cộng thêm, hắn nhận 15% Chống Chịu.\r\n\r\nHiện Tại: ? Cộng Thêm",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Alistar19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_alistar19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Amumu19_UniqueTrait",
+  "name": "Emo",
+  "nameEn": "Emo",
+  "type": "unique",
+  "desc": "Amumu nhận 25/40/55 Giáp và Kháng Phép nếu bắt đầu giao tranh mà không có đồng minh liền kề.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Amumu19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_amumu19_uniquetrait.png"
+ },
+ {
+  "id": "DA_BaronNashor19_UniqueTrait",
+  "name": "One Monster Band",
+  "nameEn": "One Monster Band",
+  "type": "unique",
+  "desc": "Baron Nashor takes up 2 team slots and is unstoppable. \r\n\r\nAfter the first time Baron Nashor casts, he envelops the board in song, stealing 5% Attack Damage, Ability Power, Attack Speed, and Critical Strike Chance from all enemies.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_BaronNashor19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_baronnashor19_uniquetrait.png"
+ },
+ {
+  "id": "DA_DrMundo19_UniqueTrait",
+  "name": "Hãng Đĩa",
+  "nameEn": "Record Mogul",
+  "type": "unique",
+  "desc": "Nhận 1 Hợp Đồng Thu Âm ngay lập tức và sau mỗi 4 vòng. Tướng được ký hợp đồng nhận 5% Khuếch Đại Sát Thương và điểm hạ gục của họ trao cho Dr. Mundo 25 Máu vĩnh viễn.\r\n\r\nTổng Máu: ?\r\nHợp Đồng Tiếp Theo: ?/4\r\n\r\nHợp Đồng Thu Âm được trả lại khi bán hoặc đưa Nghệ Sĩ Thu Âm lên hàng chờ.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_DrMundo19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_drmundo19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Garen19_UniqueTrait",
+  "name": "Synthwave",
+  "nameEn": "Synthwave",
+  "type": "unique",
+  "desc": "Ở 35% Máu, nhận Lá Chắn trong 6 giây tương đương với 50% lượng Hồi Máu và Lá Chắn nhận được trong giao tranh này.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Garen19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_garen19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Gwen19_UniqueTrait",
+  "name": "Du Dương",
+  "nameEn": "Melodic Heart",
+  "type": "unique",
+  "desc": "For the first 12 seconds of combat, your strongest Gwen is surrounded by Mist and cannot be targeted by attacks. Allies gain 10% Durability while within the Mist.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Gwen19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_gwen19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Janna19_UniqueTrait",
+  "name": "Ân Phong",
+  "nameEn": "Windblessed",
+  "type": "unique",
+  "desc": "Bắt Đầu Giao Tranh: Janna mạnh nhất của bạn phóng ra 1 cơn lốc di chuyển về phía trước, hất tung những kẻ địch trên đường bay trong 1.25 giây.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Janna19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_janna19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Malzahar19_UniqueTrait",
+  "name": "Composer",
+  "nameEn": "Composer",
+  "type": "unique",
+  "desc": "Nhạc Cụ có thể xuất hiện trong cửa hàng của bạn! Mỗi bậc độ hiếm có 1 nhạc cụ.\r\n\r\nVới mỗi nhạc cụ bạn sở hữu, đội của bạn nhận thêm 3% Sức Mạnh Phép Thuật. Malzahar nhận gấp đôi.\r\n\r\nNếu đã gây 60000 sát thương và bạn sở hữu đủ 5 nhạc cụ, Malzahar sẽ sáng tác nên kiệt tác của mình, mở khóa Baron Nashor.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Malzahar19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_malzahar19_uniquetrait.png"
+ },
+ {
+  "id": "DA_MissFortune19_UniqueTrait",
+  "name": "8-Bit",
+  "nameEn": "8-Bit",
+  "type": "unique",
+  "desc": "Ghi nhận lượng sát thương đội của bạn gây ra, sát thương của Miss Fortune sẽ được tính gấp ba. Khi bạn vượt qua mức điểm cao, nhận 1 phần thưởng.\r\n\r\nĐiểm Hiện Tại: ?\r\n{Set19.Unit.MissFortune.Tooltip.NextBreakpoint}\r\n\r\nĐiểm Cao:\r\n{Set19.Unit.MissFortune.Tooltip.DimPre1} 50000\r\n{Set19.Unit.MissFortune.Tooltip.DimPre2} 80000\r\n{Set19.Unit.MissFortune.Tooltip.DimPre3} 125000\r\n{Set19.Unit.MissFortune.Tooltip.DimPre4} 175000\r\n{Set19.Unit.MissFortune.Tooltip.DimPre5} 275000\r\n{Set19.Unit.MissFortune.Tooltip.DimPre6} 500000\r\n{Set19.Unit.MissFortune.Tooltip.DimPre7} 700000\r\n{Set19.Unit.MissFortune.Tooltip.DimPre8} 1000000",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_MissFortune19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_missfortune19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Nidalee19_UniqueTrait",
+  "name": "Mariachi",
+  "nameEn": "Mariachi",
+  "type": "unique",
+  "desc": "Khi Nidalee có trên 75% Máu và thi triển Kỹ Năng, cô sẽ biến thành Dạng Báo và thi triển Tiệc Vồ Mồi. Nếu không, cô sẽ thi triển Vũ Điệu Đời Thường.\r\n\r\nBất cứ khi nào tụt xuống dưới 50% Máu, cô sẽ nhảy lùi ra xa và biến trở lại dạng Người.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Nidalee19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_nidalee19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Nunu19_UniqueTrait",
+  "name": "Disco",
+  "nameEn": "Disco",
+  "type": "unique",
+  "desc": "Your team heals for 0.8% max Health per second. \r\n\r\nEnter Disco Fever after casting 6 times, granting your team 125% Attack Speed.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Nunu19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_nunu19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Rakan19_UniqueTrait",
+  "name": "Boy Band",
+  "nameEn": "Boy Band",
+  "type": "unique",
+  "desc": "Rakan được hộ tống bởi 2 phân thân có thể đặt trên bàn đấu, mỗi phân thân sở hữu 50% Máu tối đa của Rakan, gây 30% sát thương và sao chép các Trang Bị Hoàn Chỉnh, Trang Bị Ánh Sáng và trang bị Ấn của anh.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Rakan19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_rakan19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Rell19_UniqueTrait",
+  "name": "Phối Nhịp",
+  "nameEn": "Beat Master",
+  "type": "unique",
+  "desc": "At 50% max Health, Rell mounts up and fully heals over 2 seconds.\r\n\r\nWhile mounted, her max Mana is reduced by 40 and every 3rd attack deals 1/1/500% of her total Armor and Magic Resist as magic damage in a line.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Rell19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_rell19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Seraphine19_IndieTrait",
+  "name": "Ca Sĩ Độc Lập",
+  "nameEn": "Indie",
+  "type": "unique",
+  "desc": "Sau giao tranh, Seraphine thu hút người theo dõi mới, cho bạn 1 tướng ngẫu nhiên.\r\n\r\nKhi bạn nâng 1 tướng lên 3 sao, cô ấy trở thành Tân Binh, nâng cấp Kỹ Năng của mình và cho bạn 1 phần thưởng đặc biệt dành cho người đăng ký.\r\n\r\nSau khi nâng 4 tướng lên 3 sao, cô ấy trở thành Siêu Sao!",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Seraphine19_Indie"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_seraphine19_indietrait.png"
+ },
+ {
+  "id": "DA_Sona19_UniqueTrait",
+  "name": "Nhà Sản Xuất",
+  "nameEn": "Producer",
+  "type": "unique",
+  "desc": "Khi Sona được triển khai, chọn 1 ban nhạc để biểu diễn cùng, nhận tộc/hệ của ban nhạc đó.\r\n\r\nSona chuyển toàn bộ Sức Mạnh Công Kích và Tốc Độ Đánh cộng thêm thành Sức Mạnh Phép Thuật.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 1000,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Sona19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_sona19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Teemo19_UniqueTrait",
+  "name": "Khuấy Động",
+  "nameEn": "Hype Man",
+  "type": "unique",
+  "desc": "",
+  "steps": [
+   {
+    "min": 1,
+    "max": 1000,
+    "style": 6,
+    "desc": "Whenever a Hyperpop champion deals 2500 damage or takes 2500 damage, store an extra Hyperpop Hype.\r\n\r\nHype Stored This Combat: ?"
+   }
+  ],
+  "units": [
+   "DA_Teemo19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_teemo19_uniquetrait.png"
+ },
+ {
+  "id": "DA_TwistedFate19_UniqueTrait",
+  "name": "Tango",
+  "nameEn": "Tango",
+  "type": "unique",
+  "desc": "Twisted Fate chọn đồng minh gần nhất làm Bạn Nhảy Tango. Cả hai bùng cháy đam mê, nhận thêm 15% Tốc Độ Đánh. Sát thương của họ gây Thiêu Đốt 1% và áp dụng Vết Thương Sâu 33% lên kẻ địch trong 3 giây.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_TwistedFate19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_twistedfate19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Zeri19_UniqueTrait",
+  "name": "Goth",
+  "nameEn": "Goth",
+  "type": "unique",
+  "desc": "Trong mỗi giao tranh, lần đầu Zeri mạnh nhất của bạn gây sát thương lên kẻ địch, những con dơi hút máu sẽ đánh cắp 8% Sức Mạnh Công Kích của mục tiêu và mang về cho cô.",
+  "steps": [
+   {
+    "min": 1,
+    "max": 300,
+    "style": 6,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Zeri19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_zeri19_uniquetrait.png"
+ },
+ {
+  "id": "DA_Arcanist19",
+  "name": "Pháp Sư",
+  "nameEn": "Arcanist",
+  "type": "class",
+  "desc": "Đội của bạn nhận Sức Mạnh Phép Thuật, tướng Pháp Sư nhận nhiều hơn.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 3,
+    "style": 1,
+    "desc": "(2) 12% SMPT, 0% SMPT cho Pháp Sư"
+   },
+   {
+    "min": 4,
+    "max": 5,
+    "style": 3,
+    "desc": "(4) 18% SMPT, 50% SMPT với Pháp Sư"
+   },
+   {
+    "min": 6,
+    "max": 1000,
+    "style": 4,
+    "desc": "(6) 30% SMPT, 70% SMPT cho Pháp Sư"
+   }
+  ],
+  "units": [
+   "DA_Annie19",
+   "DA_Karthus19",
+   "DA_Mel19",
+   "DA_Swain19",
+   "DA_Vladimir19",
+   "DA_Ziggs19",
+   "DA_Zoe19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_arcanist19.png"
+ },
+ {
+  "id": "DA_Bodyguard19",
+  "name": "Vệ Sĩ",
+  "nameEn": "Bodyguard",
+  "type": "class",
+  "desc": "Khi còn ít nhất 1 tướng Vệ Sĩ sống sót, đội của bạn nhận 15 Giáp và Kháng Phép. Các tướng Vệ Sĩ nhận nhiều hơn.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 3,
+    "style": 1,
+    "desc": "(2) 22 Giáp+Kháng phép"
+   },
+   {
+    "min": 4,
+    "max": 5,
+    "style": 3,
+    "desc": "(4) 55 Giáp+Kháng phép"
+   },
+   {
+    "min": 6,
+    "max": 1000,
+    "style": 4,
+    "desc": "(6) 105 Giáp+Kháng phép"
+   }
+  ],
+  "units": [
+   "DA_Jax19",
+   "DA_Kennen19",
+   "DA_KSante19",
+   "DA_Leona19",
+   "DA_Lillia19",
+   "DA_Nasus19",
+   "DA_Tibbers19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_bodyguard19.png"
+ },
+ {
+  "id": "DA_Choreographer19",
+  "name": "Biên Đạo",
+  "nameEn": "Choreographer",
+  "type": "class",
+  "desc": "Đồng minh bắt đầu ở 2 hàng trước sẽ nhận Lá Chắn. Tất cả các đồng minh khác sẽ nhận Khuếch Đại Sát Thương. Biên Đạo nhận gấp đôi.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 2,
+    "style": 1,
+    "desc": "(2) 150 Shield; 6% Khuếch đại ST"
+   },
+   {
+    "min": 3,
+    "max": 3,
+    "style": 3,
+    "desc": "(3) 225 Lá Chắn; 10% Khuếch đại ST"
+   },
+   {
+    "min": 4,
+    "max": 4,
+    "style": 3,
+    "desc": "(4) 375 Lá Chắn; 10% Khuếch đại ST"
+   },
+   {
+    "min": 5,
+    "max": 1000,
+    "style": 4,
+    "desc": "(5) 550 Lá Chắn; 20% Khuếch đại ST"
+   }
+  ],
+  "units": [
+   "DA_19_Ahri",
+   "DA_Garen19",
+   "DA_Lulu19",
+   "DA_Nidalee19",
+   "DA_Rakan19",
+   "DA_RenataGlasc19",
+   "DA_Syndra19",
+   "DA_Viego19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_choreographer19.png"
+ },
+ {
+  "id": "DA_Collab19",
+  "name": "Collab",
+  "nameEn": "Collab",
+  "type": "class",
+  "desc": "Tướng Collab được truyền cảm hứng sau khi nhận hoặc gây sát thương 8 lần, nhận Sức Mạnh Công Kích và Sức Mạnh Phép Thuật.\r\n\r\nMỗi 7 lần truyền cảm hứng trong giao tranh người chơi, nhận bản sao của tướng Collab. (?/7)",
+  "steps": [
+   {
+    "min": 3,
+    "max": 4,
+    "style": 1,
+    "desc": "(3) 8% SMCK+SMPT"
+   },
+   {
+    "min": 5,
+    "max": 1000,
+    "style": 4,
+    "desc": "(5) 20% SMCK+SMPT"
+   }
+  ],
+  "units": [
+   "DA_Sona19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_collab19.png"
+ },
+ {
+  "id": "DA_DemonVision19",
+  "name": "Rock",
+  "nameEn": "Rock",
+  "type": "origin",
+  "desc": "",
+  "steps": [
+   {
+    "min": 3,
+    "max": 3,
+    "style": 1,
+    "desc": "(3) Triệu hồi Thần Tượng Hỏa Ngục."
+   },
+   {
+    "min": 4,
+    "max": 4,
+    "style": 3,
+    "desc": "(4) He heals for 10% of damage dealt by Rock champions."
+   },
+   {
+    "min": 5,
+    "max": 6,
+    "style": 3,
+    "desc": "(5) On cast, he fires a massive blast through the most enemies!"
+   },
+   {
+    "min": 7,
+    "max": 300,
+    "style": 4,
+    "desc": "(7) Sau mỗi 3 giây nó tồn tại, 2 tia đạn bắn vào kẻ địch ở gần, lặp lại 15% sát thương các tướng Rock đã gây ra dưới dạng sát thương phép."
+   }
+  ],
+  "units": [
+   "DA_Camille19",
+   "DA_Locke19",
+   "DA_Olaf19",
+   "DA_Pyke19",
+   "DA_Swain19",
+   "DA_Varus19",
+   "DA_Vayne19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_demonvision19.png"
+ },
+ {
+  "id": "DA_EDM19",
+  "name": "EDM",
+  "nameEn": "EDM",
+  "type": "origin",
+  "desc": "",
+  "steps": [
+   {
+    "min": 2,
+    "max": 300,
+    "style": 4,
+    "desc": "(2) Các Kỹ Năng EDM trở nên khó hơn, xịn hơn, nhanh hơn và mạnh mẽ hơn."
+   }
+  ],
+  "units": [
+   "DA_Jax19",
+   "DA_Vi19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_edm19.png"
+ },
+ {
+  "id": "DA_Encore19",
+  "name": "Encore",
+  "nameEn": "Encore",
+  "type": "class",
+  "desc": "Khi các tướng Encore bắn ra đường đạn bằng kỹ năng của mình, họ bắn thêm một đường đạn với hiệu quả giảm đi.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 3,
+    "style": 1,
+    "desc": "(2) 0% hiệu lực"
+   },
+   {
+    "min": 4,
+    "max": 1000,
+    "style": 4,
+    "desc": "(4) 50% effectiveness"
+   }
+  ],
+  "units": [
+   "DA_Ezreal19",
+   "DA_Jhin19",
+   "DA_Lucian19",
+   "DA_Neeko19",
+   "DA_Taliyah19",
+   "DA_Varus19",
+   "DA_Yuumi19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_encore19.png"
+ },
+ {
+  "id": "DA_Frontman19",
+  "name": "Hát Chính",
+  "nameEn": "Frontman",
+  "type": "class",
+  "desc": "Đội của bạn được tăng 100 Máu. Tướng Hát Chính được tăng nhiều hơn và lượng này tăng thêm sau lần thi triển đầu tiên.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 3,
+    "style": 1,
+    "desc": "(2) 15% Máu, tăng thành 25% Máu"
+   },
+   {
+    "min": 4,
+    "max": 5,
+    "style": 3,
+    "desc": "(4) 22% Máu, increased to 40% Máu"
+   },
+   {
+    "min": 6,
+    "max": 1000,
+    "style": 4,
+    "desc": "(6) 35% Máu, tăng lên thành 60% Máu"
+   }
+  ],
+  "units": [
+   "DA_Elise19",
+   "DA_Galio19",
+   "DA_Illaoi19",
+   "DA_Kobuko19",
+   "DA_Nunu19",
+   "DA_Renekton19",
+   "DA_Sett19",
+   "DA_Shyvana19",
+   "DA_Swain19",
+   "DA_Thresh19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_frontman19.png"
+ },
+ {
+  "id": "DA_GlitterBomb19",
+  "name": "Hyperpop",
+  "nameEn": "Hyperpop",
+  "type": "origin",
+  "desc": "Tướng Hyperpop nhận Máu và Tốc Độ Đánh. Sau giao tranh người chơi, họ tạo ra 4/6/12/40 Phấn Khích dựa trên cấp sao của mình + 1 Phấn Khích với mỗi lần tham gia hạ gục.\r\n\r\nMỗi khi bạn đạt Cấp Phấn Khích mới, nhận các phần thưởng đặc biệt! Ở các mốc hệ cao hơn, nhận thêm Phấn Khích!",
+  "steps": [
+   {
+    "min": 2,
+    "max": 2,
+    "style": 1,
+    "desc": "(2) 100 Máu, 10% Tốc đánh"
+   },
+   {
+    "min": 3,
+    "max": 3,
+    "style": 3,
+    "desc": "(3) 100 Máu, 15% Tốc đánh, 1.5x Phấn Khích"
+   },
+   {
+    "min": 4,
+    "max": 4,
+    "style": 3,
+    "desc": "(4) 250 Máu, 25% Tốc đánh, 3x Phấn Khích"
+   },
+   {
+    "min": 5,
+    "max": 1000,
+    "style": 4,
+    "desc": "(5) 400 Máu, 40% Tốc đánh, 3.5x Phấn Khích"
+   }
+  ],
+  "units": [
+   "DA_Kobuko19",
+   "DA_Lulu19",
+   "DA_Teemo19",
+   "DA_Tristana19",
+   "DA_Ziggs19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_glitterbomb19.png"
+ },
+ {
+  "id": "DA_Heartsteel19",
+  "name": "Heartsteel",
+  "nameEn": "Heartsteel",
+  "type": "origin",
+  "desc": "",
+  "steps": [
+   {
+    "min": 1,
+    "max": 2,
+    "style": 1,
+    "desc": "(1) Heartsteel members grant your team bonuses."
+   },
+   {
+    "min": 3,
+    "max": 4,
+    "style": 3,
+    "desc": "(3) Choose a Bias, empowering their Ability."
+   },
+   {
+    "min": 5,
+    "max": 6,
+    "style": 3,
+    "desc": "(5) Chọn Bias thứ 2."
+   },
+   {
+    "min": 7,
+    "max": 6,
+    "style": 4,
+    "desc": "(7) Tướng Heartsteel nhận thêm 150% hiệu ứng thưởng Heartsteel đang kích hoạt."
+   },
+   {
+    "min": 7,
+    "max": 300,
+    "style": 5,
+    "desc": "(7) Heartsteel champions gain an additional 150% of active Heartsteel bonuses.\r\nPrismatic: Buckle up—HEARTSTEEL IS BACK!"
+   }
+  ],
+  "units": [
+   "DA_Alune19",
+   "DA_Aphelios19",
+   "DA_Ezreal19",
+   "DA_Kayn19",
+   "DA_KSante19",
+   "DA_Sett19",
+   "DA_Sona19",
+   "DA_Yone19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_heartsteel19.png"
+ },
+ {
+  "id": "DA_Heavenscale19",
+  "name": "Cổ Phong",
+  "nameEn": "Gu Feng",
+  "type": "origin",
+  "desc": "Các tướng Cổ Phong nhận thêm chỉ số, tăng theo cấp độ người chơi của bạn.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 2,
+    "style": 1,
+    "desc": "(2) 2% và 2 mỗi cấp."
+   },
+   {
+    "min": 3,
+    "max": 3,
+    "style": 3,
+    "desc": "(3) và 2% mỗi cấp."
+   },
+   {
+    "min": 4,
+    "max": 300,
+    "style": 4,
+    "desc": "(4) Chọn giữa 2 Cuộn Thư mà các tướng Cổ Phong có thể trang bị. 1 trong 2 Cuộn Thư sẽ mở ra một con đường nguy hiểm đến Cấp 11."
+   }
+  ],
+  "units": [
+   "DA_Janna19",
+   "DA_LeeSin19",
+   "DA_Wukong19",
+   "DA_Xayah19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_heavenscale19.png"
+ },
+ {
+  "id": "DA_Hitmaker19",
+  "name": "Hitmaker",
+  "nameEn": "Hitmaker",
+  "type": "class",
+  "desc": "Tướng Hitmaker nhận 12% Sức Mạnh Công Kích. Những tướng Hitmaker có nhiều trang bị nhất trở thành Tai To Mặt Lớn, nhận thêm nhiều Sức Mạnh Công Kích hơn nữa.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 3,
+    "style": 1,
+    "desc": "(2) 0 Tai To Mặt Lớn, 20% SMCK"
+   },
+   {
+    "min": 4,
+    "max": 1000,
+    "style": 4,
+    "desc": "(4) 2 Tai To Mặt Lớn, 35% SMCK"
+   }
+  ],
+  "units": [
+   "DA_Jinx19",
+   "DA_Lucian19",
+   "DA_MissFortune19",
+   "DA_Senna19",
+   "DA_Tristana19",
+   "DA_Xayah19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_hitmaker19.png"
+ },
+ {
+  "id": "DA_Illbeats19",
+  "name": "Illbeats",
+  "nameEn": "Illbeats",
+  "type": "origin",
+  "desc": "Mở Bàn Phối Nhạc Illbeats để phân bổ Decibel. Tướng Illbeats nhận các chỉ số khác nhau tùy theo bản phối của bạn. Đội của bạn nhận 50% của bản phối.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 2,
+    "style": 1,
+    "desc": "(2) 10 Decibels"
+   },
+   {
+    "min": 3,
+    "max": 3,
+    "style": 3,
+    "desc": "(3) 10 Decibels"
+   },
+   {
+    "min": 4,
+    "max": 300,
+    "style": 4,
+    "desc": "(4) 18 Decibels. The mix is 50% stronger."
+   }
+  ],
+  "units": [
+   "DA_Braum19",
+   "DA_Draven19",
+   "DA_Illaoi19",
+   "DA_Yuumi19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_illbeats19.png"
+ },
+ {
+  "id": "DA_IonicSpark19",
+  "name": "Ionic Spark",
+  "nameEn": "Ionic Spark",
+  "type": "origin",
+  "desc": "Người hâm mộ cổ vũ các thành viên Ionic Spark bằng cách tặng quà mỗi 4 giây. Các thành viên Ionic Spark nhận thêm Máu.",
+  "steps": [
+   {
+    "min": 3,
+    "max": 4,
+    "style": 1,
+    "desc": "(3) 100 Máu; Những lá thư giúp hồi 2% Máu và cho thêm 7% Tốc đánh"
+   },
+   {
+    "min": 5,
+    "max": 6,
+    "style": 3,
+    "desc": "(5) 250 Máu; Những món quà được cá nhân hóa, cho 25% SMCK hoặc 25% SMPT"
+   },
+   {
+    "min": 7,
+    "max": 9,
+    "style": 4,
+    "desc": "(7) 550 Máu; Sau mỗi 2 giao tranh người chơi, nhận vàng và 1 vật phẩm tiêu thụ!"
+   },
+   {
+    "min": 10,
+    "max": 1000,
+    "style": 5,
+    "desc": "(10) Người hâm mộ tràn lên sân khấu!"
+   }
+  ],
+  "units": [
+   "DA_Annie19",
+   "DA_Aurora19",
+   "DA_Briar19",
+   "DA_Elise19",
+   "DA_Gwen19",
+   "DA_Jinx19",
+   "DA_Lux19",
+   "DA_Shyvana19",
+   "DA_Sona19",
+   "DA_Tibbers19",
+   "DA_Yunara19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_ionicspark19.png"
+ },
+ {
+  "id": "DA_Jazz19",
+  "name": "Jazz",
+  "nameEn": "Jazz",
+  "type": "origin",
+  "desc": "Với mỗi tộc/hệ đang kích hoạt (trừ những tộc/hệ độc nhất), đội của bạn nhận thêm Máu và Khuếch Đại Sát Thương.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 2,
+    "style": 1,
+    "desc": "(2) 1.5% , 1%"
+   },
+   {
+    "min": 3,
+    "max": 3,
+    "style": 3,
+    "desc": "(3) 2.5% , 1.5%"
+   },
+   {
+    "min": 4,
+    "max": 300,
+    "style": 4,
+    "desc": "(4) 3.5% , 2%"
+   }
+  ],
+  "units": [
+   "DA_Bard19",
+   "DA_Galio19",
+   "DA_Lucian19",
+   "DA_Smeech19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_jazz19.png"
+ },
+ {
+  "id": "DA_Juggernaut19",
+  "name": "Dũng Sĩ",
+  "nameEn": "Juggernaut",
+  "type": "class",
+  "desc": "Juggernauts gain Durability, increasing based on their missing Health.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 3,
+    "style": 1,
+    "desc": "(2) 15% Bền bỉ đến 25% Bền bỉ"
+   },
+   {
+    "min": 4,
+    "max": 5,
+    "style": 3,
+    "desc": "(4) 15% Bền bỉ - 35% Bền bỉ"
+   },
+   {
+    "min": 6,
+    "max": 1000,
+    "style": 4,
+    "desc": "(6) 35% Bền bỉ - 48% Bền bỉ"
+   }
+  ],
+  "units": [
+   "DA_Annie19",
+   "DA_Braum19",
+   "DA_Ekko19",
+   "DA_Gragas19",
+   "DA_Olaf19",
+   "DA_Taric19",
+   "DA_Vi19",
+   "DA_Yorick19",
+   "DA_Zac19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_juggernaut19.png"
+ },
+ {
+  "id": "DA_KDA19",
+  "name": "K/DA",
+  "nameEn": "K/DA",
+  "type": "origin",
+  "desc": "Các tướng K/DA phát hành bài hát mới dựa trên tổng cấp sao của họ. Khi Bắt Đầu Giao Tranh và sau 8 giây, họ nhận sức mạnh với mỗi bài hát của mình.",
+  "steps": [
+   {
+    "min": 3,
+    "max": 4,
+    "style": 1,
+    "desc": "(3) POP/STARS: Giảm 10% Năng Lượng tối đa."
+   },
+   {
+    "min": 5,
+    "max": 6,
+    "style": 3,
+    "desc": "(5) DRUM GO DUM: 12% Shield for 8 seconds."
+   },
+   {
+    "min": 7,
+    "max": 9,
+    "style": 3,
+    "desc": "(7) VILLAIN: 60% giảm dần theo thời gian trong 8 giây."
+   },
+   {
+    "min": 10,
+    "max": 12,
+    "style": 3,
+    "desc": "(10) I'LL SHOW YOU: Cường hóa tất cả hiệu ứng trước đó thêm 1.25."
+   },
+   {
+    "min": 13,
+    "max": 14,
+    "style": 3,
+    "desc": "(13) WATCH ME: Làm Choáng tất cả kẻ địch trong 1 giây."
+   },
+   {
+    "min": 15,
+    "max": 20,
+    "style": 4,
+    "desc": "(15) FIRESTARTER: Kẻ địch chịu 12% sát thương phép theo Máu tối đa trong 8 giây."
+   },
+   {
+    "min": 21,
+    "max": 300,
+    "style": 5,
+    "desc": "(21) GIRLS: Các thành viên K/DA thăng lên 4 sao."
+   }
+  ],
+  "units": [
+   "DA_19_Ahri",
+   "DA_AkaliKDA19",
+   "DA_Evelynn19",
+   "DA_Gragas19",
+   "DA_Kaisa19",
+   "DA_Leona19",
+   "DA_Lillia19",
+   "DA_Neeko19",
+   "DA_Sona19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_kda19.png"
+ },
+ {
+  "id": "DA_Manager19",
+  "name": "Quản Lý",
+  "nameEn": "Manager",
+  "type": "class",
+  "desc": "Thần Tượng - Nhận 1 ô hào quang. Đồng minh bắt đầu giao tranh trong đó nhận được các chỉ số cộng thêm khi bắt đầu giao tranh và mỗi 5 giây.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 2,
+    "style": 1,
+    "desc": "(2) 6% SMCK+SMPT"
+   },
+   {
+    "min": 3,
+    "max": 3,
+    "style": 4,
+    "desc": "(3) VÀ 8 Năng Lượng"
+   },
+   {
+    "min": 4,
+    "max": 1000,
+    "style": 4,
+    "desc": "(4) AND they drop 1 Gold! (Total: ?)"
+   }
+  ],
+  "units": [
+   "DA_Alune19",
+   "DA_DrMundo19",
+   "DA_Leona19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_manager19.png"
+ },
+ {
+  "id": "DA_Mosher19",
+  "name": "Đồ Tể",
+  "nameEn": "Slayer",
+  "type": "class",
+  "desc": "Tướng Đồ Tể nhận Tốc Độ Đánh và Hút Máu Toàn Phần, tăng thêm tối đa 100% dựa trên lượng Máu đã mất của họ.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 3,
+    "style": 1,
+    "desc": "(2) 20% Tốc đánh, 8% Hút máu toàn phần"
+   },
+   {
+    "min": 4,
+    "max": 5,
+    "style": 3,
+    "desc": "(4) 40% Tốc đánh, 10% Hút máu toàn phần"
+   },
+   {
+    "min": 6,
+    "max": 1000,
+    "style": 4,
+    "desc": "(6) 65% Tốc đánh, 12% Hút máu toàn phần"
+   }
+  ],
+  "units": [
+   "DA_Briar19",
+   "DA_Camille19",
+   "DA_Katarina19",
+   "DA_Kayn19",
+   "DA_Smeech19",
+   "DA_Viego19",
+   "DA_Yasuo19",
+   "DA_Yone19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_mosher19.png"
+ },
+ {
+  "id": "DA_MysticInstrument19",
+  "name": "Nhạc Cụ",
+  "nameEn": "Mystical Instrument",
+  "type": "class",
+  "desc": "Thu thập cả 5 Nhạc Cụ để viết nên tuyệt tác của Malzahar và mở khóa Baron Nashor!\r\n\r\nKhông thể triển khai trong giao tranh.",
+  "steps": [
+   {
+    "min": 0,
+    "max": 300,
+    "style": 1,
+    "desc": ""
+   }
+  ],
+  "units": [],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_mysticinstrument19.png"
+ },
+ {
+  "id": "DA_OceanSong19",
+  "name": "Beach Pop",
+  "nameEn": "Beach Pop",
+  "type": "origin",
+  "desc": "Nhận các nhạc cụ có thể đặt trên bàn đấu để cường hóa đồng minh liền kề. Đồng minh được cường hóa hồi 2% Máu mỗi 3 giây.\r\n\r\nTướng Beach Pop được cường hóa nhận Tốc Độ Đánh và hồi Năng Lượng mỗi 3 giây.",
+  "steps": [
+   {
+    "min": 0,
+    "max": 300,
+    "style": 1,
+    "desc": ""
+   }
+  ],
+  "units": [
+   "DA_Ashe19",
+   "DA_Graves19",
+   "DA_Renekton19",
+   "DA_Syndra19",
+   "DA_Taliyah19",
+   "DA_Taric19",
+   "DA_Zac19",
+   "DA_Zoe19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_oceansong19.png"
+ },
+ {
+  "id": "DA_Pentakill19",
+  "name": "Pentakill",
+  "nameEn": "Pentakill",
+  "type": "origin",
+  "desc": "Các thành viên Pentakill nhận Sức Mạnh Công Kích và Sức Mạnh Phép Thuật.\r\n\r\nMột số kẻ địch đầu tiên tụt xuống dưới 10% Máu sẽ bị hành quyết và triệu hồi 1 ma sương đồng minh thế chỗ.",
+  "steps": [
+   {
+    "min": 3,
+    "max": 4,
+    "style": 1,
+    "desc": "(3) 0% , 2 enemies"
+   },
+   {
+    "min": 5,
+    "max": 6,
+    "style": 3,
+    "desc": "(5) 30% , 2 kẻ địch"
+   },
+   {
+    "min": 7,
+    "max": 6,
+    "style": 4,
+    "desc": "(7) 35% , 4 kẻ địch. Kẻ địch đầu tiên bị hạ gục thay vào đó sẽ triệu hồi Hầm Mộ Thép."
+   },
+   {
+    "min": 7,
+    "max": 1000,
+    "style": 5,
+    "desc": "(7) 35% . MA SƯƠNG XÂU XÉ!!!!!!!"
+   }
+  ],
+  "units": [
+   "DA_Gnar19",
+   "DA_Karthus19",
+   "DA_Kayle19",
+   "DA_Mordekaiser19",
+   "DA_Olaf19",
+   "DA_Sona19",
+   "DA_Viego19",
+   "DA_Yorick19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_pentakill19.png"
+ },
+ {
+  "id": "DA_Prodigy19",
+  "name": "Phi Thường",
+  "nameEn": "Prodigy",
+  "type": "class",
+  "desc": "Đội của bạn nhận 1 Hồi Năng Lượng. Tướng Phi Thường nhận nhiều hơn.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 2,
+    "style": 1,
+    "desc": "(2) 2 Hồi năng lượng"
+   },
+   {
+    "min": 3,
+    "max": 3,
+    "style": 3,
+    "desc": "(3) 3 Hồi năng lượng"
+   },
+   {
+    "min": 4,
+    "max": 4,
+    "style": 3,
+    "desc": "(4) 5 Hồi năng lượng"
+   },
+   {
+    "min": 5,
+    "max": 1000,
+    "style": 4,
+    "desc": "(5) 6 Hồi năng lượng; Đồng minh thấp Máu nhất sẽ hồi máu bằng 10% sát thương gây ra bởi các kỹ năng của tướng Phi Thường."
+   }
+  ],
+  "units": [
+   "DA_Alune19",
+   "DA_Ekko19",
+   "DA_Janna19",
+   "DA_Lux19",
+   "DA_Malzahar19",
+   "DA_Neeko19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_prodigy19.png"
+ },
+ {
+  "id": "DA_Renegade19",
+  "name": "Ngoại Đạo",
+  "nameEn": "Renegade",
+  "type": "class",
+  "desc": "Tướng Ngoại Đạo được tăng Chuẩn Xác, Tỉ Lệ Chí Mạng và Sát Thương Chí Mạng.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 2,
+    "style": 1,
+    "desc": "(2) 15% Chí mạng, 12% ST chí mạng"
+   },
+   {
+    "min": 3,
+    "max": 3,
+    "style": 3,
+    "desc": "(3) 15% Chí mạng, 18% ST chí mạng"
+   },
+   {
+    "min": 4,
+    "max": 4,
+    "style": 3,
+    "desc": "(4) 25% Chí mạng, 22% ST chí mạng"
+   },
+   {
+    "min": 5,
+    "max": 1000,
+    "style": 4,
+    "desc": "(5) 35% Chí mạng, 25% ST chí mạng Ngoài ra, Ngoại Đạo nhận 10% Chống Chịu."
+   }
+  ],
+  "units": [
+   "DA_Aurora19",
+   "DA_Evelynn19",
+   "DA_Graves19",
+   "DA_Pyke19",
+   "DA_Qiyana19",
+   "DA_Samira19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_renegade19.png"
+ },
+ {
+  "id": "DA_RnB19",
+  "name": "R&B",
+  "nameEn": "R&B",
+  "type": "origin",
+  "desc": "",
+  "steps": [
+   {
+    "min": 1,
+    "max": 1,
+    "style": 1,
+    "desc": "(1) Đội của bạn chịu ít hơn 6% sát thương từ các kỹ năng."
+   },
+   {
+    "min": 2,
+    "max": 300,
+    "style": 4,
+    "desc": "(2) Mel và Rell mạnh nhất của bạn được liên kết linh hồn. 70% sát thương Mel phải nhận sẽ được chuyển sang Rell. Rell hồi máu bằng 20% sát thương do Mel gây ra."
+   }
+  ],
+  "units": [
+   "DA_Mel19",
+   "DA_Rell19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_rnb19.png"
+ },
+ {
+  "id": "DA_Swiftstriker19",
+  "name": "Tốc Kích",
+  "nameEn": "Swiftstriker",
+  "type": "class",
+  "desc": "Your team gains 10% Attack Speed. \r\n\r\nSwiftstrikers gain more every 2 seconds, up to 5 times.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 2,
+    "style": 1,
+    "desc": "(2) 5% Tốc đánh mỗi cộng dồn"
+   },
+   {
+    "min": 3,
+    "max": 3,
+    "style": 3,
+    "desc": "(3) 7% Tốc đánh per stack"
+   },
+   {
+    "min": 4,
+    "max": 4,
+    "style": 3,
+    "desc": "(4) 13% Tốc đánh per stack"
+   },
+   {
+    "min": 5,
+    "max": 1000,
+    "style": 4,
+    "desc": "(5) 20% Tốc đánh per stack"
+   }
+  ],
+  "units": [
+   "DA_Ashe19",
+   "DA_Bard19",
+   "DA_Jax19",
+   "DA_Kayle19",
+   "DA_Locke19",
+   "DA_Yunara19",
+   "DA_Zeri19",
+   "DA_Ziggs19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_swiftstriker19.png"
+ },
+ {
+  "id": "DA_Trickshot19",
+  "name": "Trickshot",
+  "nameEn": "Trickshot",
+  "type": "class",
+  "desc": "Trickshots' attacks and Abilities ricochet. Each ricochet deals a percentage of the previous bounce's damage.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 2,
+    "style": 1,
+    "desc": "(2) 1 richochet; 22% of previous damage"
+   },
+   {
+    "min": 3,
+    "max": 3,
+    "style": 3,
+    "desc": "(3) 1 lần nảy; 33% sát thương của lần trước"
+   },
+   {
+    "min": 4,
+    "max": 300,
+    "style": 4,
+    "desc": "(4) 2 lần nảy; 33% sát thương của lần trước"
+   }
+  ],
+  "units": [
+   "DA_Draven19",
+   "DA_Gnar19",
+   "DA_Kaisa19",
+   "DA_Samira19",
+   "DA_TwistedFate19",
+   "DA_Vayne19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_trickshot19.png"
+ },
+ {
+  "id": "DA_TrueDamage19",
+  "name": "True Damage",
+  "nameEn": "True Damage",
+  "type": "origin",
+  "desc": "Khi ở phe A, nhận Bling khi thắng giao tranh với người chơi. Ở phe B-Side, nhận Bling khi thua.Cứ mỗi 4 vòng, hãy chọn đổi Bling lấy phần thưởng hoặc Tiếp Tục Tích Lũy.",
+  "steps": [
+   {
+    "min": 3,
+    "max": 2,
+    "style": 1,
+    "desc": "Mặt A: Thắng\r\n3) Các thành viên True Damage gây 18% sát thương chuẩn cộng thêm. Nhận 2 Hào Nhoáng khi hạ gục + 15 nếu bạn thắng giao tranh."
+   },
+   {
+    "min": 3,
+    "max": 4,
+    "style": 1,
+    "desc": "Mặt B: Thua\r\n3) Sau khi thua, nhận 14 Hào Nhoáng + 6 cho mỗi trận thua liên tiếp ở Mặt B. Nếu bạn thắng, mất đi 50% Hào Nhoáng."
+   },
+   {
+    "min": 5,
+    "max": 4,
+    "style": 4,
+    "desc": "5) 30% sát thương chuẩn. 4 Hào Nhoáng khi hạ gục + 20 nếu bạn thắng giao tranh."
+   },
+   {
+    "min": 5,
+    "max": 4,
+    "style": 5,
+    "desc": "5) 67% sát thương chuẩn. Nhận 10 Hào Nhoáng khi hạ gục kẻ địch và thêm 30 Hào Nhoáng nếu thắng giao tranh.\r\nKim Cương: KNOW MY NAME vang lên từ máy hát đĩa!\r\nCác thành viên True Damage gây thêm 99% sát thương chuẩn và nhận gấp đôi hào nhoáng."
+   },
+   {
+    "min": 5,
+    "max": 4,
+    "style": 4,
+    "desc": "5) Each round after combat, heal 2 player Health and gain 2 XP."
+   },
+   {
+    "min": 5,
+    "max": 1000,
+    "style": 5,
+    "desc": "5) Mỗi vòng sau giao tranh, hồi 2 Máu người chơi và nhận 2 XP.\r\nKim Cương: GIANTS vang lên từ máy phát nhạc!\r\nCác thành viên True Damage gây 99% sát thương chuẩn cộng thêm và rớt ra vàng khi hạ gục."
+   }
+  ],
+  "units": [
+   "DA_Akali_TrueDamage19",
+   "DA_Ekko19",
+   "DA_Kennen19",
+   "DA_Qiyana19",
+   "DA_Senna19",
+   "DA_Sona19",
+   "DA_Yasuo19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_truedamage19.png"
+ },
+ {
+  "id": "DA_Virtuosos19",
+  "name": "Cổ Điển",
+  "nameEn": "Classical",
+  "type": "origin",
+  "desc": "Classical champions Captivate enemies in unique ways. They gain Damage Amp, increased by 1% every 6 seconds an enemy is Captivated.",
+  "steps": [
+   {
+    "min": 2,
+    "max": 3,
+    "style": 1,
+    "desc": "(2) 8% Khuếch đại ST; những kẻ bị Mê Hoặc gây 10% sát thương giảm."
+   },
+   {
+    "min": 4,
+    "max": 5,
+    "style": 3,
+    "desc": "(4) 20% Khuếch đại ST; những kẻ bị Thu Hút sẽ ném hoa hồng khi bị hạ gục, hồi máu cho một tướng Cổ Điển bằng 10% Máu"
+   },
+   {
+    "min": 6,
+    "max": 1000,
+    "style": 4,
+    "desc": "(6) 35% Khuếch đại ST; những kẻ bị Mê Hoặc có 15% tỉ lệ tham gia vào hàng chờ của bạn khi bị hạ gục."
+   }
+  ],
+  "units": [
+   "DA_Jhin19",
+   "DA_Katarina19",
+   "DA_Nasus19",
+   "DA_RenataGlasc19",
+   "DA_Samira19",
+   "DA_Thresh19",
+   "DA_Vladimir19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/traits/da_virtuosos19.png"
+ }
+]

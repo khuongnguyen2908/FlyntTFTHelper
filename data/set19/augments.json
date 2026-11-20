@@ -1,0 +1,6028 @@
+[
+ {
+  "id": "DA_AdvancedLoan",
+  "name": "Vay Tạm Ứng",
+  "nameEn": "Advanced Loan",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 22 Vàng. Nâng cấp tiếp theo của bạn bị giảm 1 bậc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_advancedloan.png"
+ },
+ {
+  "id": "DA_AdvancedLoanPlus",
+  "name": "Vay Tạm Ứng+",
+  "nameEn": "Advanced Loan+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 33 Vàng. Nâng cấp tiếp theo của bạn bị giảm 1 bậc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_advancedloanplus.png"
+ },
+ {
+  "id": "DA_19_AimHigh",
+  "name": "Hướng Tới Đỉnh Cao",
+  "nameEn": "Aim High",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "The first 2 times you purchase a unique unlockable 5-cost champion, gain a recommended item for them.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_aimhigh.png"
+ },
+ {
+  "id": "DA_AllThatShimmers",
+  "name": "Kim Long Lấp Lánh",
+  "nameEn": "All That Shimmers",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Chọn 1 Tạo Tác sinh vàng. Nhận 1 Nam Châm Ma Thuật.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_allthatshimmers.png"
+ },
+ {
+  "id": "DA_AllThatShimmers+",
+  "name": "Kim Long Lấp Lánh+",
+  "nameEn": "All That Shimmers+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Chọn 1 Tạo Tác sinh vàng. Nhận 1 Nam Châm Ma Thuật và 4 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_allthatshimmers+.png"
+ },
+ {
+  "id": "DA_ArcaneViktory",
+  "name": "Arcane Viktor-y",
+  "nameEn": "Arcane Viktor-y",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Sau 8 giây giao tranh, làm choáng đội địch trong 1.5 giây. Lặp lại hiệu ứng này sau 18 giây giao tranh.\r\n\r\nĐTCL Macao Open, 2024",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_arcaneviktory.png"
+ },
+ {
+  "id": "DA_ArmedAndGenerous",
+  "name": "Vũ Trang Và Hào Phóng",
+  "nameEn": "Armed and Generous",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Kiếm Súng Hextech. Hiệu ứng hồi máu cho đồng minh của các Kiếm Súng giờ cũng áp dụng lên mục tiêu thứ hai với 75% hiệu quả.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_armedandgenerous.png"
+ },
+ {
+  "id": "DA_ArmorStand",
+  "name": "Giá Treo Giáp",
+  "nameEn": "Armor Stand",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Hình Nhân mang Găng Đạo Tặc. Nó luôn xuất hiện trang bị Đỡ Đòn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_armorstand.png"
+ },
+ {
+  "id": "DA_Ascension",
+  "name": "Thăng Hoa",
+  "nameEn": "Ascension",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Sau 12 giây giao tranh, các tướng của bạn nhận thêm 35% Khuếch Đại Sát Thương.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_ascension.png"
+ },
+ {
+  "id": "DA_PartialAscension",
+  "name": "Bán Thăng Hoa",
+  "nameEn": "Partial Ascension",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Sau 12 giây giao tranh, các tướng của bạn nhận thêm 20% Khuếch Đại Sát Thương.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_partialascension.png"
+ },
+ {
+  "id": "DA_AugmentedPower",
+  "name": "Nâng Tầm Uy Lực",
+  "nameEn": "Augmented Power",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nâng Cấp tiếp theo của bạn được tăng một bậc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_augmentedpower.png"
+ },
+ {
+  "id": "DA_BacklineBlueprint",
+  "name": "Sơ Đồ Tuyến Sau",
+  "nameEn": "Backline Blueprint",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "trait"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 tướng 3 vàng không phải Đỡ Đòn và 1 Ấn phù hợp với hệ của tướng đó.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_backlineblueprint.png"
+ },
+ {
+  "id": "DA_BattleOfTheBands",
+  "name": "Battle of the Bands",
+  "nameEn": "Battle of the Bands",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "If you have 2 or more active Bands, your team gains 18% Attack Damage and Ability Power.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_battleofthebands.png"
+ },
+ {
+  "id": "DA_BirthdayPresent",
+  "name": "Quà Sinh Nhật",
+  "nameEn": "Birthday Present",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận một tướng 2 sao và 1 vàng mỗi lần bạn lên cấp. Bậc của tướng sẽ là cấp của bạn trừ 4 (tối đa: 5 vàng).",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_birthdaypresent.png"
+ },
+ {
+  "id": "DA_VIPAccess",
+  "name": "Blind Box",
+  "nameEn": "Blind Box",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Gain a random Gold Augment, but lose 5 gold.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_vipaccess.png"
+ },
+ {
+  "id": "DA_VIPAccessII",
+  "name": "Túi Mù II",
+  "nameEn": "Blind Box II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nâng Cấp Kim Cương ngẫu nhiên, nhưng mất 8 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_vipaccessii.png"
+ },
+ {
+  "id": "DA_VIPAccessIIPlus",
+  "name": "Hộp Mù II",
+  "nameEn": "Blind Box II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nâng Cấp Kim Cương ngẫu nhiên, nhưng mất 12 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_vipaccessiiplus.png"
+ },
+ {
+  "id": "DA_VIPAccessPlus",
+  "name": "Hộp Mù",
+  "nameEn": "Blind Box",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nâng Cấp Vàng ngẫu nhiên, nhưng mất 8 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_vipaccessplus.png"
+ },
+ {
+  "id": "DA_VIPAccessPlusPlus",
+  "name": "Blind Box",
+  "nameEn": "Blind Box",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nâng Cấp Vàng ngẫu nhiên, nhưng mất 11 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_vipaccessplusplus.png"
+ },
+ {
+  "id": "DA_BodyguardTraining",
+  "name": "Huấn Luyện Cận Vệ",
+  "nameEn": "Bodyguard Training",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Các đồng minh nhận 15 Giáp và Kháng Phép, tăng thêm 2 với mỗi cấp người chơi.\r\n\r\nChung Kết Thế Giới Thời Đại Công Nghệ, 2022",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_bodyguardtraining.png"
+ },
+ {
+  "id": "DA_BonusGift",
+  "name": "Quà Tặng Thêm",
+  "nameEn": "Bonus Gifts",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Bất cứ khi nào bạn mở hộp vật phẩm, bạn có 25% cơ hội nhận được 1 hộp vật phẩm xám. Nhận 1 hộp vật phẩm xám.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_bonusgift.png"
+ },
+ {
+  "id": "DA_BonusGiftPlus",
+  "name": "Quà Tặng Thêm+",
+  "nameEn": "Bonus Gifts+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Bất cứ khi nào bạn mở hộp vật phẩm, bạn có 25% cơ hội nhận được 1 hộp vật phẩm xám. Nhận 2 hộp vật phẩm xám.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_bonusgiftplus.png"
+ },
+ {
+  "id": "DA_BoosterBox",
+  "name": "Hộp Tăng Cường",
+  "nameEn": "Booster Box",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Ngay bây giờ và vào thời điểm bắt đầu của 2 vòng tiếp theo, nhận 1 gói tướng. (Đảm bảo có ít nhất một tướng dạng ba chiều!)",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_boosterbox.png"
+ },
+ {
+  "id": "DA_BoosterPack",
+  "name": "Gói Tăng Cường",
+  "nameEn": "Booster Pack",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận các tướng ngẫu nhiên có tổng giá là 12 vàng. (Đảm bảo có ít nhất một tướng 3 vàng!)",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_boosterpack.png"
+ },
+ {
+  "id": "DA_BoosterPackPlus",
+  "name": "Gói Tăng Cường+",
+  "nameEn": "Booster Pack+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận các tướng ngẫu nhiên có tổng giá là 18 vàng. (Đảm bảo có ít nhất một tướng 4 vàng!)",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_boosterpackplus.png"
+ },
+ {
+  "id": "DA_BoosterPackPlusPlus",
+  "name": "Gói Tăng Cường++",
+  "nameEn": "Booster Pack++",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận các tướng ngẫu nhiên có tổng giá là 26 vàng. (Đảm bảo có ít nhất một tướng 5 vàng!)",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_boosterpackplusplus.png"
+ },
+ {
+  "id": "DA_BoxingLessons",
+  "name": "Tập Chịu Đòn",
+  "nameEn": "Boxing Lessons",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 30 Máu với mỗi tướng bắt đầu giao tranh ở hàng đầu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_boxinglessons.png"
+ },
+ {
+  "id": "DA_BranchingOut",
+  "name": "Phân Nhánh",
+  "nameEn": "Branching Out",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items",
+   "trait"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Ấn ngẫu nhiên.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_branchingout.png"
+ },
+ {
+  "id": "DA_BranchingOutPlus",
+  "name": "Phân Nhánh+",
+  "nameEn": "Branching Out+",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items",
+   "trait"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Ấn ngẫu nhiên và 1 Búa Rèn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_branchingoutplus.png"
+ },
+ {
+  "id": "DA_BronzeForLifeI",
+  "name": "Tất Tay Bậc Đồng I",
+  "nameEn": "Bronze For Life",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 2.5% Khuếch Đại Sát Thương cho mỗi tộc/hệ bậc Đồng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_bronzeforlifei.png"
+ },
+ {
+  "id": "DA_BronzeForLifeII",
+  "name": "Tất Tay Bậc Đồng II",
+  "nameEn": "Bronze For Life II",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 2.5% Khuếch Đại Sát Thương và 2.5 Giáp & Kháng Phép cho mỗi tộc/hệ bậc Đồng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_bronzeforlifeii.png"
+ },
+ {
+  "id": "DA_BuildABud",
+  "name": "Tự Lập Đội",
+  "nameEn": "Build A Bud",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 tướng 1 vàng 3 sao ngẫu nhiên. Nhận 9 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_buildabud.png"
+ },
+ {
+  "id": "DA_BundleOShrooms",
+  "name": "Bundle o' Shrooms",
+  "nameEn": "Bundle o' Shrooms II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 6 nấm, mỗi cây cho 1 lượt đổi, 2 XP hoặc 3 Máu Linh Thú.\r\n\r\nNấm có một tỉ lệ nhỏ trở nên KHỔNG LỒ và cho gấp đôi chiến lợi phẩm.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_bundleoshrooms.png"
+ },
+ {
+  "id": "DA_BundleOShrooms",
+  "name": "Bundle o' Shrooms",
+  "nameEn": "Bundle o' Shrooms",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 6 nấm, mỗi cây cho 1 lượt đổi, 2 XP hoặc 3 Máu Linh Thú.\r\n\r\nNấm có một tỉ lệ nhỏ trở nên KHỔNG LỒ và cho gấp đôi chiến lợi phẩm.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_bundleoshrooms.png"
+ },
+ {
+  "id": "DA_CalculatedLoss",
+  "name": "Thua Có Tính Toán",
+  "nameEn": "Calculated Loss",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Sau khi thua giao tranh, nhận 2 vàng và 1 lượt đổi Cửa Hàng miễn phí.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_calculatedloss.png"
+ },
+ {
+  "id": "DA_CalledShot",
+  "name": "Đòn Quyết Định",
+  "nameEn": "Called Shot",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Đặt chuỗi thắng của bạn thành +4. Nhận 4 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_calledshot.png"
+ },
+ {
+  "id": "DA_CapitalGainsI",
+  "name": "Tăng Vốn I",
+  "nameEn": "Capital Gains",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Tích trữ vàng bằng với lượng lợi tức bạn kiếm được. Ở vòng 3-3, nhận lượng vàng bằng 100% số vàng đã tích trữ. Nhận ngay 1 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_capitalgainsi.png"
+ },
+ {
+  "id": "DA_CapitalGainsII",
+  "name": "Tăng Vốn II",
+  "nameEn": "Capital Gains II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Tích trữ vàng bằng với lượng lợi tức bạn kiếm được. Ở vòng 3-3, nhận lượng vàng bằng 125% số vàng đã tích trữ. Nhận ngay 3 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_capitalgainsii.png"
+ },
+ {
+  "id": "DA_CaretakersAlly",
+  "name": "Đồng Minh Của Bụt",
+  "nameEn": "Caretaker's Ally",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận ngay 1 tướng 2 vàng ngẫu nhiên. Mỗi lần thăng cấp, nhận được tướng này một lần nữa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_caretakersally.png"
+ },
+ {
+  "id": "DA_CasterApprentice",
+  "name": "Thuật Sư Tập Sự",
+  "nameEn": "Caster Apprentice",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nước Mắt Nữ Thần. Sau 3 giao tranh người chơi, nhận 1 Gậy Quá Khổ.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_casterapprentice.png"
+ },
+ {
+  "id": "DA_BeltSmith1",
+  "name": "Thợ Rèn Đai I",
+  "nameEn": "Beltsmith",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị hoàn chỉnh ngẫu nhiên được ghép từ Đai Khổng Lồ.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_beltsmith1.png"
+ },
+ {
+  "id": "DA_BeltSmith2",
+  "name": "Thợ Rèn Đai II",
+  "nameEn": "Beltsmith II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Gain 1 random completed item that builds from Giant's Belt now and another in 1 round.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_beltsmith2.png"
+ },
+ {
+  "id": "DA_StaffSmith1",
+  "name": "Thợ Rèn Gậy I",
+  "nameEn": "Staffsmith",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Gain 1 random completed item that builds from Needlessly Large Rod.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_staffsmith1.png"
+ },
+ {
+  "id": "DA_SwordSmith1",
+  "name": "Thợ Rèn Kiếm I",
+  "nameEn": "Swordsmith",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị hoàn chỉnh ngẫu nhiên được ghép từ Kiếm B.F.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_swordsmith1.png"
+ },
+ {
+  "id": "DA_CelestialBlessingI",
+  "name": "Phước Lành Vũ Trụ I",
+  "nameEn": "Celestial Blessing",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 12% Hút Máu Toàn Phần. Lượng hồi máu phụ trội sẽ được chuyển thành lá chắn, tối đa 200 Máu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_celestialblessingi.png"
+ },
+ {
+  "id": "DA_CelestialBlessingII",
+  "name": "Phước Lành Vũ Trụ II",
+  "nameEn": "Celestial Blessing II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 18% Hút Máu Toàn Phần. Lượng hồi máu phụ trội sẽ được chuyển thành lá chắn, tối đa 400 Máu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_celestialblessingii.png"
+ },
+ {
+  "id": "DA_CelestialBlessingIII",
+  "name": "Phước Lành Vũ Trụ III",
+  "nameEn": "Celestial Blessing III",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 25% Hút Máu Toàn Phần. Lượng hồi máu phụ trội sẽ được chuyển thành lá chắn, tối đa 1000 Máu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_celestialblessingiii.png"
+ },
+ {
+  "id": "DA_ChallengersGrace",
+  "name": "Ân Huệ Thách Đấu",
+  "nameEn": "Challenger's Grace",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Ở đầu giao tranh, đồng minh tăng 30% Tốc Độ Đánh trong 4 giây. Khi tham gia hạ gục, đồng minh lướt tới mục tiêu tiếp theo và nhận lại hiệu ứng này.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_challengersgrace.png"
+ },
+ {
+  "id": "DA_ChampDelivery",
+  "name": "Phân Phối Tướng",
+  "nameEn": "Champ Delivery",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 3 tướng 2 vàng. Sau 6 vòng, nhận thêm 3 tướng cùng bậc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_champdelivery.png"
+ },
+ {
+  "id": "DA_ChampDeliveryPlus",
+  "name": "Phân Phối Tướng+",
+  "nameEn": "Champ Delivery+",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 3 tướng 3 vàng. Sau 6 vòng, nhận thêm 3 tướng cùng bậc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_champdeliveryplus.png"
+ },
+ {
+  "id": "DA_ChampDeliveryPlusPlus",
+  "name": "Phân Phối Tướng++",
+  "nameEn": "Champ Delivery++",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 3 tướng 4 vàng. Sau 6 vòng, nhận thêm 3 tướng cùng bậc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_champdeliveryplusplus.png"
+ },
+ {
+  "id": "DA_ChampionAirdrop",
+  "name": "Tiếp Tế Tướng",
+  "nameEn": "Champion Airdrop",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Gain 3 2-cost champions now and 3 more after 5 rounds. After each airdrop, increase the round delay and the number of champions by 1.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_championairdrop.png"
+ },
+ {
+  "id": "DA_CheatCode",
+  "name": "Cheat Code",
+  "nameEn": "Cheat Code",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Ngay bây giờ và khi bắt đầu mỗi vòng đấu, nhận được một mã gian lận mới. Lần đầu tiên bạn thực hiện chính xác chuỗi hành động đó, nhận một phần thưởng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_cheatcode.png"
+ },
+ {
+  "id": "DA_CheatCodeGold",
+  "name": "Cheat Code II",
+  "nameEn": "Cheat Code II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Ngay bây giờ và khi bắt đầu mỗi vòng đấu, nhận được một mã gian lận mới. Lần đầu tiên bạn thực hiện chính xác chuỗi hành động đó, nhận một phần thưởng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_cheatcodegold.png"
+ },
+ {
+  "id": "DA_CheatCodePrismatic",
+  "name": "Mã Gian Lận III",
+  "nameEn": "Cheat Code III",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Ngay bây giờ và khi bắt đầu mỗi vòng đấu, nhận được một mã gian lận mới. Lần đầu tiên bạn thực hiện chính xác chuỗi hành động đó, nhận một phần thưởng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_cheatcodeprismatic.png"
+ },
+ {
+  "id": "DA_ClearMind",
+  "name": "Thông Thoáng",
+  "nameEn": "Clear Mind",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nếu không có tướng trong hàng chờ khi kết thúc giao tranh người chơi, nhận 3 XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_clearmind.png"
+ },
+ {
+  "id": "DA_ClockworkAccelerator",
+  "name": "Động Cơ Tăng Tốc",
+  "nameEn": "Clockwork Accelerator",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn được tăng 12% Tốc Độ Đánh sau mỗi 3 giây giao tranh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_clockworkaccelerator.png"
+ },
+ {
+  "id": "DA_Cloning",
+  "name": "Nhân Bản",
+  "nameEn": "Cloning",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Sau mỗi giao tranh người chơi, nhận 1 bản sao của một tướng ngẫu nhiên trên bàn đấu của bạn.\r\n\r\nNếu bạn có ít hơn 3 tướng khác nhau, bạn có thể nhận vàng thay vì tướng",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_cloning.png"
+ },
+ {
+  "id": "DA_ClutteredMind",
+  "name": "Bừa Bộn",
+  "nameEn": "Cluttered Mind",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 4 tướng 1 vàng ngay lập tức. Nếu hàng chờ của bạn đầy khi kết thúc giao tranh người chơi, nhận 3 XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_clutteredmind.png"
+ },
+ {
+  "id": "DA_CognitiveTax",
+  "name": "Thuế Nhận Thức",
+  "nameEn": "Cognitive Tax",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 8 vàng và 1 XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_cognitivetax.png"
+ },
+ {
+  "id": "DA_CognitiveTaxPlus",
+  "name": "Thuế Nhận Thức+",
+  "nameEn": "Cognitive Tax+",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 12 vàng và 3 XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_cognitivetaxplus.png"
+ },
+ {
+  "id": "DA_ComebackStory",
+  "name": "Cố Gắng Lật Kèo",
+  "nameEn": "Comeback Story",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 4 Máu và 0.4% Tốc Độ Đánh với mỗi Máu người chơi đã mất.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_comebackstory.png"
+ },
+ {
+  "id": "DA_CommerceCore",
+  "name": "Trung Tâm Thương Mại",
+  "nameEn": "Commerce Core",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 16 lượt đổi cửa hàng miễn phí ngay lập tức và 3 lượt đổi mỗi vòng đấu cho đến hết trận.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_commercecore.png"
+ },
+ {
+  "id": "DA_ConstructACompanion",
+  "name": "Người Bạn Vàng",
+  "nameEn": "Construct a Companion",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Tướng 1 vàng tiếp theo bạn mua được nâng lên 3 sao. Nhận 2 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_constructacompanion.png"
+ },
+ {
+  "id": "DA_ForgeAFriend",
+  "name": "Chế Tạo Bằng Hữu",
+  "nameEn": "Forge A Friend",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Tướng 1 vàng tiếp theo bạn mua được nâng lên 3 sao. Nhận 5 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_forgeafriend.png"
+ },
+ {
+  "id": "DA_Corrosion",
+  "name": "Ăn Mòn",
+  "nameEn": "Corrosion",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Tướng địch đứng ở 2 hàng trên sẽ bị mất 3 Giáp và Kháng Phép sau mỗi 2 giây.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_corrosion.png"
+ },
+ {
+  "id": "DA_CountingStars",
+  "name": "Đếm Những Vì Sao",
+  "nameEn": "Counting Stars",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 5 vàng. Mỗi khi nâng một tướng lên 3 sao, nhận 5 vàng với mỗi tướng 3 sao đang sở hữu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_countingstars.png"
+ },
+ {
+  "id": "DA_CritQuintessence",
+  "name": "Ngọc Chí Mạng +",
+  "nameEn": "Crit Rune",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Gain 8 gold. Your team gains 1% Critical Strike Chance.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_critquintessence.png"
+ },
+ {
+  "id": "DA_CritQuintessence",
+  "name": "Ngọc Chí Mạng +",
+  "nameEn": "Crit Rune+",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Gain 14 gold. Your team gains 1% Critical Strike Chance.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_critquintessence.png"
+ },
+ {
+  "id": "DA_CursedCrown",
+  "name": "Vương Miện Hắc Hóa",
+  "nameEn": "Cursed Crown",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "misc"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Tăng +2 số lượng tướng tối đa, nhưng bạn sẽ nhận gấp đôi sát thương lên Linh Thú khi thua giao tranh người chơi.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_cursedcrown.png"
+ },
+ {
+  "id": "DA_GoldDestiny",
+  "name": "Vận Mệnh Vàng",
+  "nameEn": "Gold Destiny",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nâng Cấp Vàng ngẫu nhiên và 3 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_golddestiny.png"
+ },
+ {
+  "id": "DA_GoldDestinyPlus",
+  "name": "Vận Mệnh Vàng+",
+  "nameEn": "Gold Destiny+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nâng Cấp Vàng ngẫu nhiên và 5 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_golddestinyplus.png"
+ },
+ {
+  "id": "DA_PrismaticDestiny",
+  "name": "Vận Mệnh Kim Cương",
+  "nameEn": "Prismatic Destiny",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nâng Cấp Kim Cương ngẫu nhiên và 2 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_prismaticdestiny.png"
+ },
+ {
+  "id": "DA_PrismaticDestinyPlus",
+  "name": "Vận Mệnh Kim Cương+",
+  "nameEn": "Prismatic Destiny+",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nâng Cấp Kim Cương ngẫu nhiên và 7 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_prismaticdestinyplus.png"
+ },
+ {
+  "id": "DA_SilverDestiny",
+  "name": "Vận Mệnh Bạc",
+  "nameEn": "Silver Destiny",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nâng Cấp Bạc và 2 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_silverdestiny.png"
+ },
+ {
+  "id": "DA_SilverDestinyPlus",
+  "name": "Vận Mệnh Bạc+",
+  "nameEn": "Silver Destiny+",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nâng Cấp Bạc và 4 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_silverdestinyplus.png"
+ },
+ {
+  "id": "DA_SilverDestinyPlusPlus",
+  "name": "Vận Mệnh Bạc++",
+  "nameEn": "Silver Destiny++",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nâng Cấp Bạc và 7 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_silverdestinyplusplus.png"
+ },
+ {
+  "id": "DA_DoubleTrouble",
+  "name": "Cặp Đôi Hoàn Cảnh",
+  "nameEn": "Double Trouble",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Khi triển khai đúng 2 bản sao của một tướng, cả 2 tướng đó được tăng 25% SMCK & SMPT, và 25 Giáp & Kháng Phép. Khi ghép tướng 3 sao, nhận 1 bản sao 2 sao.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_doubletrouble.png"
+ },
+ {
+  "id": "DA_DuoQueue",
+  "name": "Hàng Chờ Đấu Đôi",
+  "nameEn": "Duo Queue",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 tướng 5 vàng ngẫu nhiên và 2 bản sao của một trang bị thành phần ngẫu nhiên.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_duoqueue.png"
+ },
+ {
+  "id": "DA_DuplicatorDeal",
+  "name": "Duplicator Deal",
+  "nameEn": "Duplicator Deal",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Gain 3 Champion Duplicators. You can no longer 3-star champions.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_duplicatordeal.png"
+ },
+ {
+  "id": "DA_EarlyLearnings",
+  "name": "Bài Học Sơ Khai",
+  "nameEn": "Early Learnings",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "scaling",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 3% Sức Mạnh Công Kích & Sức Mạnh Phép Thuật. Lượng này sẽ tăng thêm 1% sau mỗi giao tranh người chơi. Tướng 1 vàng nhận gấp đôi.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_earlylearnings.png"
+ },
+ {
+  "id": "DA_ElectrochargeI",
+  "name": "Tụ Điện I",
+  "nameEn": "Electrocharge",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Mỗi khi đồng minh nhận 4 đòn đánh, họ sẽ gây 25 - 80 (dựa trên Giai Đoạn hiện tại) sát thương phép lên kẻ địch gần đó (1 giây hồi chiêu).",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_electrochargei.png"
+ },
+ {
+  "id": "DA_ElectrochargeII",
+  "name": "Tụ Điện II",
+  "nameEn": "Electrocharge II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Mỗi khi đồng minh nhận 4 đòn đánh, họ sẽ gây 35 - 120 (dựa trên Giai Đoạn hiện tại) sát thương phép lên kẻ địch gần đó (1 giây hồi chiêu).",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_electrochargeii.png"
+ },
+ {
+  "id": "DA_EpicRolldown",
+  "name": "Xúc Xắc Hoành Tráng",
+  "nameEn": "Epic Rolldown",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Khi đạt Cấp 8, nhận 20 lượt đổi Cửa Hàng.\r\n\r\nGiải Vô Địch Runeterra Tái Hợp, 2023",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_epicrolldown.png"
+ },
+ {
+  "id": "DA_Epoch",
+  "name": "Kỷ Nguyên",
+  "nameEn": "Epoch",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Ngay lập tức, và khi bắt đầu mỗi giai đoạn, nhận 4 XP và 2 lượt đổi miễn phí.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_epoch.png"
+ },
+ {
+  "id": "DA_EpochPlus",
+  "name": "Kỷ Nguyên+",
+  "nameEn": "Epoch+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Ngay lập tức, và khi bắt đầu mỗi giai đoạn, nhận 8 XP và 2 lượt đổi miễn phí.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_epochplus.png"
+ },
+ {
+  "id": "DA_ExplosiveGrowth",
+  "name": "Tăng Trưởng Bùng Nổ",
+  "nameEn": "Explosive Growth",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 7 XP ngay bây giờ và khi bắt đầu 3 vòng đấu tiếp theo.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_explosivegrowth.png"
+ },
+ {
+  "id": "DA_ExplosiveGrowthPlus",
+  "name": "Tăng Trưởng Bùng Nổ+",
+  "nameEn": "Explosive Growth+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 9 XP ngay bây giờ và khi bắt đầu 3 vòng đấu tiếp theo.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_explosivegrowthplus.png"
+ },
+ {
+  "id": "DA_FeelingLucky",
+  "name": "Feeling Lucky+",
+  "nameEn": "Feeling Lucky",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 12 vàng, sau đó tung đồng xu. Nếu ra mặt ngửa, nhận thêm 4 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_feelinglucky.png"
+ },
+ {
+  "id": "DA_FeelingLucky",
+  "name": "Feeling Lucky+",
+  "nameEn": "Feeling Lucky+",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 12 vàng, sau đó tung đồng xu. Nếu ra mặt ngửa, nhận thêm 4 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_feelinglucky.png"
+ },
+ {
+  "id": "DA_FighterApprentice",
+  "name": "Đấu Sĩ Tập Sự",
+  "nameEn": "Fighter Apprentice",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận Găng Đấu Tập. Sau 3 giao tranh người chơi, nhận 1 Giáp Lưới.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_fighterapprentice.png"
+ },
+ {
+  "id": "DA_FighterFlightII",
+  "name": "Phi Đội Đấu Sĩ II",
+  "nameEn": "Fighter Flight II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Các Đấu Sĩ và Sát Thủ của bạn di chuyển nhanh hơn và nhận thêm 18% Morgana Thần Sứ. Những chỉ số cộng thêm này được nhân đôi khi dưới 50% 1907 Fenerbahçe Esports MSI 2021.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_fighterflightii.png"
+ },
+ {
+  "id": "DA_FighterFlight",
+  "name": "Chiến hoặc Chạy",
+  "nameEn": "Fighter Flight",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Tướng Đấu Sĩ và Sát Thủ của bạn di chuyển nhanh hơn và nhận 10% Tốc Độ Đánh. Các hiệu ứng thưởng này được nhân đôi khi còn dưới 50% Máu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_fighterflight.png"
+ },
+ {
+  "id": "DA_FindYourCenter",
+  "name": "Tiền Vệ Trung Tâm",
+  "nameEn": "Find Your Center",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Tướng bắt đầu giao tranh ở chính giữa hàng trên sẽ được nhận 15% Khuếch Đại Sát Thương và 25% Máu tối đa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_findyourcenter.png"
+ },
+ {
+  "id": "DA_FocusedFire",
+  "name": "Tập Trung Hỏa Lực",
+  "nameEn": "Focused Fire",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận thêm 10% Sức Mạnh Công Kích. Cứ mỗi 5 giây, họ nhận thêm 4% nữa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_focusedfire.png"
+ },
+ {
+  "id": "DA_18_FOURcing",
+  "name": "Ép Bốn",
+  "nameEn": "FOURcing",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 tướng 4 vàng ngẫu nhiên. Với mỗi trang bị được gắn trên tướng đó, đội của bạn nhận 100 máu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_18_fourcing.png"
+ },
+ {
+  "id": "DA_FourFourTime",
+  "name": "Nhịp 4/4",
+  "nameEn": "4/4 Time",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Gain 4 gold, 4 player Health, and 4 rerolls now, and a random 4-cost champion in 4 rounds.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_fourfourtime.png"
+ },
+ {
+  "id": "DA_ThreeFourTime",
+  "name": "Nhịp 3/4",
+  "nameEn": "3/4 Time",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Gain 3 gold, 3 player Health, and 3 rerolls now, and a random 3-cost champion in 4 rounds.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_threefourtime.png"
+ },
+ {
+  "id": "DA_FrontlineFoundation",
+  "name": "Củng Cố Tuyến Trước",
+  "nameEn": "Frontline Foundation",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "trait"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 tướng Đỡ Đòn 1 vàng 2 sao và 1 Ấn phù hợp với hệ của tướng đó.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_frontlinefoundation.png"
+ },
+ {
+  "id": "DA_FutureFocused",
+  "name": "Định Hướng Tương Lai",
+  "nameEn": "Future Focused",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Linh Thú của bạn mất 20 Máu, nhưng sau 5 giao tranh người chơi, nhận 3 tướng 4 vàng và 5 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_futurefocused.png"
+ },
+ {
+  "id": "DA_GainGold",
+  "name": "Tải Xuống Tri Thức II",
+  "nameEn": "Gain 21 Gold",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận ? XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_gaingold.png"
+ },
+ {
+  "id": "DA_GainGold",
+  "name": "Tải Xuống Tri Thức II",
+  "nameEn": "Gain 21 Gold+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận ? XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_gaingold.png"
+ },
+ {
+  "id": "DA_GiantAndMighty",
+  "name": "To Lớn & Mạnh Mẽ",
+  "nameEn": "Giant and Mighty",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn hóa lớn, được tăng 225 Máu và 10% Máu tối đa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_giantandmighty.png"
+ },
+ {
+  "id": "DA_GildedSteel",
+  "name": "Thép Mạ Vàng",
+  "nameEn": "Gilded Steel",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 tướng 5 vàng. Nếu bạn triển khai ít nhất 1 tướng 5 vàng, các tướng từ 1 đến 4 vàng của bạn nhận được 8% Chống Chịu.\r\n\r\nTactician’s Crown K.O. Đại Chiến Anh Hùng, 2025",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_gildedsteel.png"
+ },
+ {
+  "id": "DA_GlassCannon_Silver",
+  "name": "Lấy Công Bù Thủ I",
+  "nameEn": "Glass Cannon",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đồng minh bắt đầu giao tranh ở hàng sau sẽ khởi đầu với 80% Máu nhưng được tăng 16% Khuếch Đại Sát Thương.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_glasscannon_silver.png"
+ },
+ {
+  "id": "DA_GlassCannon_Gold",
+  "name": "Lấy Công Bù Thủ II",
+  "nameEn": "Glass Cannon II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đồng minh bắt đầu giao tranh ở hàng sau sẽ khởi đầu với 80% Máu nhưng được tăng 25% Khuếch Đại Sát Thương.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_glasscannon_gold.png"
+ },
+ {
+  "id": "DA_GoingLong",
+  "name": "Thích Mở Rộng",
+  "nameEn": "Going Long",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Bạn sẽ không còn nhận được lợi tức. Nhận ngay 10 vàng. Nhận 4 XP sau mỗi giao tranh người chơi.\r\n\r\nLợi tức là lượng vàng bạn nhận được thêm từ mỗi 10 vàng bạn giữ lại.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_goinglong.png"
+ },
+ {
+  "id": "DA_GoodForSomethingI",
+  "name": "Được Cái Này Mất Cái Kia I",
+  "nameEn": "Good For Something",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Tướng không mang trang bị có 40% xác suất rơi ra 1 vàng khi hy sinh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_goodforsomethingi.png"
+ },
+ {
+  "id": "DA_GoodFOURtune",
+  "name": "May Mắn Nhân Bốn",
+  "nameEn": "Good FOURtune",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Mở một cửa hàng gồm các tướng 4 vàng 2 sao. Bạn chỉ có thể mua 1. Nhận 16 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_goodfourtune.png"
+ },
+ {
+  "id": "DA_GroupHugI",
+  "name": "Ôm Tập Thể I",
+  "nameEn": "Group Hug",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Bắt đầu giao tranh: Các tướng sẽ tăng cho các tướng liền kề khác 7 Giáp và Kháng Phép. Hiệu ứng này có thể cộng dồn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_grouphugi.png"
+ },
+ {
+  "id": "DA_GroupHugII",
+  "name": "Ôm Tập Thể II",
+  "nameEn": "Group Hug II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Bắt đầu giao tranh: Các tướng sẽ tăng cho các tướng liền kề khác 10 Giáp và Kháng Phép. Hiệu ứng này có thể cộng dồn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_grouphugii.png"
+ },
+ {
+  "id": "DA_HardBargain",
+  "name": "Thương Vụ Khó Xơi",
+  "nameEn": "Hard Bargain",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Bạn không thể chọn phần thưởng trong Vòng Đi Chợ. Nhận thêm 6 máu người chơi và 8 vàng mỗi vòng đi chợ.\r\nKhi bạn không chọn Phần Thưởng Ở Vòng Đi Chợ, bạn sẽ được trao 1 tướng chưa có người chọn cùng trang bị đi kèm.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_hardbargain.png"
+ },
+ {
+  "id": "DA_HealingOrbsI",
+  "name": "Cầu Hồi Phục I",
+  "nameEn": "Healing Orbs",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Khi 1 kẻ địch bị hạ gục, 1 đồng minh gần đó sẽ được hồi 250 Máu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_healingorbsi.png"
+ },
+ {
+  "id": "DA_HealingOrbsII",
+  "name": "Cầu Hồi Phục II",
+  "nameEn": "Healing Orbs II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Khi 1 kẻ địch bị hạ gục, 1 đồng minh gần đó sẽ được hồi 575 Máu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_healingorbsii.png"
+ },
+ {
+  "id": "DA_HedgeFund",
+  "name": "Quỹ Phòng Hộ",
+  "nameEn": "Hedge Fund",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 22 vàng. Lợi tức tối đa của bạn tăng lên thành 10.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_hedgefund.png"
+ },
+ {
+  "id": "DA_HoldTheLine",
+  "name": "Giữ Vững Hàng Ngũ",
+  "nameEn": "Hold the Line",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Các tướng ở 2 hàng sau nhận 11% Sức Mạnh Phép Thuật và 11% Sức Mạnh Công Kích với mỗi tướng bắt đầu giao tranh ở hàng trên.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_holdtheline.png"
+ },
+ {
+  "id": "DA_Hustler",
+  "name": "Sống Vội",
+  "nameEn": "Hustler",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Bạn không còn lợi tức, nhưng sẽ nhận 3 vàng khi bắt đầu mỗi vòng giao tranh người chơi. Nhận ngay 3 vàng.\r\n\r\nLợi tức là lượng vàng bạn nhận được thêm từ mỗi 10 vàng bạn giữ lại.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_hustler.png"
+ },
+ {
+  "id": "DA_InvestmentStrategyI",
+  "name": "Chiến Thuật Đầu Tư I",
+  "nameEn": "Investment Strategy",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Tướng của bạn nhận thêm vĩnh viễn 8 máu tối đa với mỗi vàng lợi tức bạn kiếm được. Nhận ngay 3 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_investmentstrategyi.png"
+ },
+ {
+  "id": "DA_InvestmentStrategy",
+  "name": "Chiến Thuật Đầu Tư II",
+  "nameEn": "Investment Strategy II",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Tướng của bạn nhận thêm vĩnh viễn 10 máu tối đa với mỗi vàng lợi tức bạn kiếm được. Lợi tức tối đa của bạn được tăng thêm 2. Nhận ngay 6 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_investmentstrategy.png"
+ },
+ {
+  "id": "DA_ItsMeBaby",
+  "name": "Là Ta Đây",
+  "nameEn": "It's Me, Baby",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "econ"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 ô vô địch ở góc dưới bên phải. Tướng bên trong nhận 15% Khuếch Đại Sát Thương và 15% Tốc Độ Đánh, đồng thời rơi ra 1 vàng mỗi 5 lần tham gia hạ gục.\r\n\r\nTactician's Crown Truyền Thuyết & Huyền Thoại, 2026",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_itsmebaby.png"
+ },
+ {
+  "id": "DA_JeweledLotus_I",
+  "name": "Khảm Bảo Thạch I",
+  "nameEn": "Jeweled Lotus",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 15% Tỉ Lệ Chí Mạng và Chuẩn Xác.\r\n\r\nChuẩn Xác: Sát thương kỹ năng có thể chí mạng. Chỉ số Chuẩn Xác cộng thêm tăng 10% Sát Thương Chí Mạng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_jeweledlotus_i.png"
+ },
+ {
+  "id": "DA_JeweledLotus_II",
+  "name": "Khảm Bảo Thạch II",
+  "nameEn": "Jeweled Lotus II",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 25% Tỉ Lệ Chí Mạng, 10% Sát Thương Chí Mạng và Chuẩn Xác.\r\n\r\nChuẩn Xác: Sát thương kỹ năng có thể chí mạng. Chỉ số Chuẩn Xác cộng thêm tăng 10% Sát Thương Chí Mạng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_jeweledlotus_ii.png"
+ },
+ {
+  "id": "DA_Steamroll",
+  "name": "Giữ Nhịp",
+  "nameEn": "Keeping Tempo",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Sau khi thắng giao tranh người chơi, nhận một lượt đổi Cửa Hàng miễn phí.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_steamroll.png"
+ },
+ {
+  "id": "DA_KickStart",
+  "name": "Khởi Động Nhanh",
+  "nameEn": "Kick Start",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 tướng 2 vàng 2 sao ngẫu nhiên và 1 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_kickstart.png"
+ },
+ {
+  "id": "DA_Kingslayer",
+  "name": "Đồ Vương",
+  "nameEn": "Kingslayer",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Sau khi thắng giao tranh người chơi, nhận 1 vàng. Nếu đối thủ có nhiều máu hơn bạn, thay vào đó nhận 6 Vàng. Nhận 1 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_kingslayer.png"
+ },
+ {
+  "id": "DA_KnowledgeDownload",
+  "name": "Knowledge Download",
+  "nameEn": "Knowledge Download",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 20 XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_knowledgedownload.png"
+ },
+ {
+  "id": "DA_GainGold",
+  "name": "Tải Xuống Tri Thức II",
+  "nameEn": "Knowledge Download II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 30 XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_gaingold.png"
+ },
+ {
+  "id": "DA_KnowYourEnemy",
+  "name": "Nắm Rõ Đối Thủ",
+  "nameEn": "Know Your Enemy",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [],
+  "traits": [],
+  "desc": "Bạn có thể biết được đối thủ tiếp theo của mình. Đội của bạn nhận 8% Khuếch Đại Sát Thương, tăng lên thành 15% nếu bạn và đối thủ kích hoạt trùng tộc/hệ bất kỳ.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_knowyourenemy.png"
+ },
+ {
+  "id": "DA_LateGameScaling",
+  "name": "Thăng Tiến Cuối Trận",
+  "nameEn": "Late Game Scaling",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 XP khi bắt đầu vòng giao tranh người chơi. Các tướng 5 vàng của bạn nhận thêm 12% Máu và 12% Tốc Độ Đánh.\r\n\r\nTactician's Crown Thành Phố Công Nghệ, 2025",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_lategamescaling.png"
+ },
+ {
+  "id": "DA_LateGameSpecialist",
+  "name": "Hướng Đến Hồi Kết",
+  "nameEn": "Late Game Specialist",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Khi bạn đạt Cấp 9, nhận 27 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_lategamespecialist.png"
+ },
+ {
+  "id": "DA_LevelUp",
+  "name": "Thăng Cấp!",
+  "nameEn": "Level Up!",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Khi bạn mua XP, nhận thêm 2 XP. Ngay lập tức nhận 10 XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_levelup.png"
+ },
+ {
+  "id": "DA_LoadedDice",
+  "name": "Gian Lận",
+  "nameEn": "Loaded Dice",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Xúc xắc và xu của bạn có tỉ lệ may mắn hơn.\r\n\r\nĐổ một xúc xắc và nhận số vàng bằng với số điểm đổ được. Sau đó tung đồng xu và nhận 1 vàng nếu tung ra mặt ngửa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_loadeddice.png"
+ },
+ {
+  "id": "DA_MadScience",
+  "name": "Mad Science",
+  "nameEn": "Mad Science",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Mỗi đồng minh ngẫu nhiên trở thành khổng lồ hoặc tí hon.\r\n\r\nĐơn vị khổng lồ nhận 12% Máu tối đa cũng như 20% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật. Đơn vị tí hon nhận 11% Chống Chịu và 20% Tốc Độ Đánh",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_madscience.png"
+ },
+ {
+  "id": "DA_MakeshiftArmorI",
+  "name": "Giáp Tự Chế I",
+  "nameEn": "Makeshift Armor",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Các tướng không mang trang bị nhận 30 Giáp và Kháng Phép.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_makeshiftarmori.png"
+ },
+ {
+  "id": "DA_MakeshiftArmorII",
+  "name": "Giáp Tự Chế II",
+  "nameEn": "Makeshift Armor II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Các tướng không mang trang bị nhận 50 Giáp và Kháng Phép.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_makeshiftarmorii.png"
+ },
+ {
+  "id": "DA_MaliciousMonetization",
+  "name": "Dòng Tiền Mờ Ám",
+  "nameEn": "Malicious Monetization",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 6 vàng. Trong 2 vòng tiếp theo, tướng địch sẽ rớt ra 2 vàng khi bị tiêu diệt.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_maliciousmonetization.png"
+ },
+ {
+  "id": "DA_MarksmanApprentice",
+  "name": "Xạ Thủ Tập Sự",
+  "nameEn": "Marksman Apprentice",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Cung Gỗ. Sau 3 giao tranh người chơi, nhận 1 Kiếm B.F.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_marksmanapprentice.png"
+ },
+ {
+  "id": "DA_MissedConnections",
+  "name": "Kết Nối Gián Đoạn",
+  "nameEn": "Missed Connections",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 bản sao của mỗi tướng 1 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_missedconnections.png"
+ },
+ {
+  "id": "DA_MoneyHungry_NotBroken",
+  "name": "Cơn Khát Vàng",
+  "nameEn": "Money Hungry",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 7 vàng ngay lập tức, sau đó nhận thêm 7 vàng vào khởi đầu mỗi giai đoạn. Nhặt vàng sẽ khiến Linh Thú của bạn to hơn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_moneyhungry_notbroken.png"
+ },
+ {
+  "id": "DA_MoneyHungryPlus",
+  "name": "Cơn Khát Vàng+",
+  "nameEn": "Money Hungry+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 13 vàng ngay lập tức, sau đó nhận thêm 7 vàng vào khởi đầu mỗi giai đoạn. Nhặt vàng sẽ khiến Linh Thú của bạn to hơn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_moneyhungryplus.png"
+ },
+ {
+  "id": "DA_MoneyMonsoon",
+  "name": "Bão Vàng",
+  "nameEn": "Money Monsoon",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 7 vàng ngay bây giờ và mỗi vòng đấu cho đến hết trận.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_moneymonsoon.png"
+ },
+ {
+  "id": "DA_NoScoutNoPivot",
+  "name": "NHẮM MẮT CHƠI BỪA",
+  "nameEn": "NO SCOUT NO PIVOT",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "scaling",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Các tướng tham gia giao tranh người chơi không thể được đưa về hàng chờ hoặc bán. Tướng của bạn nhận 1% Máu, 1% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật sau giao tranh người chơi.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_noscoutnopivot.png"
+ },
+ {
+  "id": "DA_OneTwoFive",
+  "name": "Một, Hai, Năm!",
+  "nameEn": "One, Two, Five!",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị thành phần ngẫu nhiên, 2 vàng và 1 tướng 5 vàng ngẫu nhiên",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_onetwofive.png"
+ },
+ {
+  "id": "DA_OneTwosThree",
+  "name": "Một, Hai, Ba",
+  "nameEn": "One Twos Three",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 tướng 1 vàng, 2 tướng 2 vàng và 1 tướng 3 vàng",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_onetwosthree.png"
+ },
+ {
+  "id": "DA_PandorasBench",
+  "name": "Hàng Chờ Pandora",
+  "nameEn": "Pandora's Bench",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Ở đầu mỗi vòng đấu, các tướng ở 3 ô ngoài cùng bên phải hàng chờ sẽ được chuyển đổi thành tướng ngẫu nhiên cùng giá tiền. Nhận 1 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_pandorasbench.png"
+ },
+ {
+  "id": "DA_PandorasBox",
+  "name": "Hộp Pandora",
+  "nameEn": "Pandora's Box",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Tất cả tướng trên sân đấu của bạn sẽ vĩnh viễn chuyển thành tướng ngẫu nhiên với giá cao hơn 1 bậc (tối đa 5). Sau đó rèn lại tất cả trang bị của bạn, nhận 1 nâng cấp vàng ngẫu nhiên và nhận 1 trang bị hoàn chỉnh ngẫu nhiên.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_pandorasbox.png"
+ },
+ {
+  "id": "DA_PatienceIsAVirtue",
+  "name": "Kiên Nhẫn Là Một Đức Tính",
+  "nameEn": "Patience Is A Virtue",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận ngay 5 lượt đổi lại. Mỗi vòng đấu, nhận 1 lượt đổi miễn phí nếu bạn không mua tướng ở vòng đấu trước.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_patienceisavirtue.png"
+ },
+ {
+  "id": "DA_PatientStudy",
+  "name": "Kiên Nhẫn Học Tập",
+  "nameEn": "Patient Study",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Sau giao tranh người chơi, nhận thêm 2 XP nếu bạn thắng hoặc 3 XP nếu bạn thua.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_patientstudy.png"
+ },
+ {
+  "id": "DA_Pinata",
+  "name": "Piñata",
+  "nameEn": "Piñata",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Hình Nhân mang 3 Đai Khổng Lồ. Các hình nhân của bạn sẽ rơi ra 1 vàng với mỗi 700 sát thương gánh chịu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_pinata.png"
+ },
+ {
+  "id": "DA_PlotArmor",
+  "name": "Hào Quang Nhân Vật Chính",
+  "nameEn": "Plot Armor",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 10 Giáp và Kháng Phép. Sau khi còn dưới 50% Máu, tăng hiệu ứng này lên thành 40 cho đến hết giao tranh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_plotarmor.png"
+ },
+ {
+  "id": "DA_PrismaticTicket",
+  "name": "Vé Kim Cương",
+  "nameEn": "Prismatic Ticket",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Mỗi khi cửa hàng được đổi lại, bạn có 45% tỉ lệ nhận được thêm 1 lượt đổi miễn phí.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_prismaticticket.png"
+ },
+ {
+  "id": "DA_19_PyramidScheme",
+  "name": "Mô Hình Đa Cấp",
+  "nameEn": "Pyramid Scheme",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "After fighting a player who isn't in the Pyramid Scheme, steal 3 gold from them and give them a weaker copy of this augment. \r\n\r\nRound Start: Gain 1 gold per player in the Scheme, or 10 gold if all players are in the Scheme",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pyramidscheme.png"
+ },
+ {
+  "id": "DA_19_PyramidScheme_Level2",
+  "name": "Mô Hình Đa Cấp, Cấp 2",
+  "nameEn": "Pyramid Scheme, Level 2",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [],
+  "traits": [],
+  "desc": "Bắt đầu giao tranh: Nếu đối thủ của bạn chưa nằm trong Mô Hình Đa Cấp, đánh cắp 2 vàng từ họ và cho họ một bản sao yếu hơn của nâng cấp này.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pyramidscheme_level2.png"
+ },
+ {
+  "id": "DA_19_PyramidScheme_Level3",
+  "name": "Pyramid Scheme, Level 3",
+  "nameEn": "Pyramid Scheme, Level 3",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [],
+  "traits": [],
+  "desc": "Combat start: If your opponent isn't already in the Pyramid Scheme, steal 2 gold from them and give them a weaker copy of this augment.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pyramidscheme_level3.png"
+ },
+ {
+  "id": "DA_19_PyramidScheme_Level4",
+  "name": "Mô Hình Đa Cấp, Cấp 4",
+  "nameEn": "Pyramid Scheme, Level 4",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [],
+  "traits": [],
+  "desc": "Bắt đầu giao tranh: Nếu đối thủ của bạn chưa nằm trong Mô Hình Đa Cấp, đánh cắp 2 vàng từ họ và cho họ 1 bản sao yếu hơn của nâng cấp này.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pyramidscheme_level4.png"
+ },
+ {
+  "id": "DA_19_PyramidScheme_Level5",
+  "name": "Pyramid Scheme, Level 5",
+  "nameEn": "Pyramid Scheme, Level 5",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [],
+  "traits": [],
+  "desc": "Combat start: If your opponent isn't already in the Pyramid Scheme, steal 2 gold from them and give them a weaker copy of this augment.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pyramidscheme_level5.png"
+ },
+ {
+  "id": "DA_19_PyramidScheme_Level6",
+  "name": "Mô Hình Đa Cấp, Cấp 6",
+  "nameEn": "Pyramid Scheme, Level 6",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [],
+  "traits": [],
+  "desc": "Bắt đầu giao tranh: Nếu đối thủ của bạn chưa nằm trong Mô Hình Đa Cấp, đánh cắp 2 vàng từ họ và cho họ 1 bản sao yếu hơn của nâng cấp này.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pyramidscheme_level6.png"
+ },
+ {
+  "id": "DA_19_PyramidScheme_Level7",
+  "name": "Pyramid Scheme, Level 7",
+  "nameEn": "Pyramid Scheme, Level 7",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [],
+  "traits": [],
+  "desc": "Bắt đầu giao tranh: Nếu đối thủ của bạn chưa nằm trong Mô Hình Đa Cấp, đánh cắp ? vàng từ họ và cho họ một bản sao yếu hơn của nâng cấp này.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pyramidscheme_level7.png"
+ },
+ {
+  "id": "DA_19_PyramidScheme_Level8",
+  "name": "Mô Hình Đa Cấp, Cấp 8",
+  "nameEn": "Pyramid Scheme, Level 8",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [],
+  "traits": [],
+  "desc": "Combat start: If your opponent isn't already in the Pyramid Scheme, steal 2 gold from them and give them a weaker copy of this augment.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pyramidscheme_level8.png"
+ },
+ {
+  "id": "DA_QuickStreaks",
+  "name": "Tích Chuỗi Nhanh",
+  "nameEn": "Quick Streaks",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Bạn nhận được gấp đôi tiến trình chuỗi thắng và chuỗi thua. Nhận 2 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_quickstreaks.png"
+ },
+ {
+  "id": "DA_19_RareCollection",
+  "name": "Bộ Sưu Tập Hiếm",
+  "nameEn": "Rare Collection",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận 50 Máu và 3% Tốc Độ Đánh với mỗi tướng có thể mở khóa khác nhau được triển khai.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_rarecollection.png"
+ },
+ {
+  "id": "DA_ReunionShowI",
+  "name": "Chương Trình Đoàn Tụ",
+  "nameEn": "Reunion Show",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận các tướng có tổng trị giá 10 vàng sở hữu chung một tộc/hệ.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_reunionshowi.png"
+ },
+ {
+  "id": "DA_ReunionShowII",
+  "name": "Reunion Show II",
+  "nameEn": "Reunion Show II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Gain 16g of champions that all share a trait.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_reunionshowii.png"
+ },
+ {
+  "id": "DA_RollingForDays",
+  "name": "Xúc Xắc Vô Tận",
+  "nameEn": "Rolling For Days",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 10 lượt đổi Cửa Hàng miễn phí.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_rollingfordays.png"
+ },
+ {
+  "id": "DA_Royalties",
+  "name": "Tiền Bản Quyền",
+  "nameEn": "Royalties",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Vương Miện Chiến Thuật và 2 vàng. Mỗi vòng đấu cho đến hết trận, nhận 2 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_royalties.png"
+ },
+ {
+  "id": "DA_Omelas",
+  "name": "Hình Nhân Hiến Tế",
+  "nameEn": "Sacrificial Dummy",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Hình Nhân với 50% Chống Chịu. Khi nó còn sống, mọi sát thương các tướng của bạn phải gánh chịu sẽ được chuyển hướng sang hình nhân.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_omelas.png"
+ },
+ {
+  "id": "DA_ShoppingSpree",
+  "name": "Tín Đồ Mua Sắm",
+  "nameEn": "Shopping Spree",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Khi bạn thăng cấp, nhận số lượt đổi Cửa Hàng tương đương với cấp của bạn +1. Nhận 7 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_shoppingspree.png"
+ },
+ {
+  "id": "DA_SilverSpoon",
+  "name": "Đặc Quyền Phú Gia",
+  "nameEn": "Silver Spoon",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 10 XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_silverspoon.png"
+ },
+ {
+  "id": "DA_SliceOfLife",
+  "name": "Chuyện Đời Thường",
+  "nameEn": "Slice of Life",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Hai lần mỗi giai đoạn, nhận 1 tướng ngẫu nhiên. Giá của tướng tăng theo Giai Đoạn. Hiệu ứng này kết thúc sau khi nhận được 1 tướng 5 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_sliceoflife.png"
+ },
+ {
+  "id": "DA_SoulAwakening",
+  "name": "Thức Tỉnh Linh Hồn",
+  "nameEn": "Soul Awakening",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Bắt đầu giao tranh: Đội của bạn nhận 1.5% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật mỗi giây trong 10 giây. Khi đạt cộng dồn tối đa, gây thêm 10% sát thương chuẩn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_soulawakening.png"
+ },
+ {
+  "id": "DA_StandUnited",
+  "name": "Nhất Thống",
+  "nameEn": "Stand United",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "trait"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Tướng của bạn nhận 1.5% Sức Mạnh Công Kích và 1.5% Sức Mạnh Phép Thuật mỗi Tộc/Hệ không phải duy nhất được kích hoạt trong đội hình.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_standunited.png"
+ },
+ {
+  "id": "DA_StarOfTheShow",
+  "name": "Star of the Show",
+  "nameEn": "Star of the Show",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 tướng không phải Đỡ Đòn 1 vàng 2 sao và 1 Ấn của một trong các tộc/hệ của tướng đó. Tại Vòng 3-1, nhận thêm 6 bản sao của tướng đó.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_staroftheshow.png"
+ },
+ {
+  "id": "DA_StatsOnStats",
+  "name": "Stats On Stats",
+  "nameEn": "Stats On Stats",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Ngay lập tức và sau mỗi 5 vòng, nhận 3 vật phẩm tiêu thụ tăng chỉ số.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_statsonstats.png"
+ },
+ {
+  "id": "DA_StatsOnStatsII",
+  "name": "Bội Thu Chỉ Số II",
+  "nameEn": "Stats On Stats II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Ngay lập tức và sau mỗi 5 vòng, nhận 4 vật phẩm tiêu thụ tăng chỉ số.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_statsonstatsii.png"
+ },
+ {
+  "id": "DA_DangerousDuetII",
+  "name": "Strange Duet II",
+  "nameEn": "Strange Duet II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đồng minh bắt đầu giao tranh tách biệt theo cặp nhận 5% Chống Chịu và 8% Khuếch Đại Sát Thương.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_dangerousduetii.png"
+ },
+ {
+  "id": "DA_DangerousDuetIII",
+  "name": "Strange Duet III",
+  "nameEn": "Strange Duet III",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đồng minh bắt đầu giao tranh tách biệt theo cặp nhận 8% Chống Chịu và 14% Khuếch Đại Sát Thương.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_dangerousduetiii.png"
+ },
+ {
+  "id": "DA_DangerousDuet",
+  "name": "Strange Duet",
+  "nameEn": "Strange Duet",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đồng minh bắt đầu giao tranh tách biệt theo cặp nhận 3% Chống Chịu và 5% Khuếch Đại Sát Thương.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_dangerousduet.png"
+ },
+ {
+  "id": "DA_SubmitToThePit",
+  "name": "Quy Phục Đấu Trường",
+  "nameEn": "Submit to the Pit",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đồng minh nhận 3% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật với mỗi giây họ đứng trong 4 hàng trung tâm của chiến trường.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_submittothepit.png"
+ },
+ {
+  "id": "DA_ChaliceOfPowerAugment",
+  "name": "Cốc Sức Mạnh",
+  "nameEn": "Chalice of Power",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Cốc Sức Mạnh, trang bị này cho chủ sở hữu và đồng minh trong phạm vi 2 ô cùng hàng 25% Sức Mạnh Phép Thuật và 1 Hồi Năng Lượng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_chaliceofpoweraugment.png"
+ },
+ {
+  "id": "DA_RanduinsOmenAugment",
+  "name": "Khiên Băng Randuin",
+  "nameEn": "Randuin's Omen",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Khiên Băng Randuin, trang bị trao 33 Giáp & Kháng Phép cho chủ sở hữu và đồng minh trong phạm vi 1 ô.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_randuinsomenaugment.png"
+ },
+ {
+  "id": "DA_ZekesHeraldAugment",
+  "name": "Tụ Bão Zeke",
+  "nameEn": "Zeke's Herald",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Tụ Bão Zeke, trang bị cho chủ sở hữu và các đồng minh trong phạm vi 2 ô cùng hàng 33% Tốc Độ Đánh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_zekesheraldaugment.png"
+ },
+ {
+  "id": "DA_ZZRotAugment",
+  "name": "Zz'Rot Portal",
+  "nameEn": "Zz'Rot Portal",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Gain a Zz'Rot Portal, an item which summons a large Voidspawn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_zzrotaugment.png"
+ },
+ {
+  "id": "DA_TankApprentice",
+  "name": "Đỡ Đòn Tập Sự",
+  "nameEn": "Tank Apprentice",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Đai Khổng Lồ. Sau 3 giao tranh người chơi, nhận 1 Áo Choàng Bạc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_tankapprentice.png"
+ },
+ {
+  "id": "DA_ThatsThatEspresso",
+  "name": "Espresso",
+  "nameEn": "Espresso",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Cung Gỗ. Đội của bạn nhận thêm 10% Tốc Độ Đánh. Sau 12 giây giao tranh, tăng lượng này lên 30%.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_thatsthatespresso.png"
+ },
+ {
+  "id": "DA_TheDropGold",
+  "name": "Cực Bốc II",
+  "nameEn": "The Drop II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "After 12 seconds of combat, your team heals 24% max Health and enemies take 12% max Health true damage.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_thedropgold.png"
+ },
+ {
+  "id": "DA_TheDrop",
+  "name": "Cực Bốc",
+  "nameEn": "The Drop",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Sau 12 giây giao tranh, đội của bạn hồi máu bằng 18% Máu tối đa và kẻ địch chịu sát thương chuẩn bằng 8% Máu tối đa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_thedrop.png"
+ },
+ {
+  "id": "DA_ThreeStepsAhead",
+  "name": "Đi Trước 3 Bước",
+  "nameEn": "Three Steps Ahead",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Trong 3 lần thua giao tranh với người chơi tiếp theo, nhận 1 tướng 5 vàng và 2 trang bị thành phần.\r\n\r\nTactician's Crown Thần Không Gian, 2026",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_threestepsahead.png"
+ },
+ {
+  "id": "DA_TimeSkip",
+  "name": "Vượt Thời Gian",
+  "nameEn": "Time Skip",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Vô hiệu hóa cửa hàng của bạn trong 3 vòng tiếp theo. Sau đó nhận 32 XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_timeskip.png"
+ },
+ {
+  "id": "DA_TonsOfStatsI",
+  "name": "Cộng Mệt Nghỉ!",
+  "nameEn": "Tons of Stats!",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận thêm 44 Máu, 4% Sức Mạnh Công Kích, 4% Sức Mạnh Phép Thuật, 4 Giáp, 4 Kháng Phép, 4% Tốc Độ Đánh và 4 Năng Lượng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_tonsofstatsi.png"
+ },
+ {
+  "id": "DA_TonsOfStatsII",
+  "name": "Cộng Mệt Nghỉ!",
+  "nameEn": "TONS of Stats!",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Đội của bạn nhận thêm 88 Máu, 8% Sức Mạnh Công Kích, 8% Sức Mạnh Phép Thuật, 8 Giáp, 8 Kháng Phép, 8% Tốc Độ Đánh và 8 Năng Lượng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_tonsofstatsii.png"
+ },
+ {
+  "id": "DA_TradeSector",
+  "name": "Khu Giao Dịch",
+  "nameEn": "Trade Sector",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 lượt đổi Cửa Hàng mỗi vòng đấu. Nhận 2 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_tradesector.png"
+ },
+ {
+  "id": "DA_TradeSectorPlus",
+  "name": "Khu Giao Dịch+",
+  "nameEn": "Trade Sector+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 lượt đổi Cửa Hàng mỗi vòng đấu. Nhận 8 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_tradesectorplus.png"
+ },
+ {
+  "id": "DA_TwinGuardians",
+  "name": "Song Vệ",
+  "nameEn": "Twin Guardians",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nếu bạn có đúng 2 đồng minh ở hàng đầu, tăng cho họ 100 Máu, 35 Giáp và 35 Kháng Phép.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_twinguardians.png"
+ },
+ {
+  "id": "DA_UpwardMobility",
+  "name": "Đẩy Nhanh Tiến Độ",
+  "nameEn": "Upward Mobility",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Giảm 1 vàng khi mua XP. Nhận 2 Máu và 2 lượt đổi Cửa Hàng mỗi khi bạn thăng cấp.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_upwardmobility.png"
+ },
+ {
+  "id": "DA_VerticalityI",
+  "name": "Chỉ Một Con Đường I",
+  "nameEn": "Verticality",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "trait"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Các Tướng nhận được 1.5% Sức Mạnh Công Kích, 1.5% Sức Mạnh Phép Thuật, 1.5 Giáp và 1.5 Kháng Phép cho mỗi đồng minh có cùng tộc/hệ với họ.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_verticalityi.png"
+ },
+ {
+  "id": "DA_VerticalityII",
+  "name": "Chỉ Một Con Đường II",
+  "nameEn": "Verticality II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "trait"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Các Tướng nhận được 2.5% Sức Mạnh Công Kích, 2.5% Sức Mạnh Phép Thuật, 2 Giáp và 2 Kháng Phép cho mỗi đồng minh có cùng tộc/hệ với họ.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_verticalityii.png"
+ },
+ {
+  "id": "DA_VerticalityIII",
+  "name": "Chỉ Một Con Đường III",
+  "nameEn": "Verticality III",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "trait"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Các Tướng nhận được 4% Sức Mạnh Công Kích, 4% Sức Mạnh Phép Thuật, 3.5 Giáp và 3.5 Kháng Phép cho mỗi đồng minh có cùng tộc/hệ với họ.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_verticalityiii.png"
+ },
+ {
+  "id": "DA_18_WeightTheWorth",
+  "name": "Xứng Đáng Chờ Đợi",
+  "nameEn": "Weight The Worth",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Lần đầu tiên bạn nâng một tướng lên 3 sao, nhận 1 bản sao của tướng đó mỗi vòng đấu cho đến hết trận. Nâng tướng đó lên 3 sao lần nữa sẽ nhận thêm bản sao. Nhận 1 Máy Sao Chép Tướng Cỡ Nhỏ.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_18_weighttheworth.png"
+ },
+ {
+  "id": "DA_WorldTour",
+  "name": "World Tour",
+  "nameEn": "World Tour",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Sau mỗi 7 giao tranh người chơi, nhận 1 gói trang bị hoàn chỉnh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_worldtour.png"
+ },
+ {
+  "id": "DA_WorththeWait",
+  "name": "Chờ Đợi Xứng Đáng",
+  "nameEn": "Worth the Wait",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 tướng 1 vàng ngẫu nhiên. Nhận 1 bản sao nữa của tướng đó khi bắt đầu mỗi vòng đấu cho đến hết trận.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_worththewait.png"
+ },
+ {
+  "id": "DA_WorththeWaitII",
+  "name": "Chờ Đợi Xứng Đáng II",
+  "nameEn": "Worth the Wait II",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 bản sao của 1 tướng 2 vàng ngẫu nhiên. Nhận 1 bản sao nữa của tướng đó khi bắt đầu mỗi vòng đấu cho đến hết trận.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_worththewaitii.png"
+ },
+ {
+  "id": "DA_YoungAndWildAndFree",
+  "name": "Trẻ, Khỏe & Tự Do",
+  "nameEn": "Young and Wild and Free",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Bạn sẽ luôn được di chuyển tự do trong Vòng Đi Chợ. Nhận 5 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_youngandwildandfree.png"
+ },
+ {
+  "id": "DA_BackupBows",
+  "name": "Cung Dự Phòng",
+  "nameEn": "Backup Bows",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Cung Gỗ. Sau khi các tướng của bạn tấn công 1000 lần, nhận thêm 2 Cung Gỗ.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_backupbows.png"
+ },
+ {
+  "id": "DA_BandOfThieves",
+  "name": "Băng Trộm",
+  "nameEn": "Band of Thieves",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Găng Đạo Tặc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_bandofthieves.png"
+ },
+ {
+  "id": "DA_BandOfThievesII",
+  "name": "Băng Trộm II",
+  "nameEn": "Band of Thieves II",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 Găng Đạo Tặc. Sau 5 giao tranh người chơi, nhận thêm 1 Găng Đạo Tặc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_bandofthievesii.png"
+ },
+ {
+  "id": "DA_BandOfThievesIIPlus",
+  "name": "Băng Trộm II+",
+  "nameEn": "Band of Thieves II+",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 Găng Đạo Tặc. Sau 5 giao tranh người chơi, nhận thêm 1 Găng Đạo Tặc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_bandofthievesiiplus.png"
+ },
+ {
+  "id": "DA_BandOfThievesIIPlusPlus",
+  "name": "Băng Trộm II++",
+  "nameEn": "Band of Thieves II++",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 Găng Đạo Tặc. Sau 3 giao tranh người chơi, nhận thêm 1 Găng Đạo Tặc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_bandofthievesiiplusplus.png"
+ },
+ {
+  "id": "DA_BaronsLair",
+  "name": "Hang Ổ Baron",
+  "nameEn": "Baron's Lair",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị Đỡ Đòn ngẫu nhiên. Sau 8 giây giao tranh, đội của bạn nhận thêm 4% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật mỗi giây cho đến hết giao tranh.\r\n\r\nTFT Paris Open, 2025",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_baronslair.png"
+ },
+ {
+  "id": "DA_BeltOverflow",
+  "name": "Đam Mê Đai Lưng",
+  "nameEn": "Belt Overflow",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 4 Đai Khổng Lồ. Đai Khổng Lồ của bạn cho thêm +85 Máu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_beltoverflow.png"
+ },
+ {
+  "id": "DA_BirthdayReunion",
+  "name": "Sinh Nhật Đoàn Tụ",
+  "nameEn": "Birthday Reunion",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 tướng 2 vàng 2 sao ngẫu nhiên. Ở Cấp 6, nhận 1 trang bị thành phần ngẫu nhiên. Ở Cấp 9, nhận 1 tướng 5 vàng 2 sao ngẫu nhiên.\r\n\r\nTactician's Crown Họa Thế Chi Linh, 2024",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_birthdayreunion.png"
+ },
+ {
+  "id": "DA_BuriedTreasuresIII",
+  "name": "Kho Báu Chôn Giấu III",
+  "nameEn": "Buried Treasures III",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị thành phần ngẫu nhiên ngay bây giờ và khi bắt đầu 6 vòng tiếp theo.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_buriedtreasuresiii.png"
+ },
+ {
+  "id": "DA_CallToChaos",
+  "name": "Triệu Gọi Hỗn Mang",
+  "nameEn": "Call To Chaos",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "misc"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 phần thưởng mạnh mẽ và ngẫu nhiên.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_calltochaos.png"
+ },
+ {
+  "id": "DA_CaretakersFavor",
+  "name": "Chúc Phúc Của Bụt",
+  "nameEn": "Caretaker's Favor",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 gói trang bị thành phần khi bạn đạt cấp 5, 6, 7 và 8.\r\n\r\nGói trang bị thành phần cho 4 lựa chọn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_caretakersfavor.png"
+ },
+ {
+  "id": "DA_CarveAPath",
+  "name": "Mở Lối",
+  "nameEn": "Carve a Path",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Kiếm B.F. Sau khi các tướng của bạn gây 65000 sát thương vật lý, nhận thêm 2 Kiếm B.F.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_carveapath.png"
+ },
+ {
+  "id": "DA_Staffsmith",
+  "name": "Staffsmith II",
+  "nameEn": "Staffsmith II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị hoàn chỉnh ngẫu nhiên được ghép từ Gậy Quá Khổ ngay lập tức và sau 1 lượt.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_staffsmith.png"
+ },
+ {
+  "id": "DA_Swordsmith",
+  "name": "Swordsmith II",
+  "nameEn": "Swordsmith II",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị hoàn chỉnh ngẫu nhiên được ghép từ Kiếm B.F. ngay lập tức và sau 1 lượt.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_swordsmith.png"
+ },
+ {
+  "id": "DA_CognitiveOverload",
+  "name": "Quá Tải Tư Duy",
+  "nameEn": "Cognitive Overload",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 7 vàng, 1 tướng 1 vàng 2 sao, 1 tướng 2 vàng, 2 tướng 3 vàng, 1 XP và 1 lượt đổi Cửa Hàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_cognitiveoverload.png"
+ },
+ {
+  "id": "DA_ComponentBuffet",
+  "name": "Đại Tiệc Trang Bị",
+  "nameEn": "Component Buffet",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [],
+  "traits": [],
+  "desc": "Mỗi khi nhận 1 trang bị thành phần, nó biến đổi thành gói trang bị thành phần. Nhận 1 trang bị thành phần ngẫu nhiên. Gói trang bị cho bạn 4 lựa chọn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_componentbuffet.png"
+ },
+ {
+  "id": "DA_ComponentQuest",
+  "name": "Nhiệm Vụ Trang Bị",
+  "nameEn": "Component Quest",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị thành phần ngẫu nhiên và 1 vàng. Trong 7 lần tiếp theo bạn thắng giao tranh người chơi, nhận 1 trang bị thành phần ngẫu nhiên khác nhau. Sau đó, nhận 1 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_componentquest.png"
+ },
+ {
+  "id": "DA_CookingPot",
+  "name": "Nồi Nấu Ăn",
+  "nameEn": "Cooking Pot",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Khi bắt đầu mỗi vòng đấu, tất cả đồng minh đang mang trang bị Xẻng Vàng hoặc Chảo Vàng sẽ vĩnh viễn tăng cho tướng gần nhất 70 Máu. Nhận 1 Chảo Vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_cookingpot.png"
+ },
+ {
+  "id": "DA_CraftedCrafting",
+  "name": "Khéo Tay Hay Làm",
+  "nameEn": "Crafted Crafting",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Mỗi khi bạn chế tạo 1 trang bị hoàn chỉnh, nhận 2 lượt đổi.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_craftedcrafting.png"
+ },
+ {
+  "id": "DA_CryMeARiver",
+  "name": "Giọt Lệ Bi Ai",
+  "nameEn": "Cry Me A River",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nước Mắt Nữ Thần. Đội của bạn nhận 1 Hồi Năng Lượng. Sau 12 giây giao tranh, tăng hiệu ứng này lên thành 3.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_crymeariver.png"
+ },
+ {
+  "id": "DA_CyberneticImplants_Gold",
+  "name": "Cấy Ghép Siêu Công Nghệ",
+  "nameEn": "Cybernetic Implants",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Tướng có sở hữu trang bị nhận 100 Máu và 15% Sức Mạnh Công Kích. Nhận 1 Kiếm B.F.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_cyberneticimplants_gold.png"
+ },
+ {
+  "id": "DA_CyberneticUplink_Gold",
+  "name": "Trí Tuệ Siêu Công Nghệ",
+  "nameEn": "Cybernetic Uplink",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Tướng có sở hữu trang bị nhận 100 Máu và 2 Hồi Phục Năng Lượng. Nhận 1 Nước Mắt Nữ Thần.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_cyberneticuplink_gold.png"
+ },
+ {
+  "id": "DA_DeadlierBlades",
+  "name": "Kiếm Tử Thần",
+  "nameEn": "Deadlier Blades",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Kiếm Tử Thần. Kiếm Tử Thần vĩnh viễn tăng thêm 1% Sức Mạnh Công Kích mỗi khi chủ sở hữu tham gia hạ gục.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_deadlierblades.png"
+ },
+ {
+  "id": "DA_DeadlierCaps",
+  "name": "Mũ Tử Thần",
+  "nameEn": "Deadlier Caps",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Mũ Phù Thủy Rabadon. Mũ Phù Thủy Rabadon cho 1 Hồi Năng Lượng và vĩnh viễn tăng thêm 1% Sức Mạnh Phép Thuật mỗi khi chủ sở hữu tham gia hạ gục.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_deadliercaps.png"
+ },
+ {
+  "id": "DA_Dummify",
+  "name": "Hình Nhân Hóa",
+  "nameEn": "Dummify",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Mất đi tất cả tướng trên bàn đấu và hàng chờ của bạn. Nhận 1 Hình Nhân mang 60% tổng máu của tất cả các tướng đó. Hình Nhân nhận thêm 1150 Máu mỗi giai đoạn. Nhận ngẫu nhiên 1 tướng 2 vàng 2 sao không phải đỡ đòn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_dummify.png"
+ },
+ {
+  "id": "DA_ExclusiveCustomization",
+  "name": "Lựa Chọn Độc Quyền",
+  "nameEn": "Exclusive Customization",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Rương Trang Bị May Mắn, 1 Nam Châm Ma Thuật và 7 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_exclusivecustomization.png"
+ },
+ {
+  "id": "DA_Expedition",
+  "name": "Cuộc Viễn Chinh",
+  "nameEn": "Expedition",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Khi bắt đầu giao tranh, mất đi vị tướng ở ô ngoài cùng bên phải hàng dự bị. Sau khi tổng giá tướng mất đi theo cách này là 33 vàng, nhận một phần thưởng mạnh mẽ. Nhận ngay 1 tướng 3 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_expedition.png"
+ },
+ {
+  "id": "DA_ExtraBuckles",
+  "name": "Khóa Dự Phòng",
+  "nameEn": "Extra Buckles",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Đai Khổng Lồ. Sau khi các tướng của bạn chịu 75000 sát thương, nhận thêm 2 Đai Khổng Lồ.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_extrabuckles.png"
+ },
+ {
+  "id": "DA_Flexible",
+  "name": "Linh Hoạt",
+  "nameEn": "Flexible",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "trait",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Ấn ngẫu nhiên. Khi bắt đầu mỗi Giai Đoạn, nhận 1 Ấn ngẫu nhiên. Đội của bạn nhận 30 Máu với mỗi Ấn mà họ đang mang.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_flexible.png"
+ },
+ {
+  "id": "DA_FlowingTears",
+  "name": "Lệ Lưu Ly",
+  "nameEn": "Flowing Tears",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nước Mắt Nữ Thần. Sau khi các tướng của bạn tiêu tốn 7000 Năng Lượng, nhận thêm 2 Nước Mắt Nữ Thần.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_flowingtears.png"
+ },
+ {
+  "id": "DA_ForgedInStrength",
+  "name": "Tôi Luyện Sức Mạnh",
+  "nameEn": "Forged In Strength",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Tạo Tác ngẫu nhiên. Khi bạn xuống dưới 35 Máu, nhận thêm 1 Tạo Tác ngẫu nhiên, 1 trang bị hoàn chỉnh ngẫu nhiên, và 3 trang bị thành phần ngẫu nhiên.\r\n\r\nGiải Vô Địch Remix Rumble, 2023",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_forgedinstrength.png"
+ },
+ {
+  "id": "DA_GoldenEgg",
+  "name": "Rồng Đẻ Trứng Vàng",
+  "nameEn": "The Golden Egg",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trứng vàng nở ra sau 11 vòng đấu, cho lượng lớn báu vật. Chiến thắng vòng giao tranh người chơi sẽ đẩy nhanh thời gian nở trứng thêm 1 vòng đấu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_goldenegg.png"
+ },
+ {
+  "id": "DA_GoldenGamble",
+  "name": "Ván Cược Hoàng Kim",
+  "nameEn": "Golden Gamble",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 vàng và tung đồng xu. Nếu ra mặt ngửa, nhận 1 Rương Trang Bị Ánh Sáng May Mắn. Nếu ra mặt sấp, nhận 2 Gói Trang Bị Hoàn Chỉnh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_goldengamble.png"
+ },
+ {
+  "id": "DA_GoldenGamblePlus",
+  "name": "Ván Cược Hoàng Kim+",
+  "nameEn": "Golden Gamble+",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 3 vàng và tung đồng xu. Nếu ra mặt ngửa, nhận 1 Rương Trang Bị Ánh Sáng May Mắn. Nếu ra mặt sấp, nhận 2 Gói Trang Bị Hoàn Chỉnh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_goldengambleplus.png"
+ },
+ {
+  "id": "DA_GoldenGamblePlusPlus",
+  "name": "Ván Cược Hoàng Kim++",
+  "nameEn": "Golden Gamble++",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 6 vàng và tung đồng xu. Nếu ra mặt ngửa, nhận 1 Rương Trang Bị Ánh Sáng May Mắn. Nếu ra mặt sấp, nhận 2 Gói Trang Bị Hoàn Chỉnh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_goldengambleplusplus.png"
+ },
+ {
+  "id": "DA_HardCommit",
+  "name": "Chỉ Một Con Đường",
+  "nameEn": "Hard Commit",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "trait"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 ấn ngẫu nhiên. Ngay lập tức và khi bắt đầu mỗi giai đoạn, nhận 1 tướng 1 sao cùng tộc/hệ, có giá bằng với Giai Đoạn hiện tại (tối đa 5) và 3 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_hardcommit.png"
+ },
+ {
+  "id": "DA_HeartOfSteel",
+  "name": "Trái Tim Sắt Đá",
+  "nameEn": "Heart of Steel",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Trái Tim Kiên Định. Mỗi 10 giây mà chủ sở hữu sống sót trong giao tranh, Trái Tim Kiên Định nhận thêm vĩnh viễn 18 Máu tối đa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_heartofsteel.png"
+ },
+ {
+  "id": "DA_HeroicGrabBag",
+  "name": "Túi Đồ Siêu Hùng",
+  "nameEn": "Heroic Grab Bag",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 Máy Sao Chép Tướng Cỡ Nhỏ. Nhận 6 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_heroicgrabbag.png"
+ },
+ {
+  "id": "DA_HeroicGrabBagPlus",
+  "name": "Túi Đồ Siêu Hùng+",
+  "nameEn": "Heroic Grab Bag+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 Máy Sao Chép Tướng Cỡ Nhỏ. Nhận 8 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_heroicgrabbagplus.png"
+ },
+ {
+  "id": "DA_HeroicGrabBagPlusPlus",
+  "name": "Túi Đồ Siêu Hùng++",
+  "nameEn": "Heroic Grab Bag++",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 Máy Sao Chép Tướng Cỡ Nhỏ. Nhận 14 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_heroicgrabbagplusplus.png"
+ },
+ {
+  "id": "DA_InfinityProtection",
+  "name": "Bảo Hộ Vô Tận",
+  "nameEn": "Infinity Protection",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [],
+  "traits": [],
+  "desc": "Nhận ngay 3 vàng. Tại Vòng 3-7, nhận 1 Tam Luyện Kiếm. Tam Luyện Kiếm trao cho các đồng minh cùng hàng một lá chắn bằng 12% Máu.\r\n\r\nGiải Vô Địch Quái Vật Tấn Công, 2023",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_infinityprotection.png"
+ },
+ {
+  "id": "DA_InvestedPlus",
+  "name": "Đầu Tư+",
+  "nameEn": "Invested+",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 26 vàng. Khi bắt đầu mỗi vòng đấu, nhận 1 lượt làm mới Cửa Hàng với mỗi 10 vàng vượt hơn 50 (tối đa 80 vàng).",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_investedplus.png"
+ },
+ {
+  "id": "DA_InvestedPlusPlus",
+  "name": "Đầu Tư++",
+  "nameEn": "Invested++",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 45 vàng. Khi bắt đầu mỗi vòng đấu, nhận 1 lượt làm mới Cửa Hàng với mỗi 10 vàng vượt hơn 50 (tối đa 80 vàng).",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_investedplusplus.png"
+ },
+ {
+  "id": "DA_IronAssets",
+  "name": "Kho Báu Sắt",
+  "nameEn": "Iron Assets",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 gói trang bị thành phần và 3 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_ironassets.png"
+ },
+ {
+  "id": "DA_ItemGrabBag",
+  "name": "Tiếp Tế Trang Bị I",
+  "nameEn": "Item Grab Bag",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị hoàn chỉnh ngẫu nhiên.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_itemgrabbag.png"
+ },
+ {
+  "id": "DA_LatentForge",
+  "name": "Lò Rèn Tiềm Ẩn",
+  "nameEn": "Latent Forge",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Sau 8 giao tranh với người chơi, nhận 1 Gói Trang Bị Tạo Tác.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_latentforge.png"
+ },
+ {
+  "id": "DA_LegionOfThrees",
+  "name": "Quân Đoàn 3 Sao",
+  "nameEn": "Legion Of Threes",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items",
+   "trait"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Ấn ngẫu nhiên. Các tướng 3 vàng của bạn và mọi đồng minh được trang bị Ấn nhận 150 Máu và 12% Tốc Độ Đánh.\r\n\r\nGiải Vô Địch Ngày Phán Quyết, 2021",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_legionofthrees.png"
+ },
+ {
+  "id": "DA_LivingForge",
+  "name": "Chế Tạo Tại Chỗ",
+  "nameEn": "Living Forge",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Gói Trang Bị Tạo Tác ngay lập tức và sau mỗi 10 giao tranh người chơi.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_livingforge.png"
+ },
+ {
+  "id": "DA_LuckyGloves",
+  "name": "Đo Ni Đóng Giày",
+  "nameEn": "Lucky Gloves",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Găng Đạo Tặc sẽ luôn cho tướng của bạn những trang bị lý tưởng. Nhận 2 Găng Đấu Tập và 4 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_luckygloves.png"
+ },
+ {
+  "id": "DA_LuckyGlovesPlus",
+  "name": "Đo Ni Đóng Giày+",
+  "nameEn": "Lucky Gloves+",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Găng Đạo Tặc sẽ luôn cho tướng của bạn những trang bị lý tưởng. Nhận ngay 2 Găng Đấu Tập, nhận thêm 1 găng sau 4 giao tranh người chơi.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_luckyglovesplus.png"
+ },
+ {
+  "id": "DA_LuxurySubscription",
+  "name": "Gói Đăng Ký Hạng Sang",
+  "nameEn": "Luxury Subscription",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 gói quà chứa 1 tướng 5 vàng, 1 tướng 1 vàng 2 sao và 5 vàng.\r\n\r\nKhi bắt đầu 2 giai đoạn tiếp theo, nhận gói quà này một lần nữa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_luxurysubscription.png"
+ },
+ {
+  "id": "DA_ExpectedUnexpectedness",
+  "name": "Kỳ Vọng Bất Ngờ",
+  "nameEn": "Expected Unexpectedness",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Ngay bây giờ và khi bắt đầu 2 giai đoạn tiếp theo, đổ 3 xúc xắc. Nhận nhiều loại phần thưởng dựa trên tổng số đổ được.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_expectedunexpectedness.png"
+ },
+ {
+  "id": "DA_MagicRoll",
+  "name": "Xúc Xắc Ma Pháp",
+  "nameEn": "Magic Roll",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Đổ 3 xúc xắc. Nhận nhiều loại phần thưởng dựa trên tổng số đã đổ được.\r\n\r\n{Augment.Variant.MagicRoll.Reward}",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_magicroll.png"
+ },
+ {
+  "id": "DA_SlightlyMagicRoll",
+  "name": "Quay Trúng Thưởng",
+  "nameEn": "Slightly Magic Roll",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Đổ 1 con xúc xắc. Nhận thưởng dựa trên số xúc xắc đổ ra.\r\n\r\n{Augment.Variant.SlightlyMagicRoll.Reward}",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_slightlymagicroll.png"
+ },
+ {
+  "id": "DA_MaxBuild",
+  "name": "Đội Hình Tối Ưu",
+  "nameEn": "Max Build",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 10 lượt đổi Cửa Hàng miễn phí. Khi bạn đạt cấp 9, nhận 3 lượt làm mới Cửa Hàng miễn phí và 1 Máy Sao Chép Tướng.\r\n\r\nGiải Vô Địch Thiên Hà, 2020",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_maxbuild.png"
+ },
+ {
+  "id": "DA_Min_Max",
+  "name": "Tối Đa Hóa",
+  "nameEn": "Min-Max",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Nam Châm Hoàng Kim, 4 trang bị thành phần ngẫu nhiên và 4 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_min_max.png"
+ },
+ {
+  "id": "DA_NestingAnvils",
+  "name": "Gói Trang Bị Bất Ngờ",
+  "nameEn": "Nesting Anvils",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Gói Trang Bị Tạo Tác. Sau khi bạn mở nó, nhận 1 Gói Trang Bị Thành Phần. Sau khi bạn mở thứ đó, nhận 6 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_nestinganvils.png"
+ },
+ {
+  "id": "DA_NestingAnvilsPlus",
+  "name": "Gói Trang Bị Bất Ngờ+",
+  "nameEn": "Nesting Anvils+",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ"
+  ],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Gói Trang Bị Tạo Tác. Sau khi bạn mở nó, nhận 1 Gói Trang Bị Thành Phần. Sau khi bạn mở thứ đó, nhận 8 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_nestinganvilsplus.png"
+ },
+ {
+  "id": "DA_OneBuffTwoBuff",
+  "name": "Một Bùa, Hai Bùa",
+  "nameEn": "One Buff Two Buff",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Bùa Đỏ, 1 Bùa Xanh và 1 Máy Sao Chép Tướng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_onebufftwobuff.png"
+ },
+ {
+  "id": "DA_PandorasItemsI",
+  "name": "Hộp Pandora I",
+  "nameEn": "Pandora's Items",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Bắt đầu vòng đấu: Các trang bị trên hàng dự bị được đánh tráo ngẫu nhiên.\r\n\r\nNhận 1 trang bị thành phần ngẫu nhiên.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_pandorasitemsi.png"
+ },
+ {
+  "id": "DA_PandorasItemsIIPlus",
+  "name": "Trang Bị Pandora II+",
+  "nameEn": "Pandora's Items II+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Bắt đầu vòng đấu: Các trang bị trên hàng chờ được đánh tráo ngẫu nhiên. \r\n\r\nNhận 2 trang bị thành phần ngẫu nhiên và 4 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_pandorasitemsiiplus.png"
+ },
+ {
+  "id": "DA_PandorasItemsIII",
+  "name": "Hộp Pandora III",
+  "nameEn": "Pandora's Items III",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Bắt đầu vòng đấu: Các trang bị trên hàng dự bị được đánh tráo ngẫu nhiên.\r\n\r\nNhận 1 Trang Bị Ánh Sáng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_pandorasitemsiii.png"
+ },
+ {
+  "id": "DA_Pilfer",
+  "name": "Ăn Trộm",
+  "nameEn": "Pilfer",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Mỗi vòng đấu, nhận 1 bản sao 1 sao của tướng đầu tiên bạn tiêu diệt ở giao tranh trước. Lần đầu tiên bạn nhận được số lượng tướng trị giá 21 vàng theo cách này, nhận 1 Găng Đạo Tặc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_pilfer.png"
+ },
+ {
+  "id": "DA_PortableForge",
+  "name": "Lò Rèn Thần Thoại",
+  "nameEn": "Portable Forge",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Chọn 1 trong 4 Tạo Tác. Tạo Tác là những trang bị mạnh mẽ hơn với hiệu ứng đặc biệt.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_portableforge.png"
+ },
+ {
+  "id": "DA_PromisedProtection",
+  "name": "Thệ Ước Bảo Hộ",
+  "nameEn": "Promised Protection",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Lời Thề Hộ Vệ. Lời Thề Hộ Vệ cho chủ sở hữu thêm 20% Năng Lượng từ mọi nguồn và 175 Máu tối đa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_promisedprotection.png"
+ },
+ {
+  "id": "DA_RadiantRascal",
+  "name": "Quang Lân Tiểu Yêu",
+  "nameEn": "Radiant Rascal",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị Găng Đạo Tặc Ánh Sáng. Vật phẩm này sẽ lắp 2 trang bị Ánh Sáng ngẫu nhiên mỗi vòng đấu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_radiantrascal.png"
+ },
+ {
+  "id": "DA_RadiantRelic",
+  "name": "Kho Thần Tích",
+  "nameEn": "Radiant Relics",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Chọn 1 trong 5 Trang Bị Ánh Sáng. Nhận 1 Nam Châm Ma Thuật.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_radiantrelic.png"
+ },
+ {
+  "id": "DA_Recombobulator",
+  "name": "Xoay Bài Tự Động",
+  "nameEn": "Recombobulator",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Tất cả tướng trên sân đấu của bạn sẽ vĩnh viễn chuyển thành tướng ngẫu nhiên với giá cao hơn 1 bậc (tối đa 5). Nhận 2 Nam Châm Ma Thuật và 3 lượt đổi miễn phí.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_recombobulator.png"
+ },
+ {
+  "id": "DA_Replication",
+  "name": "Nhân Bản",
+  "nameEn": "Replication",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Chọn 1 trong 3 trang bị thành phần. Trong 2 vòng đấu tiếp theo, nhận 1 bản sao của trang bị thành phần đó.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_replication.png"
+ },
+ {
+  "id": "DA_Retribution",
+  "name": "Báo Oán",
+  "nameEn": "Retribution",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 Bàn Tay Công Lý. Đồng minh được trang bị Bàn Tay Công Lý nhận Chuẩn Xác và 15% Tỉ Lệ Chí Mạng.\r\n\r\nChuẩn Xác: Sát thương kỹ năng có thể chí mạng. Chỉ số Chuẩn Xác cộng thêm tăng 10% Sát Thương Chí Mạng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_retribution.png"
+ },
+ {
+  "id": "DA_SalvageBin",
+  "name": "Nhà Máy Tái Chế",
+  "nameEn": "Salvage Bin",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị hoàn chỉnh ngẫu nhiên ngay lập tức, và 1 trang bị thành phần sau 8 vòng giao tranh người chơi. Bán tướng sẽ tách trang bị hoàn chỉnh của tướng đó ra thành trang bị thành phần (ngoại trừ các trang bị Chiến Thuật và Ấn).",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_salvagebin.png"
+ },
+ {
+  "id": "DA_SalvageBinPlus",
+  "name": "Nhà Máy Tái Chế+",
+  "nameEn": "Salvage Bin+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị hoàn chỉnh ngẫu nhiên ngay lập tức, và 1 trang bị thành phần sau 4 vòng giao tranh người chơi. Bán tướng sẽ tách trang bị hoàn chỉnh của tướng đó ra thành trang bị thành phần (ngoại trừ các trang bị Chiến Thuật và Ấn).",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_salvagebinplus.png"
+ },
+ {
+  "id": "DA_SeraphimsStaff",
+  "name": "Trượng Đại Thiên Sứ",
+  "nameEn": "Seraphim's Staff",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Quyền Trượng Thiên Thần. Quyền Trượng Thiên Thần tăng thêm 2 Hồi Phục Năng Lượng nếu chủ sở hữu có 110% Sức Mạnh Phép Thuật trở lên.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_seraphimsstaff.png"
+ },
+ {
+  "id": "DA_ShimmerscaleEssence",
+  "name": "Tinh Túy Kim Long",
+  "nameEn": "Shimmerscale Essence",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Kiếm Của Tay Bạc. Sau 6 giao tranh người chơi, nhận 1 Giáp Đại Hãn.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_shimmerscaleessence.png"
+ },
+ {
+  "id": "DA_Slammin",
+  "name": "Hạ Đo Ván",
+  "nameEn": "Slammin'",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 3 vàng. Sau mỗi giao tranh người chơi, nếu không có trang bị nào của bạn nằm ở hàng chờ (ngoài các trang bị tiêu thụ), nhận 2 XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_slammin.png"
+ },
+ {
+  "id": "DA_SlamminPlus",
+  "name": "Hạ Đo Ván+",
+  "nameEn": "Slammin'+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận ngay 4 vàng và 10 XP. Sau mỗi giao tranh người chơi, nếu không có trang bị nào của bạn nằm ở hàng chờ (ngoài các trang bị tiêu thụ), nhận 2 XP.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_slamminplus.png"
+ },
+ {
+  "id": "DA_SmallGrabBag",
+  "name": "Túi Đồ Cỡ Nhỏ",
+  "nameEn": "Small Grab Bag",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 trang bị thành phần ngẫu nhiên.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_smallgrabbag.png"
+ },
+ {
+  "id": "DA_SoloLeveling",
+  "name": "Tôi Thăng Cấp Một Mình",
+  "nameEn": "Solo Leveling",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Trong 5 giao tranh tiếp theo, bạn chỉ được triển khai 1 tướng, nhưng tướng đó sẽ được tăng mạnh chỉ số. Nhận 1 XP với mỗi mạng hạ gục tướng đó đạt được. Sau đó, nhận 2 trang bị thành phần.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_sololeveling.png"
+ },
+ {
+  "id": "DA_SoloPlate",
+  "name": "Khiên Đơn Đấu",
+  "nameEn": "Solo Plate",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Thú Tượng Thạch Giáp. Các đồng minh mang Thú Tượng Thạch Giáp nhận 17% Máu tối đa nếu họ đứng một mình một hàng khi bắt đầu giao tranh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_soloplate.png"
+ },
+ {
+  "id": "DA_SpeedyDoubleKill",
+  "name": "Song Sát Tốc Hành",
+  "nameEn": "Speedy Double Kill",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Cuồng Đao Guinsoo. Sau khi 2 người chơi đã bị loại, nhận 40 vàng.\r\n\r\nGiải Vô Địch Định Mệnh, 2021",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_speedydoublekill.png"
+ },
+ {
+  "id": "DA_SpiritOfRedemption",
+  "name": "Linh Hồn Chuộc Tội",
+  "nameEn": "Spirit Of Redemption",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Giáp Tâm Linh. Mỗi 5 giây, Giáp Tâm Linh hồi lại cho các đồng minh trong phạm vi 1 ô 9% Máu đã mất của họ.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_spiritofredemption.png"
+ },
+ {
+  "id": "DA_SpreadingRoots",
+  "name": "Cắm Rễ Phân Tán",
+  "nameEn": "Spreading Roots",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "trait"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Ấn ngẫu nhiên. Sau 3 giao tranh, nhận thêm 1 Ấn nữa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_spreadingroots.png"
+ },
+ {
+  "id": "DA_SpreadingRootsPlus",
+  "name": "Cắm Rễ Phân Tán+",
+  "nameEn": "Spreading Roots+",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "trait"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 2 Ấn ngẫu nhiên và 2 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_spreadingrootsplus.png"
+ },
+ {
+  "id": "DA_SweetTreats",
+  "name": "Món Quà Ngọt Ngào",
+  "nameEn": "Sweet Treats",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 gói Trang Bị Tạo Tác. Đội của bạn nhận 16 Máu với mỗi trang bị đang mang trên tướng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_sweettreats.png"
+ },
+ {
+  "id": "DA_SwordOverflow",
+  "name": "Đam Mê Kiếm",
+  "nameEn": "Sword Overflow",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 4 Kiếm BF. Kiếm BF của bạn sẽ cho +4% Tốc Độ Đánh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_swordoverflow.png"
+ },
+ {
+  "id": "DA_TacticiansKitchen",
+  "name": "Linh Thú Vào Bếp",
+  "nameEn": "Tactician's Kitchen",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "trait"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Ấn ngẫu nhiên. Sau 3 vòng đấu, nhận 1 Áo Choàng Chiến Thuật.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_tacticianskitchen.png"
+ },
+ {
+  "id": "DA_TeamBuilding",
+  "name": "Xây Dựng Đội Hình",
+  "nameEn": "Team Building",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "econ"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Máy Sao Chép Tướng Cỡ Nhỏ. Nhận thêm 1 Máy Sao Chép Tướng Cỡ Nhỏ nữa sau 5 vòng giao tranh người chơi.\r\n\r\nTrang bị này cho phép bạn sao chép 1 tướng 3 vàng trở xuống.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_teambuilding.png"
+ },
+ {
+  "id": "DA_TheGoldenDragon",
+  "name": "Kim Long",
+  "nameEn": "The Golden Dragon",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "misc"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Giáp Đại Hãn. Tướng sở hữu Giáp Đại Hãn chiếm +1 vị trí trong đội hình nhưng nhận thêm 600 Máu và 15% Chống Chịu.\r\n\r\nGiáp Đại Hãn này mang lại vàng và tăng sức mạnh chiến đấu.\r\nGiải Vô Địch Thế Giới Rồng, 2022",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_thegoldendragon.png"
+ },
+ {
+  "id": "DA_TheTower",
+  "name": "Tòa Tháp",
+  "nameEn": "The Tower",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [
+   "combat"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Hình Nhân khổng lồ. Cứ mỗi 4 giây, nó phóng điện vào 3 kẻ địch gần nhất, gây sát thương chuẩn tương đương 5% Máu tối đa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_thetower.png"
+ },
+ {
+  "id": "DA_TheTraitTree",
+  "name": "Cây Tộc/Hệ",
+  "nameEn": "The Trait Tree",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "trait"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 3 Ấn ngẫu nhiên và 2 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_thetraittree.png"
+ },
+ {
+  "id": "DA_TheTraitTreePlus",
+  "name": "Cây Tộc/Hệ+",
+  "nameEn": "The Trait Tree+",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "trait"
+  ],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 3 Ấn ngẫu nhiên, 1 Búa Rèn và 4 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_thetraittreeplus.png"
+ },
+ {
+  "id": "DA_TraitLadder",
+  "name": "Thứ Hạng Tộc Hệ",
+  "nameEn": "Trait Ladder",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "trait",
+   "misc"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 ấn ngẫu nhiên. Sau khi triển khai 2 tộc/hệ không độc nhất trong giao tranh người chơi, nhận 1 phần thưởng. Sau đó tăng số tộc/hệ cần thiết và giá trị của phần thưởng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_traitladder.png"
+ },
+ {
+  "id": "DA_URF",
+  "name": "U.R.F",
+  "nameEn": "U.R.F",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Xẻng Vàng. Các tướng mang Xẻng Vàng hoặc Chảo Vàng nhận thêm 20% Tốc Độ Đánh và 3 Hồi Năng Lượng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_urf.png"
+ },
+ {
+  "id": "DA_UrfsGrabBag",
+  "name": "Túi Đồ Urf",
+  "nameEn": "Urf's Grab Bag",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Xẻng Vàng, 3 trang bị thành phần ngẫu nhiên và 5 vàng.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_urfsgrabbag.png"
+ },
+ {
+  "id": "DA_WandOverflow",
+  "name": "Đam Mê Gậy",
+  "nameEn": "Wand Overflow",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items"
+  ],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [],
+  "desc": "Nhận 4 Gậy Quá Khổ. Gậy Quá Khổ của bạn sẽ cho +5% Tốc Độ Đánh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_wandoverflow.png"
+ },
+ {
+  "id": "DA_Warpath",
+  "name": "Đường Ra Trận",
+  "nameEn": "Warpath",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "econ",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 tướng 2 vàng 2 sao. Sau khi gây 80 sát thương lên người chơi, nhận 1 rương chứa các trang bị và tướng bậc cao.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_warpath.png"
+ },
+ {
+  "id": "DA_WeStickTogether",
+  "name": "Kề Vai Sát Cánh",
+  "nameEn": "We Stick Together",
+  "rarity": "Prismatic",
+  "type": "regular",
+  "tags": [
+   "combat",
+   "items",
+   "trait"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Ấn tộc/hệ ngẫu nhiên và một gói trang bị hoàn chỉnh. Các đồng minh mang tộc/hệ đó nhận 25% Tốc Độ Đánh.\r\n{Augment.Variant.WeStickTogether.Tooltip} {Augment.Variant.WeStickTogether.Trait}\r\n\r\nTactician's Crown Bước Vào Arcane, 2025",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_westicktogether.png"
+ },
+ {
+  "id": "DA_WovenMagic",
+  "name": "Ma Thuật Đan Kết",
+  "nameEn": "Woven Magic",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [
+   "items",
+   "scaling"
+  ],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 trang bị thành phần ngẫu nhiên. Mỗi 2200 Năng Lượng tướng của bạn tiêu hao sẽ trao thêm 1 trang bị thành phần (tối đa: ?/3).",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_wovenmagic.png"
+ },
+ {
+  "id": "DA_Annie19_HeroAugment",
+  "name": "Tibbers! I Can't See the Stage",
+  "nameEn": "Tibbers! I Can't See the Stage",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Annie và mở khóa Tibbers. Annie mạnh nhất của bạn trở thành một Thuật Sư Phép, sẽ nhảy lên Tibbers mạnh nhất của bạn khi bắt đầu giao tranh.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_annie19_heroaugment.png"
+ },
+ {
+  "id": "DA_Elise19_HeroAugment",
+  "name": "Vết Cắn",
+  "nameEn": "Bite Marks",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Gain an Elise. Your strongest Elise becomes a Magic Assassin with a bite that she recasts on low Health enemies on kill.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_elise19_heroaugment.png"
+ },
+ {
+  "id": "DA_Kennen19_HeroAugment",
+  "name": "Anh Chàng Sấm Sét",
+  "nameEn": "He's Electric",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Kennen. Kennen mạnh nhất của bạn trở thành Sát Thủ Phép, được cộng thêm vĩnh viễn Sát Thương Chuẩn vào kỹ năng của hắn khi hạ gục.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_kennen19_heroaugment.png"
+ },
+ {
+  "id": "DA_Lillia19_HeroAugment",
+  "name": "Nhảy Múa Tung Tăng",
+  "nameEn": "Dancin' n' Prancin'",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Lillia. Lillia mạnh nhất của bạn trở thành Đấu Sĩ Phép, tung tăng khắp bàn đấu và gây sát thương phép cộng dồn theo thời gian.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_lillia19_heroaugment.png"
+ },
+ {
+  "id": "DA_Olaf19_HeroAugment",
+  "name": "Rìu Khúc Tột Đỉnh",
+  "nameEn": "Axe Crescendo",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Olaf. Olaf mạnh nhất của bạn trở thành Xạ Thủ Vật Lý đánh xa với Kỹ Năng đơn mục tiêu và mạnh dần lên sau mỗi lần tung chiêu.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_olaf19_heroaugment.png"
+ },
+ {
+  "id": "DA_Renekton19_HeroAugment",
+  "name": "Cứu Hộ Sẵn Sàng",
+  "nameEn": "Lifeguard on Duty",
+  "rarity": "Gold",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Renekton. Renekton mạnh nhất của bạn trở thành một Đấu Sĩ Vật Lý, bắt đầu giao tranh bằng cách tắm nắng và sẽ lao vào hành động khi một đồng minh gặp nguy hiểm.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_renekton19_heroaugment.png"
+ },
+ {
+  "id": "DA_Sett19_HeroAugment",
+  "name": "Punch Line",
+  "nameEn": "Punch Line",
+  "rarity": "Silver",
+  "type": "regular",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [],
+  "desc": "Nhận 1 Sett. Sett mạnh nhất của bạn trở thành Đấu Sĩ Vật Lý với một cú đấm có thể hành quyết kẻ địch, hất bay chúng đi.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_sett19_heroaugment.png"
+ },
+ {
+  "id": "DA_19_ArcanistCirclet",
+  "name": "Vòng Tròn Pháp Sư",
+  "nameEn": "Arcanist Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Arcanist19"
+  ],
+  "desc": "Nhận 1 Ấn Pháp Sư, 1 Nước Mắt Nữ Thần và 1 Ahri.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_arcanistcirclet.png"
+ },
+ {
+  "id": "DA_19_ArcanistCrown",
+  "name": "Vương Miện Pháp Sư",
+  "nameEn": "Arcanist Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Arcanist19"
+  ],
+  "desc": "Nhận 1 Ấn Pháp Sư, 1 Găng Bảo Thạch và 1 Swain.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_arcanistcrown.png"
+ },
+ {
+  "id": "DA_19_ChoreographerCirclet",
+  "name": "Vòng Tròn Biên Đạo",
+  "nameEn": "Choreographer Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Choreographer19"
+  ],
+  "desc": "Nhận 1 Ấn Biên Đạo, 1 Đai Khổng Lồ và 1 Garen",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_choreographercirclet.png"
+ },
+ {
+  "id": "DA_19_ChoreographerCrown",
+  "name": "Vương Miện Biên Đạo",
+  "nameEn": "Choreographer Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Choreographer19"
+  ],
+  "desc": "Nhận 1 Ấn Biên Đạo, 1 Mũ Thích Nghi và 1 Syndra.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_choreographercrown.png"
+ },
+ {
+  "id": "DA_Choreographer19_DanceParty",
+  "name": "Đại Tiệc Khiêu Vũ",
+  "nameEn": "Dance Party",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [
+   "DA_Choreographer19"
+  ],
+  "desc": "When you win combat, each surviving champion has a 5% chance to drop 1 gold. The chance increases by 15% for each Choreographer you're fielding. Gain 2 Choreographers.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_choreographer19_danceparty.png"
+ },
+ {
+  "id": "DA_19_DemonVisionCirclet",
+  "name": "Vòng Tròn Rock",
+  "nameEn": "Rock Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_DemonVision19"
+  ],
+  "desc": "Nhận 1 Ấn Rock, 1 Gậy Quá Khổ và 1 Locke.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_demonvisioncirclet.png"
+ },
+ {
+  "id": "DA_19_DemonVisionCrown",
+  "name": "Vương Miện Rock",
+  "nameEn": "Rock Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_DemonVision19"
+  ],
+  "desc": "Nhận 1 Ấn Rock, 1 Bàn Tay Công Lý và 1 Camille.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_demonvisioncrown.png"
+ },
+ {
+  "id": "DA_DemonVision19_Deathbringer",
+  "name": "Tử Thần",
+  "nameEn": "Deathbringer",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_DemonVision19"
+  ],
+  "desc": "Sau mỗi 2 mạng hạ gục của các tướng Rock hoặc Thần Tượng Hỏa Ngục, hắn nhận vĩnh viễn 15 Máu cùng 2% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật. Nhận 3 tướng Rock.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_demonvision19_deathbringer.png"
+ },
+ {
+  "id": "DA_DemonVision19_RockAllNite",
+  "name": "Rock Xuyên Màn Đêm",
+  "nameEn": "Rock All Nite",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_DemonVision19"
+  ],
+  "desc": "Rock champions gain 10% Attack Damage and Ability Power. Every 2 seconds the Infernal Idol lives, they gain 1% more. Gain 3 Rock champions.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_demonvision19_rockallnite.png"
+ },
+ {
+  "id": "DA_Glitterbomb19_RerollExe",
+  "name": "reroll.exe",
+  "nameEn": "reroll.exe",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_GlitterBomb19"
+  ],
+  "desc": "Khi bắt đầu mỗi giai đoạn, bao gồm cả giai đoạn này, nhận 2 lượt đổi miễn phí, cộng thêm 1 cho mỗi 250 Hyperpop Phấn Khích bạn có. Nhận 1 Ziggs 2 sao.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_glitterbomb19_rerollexe.png"
+ },
+ {
+  "id": "DA_Augment19_Heartsteel_BigSolo",
+  "name": "Màn Solo Đỉnh Cao",
+  "nameEn": "Big Solo",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Heartsteel19"
+  ],
+  "desc": "Các Bias Heartsteel của bạn nhận thêm 150% mọi hiệu ứng thưởng Heartsteel đang kích hoạt. Nhận 3 tướng Heartsteel.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_augment19_heartsteel_bigsolo.png"
+ },
+ {
+  "id": "DA_19_HeartsteelCirclet",
+  "name": "Vòng Tròn Heartsteel",
+  "nameEn": "Heartsteel Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Heartsteel19"
+  ],
+  "desc": "Gain a Heartsteel Emblem, a Sparring Gloves, and a K'Sante.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_heartsteelcirclet.png"
+ },
+ {
+  "id": "DA_19_HeartsteelCrown",
+  "name": "Vương Miện Heartsteel",
+  "nameEn": "Heartsteel Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Heartsteel19"
+  ],
+  "desc": "Nhận 1 Ấn Heartsteel, 1 Trái Tim Kiên Định và 1 K'Sante.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_heartsteelcrown.png"
+ },
+ {
+  "id": "DA_19_HeartsteelPrismaticTour",
+  "name": "Heartsteel Prismatic Tour",
+  "nameEn": "Heartsteel Prismatic Tour",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Heartsteel19"
+  ],
+  "desc": "Gain the Heartsteel Prismatic Quest, 3 Heartsteel champions, a Lucky Item Chest, and 7 gold.\r\n\r\nHave Heartsteel allies deal damage, block damage, and heal health with 7 Heartsteel active!",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_heartsteelprismatictour.png"
+ },
+ {
+  "id": "DA_19_HeartsteelPrismaticTourPlus",
+  "name": "Heartsteel Prismatic Tour+",
+  "nameEn": "Heartsteel Prismatic Tour+",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Heartsteel19"
+  ],
+  "desc": "Nhận Nhiệm Vụ Kim Cương Heartsteel, 3 tướng Heartsteel, 3 trang bị thành phần và 2 vàng.\r\n\r\nĐể các đồng minh Heartsteel gây sát thương, chặn sát thương và hồi máu khi đang kích hoạt 7 Heartsteel!",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_heartsteelprismatictourplus.png"
+ },
+ {
+  "id": "DA_Augment19_Heartsteel_SmallSquad",
+  "name": "Biệt Đội Nhỏ",
+  "nameEn": "Small Squad",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Heartsteel19"
+  ],
+  "desc": "Khi triển khai ít hơn 3 tướng Heartsteel, tăng các chỉ số cộng thêm của họ thêm 100%. Nhận 2 tướng Heartsteel.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_augment19_heartsteel_smallsquad.png"
+ },
+ {
+  "id": "DA_Heavenscale19_TheImmortalJourney",
+  "name": "Hành Trình Bất Tử",
+  "nameEn": "The Immortal Journey",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [
+   "DA_Heavenscale19"
+  ],
+  "desc": "Gain a Xayah, a Spear of Shojin and 3 gold.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_heavenscale19_theimmortaljourney.png"
+ },
+ {
+  "id": "DA_19_HitmakerCirclet",
+  "name": "Vòng Tròn Hitmaker",
+  "nameEn": "Hitmaker Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Hitmaker19"
+  ],
+  "desc": "Gain a Hitmaker Emblem, a B.F. Sword, and a Senna.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_hitmakercirclet.png"
+ },
+ {
+  "id": "DA_19_HitmakerCrown",
+  "name": "Vương Miện Hitmaker",
+  "nameEn": "Hitmaker Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Hitmaker19"
+  ],
+  "desc": "Nhận 1 Ấn Hitmaker, 1 Vô Cực Kiếm và 1 Senna.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_hitmakercrown.png"
+ },
+ {
+  "id": "DA_19_IllBeatsCirclet",
+  "name": "Vòng Tròn Illbeats",
+  "nameEn": "Illbeats Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Illbeats19"
+  ],
+  "desc": "Nhận 1 Ấn Illbeats, 1 Nước Mắt Nữ Thần và 1 Draven.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_illbeatscirclet.png"
+ },
+ {
+  "id": "DA_19_IllBeatsCrown",
+  "name": "Vương Miện Illbeats",
+  "nameEn": "Illbeats Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Illbeats19"
+  ],
+  "desc": "Nhận 1 Ấn Illbeats, 1 Thú Tượng Thạch Giáp và 1 Braum.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_illbeatscrown.png"
+ },
+ {
+  "id": "DA_19_IonicSparkCirclet",
+  "name": "Mordekaiser Poro Cổ Vũ",
+  "nameEn": "Ionic Spark Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_IonicSpark19"
+  ],
+  "desc": "Gain an Ionic Spark Emblem, a Needlessly Large Rod, and a Briar.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_ionicsparkcirclet.png"
+ },
+ {
+  "id": "DA_19_IonicSparkCrown",
+  "name": "Vương Miện Ionic Spark",
+  "nameEn": "Ionic Spark Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_IonicSpark19"
+  ],
+  "desc": "Nhận 1 Ấn Ionic Spark, 1 Nỏ Sét và 1 Annie.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_ionicsparkcrown.png"
+ },
+ {
+  "id": "DA_IonicSpark19_ForeverBurningBrighter",
+  "name": "Mãi Mãi Cháy Sáng",
+  "nameEn": "Forever Burning Brighter",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_IonicSpark19"
+  ],
+  "desc": "Các tướng Ionic Spark của bạn nhận 8% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật, tăng vĩnh viễn thêm 1% với mỗi 30 món quà từ người hâm mộ. Nhận 3 tướng Ionic Spark.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_ionicspark19_foreverburningbrighter.png"
+ },
+ {
+  "id": "DA_19_IonicSparkPrismaticTour",
+  "name": "Nhạc Hội Muôn Màu Ionic Spark",
+  "nameEn": "Ionic Spark Prismatic Tour",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_IonicSpark19"
+  ],
+  "desc": "Gain the Ionic Spark Prismatic Quest, 3 Ionic Spark champions, a Lucky Item Chest, and 7 gold.\r\n\r\nWith 7 Ionic Spark active, collect album signatures over 10 rounds, then field 10 Ionic Spark!",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_ionicsparkprismatictour.png"
+ },
+ {
+  "id": "DA_19_IonicSparkPrismaticTourPlus",
+  "name": "Ionic Spark Prismatic Tour+",
+  "nameEn": "Ionic Spark Prismatic Tour+",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_IonicSpark19"
+  ],
+  "desc": "Nhận Nhiệm Vụ Kim Cương Ionic Spark, 3 tướng Ionic Spark, 2 trang bị thành phần và 10 vàng.\r\n\r\nKhi kích hoạt 7 Ionic Spark, thu thập chữ ký album trong 10 vòng, sau đó triển khai 10 Ionic Spark!",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_ionicsparkprismatictourplus.png"
+ },
+ {
+  "id": "DA_IonicSpark19_LightUpTheSky",
+  "name": "Thắp Sáng Bầu Trời",
+  "nameEn": "Light up the Sky",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_IonicSpark19"
+  ],
+  "desc": "Sau mỗi 3 giây, 3 kẻ địch có Máu cao nhất chịu sát thương phép bằng 5% Máu tối đa + 1% với mỗi tướng Ionic Spark bạn đang triển khai. Nhận 3 tướng Ionic Spark.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_ionicspark19_lightupthesky.png"
+ },
+ {
+  "id": "DA_IonicSpark19_OurHeartsAligned",
+  "name": "Trái Tim Hòa Nhịp",
+  "nameEn": "Our Hearts Aligned",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_IonicSpark19"
+  ],
+  "desc": "Every time Ionic Spark champions collectively spend 600 Mana, they all gain a 10% max Health Shield for 6 seconds. Gain 3 Ionic Spark champions.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_ionicspark19_ourheartsaligned.png"
+ },
+ {
+  "id": "DA_19_JazzCirclet",
+  "name": "Vòng Tròn Hiền Giả",
+  "nameEn": "Jazz Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Jazz19"
+  ],
+  "desc": "Gain a Jazz Emblem, a Recurve Bow, and a Bard.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_jazzcirclet.png"
+ },
+ {
+  "id": "DA_19_JazzCrown",
+  "name": "Vương Miện Jazz",
+  "nameEn": "Jazz Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Jazz19"
+  ],
+  "desc": "Nhận 1 Ấn Jazz, 1 Ngọn Giáo Shojin và 1 Lucian.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_jazzcrown.png"
+ },
+ {
+  "id": "DA_Jazz19_DigOnThis",
+  "name": "Tận Hưởng Nào",
+  "nameEn": "Dig on This",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [
+   "DA_Jazz19"
+  ],
+  "desc": "Các tướng Jazz của bạn nhận thêm 150% Máu và Khuếch Đại Sát Thương từ tộc/hệ Jazz. Nhận 1 Lucian và 1 Galio.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_jazz19_digonthis.png"
+ },
+ {
+  "id": "DA_19_KDACirclet",
+  "name": "Vòng Tròn K/DA",
+  "nameEn": "K/DA Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_KDA19"
+  ],
+  "desc": "Nhận 1 Ấn K/DA, 1 Gậy Quá Khổ và 1 Leona.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_kdacirclet.png"
+ },
+ {
+  "id": "DA_19_KDACrown",
+  "name": "Vương Miện K/DA",
+  "nameEn": "K/DA Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_KDA19"
+  ],
+  "desc": "Nhận 1 Ấn K/DA, 1 Cuồng Đao Guinsoo và 1 Kai'Sa.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_kdacrown.png"
+ },
+ {
+  "id": "DA_19_KDAPrismaticTour",
+  "name": "Nhạc Hội Muôn Màu K/DA",
+  "nameEn": "K/DA Prismatic Tour",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_KDA19"
+  ],
+  "desc": "Nhận Nhiệm Vụ Kim Cương K/DA, 3 tướng K/DA, 2 Máy Sao Chép Tí Hon, 1 Máy Sao Chép Tướng Cỡ Nhỏ và 10 vàng.\r\n\r\nĐạt 21 cấp sao tướng K/DA!",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_kdaprismatictour.png"
+ },
+ {
+  "id": "DA_19_KDAPrismaticTourPlus",
+  "name": "K/DA Nhạc Hội Muôn Màu+",
+  "nameEn": "K/DA Prismatic Tour+",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [
+   "DA_KDA19"
+  ],
+  "desc": "Nhận Nhiệm Vụ Kim Cương K/DA, 3 tướng K/DA, 2 Máy Sao Chép Tí Hon, 2 Máy Sao Chép Tướng Cỡ Nhỏ và 6 lượt làm mới miễn phí.\r\n\r\nĐạt 21 cấp sao tướng K/DA!",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_kdaprismatictourplus.png"
+ },
+ {
+  "id": "DA_KDA19_RunningWild",
+  "name": "Tả Xung Hữu Đột",
+  "nameEn": "Running Wild",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_KDA19"
+  ],
+  "desc": "Khi bắt đầu giao tranh, những tướng Cầu Vồng Tối Thượng mạnh nhất của bạn không có trang bị 3 sẽ nhận được một trang bị đề xuất tạm thời và 250 1907 Fenerbahçe Esports MSI 2021. \"Nhận 1 Neeko và 1 Mũi Giáo Shojin.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_kda19_runningwild.png"
+ },
+ {
+  "id": "DA_KDA19_StarPower",
+  "name": "Sức Mạnh Siêu Sao",
+  "nameEn": "Star Power",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_KDA19"
+  ],
+  "desc": "When you 2-star a K/DA champion, gain a free K/DA champion. Gain a Lillia and a Neeko.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_kda19_starpower.png"
+ },
+ {
+  "id": "DA_Augment19_Manager_ManagementTrack",
+  "name": "Tiến Trình Quản Lý",
+  "nameEn": "Management Track",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [
+   "DA_Manager19"
+  ],
+  "desc": "Gain a Manager Emblem and a Leona. When champions gain bonuses from Manager there is a 40% chance to gain 1 gold. \r\n\r\nAfter collecting 40 gold from the Manager trait, gain a Dr. Mundo and a Warmog's Armor.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_augment19_manager_managementtrack.png"
+ },
+ {
+  "id": "DA_Augment19_Manager_ManagementTrackPlus",
+  "name": "Management Track+",
+  "nameEn": "Management Track+",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [
+   "DA_Manager19"
+  ],
+  "desc": "Gain a Manager Emblem and a Leona. When champions gain bonuses from Manager there is a 40% chance to gain 1 gold. \r\n\r\nAfter collecting 40 gold from the Manager trait, gain a Dr. Mundo and a Warmog's Armor.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_augment19_manager_managementtrackplus.png"
+ },
+ {
+  "id": "DA_Augment19_Manager_StakeholderMeeting",
+  "name": "Quản lý các bên liên quan",
+  "nameEn": "Stakeholder Management",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2"
+  ],
+  "traits": [
+   "DA_Manager19"
+  ],
+  "desc": "Nhận thêm 2 ô Quản Lý. Tướng Quản Lý đặt ở ô Quản Lý nhận thêm 10% Máu tối đa và thêm 50% hiệu ứng thưởng từ ô. Sau 4 vòng đấu, nhận 1 Leona.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_augment19_manager_stakeholdermeeting.png"
+ },
+ {
+  "id": "DA_Augment19_Manager_StakeholderMeetingLate",
+  "name": "Quản Lý Cổ Đông+",
+  "nameEn": "Stakeholder Management+",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [
+   "DA_Manager19"
+  ],
+  "desc": "Nhận thêm 2 ô Quản Lý. Tướng Quản Lý đặt ở ô Quản Lý nhận thêm 10% Máu tối đa và thêm 50% hiệu ứng thưởng từ ô. Nhận 1 Leona.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_augment19_manager_stakeholdermeetinglate.png"
+ },
+ {
+  "id": "DA_19_MosherCirclet",
+  "name": "Vòng Tròn Đồ Tể",
+  "nameEn": "Slayer Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Mosher19"
+  ],
+  "desc": "Nhận 1 Ấn Đồ Tể, 1 Giáp Lưới và 1 Yone.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_moshercirclet.png"
+ },
+ {
+  "id": "DA_19_MosherCrown",
+  "name": "Vương Miện Đồ Tể",
+  "nameEn": "Slayer Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Mosher19"
+  ],
+  "desc": "Gain a Slayer Emblem, a Titan's Resolve, and a Briar.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_moshercrown.png"
+ },
+ {
+  "id": "DA_19_OceanSongCirclet",
+  "name": "Beach Pop Circlet",
+  "nameEn": "Beach Pop Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_OceanSong19"
+  ],
+  "desc": "Nhận 1 Ấn Beach Pop, 1 Găng Đấu Tập và 1 Graves.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_oceansongcirclet.png"
+ },
+ {
+  "id": "DA_19_OceanSongCrown",
+  "name": "Vương Miện Beach Pop",
+  "nameEn": "Beach Pop Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_OceanSong19"
+  ],
+  "desc": "Nhận một Quái Đá Krug Bãi Biển Pop, một Lee Sin và một Syndra.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_oceansongcrown.png"
+ },
+ {
+  "id": "DA_Oceansong19_EconAugment",
+  "name": "Kho Báu Được Khai Quật",
+  "nameEn": "Unearthed Treasure",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_OceanSong19"
+  ],
+  "desc": "Sau giao tranh người chơi, mỗi tướng Beach Pop khác nhau được cường hóa bởi một nhạc cụ Beach Pop có tỉ lệ tìm thấy báu vật! Nhận 1 Taric, 1 Zoe và 1 Renekton.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_oceansong19_econaugment.png"
+ },
+ {
+  "id": "DA_19_PentakillCirclet",
+  "name": "Vòng Tròn Pentakill",
+  "nameEn": "Pentakill Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Pentakill19"
+  ],
+  "desc": "Gain a Pentakill Emblem, a Negatron Cloak, and a Viego.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pentakillcirclet.png"
+ },
+ {
+  "id": "DA_19_PentakillCrown",
+  "name": "Vương Miện Pentakill",
+  "nameEn": "Pentakill Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Pentakill19"
+  ],
+  "desc": "Nhận 1 Ấn Pentakill, 1 Diệt Khổng Lồ và 1 Viego.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pentakillcrown.png"
+ },
+ {
+  "id": "DA_Pentakill19_GatheringStorm",
+  "name": "Cuồng Phong Tích Tụ",
+  "nameEn": "Gathering Storm",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Pentakill19"
+  ],
+  "desc": "Các tướng Pentakill của bạn nhận vĩnh viễn 8 Máu mỗi khi tộc/hệ Pentakill hành quyết một kẻ địch. Nhận 3 tướng Pentakill.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_pentakill19_gatheringstorm.png"
+ },
+ {
+  "id": "DA_19_PentakillPrismaticTour",
+  "name": "Nhạc Hội Muôn Màu Pentakill",
+  "nameEn": "Pentakill Prismatic Tour",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Pentakill19"
+  ],
+  "desc": "Gain the Pentakill Prismatic Quest, 3 Pentakill champions, a Lucky Item Chest, and 7 gold.\r\n\r\nWith 7 Pentakill active, have the Lightbringer get kills and reach level 10!",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pentakillprismatictour.png"
+ },
+ {
+  "id": "DA_19_PentakillPrismaticTourPlus",
+  "name": "Pentakill Prismatic Tour+",
+  "nameEn": "Pentakill Prismatic Tour+",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Pentakill19"
+  ],
+  "desc": "Nhận Nhiệm Vụ Kim Cương Pentakill, 3 tướng Pentakill, 2 trang bị thành phần và 10 vàng.\r\n\r\nĐạt cấp 10 và để một đồng minh Pentakill đạt chuỗi nhiều điểm hạ gục với 7 tướng Pentakill được kích hoạt!",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_pentakillprismatictourplus.png"
+ },
+ {
+  "id": "DA_19_RenegadeCirclet",
+  "name": "Vương Miện Ngoại Đạo",
+  "nameEn": "Renegade Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Renegade19"
+  ],
+  "desc": "Gain a Renegade Emblem, a Sparring Gloves, and a 2-star Qiyana.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_renegadecirclet.png"
+ },
+ {
+  "id": "DA_19_RenegadeCrown",
+  "name": "Vương Miện Ngoại Đạo",
+  "nameEn": "Renegade Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Renegade19"
+  ],
+  "desc": "Gain a Renegade Emblem, a Hand of Justice, and a Qiyana.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_renegadecrown.png"
+ },
+ {
+  "id": "DA_Renegade19_HighRolling",
+  "name": "Đặt Cược Rủi Ro",
+  "nameEn": "High Rolling",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2"
+  ],
+  "traits": [
+   "DA_Renegade19"
+  ],
+  "desc": "Renegade kills have a chance to drop loot, scaling with Critical Strike Chance. The value of the loot given can also critically strike, granting even more loot. Gain a Qiyana.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_renegade19_highrolling.png"
+ },
+ {
+  "id": "DA_19_SwiftstrikerCirclet",
+  "name": "Swiftstriker Circlet",
+  "nameEn": "Swiftstriker Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Swiftstriker19"
+  ],
+  "desc": "Nhận 1 Ấn Tốc Kích, 1 Cung Gỗ và 1 Bard.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_swiftstrikercirclet.png"
+ },
+ {
+  "id": "DA_19_SwiftstrikerCrown",
+  "name": "Vương Miện Tốc Kích",
+  "nameEn": "Swiftstriker Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Swiftstriker19"
+  ],
+  "desc": "Nhận 1 Ấn Tốc Kích, 1 Kiếm Súng Hextech và 1 Bard.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_swiftstrikercrown.png"
+ },
+ {
+  "id": "DA_Swiftstriker19_DeathByAThousandCuts",
+  "name": "Ngàn Nhát Cắt",
+  "nameEn": "Death by a Thousand Cuts",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Swiftstriker19"
+  ],
+  "desc": "After 250 and 1000 Swiftstriker attacks, gain a Completed Item Anvil and 12 Gold. Gain a Ziggs and a Yunara.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_swiftstriker19_deathbyathousandcuts.png"
+ },
+ {
+  "id": "DA_19_TrueDamageCirclet",
+  "name": "Vòng Tròn True Damage",
+  "nameEn": "True Damage Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_TrueDamage19"
+  ],
+  "desc": "Gain a True Damage Emblem, a Giant's Belt, and an Ekko.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_truedamagecirclet.png"
+ },
+ {
+  "id": "DA_19_TrueDamageCrown",
+  "name": "Vương Miện True Damage",
+  "nameEn": "True Damage Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_TrueDamage19"
+  ],
+  "desc": "Nhận 1 Ấn True Damage, 1 Vô Cực Kiếm và 1 Senna.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_truedamagecrown.png"
+ },
+ {
+  "id": "DA_TrueDamage19_PainIntoPassion",
+  "name": "Đau Thương Hóa Đam Mê",
+  "nameEn": "Pain into Passion",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_TrueDamage19"
+  ],
+  "desc": "Ở Mặt A, tướng True Damage nhận 1% Tốc Độ Đánh và 10 Máu cho mỗi 30 Hào Nhoáng thu thập được. Ở Mặt B, nhận 3 Vàng sau khi thua giao tranh.\r\n\r\nNhận 3 tướng True Damage.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_truedamage19_painintopassion.png"
+ },
+ {
+  "id": "DA_19_TrueDamagePrismaticTour",
+  "name": "True Damage Prismatic Tour",
+  "nameEn": "True Damage Prismatic Tour",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "4-2"
+  ],
+  "traits": [
+   "DA_TrueDamage19"
+  ],
+  "desc": "Nhận Nhiệm Vụ Kim Cương True Damage, 3 tướng True Damage, 3 trang bị thành phần và 2 vàng.\r\n\r\nĐạt đúng chuỗi thắng và thua với 5 tướng True Damage được kích hoạt!",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_truedamageprismatictour.png"
+ },
+ {
+  "id": "DA_Classical19_CombatAugment",
+  "name": "Lưu Danh Nhà Hát",
+  "nameEn": "Immortalized in Theater",
+  "rarity": "Gold",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1",
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Virtuosos19"
+  ],
+  "desc": "3 đồng minh đầu tiên bị hạ gục trong mỗi giao tranh sẽ hóa thành tượng. Khi các bức tượng bị phá hủy, chúng Mê Hoặc kẻ địch liền kề trong 4 giây. Nhận 1 Katarina và 1 Renata Glasc.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_classical19_combataugment.png"
+ },
+ {
+  "id": "DA_19_VirtuososCirclet",
+  "name": "Vòng Tròn Cổ Điển",
+  "nameEn": "Classical Circlet",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "3-2",
+   "4-2"
+  ],
+  "traits": [
+   "DA_Virtuosos19"
+  ],
+  "desc": "Nhận 1 Ấn Cổ Điển, 1 Kiếm B.F. và 1 Jhin.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_virtuososcirclet.png"
+ },
+ {
+  "id": "DA_19_VirtuososCrown",
+  "name": "Classical Crown",
+  "nameEn": "Classical Crown",
+  "rarity": "Prismatic",
+  "type": "trait",
+  "tags": [],
+  "rounds": [
+   "2-1"
+  ],
+  "traits": [
+   "DA_Virtuosos19"
+  ],
+  "desc": "Nhận 1 Ấn Cổ Điển, 1 Giáp Tâm Linh và 1 Nasus.",
+  "icon": "https://cdn.metatft.com/file/metatft/augments/da_19_virtuososcrown.png"
+ }
+]

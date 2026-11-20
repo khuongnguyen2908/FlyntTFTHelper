@@ -1,0 +1,2428 @@
+[
+ {
+  "id": "DA_ChaliceOfPower",
+  "name": "Cốc Sức Mạnh",
+  "nameEn": "Chalice of Power",
+  "kind": "support",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Ban 25% Sức Mạnh Phép Thuật và 1 Hồi Năng Lượng cho chủ sở hữu và đồng minh trong phạm vi 2 ô cùng hàng.",
+  "stats": "150 Máu",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_chaliceofpower.png"
+ },
+ {
+  "id": "DA_RanduinsOmen",
+  "name": "Khiên Băng Randuin",
+  "nameEn": "Randuin's Omen",
+  "kind": "support",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Grant 33 Armor and Magic Resist to the holder and allies within 1 hex.",
+  "stats": "150 Máu",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_randuinsomen.png"
+ },
+ {
+  "id": "DA_ZekesHerald",
+  "name": "Tụ Bão Zeke",
+  "nameEn": "Zeke's Herald",
+  "kind": "support",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Tăng 33% Tốc Độ Đánh cho chủ sở hữu và các đồng minh trong phạm vi 2 ô trên cùng hàng.",
+  "stats": "150 Máu",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_zekesherald.png"
+ },
+ {
+  "id": "DA_ZZRotPortal",
+  "name": "Thông Đạo Zz'rot",
+  "nameEn": "Zz'Rot Portal",
+  "kind": "support",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Summon a large Voidspawn. Its strength increases with each Stage.",
+  "stats": "150 Máu",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_zzrotportal.png"
+ },
+ {
+  "id": "DA_AdaptiveHelm",
+  "name": "Mũ Thích Nghi",
+  "nameEn": "Adaptive Helm",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_TearOfTheGoddess",
+   "DA_Component_NegatronCloak"
+  ],
+  "cat": [
+   "magic",
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận thêm 15% Năng Lượng từ mọi nguồn. Chủ sở hữu nhận thêm hiệu ứng tùy theo Vai Trò:\r\n\r\nĐỡ Đòn và Đấu Sĩ: Nhận 80 Giáp và Kháng Phép.\r\n\r\nCác Vai Trò khác: Nhận 10% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật.",
+  "stats": "20 Kháng phép 3 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_adaptivehelm.png"
+ },
+ {
+  "id": "DA_AdaptiveHelm_Radiant",
+  "name": "Mũ Thích Nghi Ánh Sáng",
+  "nameEn": "Radiant Adaptive Helm",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "magic",
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận thêm 30% Năng Lượng từ mọi nguồn. Chủ sở hữu nhận thêm hiệu ứng tùy theo Vai Trò:\r\n\r\nĐỡ Đòn và Đấu Sĩ: Nhận 80 Giáp và Kháng Phép.\r\n\r\nCác Vai Trò khác: Nhận 35% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật.",
+  "stats": "40 Kháng phép 6 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_adaptivehelm_radiant.png"
+ },
+ {
+  "id": "DA_ArchangelsStaff",
+  "name": "Quyền Trượng Thiên Thần",
+  "nameEn": "Archangel's Staff",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_NeedlesslyLargeRod",
+   "DA_Component_TearOfTheGoddess"
+  ],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Bắt đầu giao tranh: Nhận 20% Sức Mạnh Phép Thuật mỗi 5 giây trong giao tranh.",
+  "stats": "30% SMPT 1 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_archangelsstaff.png"
+ },
+ {
+  "id": "DA_ArchangelsStaffRadiant",
+  "name": "Quyền Trượng Thiên Thần Ánh Sáng",
+  "nameEn": "Radiant Archangel's Staff",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Bắt đầu giao tranh: Nhận 40% Sức Mạnh Phép Thuật mỗi 5 giây trong giao tranh.",
+  "stats": "60% SMPT 2 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_archangelsstaffradiant.png"
+ },
+ {
+  "id": "DA_Artifact_AegisOfDawn",
+  "name": "Khiên Hừng Đông",
+  "nameEn": "Aegis of Dawn",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Mỗi 2.5 giây, đánh cắp 3 Giáp từ các kẻ địch trong phạm vi 1 ô và hồi máu bằng ? Giáp của chủ sở hữu.\r\n\r\nNếu Khiên Hoàng Hôn cũng được trang bị, thay vào đó kích hoạt hiệu ứng của trang bị này mỗi 1.25 giây.\r\n\r\nLượng hồi phục tăng lên dựa trên Giai Đoạn.",
+  "stats": "400 Máu 50 Giáp",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_aegisofdawn.png"
+ },
+ {
+  "id": "DA_Artifact_AegisOfDusk",
+  "name": "Khiên Hoàng Hôn",
+  "nameEn": "Aegis of Dusk",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Cứ mỗi 2.5 giây, đánh cắp 3 Kháng Phép từ kẻ địch trong phạm vi 1 ô và gây lượng sát thương phép bằng 18% Kháng Phép của chủ sở hữu.\r\n\r\nNếu đang trang bị Khiên Hừng Đông, hiệu ứng của trang bị này sẽ kích hoạt mỗi 1.25 giây.\r\n\r\nSát thương tăng theo Giai Đoạn.",
+  "stats": "400 Máu 70 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_aegisofdusk.png"
+ },
+ {
+  "id": "DA_Artifact_BlightingJewel",
+  "name": "Đá Hắc Hóa",
+  "nameEn": "Blighting Jewel",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Dealing magic damage reduces the target’s Magic Resist by 3. If their Magic Resist is 0, grant the holder 2 Mana instead. \r\n\r\nDamage over time effects can only trigger on each enemy once every 0.5 seconds.",
+  "stats": "30% SMPT 2 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_blightingjewel.png"
+ },
+ {
+  "id": "DA_Artifact_CappaJuice",
+  "name": "Nước Cappa",
+  "nameEn": "Cappa Juice",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu đội thêm 1 Mũ mỗi lần tham gia hạ gục. Chủ sở hữu nhận 1% Sức Mạnh Công Kích và Sức Mạnh Phép Thuật với mỗi Mũ. Khi hy sinh, mất 20% tổng số Mũ.",
+  "stats": "25% SMCK 25% SMPT 25% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_cappajuice.png"
+ },
+ {
+  "id": "DA_Artifact_Dawncore",
+  "name": "Lõi Bình Minh",
+  "nameEn": "Dawncore",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Giảm Năng Lượng tối đa của chủ sở hữu đi 10. Những lần thi triển kỹ năng tiếp theo sẽ giảm Năng Lượng tối đa đi 5%, xuống mức tối thiểu là 15.",
+  "stats": "20% SMCK 20% SMPT 1 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_dawncore.png"
+ },
+ {
+  "id": "DA_Artifact_DeathsDefiance",
+  "name": "Vũ Khúc Tử Thần",
+  "nameEn": "Death's Defiance",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "50% lượng sát thương chủ sở hữu nhận vào sẽ được gây ra theo dạng sát thương theo thời gian trong 4 giây.\r\n\r\nDuy nhất - chỉ 1 mỗi tướng",
+  "stats": "25% SMCK 40 Giáp 15% Tốc đánh 25% Hút máu toàn phần",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_deathsdefiance.png"
+ },
+ {
+  "id": "DA_Artifact_EternalPact",
+  "name": "Khế Ước Vĩnh Hằng",
+  "nameEn": "Eternal Pact",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Bắt đầu giao tranh: Kết giao ước với tướng đồng minh nhiều Máu nhất, nếu họ hy sinh, nhận 10 hồi Năng Lượng và 40% Sức Mạnh Phép Thuật.\r\n\r\nKhi đồng minh dùng kỹ năng, nhận 10 Năng Lượng. Mỗi 6 giây, tạo lá chắn cho đồng minh bằng 200% Sức Mạnh Phép Thuật của chủ sở hữu.",
+  "stats": "35% SMPT 1 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_eternalpact.png"
+ },
+ {
+  "id": "DA_Artifact_Fishbones",
+  "name": "Pháo Xương Cá",
+  "nameEn": "Fishbones",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Đòn đánh của chủ sở hữu sẽ nhắm tới những kẻ địch ngẫu nhiên. Tăng +2 Tầm Đánh.",
+  "stats": "25% SMCK 25% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_fishbones.png"
+ },
+ {
+  "id": "DA_Artifact_ForbiddenIdol",
+  "name": "Dị Vật Tai Ương",
+  "nameEn": "Forbidden Idol",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "40% giá trị lá chắn sẽ được chuyển sang Máu tối đa.",
+  "stats": "500 Máu 2 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_forbiddenidol.png"
+ },
+ {
+  "id": "DA_Artifact_GamblersBlade",
+  "name": "Kiếm Của Tay Bạc",
+  "nameEn": "Gambler's Blade",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Cho 1% Tốc Độ Đánh cộng thêm với mỗi vàng đang sở hữu (tối đa 30 vàng).\r\n\r\nMỗi đòn đánh có 6% tỉ lệ rơi ra 1 vàng.\r\n\r\nVàng đã tạo ra trong trận này: ?\r\n\r\nDuy nhất - chỉ 1 mỗi tướng",
+  "stats": "55% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_gamblersblade.png"
+ },
+ {
+  "id": "DA_Artifact_GoldCollector",
+  "name": "Đại Bác Hải Tặc",
+  "nameEn": "Gold Collector",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Các Đòn Đánh và Kỹ Năng sẽ hành quyết kẻ địch còn dưới 12% Máu tối đa. Khi hành quyết tướng, có 33% xác suất rơi ra 1 vàng.\r\n\r\nVàng đã thu được: ?\r\n\r\n[Duy nhất - chỉ 1 mỗi tướng]",
+  "stats": "35% SMCK 20% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_goldcollector.png"
+ },
+ {
+  "id": "DA_Artifact_HellfireHatchet",
+  "name": "Rìu Hỏa Ngục",
+  "nameEn": "Hellfire Hatchet",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Các đòn đánh gây thêm sát thương vật lý bằng 3% Máu tối đa của chủ sở hữu. Với mỗi 1% Máu đã mất, nhận 1.5% Tốc Độ Đánh.",
+  "stats": "400 Máu 20% Hút máu toàn phần",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_hellfirehatchet.png"
+ },
+ {
+  "id": "DA_Artifact_HorizonFocus",
+  "name": "Kính Nhắm Ma Pháp",
+  "nameEn": "Horizon Focus",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Làm choáng kẻ địch sẽ triệu hồi sấm sét tấn công chúng, gây sát thương phép bằng 30% Máu tối đa của chúng.",
+  "stats": "250 Máu 20 Giáp 20 Kháng phép 2 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_horizonfocus.png"
+ },
+ {
+  "id": "DA_Artifact_Hullcrusher",
+  "name": "Thần Búa Tiến Công",
+  "nameEn": "Hullcrusher",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Bắt đầu giao tranh: Nếu không có đồng minh liền kề, được tăng 400 Máu, 10% Sức Mạnh Công Kích và 10% Sức Mạnh Phép Thuật.",
+  "stats": "60 Giáp 60 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_hullcrusher.png"
+ },
+ {
+  "id": "DA_Artifact_InfinityForce",
+  "name": "Tam Luyện Kiếm",
+  "nameEn": "Infinity Force",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Tăng MỌI CHỈ SỐ!",
+  "stats": "300 Máu 30% SMCK 30% SMPT 30 Giáp 30 Kháng phép 30% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_infinityforce.png"
+ },
+ {
+  "id": "DA_Artifact_LichBane",
+  "name": "Kiếm Tai Ương",
+  "nameEn": "Lich Bane",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Đòn đánh đầu tiên của chủ sở hữu sau mỗi lần thi triển Kỹ Năng sẽ gây thêm ? sát thương phép.\r\n\r\nSát thương tăng lên theo Giai Đoạn.",
+  "stats": "55% SMPT 10% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_lichbane.png"
+ },
+ {
+  "id": "DA_Artifact_LightshieldCrest",
+  "name": "Huy Hiệu Thánh Khiên",
+  "nameEn": "Lightshield Crest",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Mỗi 3 giây, tạo Lá Chắn cho đồng minh có phần trăm Máu thấp nhất, giá trị lá chắn bằng 70% tổng Giáp và Kháng Phép của chủ sở hữu trong 5 giây.\r\n\r\nKhi bị hạ gục, trao Lá Chắn này cho tất cả đồng minh.",
+  "stats": "55 Giáp 55 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_lightshieldcrest.png"
+ },
+ {
+  "id": "DA_Artifact_LudensTempest",
+  "name": "Bão Tố Luden",
+  "nameEn": "Luden's Tempest",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "100% sát thương kết liễu vượt trội + 130 sẽ được gây thành sát thương phép lên 2 kẻ địch gần mục tiêu nhất.",
+  "stats": "55% SMCK 55% SMPT",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_ludenstempest.png"
+ },
+ {
+  "id": "DA_Artifact_Manazane",
+  "name": "Thánh Kiếm Manazane",
+  "nameEn": "Manazane",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Sau khi thi triển lần đầu trong giao tranh, hồi lại 110 Năng Lượng trong vòng 5 giây.",
+  "stats": "15% SMCK 15% SMPT 1 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_manazane.png"
+ },
+ {
+  "id": "DA_Artifact_Mittens",
+  "name": "Găng Đấu Sĩ",
+  "nameEn": "Mittens",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Thu nhỏ chủ sở hữu, tăng tốc độ di chuyển và miễn nhiễm với Làm Chậm, Thiêu Đốt và Vết Thương Sâu.\r\n\r\nLàm Chậm: Giảm Tốc Độ Đánh.\r\nThiêu Đốt: Gây sát thương chuẩn mỗi giây dựa trên phần trăm Máu tối đa của mục tiêu.\r\nVết Thương Sâu: Giảm hồi máu nhận được.",
+  "stats": "65% Tốc đánh 15% Khuếch đại ST",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_mittens.png"
+ },
+ {
+  "id": "DA_Artifact_MogulsMail",
+  "name": "Giáp Đại Hãn",
+  "nameEn": "Mogul's Mail",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Tăng 1 Giáp, 1 Kháng Phép và 5 Máu khi nhận sát thương, cộng dồn tối đa 35 lần.\r\n\r\nKhi đạt cộng dồn tối đa, nhận 1 vàng và tiếp tục nhận 1 vàng mỗi 11 giây.\r\n\r\nSố vàng đã tạo ra trong trận này: ?\r\n\r\n[Duy nhất - chỉ 1 mỗi tướng]",
+  "stats": "300 Máu",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_mogulsmail.png"
+ },
+ {
+  "id": "DA_Artifact_NavoriFlickerblade",
+  "name": "Đao Chớp",
+  "nameEn": "Flickerblades",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Đòn đánh cho 4% Tốc Độ Đánh cộng dồn. Mỗi 3 đòn đánh cũng sẽ cho 2% Sức Mạnh Công Kích và 2% Sức Mạnh Phép Thuật.",
+  "stats": "10% SMPT 20% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_navoriflickerblade.png"
+ },
+ {
+  "id": "DA_Artifact_RapidFireCannon",
+  "name": "Đại Bác Liên Thanh",
+  "nameEn": "Rapid Firecannon",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Tăng +1 Tầm Đánh, tăng thêm 1 mỗi khi chủ sở hữu hạ gục 1 kẻ địch.",
+  "stats": "55% Tốc đánh 5% Khuếch đại ST",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_rapidfirecannon.png"
+ },
+ {
+  "id": "DA_Artifact_SeekersArmguard",
+  "name": "Giáp Tay Seeker",
+  "nameEn": "Seeker's Armguard",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Tham gia hạ gục sẽ tăng 20 Sức Mạnh Phép Thuật, Giáp và Kháng Phép cho chủ sở hữu.",
+  "stats": "25% SMPT 10 Giáp 10 Kháng phép 20% Hút máu toàn phần",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_seekersarmguard.png"
+ },
+ {
+  "id": "DA_Artifact_SilvermereDawn",
+  "name": "Chùy Bạch Ngân",
+  "nameEn": "Silvermere Dawn",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Trao miễn nhiễm Làm Choáng và đòn đánh của chủ sở hữu sẽ Làm Choáng kẻ địch trong 0.8 giây.\r\n\r\nTốc Độ Đánh của chủ sở hữu được đặt cố định là 0.5.",
+  "stats": "150% SMCK 30 Giáp 30 Kháng phép 30% Hút máu toàn phần",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_silvermeredawn.png"
+ },
+ {
+  "id": "DA_Artifact_SnipersFocus",
+  "name": "Kính Nhắm Thiện Xạ",
+  "nameEn": "Sniper's Focus",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Nhận 40% Khuếch Đại Sát Thương lên các mục tiêu cách xa từ 4 ô trở lên.",
+  "stats": "20% SMCK 20% SMPT 20% Tốc đánh 3 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_snipersfocus.png"
+ },
+ {
+  "id": "DA_Artifact_StatikkShiv",
+  "name": "Dao Điện Statikk",
+  "nameEn": "Statikk Shiv",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Mỗi đòn đánh thứ 3 gây thêm sát thương phép bằng 15 + 35% Sức Mạnh Phép Thuật của chủ sở hữu lên 6 kẻ địch.",
+  "stats": "25% SMPT 40% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_statikkshiv.png"
+ },
+ {
+  "id": "DA_Item_Artifact_TalismanOfAscension",
+  "name": "Bùa Thăng Hoa",
+  "nameEn": "Talisman of Ascension",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Sau 22 giây, tăng 100% Máu tối đa, 12 Hồi Năng Lượng, và 120% Khuếch Đại Sát Thương cho đến hết giao tranh.",
+  "stats": "450 Máu 20% SMCK 20% SMPT",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_item_artifact_talismanofascension.png"
+ },
+ {
+  "id": "DA_Artifact_TheIndomitable",
+  "name": "Bất Khuất",
+  "nameEn": "The Indomitable",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Tốc Độ Di Chuyển của chủ sở hữu bị giảm mạnh.\r\n\r\nNhận 15% Máu tối đa, trở nên không thể cản phá và kéo mục tiêu hiện tại vào tầm đánh cận chiến.",
+  "stats": "500 Máu 20 Giáp 20 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_theindomitable.png"
+ },
+ {
+  "id": "DA_Artifact_TitanicHydra",
+  "name": "Rìu Đại Mãng Xà",
+  "nameEn": "Titanic Hydra",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Đòn đánh gây sát thương vật lý cộng thêm bằng 2% Máu tối đa + 4% Sức Mạnh Công Kích của chủ sở hữu lên mục tiêu và những kẻ địch liền kề.",
+  "stats": "300 Máu 20% SMCK 20% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_titanichydra.png"
+ },
+ {
+  "id": "DA_Artifact_VoidGauntlet",
+  "name": "Găng Hư Không",
+  "nameEn": "Void Gauntlet",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Bắt Đầu Giao Tranh: Tích trữ 30% Máu tối đa và thêm 2.5% mỗi giây. Khi hy sinh, giải phóng sát thương phép tương đương lượng Máu đã tích trữ cho các kẻ địch trong phạm vi 4 ô.\r\n\r\nDuy nhất - chỉ 1 mỗi tướng",
+  "stats": "300 Máu 10% Bền bỉ",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_voidgauntlet.png"
+ },
+ {
+  "id": "DA_Artifact_WitsEnd",
+  "name": "Đao Tím",
+  "nameEn": "Wit's End",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Đòn đánh gây thêm ? sát thương phép.\r\nHồi máu cho chủ sở hữu bằng 25% tổng lượng sát thương phép đã gây ra.\r\n\r\nSát thương tăng dựa theo Giai Đoạn.",
+  "stats": "300 Máu 20 Giáp 20 Kháng phép 25% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_witsend.png"
+ },
+ {
+  "id": "DA_Artifact_ZhonyasParadox",
+  "name": "Lưỡng Cực Zhonya",
+  "nameEn": "Zhonya's Paradox",
+  "kind": "artifact",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Một lần mỗi giao tranh, khi còn dưới 40% Máu, trở nên bất tử và không thể chỉ định trong 3 giây.\r\n\r\nDuy nhất - chỉ 1 mỗi tướng",
+  "stats": "25% SMPT 25 Giáp 25 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_artifact_zhonyasparadox.png"
+ },
+ {
+  "id": "DA_Bloodthirster",
+  "name": "Huyết Kiếm",
+  "nameEn": "Bloodthirster",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_BFSword",
+   "DA_Component_NegatronCloak"
+  ],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Once per combat at 60% Health, gain a 25% max Health Shield. After this effect triggers gain 15% Omnivamp for the rest of combat.",
+  "stats": "15% SMCK 15% SMPT 20 Kháng phép 20% Hút máu toàn phần",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_bloodthirster.png"
+ },
+ {
+  "id": "DA_BloodthirsterRadiant",
+  "name": "Huyết Kiếm Ánh Sáng",
+  "nameEn": "Radiant Bloodthirster",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Once per combat at 60% Health, gain a 50% max Health Shield. After this effect triggers gain 30% Omnivamp for the rest of combat.",
+  "stats": "30% SMCK 30% SMPT 40 Kháng phép 40% Hút máu toàn phần",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_bloodthirsterradiant.png"
+ },
+ {
+  "id": "DA_BlueBuff",
+  "name": "Bùa Xanh",
+  "nameEn": "Blue Buff",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_TearOfTheGoddess",
+   "DA_Component_TearOfTheGoddess"
+  ],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Combat Start: Gain 10 Mana.",
+  "stats": "15% SMCK 15% SMPT 6 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_bluebuff.png"
+ },
+ {
+  "id": "DA_BlueBuffRadiant",
+  "name": "Bùa Xanh Ánh Sáng",
+  "nameEn": "Radiant Blue Buff",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Combat Start: Gain 20 Mana.",
+  "stats": "40% SMCK 40% SMPT 12 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_bluebuffradiant.png"
+ },
+ {
+  "id": "DA_BrambleVest",
+  "name": "Áo Choàng Gai",
+  "nameEn": "Bramble Vest",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_ChainVest",
+   "DA_Component_ChainVest"
+  ],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận 6% Máu tối đa.\r\n\r\nGiảm 5% sát thương nhận vào từ đòn đánh. Khi bị trúng đòn đánh bất kỳ, gây 100 sát thương phép lên tất cả kẻ địch liền kề.\r\n\r\nHồi chiêu: 2 giây",
+  "stats": "50 Giáp",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_bramblevest.png"
+ },
+ {
+  "id": "DA_BrambleVestRadiant",
+  "name": "Áo Choàng Gai Ánh Sáng",
+  "nameEn": "Radiant Bramble Vest",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận 12% Máu tối đa.\r\n\r\nGiảm 10% sát thương từ đòn đánh. Khi bị trúng đòn đánh bất kỳ, gây 200 sát thương phép lên tất cả kẻ địch liền kề.\r\n\r\nHồi chiêu: 2 giây",
+  "stats": "100 Giáp",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_bramblevestradiant.png"
+ },
+ {
+  "id": "DA_Component_BFSword",
+  "name": "Kiếm B.F.",
+  "nameEn": "B.F. Sword",
+  "kind": "component",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "+10% Sức Mạnh Công Kích",
+  "stats": "10% SMCK",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_component_bfsword.png"
+ },
+ {
+  "id": "DA_Component_ChainVest",
+  "name": "Giáp Lưới",
+  "nameEn": "Chain Vest",
+  "kind": "component",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "+20 Giáp",
+  "stats": "20 Giáp",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_component_chainvest.png"
+ },
+ {
+  "id": "DA_Component_FryingPan",
+  "name": "Chảo Vàng",
+  "nameEn": "Frying Pan",
+  "kind": "component",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "...còn lý do nào khác để nó ở đây nữa?",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_component_fryingpan.png"
+ },
+ {
+  "id": "DA_Component_GiantsBelt",
+  "name": "Đai Khổng Lồ",
+  "nameEn": "Giant's Belt",
+  "kind": "component",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "+150 Máu",
+  "stats": "150 Máu",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_component_giantsbelt.png"
+ },
+ {
+  "id": "DA_Component_NeedlesslyLargeRod",
+  "name": "Gậy Quá Khổ",
+  "nameEn": "Needlessly Large Rod",
+  "kind": "component",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "+10% Sức Mạnh Phép Thuật",
+  "stats": "10% SMPT",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_component_needlesslylargerod.png"
+ },
+ {
+  "id": "DA_Component_NegatronCloak",
+  "name": "Áo Choàng Bạc",
+  "nameEn": "Negatron Cloak",
+  "kind": "component",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "+20 Kháng Phép",
+  "stats": "20 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_component_negatroncloak.png"
+ },
+ {
+  "id": "DA_Component_RecurveBow",
+  "name": "Cung Gỗ",
+  "nameEn": "Recurve Bow",
+  "kind": "component",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "+10% Tốc Độ Đánh",
+  "stats": "10% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_component_recurvebow.png"
+ },
+ {
+  "id": "DA_Component_SparringGloves",
+  "name": "Găng Đấu Tập",
+  "nameEn": "Sparring Gloves",
+  "kind": "component",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "+20% Tỉ Lệ Chí Mạng",
+  "stats": "20% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_component_sparringgloves.png"
+ },
+ {
+  "id": "DA_Component_Spatula",
+  "name": "Xẻng Vàng",
+  "nameEn": "Spatula",
+  "kind": "component",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Nó phải có tác dụng gì đó...",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_component_spatula.png"
+ },
+ {
+  "id": "DA_Component_TearOfTheGoddess",
+  "name": "Nước Mắt Nữ Thần",
+  "nameEn": "Tear Of The Goddess",
+  "kind": "component",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "+1 Hồi Năng Lượng",
+  "stats": "1 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_component_tearofthegoddess.png"
+ },
+ {
+  "id": "DA_Crownguard",
+  "name": "Vương Miện Hoàng Gia",
+  "nameEn": "Crownguard",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_NeedlesslyLargeRod",
+   "DA_Component_ChainVest"
+  ],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Combat start: Gain a 20% max Health Shield for 8 seconds.\r\n\r\nAll healing and shielding applied to the holder is increased by 25%.",
+  "stats": "100 Máu 10% SMPT 20 Giáp",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_crownguard.png"
+ },
+ {
+  "id": "DA_CrownguardRadiant",
+  "name": "Prismatic Crownguard",
+  "nameEn": "Prismatic Crownguard",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Combat start: Gain a 20% max Health Shield for 8 seconds.\r\n\r\nAll healing and shielding applied to the holder is increased by 25%.",
+  "stats": "100 Máu 10% SMPT 20 Giáp",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_crownguardradiant.png"
+ },
+ {
+  "id": "DA_Deathblade",
+  "name": "Kiếm Tử Thần",
+  "nameEn": "Deathblade",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_BFSword",
+   "DA_Component_BFSword"
+  ],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Gain 15% additional Attack Damage from all sources.{ItemTags.Deathblade.DeadlierBladeStacks}",
+  "stats": "60% SMCK",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_deathblade.png"
+ },
+ {
+  "id": "DA_DeathbladeRadiant",
+  "name": "Kiếm Tử Thần Ánh Sáng",
+  "nameEn": "Radiant Deathblade",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Gain 30% additional Attack Damage from all sources.{ItemTags.Deathblade.DeadlierBladeStacks}",
+  "stats": "100% SMCK",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_deathbladeradiant.png"
+ },
+ {
+  "id": "DA_DragonsClaw",
+  "name": "Vuốt Rồng",
+  "nameEn": "Dragon's Claw",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_NegatronCloak",
+   "DA_Component_NegatronCloak"
+  ],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận 6% Máu tối đa. Mỗi 2 giây, hồi 2.5% Máu tối đa.",
+  "stats": "60 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_dragonsclaw.png"
+ },
+ {
+  "id": "DA_DragonsClawRadiant",
+  "name": "Vuốt Rồng Ánh Sáng",
+  "nameEn": "Radiant Dragon's Claw",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận 28% Máu tối đa.\r\n\r\nMỗi 2 giây, hồi 5% Máu tối đa.",
+  "stats": "120 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_dragonsclawradiant.png"
+ },
+ {
+  "id": "DA_EdgeOfNight",
+  "name": "Áo Choàng Bóng Tối",
+  "nameEn": "Edge of Night",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_BFSword",
+   "DA_Component_ChainVest"
+  ],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Khi còn 40% Máu, trở nên không thể bị nhắm tới trong thoáng chốc, loại bỏ các hiệu ứng bất lợi và hồi lại 15% Máu đã mất.",
+  "stats": "10% SMCK 10% SMPT 20 Giáp 15% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_edgeofnight.png"
+ },
+ {
+  "id": "DA_EdgeOfNightRadiant",
+  "name": "Áo Choàng Bóng Tối Ánh Sáng",
+  "nameEn": "Radiant Edge of Night",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Khi còn 40% Máu, trở nên không thể bị nhắm tới trong thoáng chốc, loại bỏ mọi hiệu ứng bất lợi và hồi lại toàn bộ Máu đã mất.",
+  "stats": "30% SMCK 30% SMPT 40 Giáp 30% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_edgeofnightradiant.png"
+ },
+ {
+  "id": "DA_Evenshroud",
+  "name": "Giáp Vai Nguyệt Thần",
+  "nameEn": "Evenshroud",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_NegatronCloak",
+   "DA_Component_GiantsBelt"
+  ],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Phân Tách 30% kẻ địch trong vòng 2 ô. Nhận 15 Giáp và Kháng Phép trong 15 giây đầu tiên của giao tranh.\r\n\r\nPhân Tách: Giảm Giáp",
+  "stats": "20 Kháng phép 250 Máu",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_evenshroud.png"
+ },
+ {
+  "id": "DA_EvenshroudRadiant",
+  "name": "Giáp Vai Nguyệt Thần Ánh Sáng",
+  "nameEn": "Radiant Evenshroud",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Phân Tách 30% kẻ địch trong phạm vi 3 ô. Nhận 50 Giáp và Kháng Phép trong 20 giây đầu tiên của giao tranh.\r\n\r\nPhân Tách: Giảm Giáp",
+  "stats": "500 Máu 40 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_evenshroudradiant.png"
+ },
+ {
+  "id": "DA_GargoyleStoneplate",
+  "name": "Thú Tượng Thạch Giáp",
+  "nameEn": "Gargoyle Stoneplate",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_ChainVest",
+   "DA_Component_NegatronCloak"
+  ],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Tăng 10 Giáp và 10 Kháng Phép với mỗi kẻ địch đang nhắm vào chủ sở hữu.",
+  "stats": "100 Máu 25 Giáp 25 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_gargoylestoneplate.png"
+ },
+ {
+  "id": "DA_GargoyleStoneplate_Radiant",
+  "name": "Thú Tượng Thạch Giáp Ánh Sáng",
+  "nameEn": "Radiant Gargoyle Stoneplate",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Tăng 20 Giáp và 20 Kháng Phép với mỗi kẻ địch đang nhắm vào chủ sở hữu.",
+  "stats": "400 Máu 50 Giáp 50 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_gargoylestoneplate_radiant.png"
+ },
+ {
+  "id": "DA_GiantSlayer",
+  "name": "Diệt Khổng Lồ",
+  "nameEn": "Giant Slayer",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_RecurveBow",
+   "DA_Component_BFSword"
+  ],
+  "cat": [
+   "attack",
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Nhận thêm 15% Khuếch Đại Sát Thương khi đánh Tướng Đỡ Đòn.",
+  "stats": "15% SMCK 15% SMPT 15% Tốc đánh 15% Khuếch đại ST",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_giantslayer.png"
+ },
+ {
+  "id": "DA_GiantSlayer_Radiant",
+  "name": "Diệt Khổng Lồ Ánh Sáng",
+  "nameEn": "Radiant Giant Slayer",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "magic",
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Nhận thêm 30% Khuếch Đại Sát Thương khi đánh Tướng Đỡ Đòn.",
+  "stats": "30% SMCK 30% SMPT 30% Tốc đánh 30% Khuếch đại ST",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_giantslayer_radiant.png"
+ },
+ {
+  "id": "DA_GuinsoosRageblade",
+  "name": "Cuồng Đao Guinsoo",
+  "nameEn": "Guinsoo's Rageblade",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_RecurveBow",
+   "DA_Component_NeedlesslyLargeRod"
+  ],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Nhận 7% Tốc Độ Đánh cộng dồn mỗi giây.",
+  "stats": "10% SMPT 10% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_guinsoosrageblade.png"
+ },
+ {
+  "id": "DA_GuinsoosRagebladeRadiant",
+  "name": "Cuồng Đao Guinsoo Ánh Sáng",
+  "nameEn": "Radiant Guinsoo's Rageblade",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Nhận 16% Tốc Độ Đánh cộng dồn mỗi giây.",
+  "stats": "20% SMPT 25% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_guinsoosragebladeradiant.png"
+ },
+ {
+  "id": "DA_HandOfJustice",
+  "name": "Bàn Tay Công Lý",
+  "nameEn": "Hand Of Justice",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_TearOfTheGoddess",
+   "DA_Component_SparringGloves"
+  ],
+  "cat": [
+   "attack",
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Nhận 2 hiệu ứng:\r\n• 18% Sức Mạnh Công Kích và 18% Sức Mạnh Phép Thuật.\r\n• 12% Hút Máu Toàn Phần.\r\n\r\nKhi còn trên 50% máu, nhận gấp đôi lượng Sức Mạnh Công Kích và Sức Mạnh Phép Thuật. Khi còn dưới 50% Máu, nhận gấp đôi lượng Hút Máu Toàn Phần.",
+  "stats": "20% Chí mạng 1 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_handofjustice.png"
+ },
+ {
+  "id": "DA_HandOfJusticeRadiant",
+  "name": "Bàn Tay Công Lý Ánh Sáng",
+  "nameEn": "Radiant Hand of Justice",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack",
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Nhận 2 hiệu ứng:\r\n• 35% Sức Mạnh Công Kích và 35% Sức Mạnh Phép Thuật.\r\n• 25% Hút Máu Toàn Phần.\r\n\r\nKhi còn trên 50% máu, nhận gấp đôi lượng Sức Mạnh Công Kích và Sức Mạnh Phép Thuật. Khi còn dưới 50% Máu, nhận gấp đôi lượng Hút Máu Toàn Phần.",
+  "stats": "40% Chí mạng 2 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_handofjusticeradiant.png"
+ },
+ {
+  "id": "DA_HextechGunblade",
+  "name": "Kiếm Súng Hextech",
+  "nameEn": "Hextech Gunblade",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_BFSword",
+   "DA_Component_NeedlesslyLargeRod"
+  ],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Hồi máu cho đồng minh thấp Máu nhất bằng 20% lượng sát thương gây ra.\r\n\r\nHồi Máu Đồng Minh: ?",
+  "stats": "20% SMCK 20% SMPT 15% Hút máu toàn phần 1 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_hextechgunblade.png"
+ },
+ {
+  "id": "DA_HextechGunbladeRadiant",
+  "name": "Kiếm Súng Hextech Ánh Sáng",
+  "nameEn": "Radiant Hextech Gunblade",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Hồi máu cho đồng minh thấp Máu nhất bằng 40% lượng sát thương gây ra.\r\n\r\nHồi Máu Đồng Minh: ?",
+  "stats": "40% SMCK 40% SMPT 30% Hút máu toàn phần 2 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_hextechgunbladeradiant.png"
+ },
+ {
+  "id": "DA_InfinityEdge",
+  "name": "Vô Cực Kiếm",
+  "nameEn": "Infinity Edge",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_BFSword",
+   "DA_Component_SparringGloves"
+  ],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Nhận Chuẩn Xác.\r\n\r\nChuẩn Xác: Sát thương kỹ năng có thể chí mạng. Chỉ số Chuẩn Xác cộng thêm tăng 10% Sát Thương Chí Mạng.",
+  "stats": "35% SMCK 35% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_infinityedge.png"
+ },
+ {
+  "id": "DA_InfinityEdgeRadiant",
+  "name": "Vô Cực Kiếm Ánh Sáng",
+  "nameEn": "Radiant Infinity Edge",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Nhận Chuẩn Xác.\r\n\r\nChuẩn Xác: Sát thương kỹ năng có thể chí mạng. Chỉ số Chuẩn Xác cộng thêm tăng 10% Sát Thương Chí Mạng.",
+  "stats": "75% SMCK 75% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_infinityedgeradiant.png"
+ },
+ {
+  "id": "DA_IonicSpark",
+  "name": "Nỏ Sét",
+  "nameEn": "Ionic Spark",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_NeedlesslyLargeRod",
+   "DA_Component_NegatronCloak"
+  ],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Cào Xé 30% kẻ địch trong vòng 2 ô. Khi kẻ địch sử dụng Kỹ Năng, gây sát thương phép tương đương 150% Năng Lượng đã tiêu hao.\r\n\r\nCào Xé: Giảm Kháng Phép",
+  "stats": "350 Máu 15% SMPT 35 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_ionicspark.png"
+ },
+ {
+  "id": "DA_IonicSparkRadiant",
+  "name": "Nỏ Sét Ánh Sáng",
+  "nameEn": "Radiant Ionic Spark",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "30% Cào Xé những kẻ địch trong phạm vi 2 ô. Khi kẻ địch sử dụng Kỹ Năng, gây sát thương phép tương đương 300% Năng Lượng đã tiêu hao.\r\n\r\nCào Xé: Giảm Kháng Phép",
+  "stats": "700 Máu 30% SMPT 70 Kháng phép",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_ionicsparkradiant.png"
+ },
+ {
+  "id": "DA_JeweledGauntlet",
+  "name": "Găng Bảo Thạch",
+  "nameEn": "Jeweled Gauntlet",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_SparringGloves",
+   "DA_Component_NeedlesslyLargeRod"
+  ],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Nhận Chuẩn Xác.\r\n\r\nChuẩn Xác: Sát thương kỹ năng có thể chí mạng. Chỉ số Chuẩn Xác cộng thêm tăng 10% Sát Thương Chí Mạng.",
+  "stats": "35% SMPT 35% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_jeweledgauntlet.png"
+ },
+ {
+  "id": "DA_JeweledGauntletRadiant",
+  "name": "Găng Bảo Thạch Ánh Sáng",
+  "nameEn": "Radiant Jeweled Gauntlet",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Nhận Chuẩn Xác.\r\n\r\nChuẩn Xác: Sát thương kỹ năng có thể chí mạng. Chỉ số Chuẩn Xác cộng thêm tăng 10% Sát Thương Chí Mạng.",
+  "stats": "75% SMPT 75% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_jeweledgauntletradiant.png"
+ },
+ {
+  "id": "DA_KrakensFury",
+  "name": "Thịnh Nộ Thủy Quái",
+  "nameEn": "Kraken's Fury",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_RecurveBow",
+   "DA_Component_NegatronCloak"
+  ],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Đòn đánh cho 3.5% Sức Mạnh Công Kích cộng dồn, tối đa 15 đòn đánh. Sau 15 đòn đánh, nhận 15% Tốc Độ Đánh.",
+  "stats": "10% SMCK 20 Kháng phép 10% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_krakensfury.png"
+ },
+ {
+  "id": "DA_KrakensFury_Radiant",
+  "name": "Thịnh Nộ Thủy Quái Ánh Sáng",
+  "nameEn": "Radiant Kraken's Fury",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Đòn đánh cho 7% Sức Mạnh Công Kích cộng dồn, tối đa 15 đòn đánh. Sau 15 đòn đánh, nhận 30% Tốc Độ Đánh.",
+  "stats": "20% SMCK 40 Kháng phép 20% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_krakensfury_radiant.png"
+ },
+ {
+  "id": "DA_LastWhisper",
+  "name": "Cung Xanh",
+  "nameEn": "Last Whisper",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_RecurveBow",
+   "DA_Component_SparringGloves"
+  ],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Sát thương Kỹ Năng và Đòn Đánh sẽ gây 30% Phân Tách lên mục tiêu trong 3 giây. Hiệu ứng này không cộng dồn.\r\n\r\nPhân Tách: Giảm Giáp",
+  "stats": "15% SMCK 20% Tốc đánh 20% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_lastwhisper.png"
+ },
+ {
+  "id": "DA_LastWhisperRadiant",
+  "name": "Cung Xanh Ánh Sáng",
+  "nameEn": "Radiant Last Whisper",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Đòn Đánh và sát thương Kỹ Năng gây Phân Tách 30% lên mục tiêu cho đến hết giao tranh. Hiệu ứng này không cộng dồn.\r\n\r\nPhân Tách: Giảm Giáp",
+  "stats": "45% SMCK 40% Tốc đánh 40% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_lastwhisperradiant.png"
+ },
+ {
+  "id": "DA_LuckyItemChest",
+  "name": "Rương Trang Bị May Mắn",
+  "nameEn": "Lucky Item Chest",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Sử dụng lên 1 tướng để mở kho vũ khí trang bị đặc biệt phù hợp với tướng đó.\r\n\r\nNhững trang bị này được đề xuất dựa trên bộ trang bị khuyến nghị của tướng.",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_luckyitemchest.png"
+ },
+ {
+  "id": "DA_RadiantLuckyItemChest",
+  "name": "Rương Trang Bị Ánh Sáng May Mắn",
+  "nameEn": "Radiant Lucky Item Chest",
+  "kind": "radiant",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Sử dụng lên 1 tướng để mở kho vũ khí trang bị đặc biệt phù hợp với tướng đó.\r\n\r\nNhững trang bị này được đề xuất dựa trên bộ trang bị khuyến nghị của tướng.",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_radiantluckyitemchest.png"
+ },
+ {
+  "id": "DA_MasterworkUpgrade",
+  "name": "Nâng Cấp Tuyệt Phẩm",
+  "nameEn": "Masterwork Upgrade",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Sử dụng lên 1 tướng để lựa chọn phiên bản Ánh Sáng của trang bị hoàn chỉnh có thể chế tạo cho tướng đó. Nâng cấp trang bị mà bạn chọn lên dạng Ánh Sáng rồi tháo ra.",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_masterworkupgrade.png"
+ },
+ {
+  "id": "DA_Morellonomicon",
+  "name": "Quỷ Thư Morello",
+  "nameEn": "Morellonomicon",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_GiantsBelt",
+   "DA_Component_NeedlesslyLargeRod"
+  ],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Đòn Đánh và Kỹ Năng gây Thiêu Đốt 1% và Vết Thương Sâu 33% lên kẻ địch trong 10 giây.\r\n\r\nThiêu Đốt: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu.\r\nVết Thương Sâu: Giảm hồi máu nhận được.",
+  "stats": "150 Máu 20% SMPT 1 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_morellonomicon.png"
+ },
+ {
+  "id": "DA_MorellonomiconRadiant",
+  "name": "Quỷ Thư Morello Ánh Sáng",
+  "nameEn": "Radiant Morellonomicon",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Đòn Đánh và Kỹ Năng gây Thiêu Đốt 2% và Vết Thương Sâu 33% lên kẻ địch trong 10 giây.\r\n\r\nThiêu Đốt: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu.\r\nVết Thương Sâu: Giảm hồi máu nhận được.",
+  "stats": "300 Máu 35% SMPT 2 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_morellonomiconradiant.png"
+ },
+ {
+  "id": "DA_NashorsTooth",
+  "name": "Nanh Nashor",
+  "nameEn": "Nashor's Tooth",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_RecurveBow",
+   "DA_Component_GiantsBelt"
+  ],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Các đòn đánh giúp hồi lại 2 Năng Lượng, tăng thành 4 nếu là đòn chí mạng.",
+  "stats": "150 Máu 15% SMPT 10% Tốc đánh 20% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_nashorstooth.png"
+ },
+ {
+  "id": "DA_NashorsToothRadiant",
+  "name": "Nanh Nashor Ánh Sáng",
+  "nameEn": "Radiant Nashor's Tooth",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Các đòn đánh giúp hồi lại 4 Năng Lượng, tăng thành 6 nếu là đòn chí mạng.",
+  "stats": "300 Máu 30% SMPT 20% Tốc đánh 40% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_nashorstoothradiant.png"
+ },
+ {
+  "id": "DA_ProtectorsVow",
+  "name": "Lời Thề Hộ Vệ",
+  "nameEn": "Protector's Vow",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_ChainVest",
+   "DA_Component_TearOfTheGoddess"
+  ],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Bắt đầu giao tranh: Nhận 20 Năng Lượng.\r\n\r\nKhi còn 40% Máu, nhận 15 Năng Lượng và một Lá Chắn tương đương 20% Máu tối đa.",
+  "stats": "25 Giáp 25 Kháng phép 1 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_protectorsvow.png"
+ },
+ {
+  "id": "DA_ProtectorsVowRadiant",
+  "name": "Lời Thề Hộ Vệ Ánh Sáng",
+  "nameEn": "Radiant Protector's Vow",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Bắt đầu giao tranh: Nhận 40 Năng Lượng.\r\n\r\nKhi còn 40% Máu, nhận 30 Năng Lượng và một Lá Chắn tương đương 50% Máu tối đa",
+  "stats": "50 Giáp 50 Kháng phép 2 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_protectorsvowradiant.png"
+ },
+ {
+  "id": "DA_Quicksilver",
+  "name": "Áo Choàng Thủy Ngân",
+  "nameEn": "Quicksilver",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_NegatronCloak",
+   "DA_Component_SparringGloves"
+  ],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Bắt đầu giao tranh: Không Thể Cản Phá trong 18 giây.\r\n\r\nNhận 3% Tốc Độ Đánh cộng dồn mỗi giây.",
+  "stats": "20 Kháng phép 15% Tốc đánh 20% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_quicksilver.png"
+ },
+ {
+  "id": "DA_QuicksilverRadiant",
+  "name": "Áo Choàng Thủy Ngân Ánh Sáng",
+  "nameEn": "Radiant Quicksilver",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Bắt đầu giao tranh: Không Thể Cản Phá trong 45 giây. \r\n\r\nNhận 6% Tốc Độ Đánh cộng dồn mỗi giây.",
+  "stats": "40 Kháng phép 40% Tốc đánh 40% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_quicksilverradiant.png"
+ },
+ {
+  "id": "DA_RabadonsDeathcap",
+  "name": "Mũ Phù Thủy Rabadon",
+  "nameEn": "Rabadon's Deathcap",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_NeedlesslyLargeRod",
+   "DA_Component_NeedlesslyLargeRod"
+  ],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Gain 15% additional Ability Power from all sources.{ItemTags.RabadonsDeathcap.DeadlierCapsStacks}",
+  "stats": "60% SMPT",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_rabadonsdeathcap.png"
+ },
+ {
+  "id": "DA_RabadonsDeathcap_Radiant",
+  "name": "Mũ Phù Thủy Rabadon Ánh Sáng",
+  "nameEn": "Radiant Rabadon's Deathcap",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Gain 30% additional Ability Power from all sources.{ItemTags.RabadonsDeathcap.DeadlierCapsStacks}",
+  "stats": "115% SMPT",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_rabadonsdeathcap_radiant.png"
+ },
+ {
+  "id": "DA_RedBuff",
+  "name": "Bùa Đỏ",
+  "nameEn": "Red Buff",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_RecurveBow",
+   "DA_Component_RecurveBow"
+  ],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Đòn Đánh và Kỹ Năng gây Thiêu Đốt 1% và Vết Thương Sâu 33% lên kẻ địch trong 5 giây.\r\n\r\nThiêu Đốt: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu\r\nVết Thương Sâu: Giảm hồi máu nhận được",
+  "stats": "45% Tốc đánh 3% Khuếch đại ST",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_redbuff.png"
+ },
+ {
+  "id": "DA_RedBuffRadiant",
+  "name": "Bùa Đỏ Ánh Sáng",
+  "nameEn": "Radiant Red Buff",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Đòn Đánh và Kỹ Năng gây 2Thiêu Đốt % và Vết Thương Sâu 33% lên kẻ địch trong 5 giây.\r\n\r\nThiêu Đốt: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu\r\nVết Thương Sâu: Giảm hồi máu nhận được",
+  "stats": "80% Tốc đánh 6% Khuếch đại ST",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_redbuffradiant.png"
+ },
+ {
+  "id": "DA_ScissorSalvager",
+  "name": "Máy Tái Chế",
+  "nameEn": "Salvager",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Sử dụng lên một tướng để gỡ tất cả trang bị và tách chúng thành các trang bị thành phần.\r\n\r\n[Tiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.]",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_scissorsalvager.png"
+ },
+ {
+  "id": "DA_SpearOfShojin",
+  "name": "Ngọn Giáo Shojin",
+  "nameEn": "Spear of Shojin",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_TearOfTheGoddess",
+   "DA_Component_BFSword"
+  ],
+  "cat": [
+   "attack",
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Các đòn đánh giúp hồi lại 5 Năng Lượng.",
+  "stats": "15% SMCK 15% SMPT 1 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_spearofshojin.png"
+ },
+ {
+  "id": "DA_SpearOfShojinRadiant",
+  "name": "Ngọn Giáo Shojin Ánh Sáng",
+  "nameEn": "Radiant Spear of Shojin",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack",
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Các đòn đánh giúp hồi lại 10 Năng Lượng.",
+  "stats": "30% SMCK 30% SMPT 2 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_spearofshojinradiant.png"
+ },
+ {
+  "id": "DA_SpiritVisage",
+  "name": "Giáp Tâm Linh",
+  "nameEn": "Spirit Visage",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_GiantsBelt",
+   "DA_Component_TearOfTheGoddess"
+  ],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Hồi lại 2% Máu đã mất mỗi giây.",
+  "stats": "300 Máu 10% Bền bỉ 2 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_spiritvisage.png"
+ },
+ {
+  "id": "DA_SpiritVisage_Radiant",
+  "name": "Giáp Tâm Linh Ánh Sáng",
+  "nameEn": "Radiant Spirit Visage",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Hồi lại 4% Máu đã mất mỗi giây.",
+  "stats": "700 Máu 18% Bền bỉ 4 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_spiritvisage_radiant.png"
+ },
+ {
+  "id": "DA_SteadfastHeart",
+  "name": "Trái Tim Kiên Định",
+  "nameEn": "Steadfast Heart",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_ChainVest",
+   "DA_Component_SparringGloves"
+  ],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận 5% Chống Chịu. Khi còn hơn 50% Máu, thay vào đó nhận 15% Chống Chịu.{Augment.Variant.HeartofSteel.Tooltip}",
+  "stats": "250 (Máu) 20 Giáp 20% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_steadfastheart.png"
+ },
+ {
+  "id": "DA_SteadfastHeartRadiant",
+  "name": "Trái Tim Kiên Định Ánh Sáng",
+  "nameEn": "Radiant Steadfast Heart",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận 10% Chống Chịu. Khi còn hơn 50% Máu, thay vào đó nhận 30% Chống Chịu.{Augment.Variant.HeartofSteel.Tooltip}",
+  "stats": "500 (Máu) 40 Giáp 40% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_steadfastheartradiant.png"
+ },
+ {
+  "id": "DA_SteraksGage",
+  "name": "Móng Vuốt Sterak",
+  "nameEn": "Sterak's Gage",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_BFSword",
+   "DA_Component_GiantsBelt"
+  ],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Khi còn 40% Máu, nhận Lá Chắn bằng 40% Máu tối đa của chủ sở hữu, giảm dần trong vòng 4 giây.",
+  "stats": "300 Máu 45% SMCK",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_steraksgage.png"
+ },
+ {
+  "id": "DA_SteraksGageRadiant",
+  "name": "Móng Vuốt Sterak Ánh Sáng",
+  "nameEn": "Radiant Sterak's Gage",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Khi còn 40% Máu, nhận Lá Chắn bằng 40% Máu tối đa của chủ sở hữu, giảm dần trong vòng 4 giây.",
+  "stats": "300 Máu 45% SMCK",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_steraksgageradiant.png"
+ },
+ {
+  "id": "DA_StrikersFlail",
+  "name": "Chùy Đoản Côn",
+  "nameEn": "Striker's Flail",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_GiantsBelt",
+   "DA_Component_SparringGloves"
+  ],
+  "cat": [
+   "attack",
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Đòn Chí Mạng sẽ cho 5% Khuếch Đại Sát Thương trong 5 giây, cộng dồn tối đa 4 lần.",
+  "stats": "150 Máu 10% Tốc đánh 20% Chí mạng 10% Khuếch đại ST",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_strikersflail.png"
+ },
+ {
+  "id": "DA_StrikersFlailRadiant",
+  "name": "Chùy Đoản Côn Ánh Sáng",
+  "nameEn": "Radiant Striker's Flail",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack",
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Đòn Chí Mạng sẽ cho 10% Khuếch Đại Sát Thương trong 5 giây, cộng dồn tối đa 4 lần.",
+  "stats": "300 Máu 20% Tốc đánh 40% Chí mạng 20% Khuếch đại ST",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_strikersflailradiant.png"
+ },
+ {
+  "id": "DA_SunfireCape_Radiant",
+  "name": "Áo Choàng Lửa Ánh Sáng",
+  "nameEn": "Radiant Sunfire Cape",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận 8% Máu tối đa.\r\n\r\nMỗi 2 giây, gây Thiêu Đốt 1% và Vết Thương Sâu 33% lên 1 kẻ địch trong vòng 2 ô trong 10 giây.\r\n\r\nThiêu Đốt: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu.\r\nVết Thương Sâu: Giảm hồi máu.",
+  "stats": "150 Máu 20 Giáp",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_sunfirecape_radiant.png"
+ },
+ {
+  "id": "DA_SunfireCape",
+  "name": "Áo Choàng Lửa",
+  "nameEn": "Sunfire Cape",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_ChainVest",
+   "DA_Component_GiantsBelt"
+  ],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận 8% Máu tối đa.\r\n\r\nMỗi 2 giây, gây Thiêu Đốt 1% và Vết Thương Sâu 33% lên 1 kẻ địch trong vòng 2 ô trong 10 giây.\r\n\r\nThiêu Đốt: Gây sát thương chuẩn mỗi giây theo Máu tối đa của mục tiêu.\r\nVết Thương Sâu: Giảm hồi máu.",
+  "stats": "150 Máu 20 Giáp",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_sunfirecape.png"
+ },
+ {
+  "id": "DA_TacticiansCape",
+  "name": "Áo Choàng Chiến Thuật",
+  "nameEn": "Tactician's Cape",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_Spatula",
+   "DA_Component_FryingPan"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Đội của bạn được +1 số lượng tướng tối đa.\r\n\r\n10% cơ hội rớt ra 1 vàng sau khi giao tranh 10 giây.\r\n\r\n...và một chút may mắn.",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_tacticianscape.png"
+ },
+ {
+  "id": "DA_TacticiansCrown",
+  "name": "Tacticians Crown",
+  "nameEn": "Tacticians Crown",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_Spatula",
+   "DA_Component_Spatula"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Đội của bạn được +1 số lượng tướng tối đa.\r\n\r\n10% cơ hội rớt ra 1 vàng khi chiến thắng giao tranh.\r\n\r\n...trái tim của một anh hùng...\"",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_tacticianscrown.png"
+ },
+ {
+  "id": "DA_TacticiansShield",
+  "name": "Lá Chắn Chiến Thuật",
+  "nameEn": "Tacticians Shield",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_FryingPan",
+   "DA_Component_FryingPan"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Đội của bạn được +1 số lượng tướng tối đa.\r\n\r\n10% cơ hội rớt ra 1 vàng khi chủ sở hữu tử trận.\r\n\r\nChứa đầy tri thức của một Hiền Triết...",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_tacticiansshield.png"
+ },
+ {
+  "id": "DA_ThiefsGloves",
+  "name": "Găng Đạo Tặc",
+  "nameEn": "Thief's Gloves",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_SparringGloves",
+   "DA_Component_SparringGloves"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Mỗi vòng đấu: Mang 2 trang bị ngẫu nhiên\r\n\r\n[Tốn 3 ô trang bị.]",
+  "stats": "150 Máu 20% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_thiefsgloves.png"
+ },
+ {
+  "id": "DA_ThiefsGlovesRadiant",
+  "name": "Găng Đạo Tặc Ánh Sáng",
+  "nameEn": "Radiant Thief's Gloves",
+  "kind": "radiant",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Mỗi vòng đấu: Mang 2 trang bị Ánh Sáng ngẫu nhiên\r\n\r\n[Tốn 3 ô trang bị.]",
+  "stats": "150 Máu 20% Chí mạng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_thiefsglovesradiant.png"
+ },
+ {
+  "id": "DA_TitansResolve",
+  "name": "Quyền Năng Khổng Lồ",
+  "nameEn": "Titan's Resolve",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_RecurveBow",
+   "DA_Component_ChainVest"
+  ],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Gain 2% Attack Damage and Ability Power when attacking or taking damage, stacking up to 25 times.\r\n\r\nAt full stacks, gain 15% max Health and become Unstoppable.",
+  "stats": "20 Giáp 10% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_titansresolve.png"
+ },
+ {
+  "id": "DA_TitansResolve_Radiant",
+  "name": "Quyền Năng Khổng Lồ Ánh Sáng",
+  "nameEn": "Radiant Titan's Resolve",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "attack"
+  ],
+  "unique": false,
+  "desc": "Gain 4% Attack Damage and Ability Power when attacking or taking damage, stacking up to 25 times.\r\n\r\nAt full stacks, gain 30% max Health and become Unstoppable.",
+  "stats": "40 Giáp 20% Tốc đánh",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_titansresolve_radiant.png"
+ },
+ {
+  "id": "DA_VoidStaff",
+  "name": "Trượng Hư Vô",
+  "nameEn": "Void Staff",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_RecurveBow",
+   "DA_Component_TearOfTheGoddess"
+  ],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Sát thương Kỹ Năng và Đòn Đánh sẽ gây 30% Cào Xé lên mục tiêu trong 5 giây. Hiệu ứng này không cộng dồn.\r\n\r\nCào Xé: Giảm Kháng Phép",
+  "stats": "35% SMPT 15% Tốc đánh 1 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_voidstaff.png"
+ },
+ {
+  "id": "DA_VoidStaffRadiant",
+  "name": "Trượng Hư Vô Ánh Sáng",
+  "nameEn": "Radiant Void Staff",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "magic"
+  ],
+  "unique": false,
+  "desc": "Sát thương từ Đòn Đánh và Kỹ Năng sẽ gây Cào Xé 30% lên mục tiêu cho đến hết giao tranh. Hiệu ứng này không cộng dồn.\r\n\r\nCào Xé: Giảm Kháng Phép",
+  "stats": "75% SMPT 30% Tốc đánh 2 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_voidstaffradiant.png"
+ },
+ {
+  "id": "DA_WarmogsArmor",
+  "name": "Giáp Máu Warmog",
+  "nameEn": "Warmog's Armor",
+  "kind": "craftable",
+  "from": [
+   "DA_Component_GiantsBelt",
+   "DA_Component_GiantsBelt"
+  ],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận 18% Máu tối đa.",
+  "stats": "500 Máu",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_warmogsarmor.png"
+ },
+ {
+  "id": "DA_WarmogsArmorRadiant",
+  "name": "Giáp Máu Warmog Ánh Sáng",
+  "nameEn": "Radiant Warmog's Armor",
+  "kind": "radiant",
+  "from": [],
+  "cat": [
+   "tank"
+  ],
+  "unique": false,
+  "desc": "Nhận 36% Máu tối đa.",
+  "stats": "1200 Máu",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_warmogsarmorradiant.png"
+ },
+ {
+  "id": "DA_Bard19_UniqueItem",
+  "name": "Tù Và Lữ Khách Của Bard",
+  "nameEn": "Bard's Horn of the Traveler",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Khi trang bị, Kỹ Năng của Bard được thay thế bằng kỹ năng triệu hồi các tinh linh có thể bán để nhận XP. Năng lượng tối đa của Bard tăng thêm 140.\r\n\r\nChỉ Bard mới có thể trang bị vật phẩm này. Tạm thời ngừng hoạt động sau khi thi triển trong giai đoạn bù giờ và trong các vòng giao tranh với quái.",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_bard19_uniqueitem.png"
+ },
+ {
+  "id": "TFT19_MundoUnique_Contract",
+  "name": "Hợp Đồng Thu Âm Của Dr. Mundo",
+  "nameEn": "Dr. Mundo's Record Contract",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Sử dụng lên một tướng để ký hợp đồng cho họ làm Nghệ Sĩ Thu Âm. Mạng kết liễu của họ ban cho Dr. Mundo Máu vĩnh viễn và họ nhận 5% Khuếch Đại Sát Thương.\r\n\r\nKhông thể sử dụng lên tướng đang trong giao tranh.\r\nTiêu Thụ - Trang bị này sẽ biến mất sau khi sử dụng.\r\nĐược trả lại khi bán hoặc đưa tướng đang trang bị lên hàng chờ.",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/tft19_mundounique_contract.png"
+ },
+ {
+  "id": "DA_Arcanist19_Emblem",
+  "name": "Ấn Pháp Sư",
+  "nameEn": "Arcanist Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_FryingPan",
+   "DA_Component_NeedlesslyLargeRod"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Pháp Sư.\r\n\r\nNhận 10 Năng Lượng khi hạ gục kẻ địch.",
+  "stats": "25% SMPT",
+  "traits": [
+   "DA_Arcanist19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_arcanist19_emblem.png"
+ },
+ {
+  "id": "DA_Bodyguard19_Emblem",
+  "name": "Ấn Vệ Sĩ",
+  "nameEn": "Bodyguard Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_FryingPan",
+   "DA_Component_ChainVest"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc hệ Vệ Sĩ.\r\n\r\nNhận Sức Mạnh Công Kích bằng 20% tổng Giáp và Sức Mạnh Phép Thuật bằng 20% tổng Kháng Phép.",
+  "stats": "30 Giáp 30 Kháng phép",
+  "traits": [
+   "DA_Bodyguard19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_bodyguard19_emblem.png"
+ },
+ {
+  "id": "DA_Choreographer19_Emblem",
+  "name": "Choreographer Emblem",
+  "nameEn": "Choreographer Emblem",
+  "kind": "emblem",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Biên Đạo và thêm hiệu ứng dựa trên việc họ được xếp ở 2 hàng trước hay 2 hàng sau.\r\n\r\nTrước: Tăng 25% lượng hồi máu và lá chắn.\r\n\r\nSau: Nhận 20% Tốc Độ Đánh và thêm tốc độ di chuyển.",
+  "stats": "200 Máu 1 Hồi năng lượng",
+  "traits": [
+   "DA_Choreographer19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_choreographer19_emblem.png"
+ },
+ {
+  "id": "DA_DemonVision19_Emblem",
+  "name": "Rock Emblem",
+  "nameEn": "Rock Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_Spatula",
+   "DA_Component_SparringGloves"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Rock.",
+  "stats": "250 Máu 15% Tốc đánh 20% Chí mạng",
+  "traits": [
+   "DA_DemonVision19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_demonvision19_emblem.png"
+ },
+ {
+  "id": "DA_Frontman19_Emblem",
+  "name": "Ấn Hát Chính",
+  "nameEn": "Frontman Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_FryingPan",
+   "DA_Component_GiantsBelt"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "The holder gains the Frontman trait. \r\n\r\nEvery 5 seconds, the next attack deals 12% of the holder's max Health as magic damage.",
+  "stats": "200 Máu",
+  "traits": [
+   "DA_Frontman19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_frontman19_emblem.png"
+ },
+ {
+  "id": "DA_GlitterBomb19_Emblem",
+  "name": "Ấn Hyperpop",
+  "nameEn": "Hyperpop Emblem",
+  "kind": "emblem",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "The holder gains the Hyperpop trait.\r\n\r\nElusive - Cannot be crafted.",
+  "stats": "250 Máu 20% Tốc đánh",
+  "traits": [
+   "DA_GlitterBomb19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_glitterbomb19_emblem.png"
+ },
+ {
+  "id": "DA_Heartsteel19_Emblem",
+  "name": "Ấn Heartsteel",
+  "nameEn": "Heartsteel Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_Spatula",
+   "DA_Component_ChainVest"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Heartsteel.\r\n\r\nHiệu Ứng Bias: Nhận thêm 125% mọi hiệu ứng thưởng của Heartsteel.",
+  "stats": "20 Giáp 20 Kháng phép 10% SMCK 10% SMPT",
+  "traits": [
+   "DA_Heartsteel19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_heartsteel19_emblem.png"
+ },
+ {
+  "id": "DA_Heartsteel19_PrismaticQuestItem",
+  "name": "Heartsteel Prismatic Quest",
+  "nameEn": "Heartsteel Prismatic Quest",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Giúp các thành viên Heartsteel chuẩn bị cho màn tái xuất tiếp theo!",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_heartsteel19_prismaticquestitem.png"
+ },
+ {
+  "id": "TFT19_Heartsteel19_Selector1",
+  "name": "Bộ Chọn Bias #1",
+  "nameEn": "Bias Selector #1",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Dùng lên một tướng Heartsteel để chọn tướng đó làm Bias và cường hóa Kỹ Năng của tướng đó.\r\n\r\n{Set19.Trait.Heartsteel.Selected.Selected1Tooltip}",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/tft19_heartsteel19_selector1.png"
+ },
+ {
+  "id": "TFT19_Heartsteel19_Selector2",
+  "name": "Bộ Chọn Bias #2",
+  "nameEn": "Bias Selector #2",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Use on another Heartsteel member to improve their Ability.\r\n\r\n{Set19.Trait.Heartsteel.Selected.Selected2Tooltip}",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/tft19_heartsteel19_selector2.png"
+ },
+ {
+  "id": "DA_Heavenscale19_DangerousItem",
+  "name": "Cuộn Quái Thú",
+  "nameEn": "Scroll of The Beast",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Immediately gain XP equal to 20% of your Player Health ({Set19.Trait.Heavenscale.Tooltip.PostDangerousTakenXPGained}? XP). The Beast Who Devours All Song looms over you for the rest of the game. If you lose 2 player combats in a row, The Beast consumes YOU!\r\n\r\nWhen you win player combat, gain 6 XP, increased to 250 at Level 10. Reach Level 11 by gaining 999 XP to enlighten The Beast and obtain Heavenly power.\r\n\r\nOnly Gu Feng champions can hold this item.",
+  "stats": "20% SMCK 20% SMPT 15% Hút máu toàn phần 3 Hồi năng lượng",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_heavenscale19_dangerousitem.png"
+ },
+ {
+  "id": "DA_Heavenscale19_HeavenlyPrayer",
+  "name": "Cuộn Thỉnh Nguyện Thiên Giới",
+  "nameEn": "Scroll of Heavenly Prayer",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Khi bắt đầu giao tranh, trang bị này trở thành một trang bị khuyên dùng ngẫu nhiên.\r\n\r\nChỉ có thể trang bị cho tướng Cổ Phong.",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_heavenscale19_heavenlyprayer.png"
+ },
+ {
+  "id": "DA_Hitmaker19_Emblem",
+  "name": "Ấn Hitmaker",
+  "nameEn": "Hitmaker Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_FryingPan",
+   "DA_Component_BFSword"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Hitmaker.\r\n\r\nTrở thành 1 Tai To Mặt Lớn nữa.",
+  "stats": "10% SMCK",
+  "traits": [
+   "DA_Hitmaker19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_hitmaker19_emblem.png"
+ },
+ {
+  "id": "DA_IllBeats19_Emblem",
+  "name": "IllBeats Emblem",
+  "nameEn": "IllBeats Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_Spatula",
+   "DA_Component_GiantsBelt"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "The holder gains the IllBeats trait.",
+  "stats": "250 Máu 15% Tốc đánh",
+  "traits": [
+   "DA_Illbeats19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_illbeats19_emblem.png"
+ },
+ {
+  "id": "DA_IonicSpark19_Emblem",
+  "name": "Ấn Ionic Spark",
+  "nameEn": "Ionic Spark Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_Spatula",
+   "DA_Component_NegatronCloak"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Ionic Spark.",
+  "stats": "20 Giáp 20 Kháng phép 20% Tốc đánh",
+  "traits": [
+   "DA_IonicSpark19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_ionicspark19_emblem.png"
+ },
+ {
+  "id": "DA_IonicSpark19_PrismaticQuestItem",
+  "name": "Nhiệm Vụ Kim Cương Ionic Spark",
+  "nameEn": "Ionic Spark Prismatic Quest",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Hãy trở thành fan số 1 của Mordekaiser!",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_ionicspark19_prismaticquestitem.png"
+ },
+ {
+  "id": "DA_Jazz19_Emblem",
+  "name": "Ấn Jazz",
+  "nameEn": "Jazz Emblem",
+  "kind": "emblem",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc Jazz.",
+  "stats": "100 Máu 10% Tốc đánh",
+  "traits": [
+   "DA_Jazz19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_jazz19_emblem.png"
+ },
+ {
+  "id": "DA_Juggernaut19_Emblem",
+  "name": "Ấn Dũng Sĩ",
+  "nameEn": "Juggernaut Emblem",
+  "kind": "emblem",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "The holder gains the Juggernaut trait and becomes unstoppable. \r\n\r\nThey also gain 5% Damage Amp per 1,000 max Health.\r\n\r\nElusive - Cannot be crafted.",
+  "stats": "250 Máu",
+  "traits": [
+   "DA_Juggernaut19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_juggernaut19_emblem.png"
+ },
+ {
+  "id": "DA_KDA19_Emblem",
+  "name": "Ấn K/DA",
+  "nameEn": "K/DA Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_Spatula",
+   "DA_Component_NeedlesslyLargeRod"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "The holder gains the K/DA trait.",
+  "stats": "150 Máu 15% SMCK 15% SMPT",
+  "traits": [
+   "DA_KDA19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_kda19_emblem.png"
+ },
+ {
+  "id": "DA_KDA19_PrismaticQuestItem",
+  "name": "Nhiệm Vụ Kim Cương KDA",
+  "nameEn": "KDA Prismatic Quest",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Đạt 21 cấp sao K/DA!",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_kda19_prismaticquestitem.png"
+ },
+ {
+  "id": "DA_Manager19_Emblem",
+  "name": "Ấn Quản Lý",
+  "nameEn": "Manager Emblem",
+  "kind": "emblem",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Quản Lý.\r\n\r\nKhi thi triển, trao cho đồng minh ở Ô Hào Quang 20% lượng Năng Lượng tiêu hao.",
+  "stats": "250 Máu 2 Năng lượng",
+  "traits": [
+   "DA_Manager19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_manager19_emblem.png"
+ },
+ {
+  "id": "DA_Mosher19_Emblem",
+  "name": "Ấn Đồ Tể",
+  "nameEn": "Slayer Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_FryingPan",
+   "DA_Component_NegatronCloak"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Đồ Tể.\r\n\r\nGây thêm tối đa 40% sát thương lên kẻ địch dựa trên lượng Máu đã mất của chúng.",
+  "stats": "20 Giáp 20 Kháng phép 15% Tốc đánh",
+  "traits": [
+   "DA_Mosher19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_mosher19_emblem.png"
+ },
+ {
+  "id": "DA_Oceansong19_Emblem",
+  "name": "Ấn Beach Pop",
+  "nameEn": "Beach Pop Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_Spatula",
+   "DA_Component_TearOfTheGoddess"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Beach Pop.",
+  "stats": "250 Máu 2 Hồi năng lượng",
+  "traits": [
+   "DA_OceanSong19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_oceansong19_emblem.png"
+ },
+ {
+  "id": "DA_Pentakill19_Emblem",
+  "name": "Pentakill Emblem",
+  "nameEn": "Pentakill Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_Spatula",
+   "DA_Component_BFSword"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Pentakill.",
+  "stats": "250 Máu 15% SMCK 15% SMPT",
+  "traits": [
+   "DA_Pentakill19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_pentakill19_emblem.png"
+ },
+ {
+  "id": "DA_Pentakill19_PrismaticQuestItem",
+  "name": "Pentakill Prismatic Quest",
+  "nameEn": "Pentakill Prismatic Quest",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Đạt một Pentakill!",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_pentakill19_prismaticquestitem.png"
+ },
+ {
+  "id": "TFT_Emblem_CHANGEME",
+  "name": "Ấn Phi Thường",
+  "nameEn": "Prodigy Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_FryingPan",
+   "DA_Component_TearOfTheGoddess"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Phi Thường.\r\n\r\nKhi thi triển kỹ năng, nhận 1% Máu tối đa với mỗi 10 Năng Lượng đã tiêu hao.",
+  "stats": "150 Máu 1 Hồi năng lượng",
+  "traits": [
+   "DA_Prodigy19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/tft_emblem_changeme.png"
+ },
+ {
+  "id": "DA_Renegade19_Emblem",
+  "name": "Ấn Ngoại Đạo",
+  "nameEn": "Renegade Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_FryingPan",
+   "DA_Component_SparringGloves"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Ngoại Đạo.\r\n\r\nĐòn Chí Mạng có 50% tỉ lệ gây 40% Sát Thương Chí Mạng cộng thêm.",
+  "stats": "20% Chí mạng",
+  "traits": [
+   "DA_Renegade19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_renegade19_emblem.png"
+ },
+ {
+  "id": "DA_Swiftstriker19_Emblem",
+  "name": "Swiftstriker Emblem",
+  "nameEn": "Swiftstriker Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_FryingPan",
+   "DA_Component_RecurveBow"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "The holder gains the Swiftstriker trait.\r\n\r\nAttacks deal ? bonus true damage.\r\n\r\nDamage increases based on Stage.",
+  "stats": "20% Tốc đánh",
+  "traits": [
+   "DA_Swiftstriker19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_swiftstriker19_emblem.png"
+ },
+ {
+  "id": "DA_TrueDamage19_Emblem",
+  "name": "Ấn True Damage",
+  "nameEn": "True Damage Emblem",
+  "kind": "emblem",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "The holder gains the True Damage trait.\r\n\r\nElusive - Cannot be crafted.",
+  "stats": "150 Máu 10% SMCK 10% SMPT",
+  "traits": [
+   "DA_TrueDamage19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_truedamage19_emblem.png"
+ },
+ {
+  "id": "DA_TrueDamage19_PrismaticQuestItem",
+  "name": "Nhiệm Vụ Kim Cương True Damage",
+  "nameEn": "True Damage Prismatic Quest",
+  "kind": "other",
+  "from": [],
+  "cat": [],
+  "unique": false,
+  "desc": "Viết 1 bản remix True Damage!",
+  "stats": "",
+  "traits": [],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_truedamage19_prismaticquestitem.png"
+ },
+ {
+  "id": "DA_Virtuosos19_Emblem",
+  "name": "Ấn Cổ Điển",
+  "nameEn": "Classical Emblem",
+  "kind": "emblem",
+  "from": [
+   "DA_Component_Spatula",
+   "DA_Component_RecurveBow"
+  ],
+  "cat": [],
+  "unique": false,
+  "desc": "Chủ sở hữu nhận thêm tộc/hệ Cổ Điển. Kẻ địch trúng Kỹ Năng của tướng này sẽ bị Mê Hoặc trong 3 giây.\r\n\r\nKẻ địch bị Mê Hoặc sẽ trao hiệu ứng thưởng cho tướng Cổ Điển.",
+  "stats": "20 Giáp 20 Kháng phép 20% Tốc đánh",
+  "traits": [
+   "DA_Virtuosos19"
+  ],
+  "icon": "https://cdn.metatft.com/file/metatft/items/da_virtuosos19_emblem.png"
+ }
+]

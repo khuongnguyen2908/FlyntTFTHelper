@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TFT Helper</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">TFT Helper <span id="meta" class="muted"></span></div>
+  <nav id="tabs">
+    <button data-tab="board" class="active">Tình huống của tôi</button>
+    <button data-tab="comps">Đội hình mạnh</button>
+    <button data-tab="units">Tướng</button>
+    <button data-tab="traits">Tộc hệ</button>
+    <button data-tab="items">Trang bị</button>
+    <button data-tab="augments">Lõi</button>
+    <button data-tab="tips">Mẹo nhanh</button>
+  </nav>
+</header>
+
+<main>
+  <!-- Tình huống của tôi -->
+  <section id="tab-board" class="tab active">
+    <div id="target-panel"></div>
+    <div class="board-grid">
+      <div class="panel">
+        <h3>1. Tướng</h3>
+        <div class="mode">
+          <label><input type="radio" name="pickmode" value="mine" checked> Của tôi</label>
+          <label><input type="radio" name="pickmode" value="contested"> Nhà khác đang tranh</label>
+          <button id="clear-units" class="small">Xoá hết</button>
+          <button id="copy-mine" class="small" title="Copy mã các tướng của bạn để dán vào Team Planner">📋 Copy mã bàn của tôi</button>
+        </div>
+        <p class="hint">Bấm tướng bên dưới để thêm. Bấm lại vào tướng trong danh sách đã chọn để bỏ.</p>
+        <div class="chosen"><b>Của tôi:</b> <span id="mine-list" class="icons"></span></div>
+        <div class="chosen"><b>Nhà khác tranh:</b> <span id="contested-list" class="icons"></span></div>
+        <input id="board-unit-search" class="search" placeholder="Tìm tướng / tộc hệ...">
+        <div id="board-unit-pool"></div>
+      </div>
+
+      <div class="panel">
+        <h3>2. Mảnh trang bị đang có</h3>
+        <div id="component-picker" class="components"></div>
+        <button id="clear-comps" class="small">Xoá mảnh</button>
+        <h3>3. Lõi đang có <span class="muted small-text">(không bắt buộc)</span></h3>
+        <input id="aug-search" class="search" placeholder="Gõ tên lõi rồi chọn...">
+        <div id="aug-suggest" class="suggest"></div>
+        <div id="aug-chosen" class="tags"></div>
+        <h3>4. Ván đấu</h3>
+        <div class="stage-row">
+          <label>Vòng <input id="st-stage" placeholder="3-2" size="4"></label>
+          <label>Cấp <input id="st-level" type="number" min="1" max="10" value="5"></label>
+          <label>Vàng <input id="st-gold" type="number" min="0" value="20"></label>
+          <label>Máu <input id="st-hp" type="number" min="0" max="100" value="100"></label>
+        </div>
+      </div>
+
+      <div class="panel wide">
+        <h3>Gợi ý</h3>
+        <div id="advice"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tab-comps" class="tab">
+    <div class="filters">
+      <input id="comp-search" class="search" placeholder="Lọc theo tướng / tộc hệ...">
+      <select id="comp-level"><option value="">Mọi lối chơi</option></select>
+    </div>
+    <p class="hint" id="comps-note"></p>
+    <div id="comp-list"></div>
+  </section>
+
+  <section id="tab-units" class="tab">
+    <div class="filters">
+      <input id="unit-search" class="search" placeholder="Tìm tướng...">
+      <select id="unit-trait"><option value="">Mọi tộc hệ</option></select>
+      <select id="unit-cost"><option value="">Mọi giá</option></select>
+    </div>
+    <div id="unit-list"></div>
+  </section>
+
+  <section id="tab-traits" class="tab">
+    <div class="filters"><input id="trait-search" class="search" placeholder="Tìm tộc hệ..."></div>
+    <div id="trait-list"></div>
+  </section>
+
+  <section id="tab-items" class="tab">
+    <div class="filters">
+      <select id="item-kind">
+        <option value="craftable">Đồ ghép</option>
+        <option value="emblem">Ấn</option>
+        <option value="artifact">Đồ Ornn / Tạo tác</option>
+        <option value="radiant">Đồ Ánh Sáng</option>
+        <option value="support">Đồ hỗ trợ</option>
+        <option value="other">Khác</option>
+      </select>
+      <input id="item-search" class="search" placeholder="Tìm trang bị...">
+    </div>
+    <h3>Bảng ghép đồ</h3>
+    <div id="item-matrix"></div>
+    <div id="item-list"></div>
+  </section>
+
+  <section id="tab-augments" class="tab">
+    <div class="filters">
+      <input id="augment-search" class="search" placeholder="Tìm lõi...">
+      <select id="augment-rarity"><option value="">Mọi bậc</option><option>Silver</option><option>Gold</option><option>Prismatic</option></select>
+      <select id="augment-tag"><option value="">Mọi loại</option></select>
+    </div>
+    <p class="hint">Set 19 đang ở PBE nên chưa có số liệu tỉ lệ thắng của lõi. Muốn biết nên chọn lõi nào cho ván đang chơi, hãy gửi ảnh vào chat Claude.</p>
+    <div id="augment-list"></div>
+  </section>
+
+  <section id="tab-tips" class="tab">
+    <div id="tips"></div>
+  </section>
+</main>
+
+<div id="modal" class="modal hidden"><div class="modal-box"><button class="close" id="modal-close">✕</button><div id="modal-body"></div></div></div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

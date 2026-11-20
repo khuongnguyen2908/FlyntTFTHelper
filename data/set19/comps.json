@@ -1,0 +1,4725 @@
+[
+ {
+  "id": "427000",
+  "name": "Hyperpop + Kobuko",
+  "units": [
+   "DA_Elise19",
+   "DA_Kobuko19",
+   "DA_Lulu19",
+   "DA_Shyvana19",
+   "DA_Swain19",
+   "DA_Teemo19",
+   "DA_Tristana19",
+   "DA_Yunara19",
+   "DA_Ziggs19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Arcanist19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 2
+   },
+   {
+    "id": "DA_GlitterBomb19",
+    "tier": 4
+   },
+   {
+    "id": "DA_IonicSpark19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Teemo19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Kobuko19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage"
+    ],
+    "avg": 2.2604,
+    "count": 6013
+   },
+   {
+    "unit": "DA_Ziggs19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_JeweledGauntlet",
+     "DA_StrikersFlail"
+    ],
+    "avg": 2.6024,
+    "count": 7078
+   },
+   {
+    "unit": "DA_Teemo19",
+    "items": [
+     "DA_Morellonomicon",
+     "DA_SpearOfShojin",
+     "DA_VoidStaff"
+    ],
+    "avg": 1.8889,
+    "count": 3330
+   },
+   {
+    "unit": "DA_Lulu19",
+    "items": [
+     "DA_Morellonomicon",
+     "DA_SpearOfShojin",
+     "DA_VoidStaff"
+    ],
+    "avg": 2.8778,
+    "count": 998
+   }
+  ],
+  "carries": [
+   "DA_Kobuko19",
+   "DA_Ziggs19",
+   "DA_Teemo19",
+   "DA_Lulu19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 114654,
+  "avg": 3.0279,
+  "pick": 0.0802208043587354,
+  "levelling": "lvl 5",
+  "levellingVi": "Reroll cấp 5",
+  "extraUnits": [
+   "DA_Seraphine19_Indie",
+   "DA_Sett19",
+   "DA_Jax19",
+   "DA_Renekton19",
+   "DA_Zoe19",
+   "DA_Amumu19",
+   "DA_Taric19",
+   "DA_Malzahar19"
+  ],
+  "tier": "S",
+  "share": 0.07652088717083484
+ },
+ {
+  "id": "427010",
+  "name": "Phi Thường + Malzahar",
+  "units": [
+   "DA_Alune19",
+   "DA_BaronNashor19",
+   "DA_Braum19",
+   "DA_DrMundo19",
+   "DA_Ekko19",
+   "DA_Lux19",
+   "DA_Malzahar19",
+   "DA_Neeko19"
+  ],
+  "traits": [
+   {
+    "id": "DA_BaronNashor19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_DrMundo19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Malzahar19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Manager19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Prodigy19",
+    "tier": 4
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Malzahar19",
+    "items": [
+     "DA_JeweledGauntlet",
+     "DA_RabadonsDeathcap",
+     "DA_StrikersFlail"
+    ],
+    "avg": 2.6842,
+    "count": 4481
+   },
+   {
+    "unit": "DA_Alune19",
+    "items": [
+     "DA_ArchangelsStaff",
+     "DA_Morellonomicon",
+     "DA_VoidStaff"
+    ],
+    "avg": 2.183,
+    "count": 153
+   },
+   {
+    "unit": "DA_Ekko19",
+    "items": [
+     "DA_AdaptiveHelm",
+     "DA_Crownguard",
+     "DA_GargoyleStoneplate"
+    ],
+    "avg": 2.527,
+    "count": 1351
+   },
+   {
+    "unit": "DA_BaronNashor19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 2.0279,
+    "count": 358
+   }
+  ],
+  "carries": [
+   "DA_Malzahar19",
+   "DA_Alune19",
+   "DA_Ekko19",
+   "DA_BaronNashor19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 46700,
+  "avg": 3.43,
+  "pick": 0.03587353932181518,
+  "levelling": "lvl 7",
+  "levellingVi": "Roll cấp 7",
+  "extraUnits": [
+   "DA_Amumu19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "S",
+  "share": 0.031167908933643722
+ },
+ {
+  "id": "427005",
+  "name": "K/DA + Neeko",
+  "units": [
+   "DA_19_Ahri",
+   "DA_AkaliKDA19",
+   "DA_Evelynn19",
+   "DA_Gragas19",
+   "DA_Kaisa19",
+   "DA_Leona19",
+   "DA_Lillia19",
+   "DA_Neeko19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 1
+   },
+   {
+    "id": "DA_KDA19",
+    "tier": 6
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Neeko19",
+    "items": [
+     "DA_JeweledGauntlet",
+     "DA_SpearOfShojin",
+     "DA_StrikersFlail"
+    ],
+    "avg": 3.24,
+    "count": 4563
+   },
+   {
+    "unit": "DA_Gragas19",
+    "items": [
+     "DA_Crownguard",
+     "DA_GargoyleStoneplate",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 2.7211,
+    "count": 1022
+   },
+   {
+    "unit": "DA_AkaliKDA19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_InfinityEdge"
+    ],
+    "avg": 2.8551,
+    "count": 1787
+   },
+   {
+    "unit": "DA_Lillia19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_IonicSpark",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.2207,
+    "count": 444
+   }
+  ],
+  "carries": [
+   "DA_Neeko19",
+   "DA_Gragas19",
+   "DA_AkaliKDA19",
+   "DA_Lillia19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 63366,
+  "avg": 3.6416,
+  "pick": 0.048376227686572515,
+  "levelling": "lvl 5",
+  "levellingVi": "Reroll cấp 5",
+  "extraUnits": [
+   "DA_Seraphine19_Indie",
+   "DA_Ezreal19",
+   "DA_Kennen19",
+   "DA_Lux19",
+   "DA_Nasus19",
+   "DA_Annie19",
+   "DA_Varus19",
+   "DA_Qiyana19"
+  ],
+  "tier": "S",
+  "share": 0.0422909147213976
+ },
+ {
+  "id": "427008",
+  "name": "Phi Thường + Malzahar + Ekko",
+  "units": [
+   "DA_Alune19",
+   "DA_BaronNashor19",
+   "DA_Braum19",
+   "DA_Ekko19",
+   "DA_Lux19",
+   "DA_Malzahar19",
+   "DA_Neeko19"
+  ],
+  "traits": [
+   {
+    "id": "DA_BaronNashor19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Malzahar19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Prodigy19",
+    "tier": 4
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Malzahar19",
+    "items": [
+     "DA_JeweledGauntlet",
+     "DA_RabadonsDeathcap",
+     "DA_StrikersFlail"
+    ],
+    "avg": 2.8203,
+    "count": 3863
+   },
+   {
+    "unit": "DA_Ekko19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 2.931,
+    "count": 1637
+   },
+   {
+    "unit": "DA_Braum19",
+    "items": [
+     "DA_Crownguard",
+     "DA_GargoyleStoneplate",
+     "DA_GargoyleStoneplate"
+    ],
+    "avg": 2.6358,
+    "count": 162
+   },
+   {
+    "unit": "DA_BaronNashor19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_InfinityEdge"
+    ],
+    "avg": 1.99,
+    "count": 300
+   }
+  ],
+  "carries": [
+   "DA_Malzahar19",
+   "DA_Ekko19",
+   "DA_Braum19",
+   "DA_BaronNashor19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 38932,
+  "avg": 3.653,
+  "pick": 0.025141587210552728,
+  "levelling": "lvl 7",
+  "levellingVi": "Roll cấp 7",
+  "extraUnits": [
+   "DA_Olaf19",
+   "DA_Amumu19",
+   "DA_Gnar19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "S",
+  "share": 0.025983491019370822
+ },
+ {
+  "id": "427004",
+  "name": "Ionic Spark + Jinx",
+  "units": [
+   "DA_Annie19",
+   "DA_Aurora19",
+   "DA_Elise19",
+   "DA_Gwen19",
+   "DA_Jinx19",
+   "DA_Leona19",
+   "DA_MissFortune19",
+   "DA_Shyvana19",
+   "DA_Tibbers19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Gwen19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Hitmaker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_IonicSpark19",
+    "tier": 3
+   },
+   {
+    "id": "DA_MissFortune19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Jinx19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_InfinityEdge",
+     "DA_LastWhisper"
+    ],
+    "avg": 3.5399,
+    "count": 11360
+   },
+   {
+    "unit": "DA_Shyvana19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.2386,
+    "count": 6278
+   },
+   {
+    "unit": "DA_Gwen19",
+    "items": [
+     "DA_HandOfJustice",
+     "DA_JeweledGauntlet",
+     "DA_StrikersFlail"
+    ],
+    "avg": 2.9453,
+    "count": 1042
+   },
+   {
+    "unit": "DA_Aurora19",
+    "items": [
+     "DA_RedBuff",
+     "DA_SpearOfShojin",
+     "DA_VoidStaff"
+    ],
+    "avg": 2.848,
+    "count": 487
+   }
+  ],
+  "carries": [
+   "DA_Jinx19",
+   "DA_Shyvana19",
+   "DA_Gwen19",
+   "DA_Aurora19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 119698,
+  "avg": 3.8686,
+  "pick": 0.07993404545128684,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "S",
+  "share": 0.07988728829848579
+ },
+ {
+  "id": "427007",
+  "name": "K/DA + Leona",
+  "units": [
+   "DA_19_Ahri",
+   "DA_AkaliKDA19",
+   "DA_Evelynn19",
+   "DA_Garen19",
+   "DA_Gragas19",
+   "DA_Kaisa19",
+   "DA_Leona19",
+   "DA_Lillia19",
+   "DA_Neeko19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Choreographer19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Garen19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_KDA19",
+    "tier": 6
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Leona19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.2445,
+    "count": 4319
+   },
+   {
+    "unit": "DA_19_Ahri",
+    "items": [
+     "DA_JeweledGauntlet",
+     "DA_SpearOfShojin",
+     "DA_VoidStaff"
+    ],
+    "avg": 3.0124,
+    "count": 3720
+   },
+   {
+    "unit": "DA_AkaliKDA19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_EdgeOfNight",
+     "DA_RedBuff"
+    ],
+    "avg": 2.5531,
+    "count": 875
+   },
+   {
+    "unit": "DA_Kaisa19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_KrakensFury",
+     "DA_RedBuff"
+    ],
+    "avg": 3.289,
+    "count": 474
+   }
+  ],
+  "carries": [
+   "DA_Leona19",
+   "DA_19_Ahri",
+   "DA_AkaliKDA19",
+   "DA_Kaisa19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 102665,
+  "avg": 3.962,
+  "pick": 0.05767438526059216,
+  "levelling": "Standard",
+  "levellingVi": "Tiêu chuẩn (roll cấp 8)",
+  "extraUnits": [
+   "DA_Seraphine19_Indie",
+   "DA_Amumu19"
+  ],
+  "tier": "S",
+  "share": 0.06851934412575017
+ },
+ {
+  "id": "427001",
+  "name": "Hyperpop + Kobuko + Ziggs",
+  "units": [
+   "DA_Annie19",
+   "DA_Braum19",
+   "DA_Garen19",
+   "DA_Illaoi19",
+   "DA_Kobuko19",
+   "DA_Lulu19",
+   "DA_Teemo19",
+   "DA_Tristana19",
+   "DA_Ziggs19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Arcanist19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Choreographer19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Garen19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_GlitterBomb19",
+    "tier": 4
+   },
+   {
+    "id": "DA_Illbeats19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Teemo19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Kobuko19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage"
+    ],
+    "avg": 2.8915,
+    "count": 461
+   },
+   {
+    "unit": "DA_Ziggs19",
+    "items": [
+     "DA_ArchangelsStaff",
+     "DA_GuinsoosRageblade",
+     "DA_HextechGunblade"
+    ],
+    "avg": 2.9832,
+    "count": 119
+   },
+   {
+    "unit": "DA_Teemo19",
+    "items": [
+     "DA_JeweledGauntlet",
+     "DA_SpearOfShojin",
+     "DA_StrikersFlail"
+    ],
+    "avg": 2.4836,
+    "count": 426
+   },
+   {
+    "unit": "DA_Tristana19",
+    "items": [
+     "DA_Deathblade",
+     "DA_InfinityEdge",
+     "DA_LastWhisper"
+    ],
+    "avg": 2.9054,
+    "count": 74
+   }
+  ],
+  "carries": [
+   "DA_Kobuko19",
+   "DA_Ziggs19",
+   "DA_Teemo19",
+   "DA_Tristana19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 12167,
+  "avg": 4.0438,
+  "pick": 0.004968098071546348,
+  "levelling": "lvl 5",
+  "levellingVi": "Reroll cấp 5",
+  "extraUnits": [
+   "DA_Seraphine19_Indie",
+   "DA_Elise19",
+   "DA_Yunara19",
+   "DA_Sett19",
+   "DA_Renekton19",
+   "DA_Jax19",
+   "DA_Zoe19",
+   "DA_Amumu19"
+  ],
+  "tier": "A",
+  "share": 0.008120341498836042
+ },
+ {
+  "id": "427006",
+  "name": "Rock + Vayne",
+  "units": [
+   "DA_Camille19",
+   "DA_Gnar19",
+   "DA_Locke19",
+   "DA_Olaf19",
+   "DA_Pyke19",
+   "DA_Swain19",
+   "DA_Varus19",
+   "DA_Vayne19",
+   "DA_Yorick19"
+  ],
+  "traits": [
+   {
+    "id": "DA_DemonVision19",
+    "tier": 4
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Pentakill19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Trickshot19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Vayne19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_KrakensFury",
+     "DA_LastWhisper"
+    ],
+    "avg": 4.0764,
+    "count": 2068
+   },
+   {
+    "unit": "DA_Yorick19",
+    "items": [
+     "DA_Crownguard",
+     "DA_GargoyleStoneplate",
+     "DA_ProtectorsVow"
+    ],
+    "avg": 3.8053,
+    "count": 262
+   },
+   {
+    "unit": "DA_Pyke19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_EdgeOfNight",
+     "DA_SteraksGage"
+    ],
+    "avg": 3.5247,
+    "count": 465
+   },
+   {
+    "unit": "DA_Locke19",
+    "items": [
+     "DA_HandOfJustice",
+     "DA_JeweledGauntlet",
+     "DA_StrikersFlail"
+    ],
+    "avg": 3.9852,
+    "count": 135
+   }
+  ],
+  "carries": [
+   "DA_Vayne19",
+   "DA_Yorick19",
+   "DA_Pyke19",
+   "DA_Locke19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 18925,
+  "avg": 4.3504,
+  "pick": 0.015879274499964156,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Taric19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "A",
+  "share": 0.012630678299126497
+ },
+ {
+  "id": "427002",
+  "name": "Cổ Phong + Ngộ Không",
+  "units": [
+   "DA_Alune19",
+   "DA_Aphelios19",
+   "DA_DrMundo19",
+   "DA_Janna19",
+   "DA_KSante19",
+   "DA_LeeSin19",
+   "DA_Leona19",
+   "DA_Wukong19",
+   "DA_Xayah19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 1
+   },
+   {
+    "id": "DA_DrMundo19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Heavenscale19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Janna19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Manager19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Prodigy19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Wukong19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.9357,
+    "count": 902
+   },
+   {
+    "unit": "DA_Xayah19",
+    "items": [
+     "DA_Heavenscale19_DangerousItem",
+     "DA_InfinityEdge",
+     "DA_LastWhisper"
+    ],
+    "avg": 3.5361,
+    "count": 485
+   },
+   {
+    "unit": "DA_Janna19",
+    "items": [
+     "DA_Heavenscale19_DangerousItem",
+     "DA_Morellonomicon",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 2.9362,
+    "count": 141
+   },
+   {
+    "unit": "DA_LeeSin19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_Heavenscale19_DangerousItem",
+     "DA_SteraksGage"
+    ],
+    "avg": 2.5328,
+    "count": 122
+   }
+  ],
+  "carries": [
+   "DA_Wukong19",
+   "DA_Xayah19",
+   "DA_Janna19",
+   "DA_LeeSin19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 22468,
+  "avg": 4.3526,
+  "pick": 0.01636676464262671,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Amumu19"
+  ],
+  "tier": "A",
+  "share": 0.01499530145441343
+ },
+ {
+  "id": "427011",
+  "name": "Pentakill + Kayle",
+  "units": [
+   "DA_Gnar19",
+   "DA_Karthus19",
+   "DA_Kayle19",
+   "DA_Locke19",
+   "DA_Mordekaiser19",
+   "DA_Olaf19",
+   "DA_Swain19",
+   "DA_Viego19",
+   "DA_Yorick19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Arcanist19",
+    "tier": 1
+   },
+   {
+    "id": "DA_DemonVision19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Pentakill19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Kayle19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_JeweledGauntlet",
+     "DA_StrikersFlail"
+    ],
+    "avg": 3.9478,
+    "count": 6565
+   },
+   {
+    "unit": "DA_Yorick19",
+    "items": [
+     "DA_IonicSpark",
+     "DA_SpiritVisage",
+     "DA_SunfireCape"
+    ],
+    "avg": 3.3472,
+    "count": 530
+   },
+   {
+    "unit": "DA_Mordekaiser19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_EdgeOfNight",
+     "DA_GuinsoosRageblade"
+    ],
+    "avg": 3.3945,
+    "count": 3754
+   },
+   {
+    "unit": "DA_Viego19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_EdgeOfNight",
+     "DA_TitansResolve"
+    ],
+    "avg": 3.9206,
+    "count": 340
+   }
+  ],
+  "carries": [
+   "DA_Kayle19",
+   "DA_Yorick19",
+   "DA_Mordekaiser19",
+   "DA_Viego19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 88348,
+  "avg": 4.4231,
+  "pick": 0.05032618825722274,
+  "levelling": "Standard",
+  "levellingVi": "Tiêu chuẩn (roll cấp 8)",
+  "extraUnits": [
+   "DA_Taric19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "A",
+  "share": 0.05896407748328813
+ },
+ {
+  "id": "427003",
+  "name": "Jazz + Kayle",
+  "units": [
+   "DA_Bard19",
+   "DA_Camille19",
+   "DA_Galio19",
+   "DA_Kayle19",
+   "DA_Mel19",
+   "DA_Olaf19",
+   "DA_Smeech19",
+   "DA_Swain19",
+   "DA_Yorick19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Arcanist19",
+    "tier": 1
+   },
+   {
+    "id": "DA_DemonVision19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Jazz19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Mosher19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Pentakill19",
+    "tier": 1
+   },
+   {
+    "id": "DA_RnB19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Kayle19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_JeweledGauntlet",
+     "DA_StrikersFlail"
+    ],
+    "avg": 4.0684,
+    "count": 3216
+   },
+   {
+    "unit": "DA_Yorick19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_SunfireCape"
+    ],
+    "avg": 3.5523,
+    "count": 239
+   },
+   {
+    "unit": "DA_Smeech19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 2.9418,
+    "count": 1735
+   },
+   {
+    "unit": "DA_Mel19",
+    "items": [
+     "DA_BlueBuff",
+     "DA_Morellonomicon",
+     "DA_VoidStaff"
+    ],
+    "avg": 2.9695,
+    "count": 131
+   }
+  ],
+  "carries": [
+   "DA_Kayle19",
+   "DA_Yorick19",
+   "DA_Smeech19",
+   "DA_Mel19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 21223,
+  "avg": 4.4378,
+  "pick": 0.01606566778980572,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [],
+  "tier": "A",
+  "share": 0.014164379685197445
+ },
+ {
+  "id": "427009",
+  "name": "Cổ Phong + Xayah + Jinx",
+  "units": [
+   "DA_Elise19",
+   "DA_Gwen19",
+   "DA_Janna19",
+   "DA_Jinx19",
+   "DA_LeeSin19",
+   "DA_Lux19",
+   "DA_Shyvana19",
+   "DA_Wukong19",
+   "DA_Xayah19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Gwen19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heavenscale19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Hitmaker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_IonicSpark19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Janna19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Prodigy19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Xayah19",
+    "items": [
+     "DA_Heavenscale19_DangerousItem",
+     "DA_InfinityEdge",
+     "DA_LastWhisper"
+    ],
+    "avg": 3.568,
+    "count": 125
+   },
+   {
+    "unit": "DA_Jinx19",
+    "items": [
+     "DA_Deathblade",
+     "DA_GuinsoosRageblade",
+     "DA_KrakensFury"
+    ],
+    "avg": 3.8653,
+    "count": 438
+   },
+   {
+    "unit": "DA_Wukong19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.8775,
+    "count": 351
+   },
+   {
+    "unit": "DA_Shyvana19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.7655,
+    "count": 371
+   }
+  ],
+  "carries": [
+   "DA_Xayah19",
+   "DA_Jinx19",
+   "DA_Wukong19",
+   "DA_Shyvana19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 16671,
+  "avg": 4.5088,
+  "pick": 0.010947021291848878,
+  "levelling": "Fast 8",
+  "levellingVi": "Lên nhanh cấp 8",
+  "extraUnits": [],
+  "tier": "A",
+  "share": 0.011126342822971617
+ },
+ {
+  "id": "427023",
+  "name": "Biên Đạo + Garen",
+  "units": [
+   "DA_Alune19",
+   "DA_DrMundo19",
+   "DA_Ekko19",
+   "DA_Garen19",
+   "DA_Jax19",
+   "DA_Leona19",
+   "DA_Nidalee19",
+   "DA_Vi19",
+   "DA_Zeri19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Choreographer19",
+    "tier": 1
+   },
+   {
+    "id": "DA_DrMundo19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_EDM19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Garen19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Manager19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Nidalee19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Prodigy19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Zeri19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Garen19",
+    "items": [
+     "DA_DragonsClaw",
+     "DA_SunfireCape",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.5556,
+    "count": 27
+   },
+   {
+    "unit": "DA_Nidalee19",
+    "items": [
+     "DA_JeweledGauntlet",
+     "DA_NashorsTooth",
+     "DA_RabadonsDeathcap"
+    ],
+    "avg": 3.3333,
+    "count": 27
+   },
+   {
+    "unit": "DA_19_Ahri",
+    "items": [
+     "DA_ArchangelsStaff",
+     "DA_JeweledGauntlet",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 3.3333,
+    "count": 51
+   },
+   {
+    "unit": "DA_Zeri19",
+    "items": [
+     "DA_InfinityEdge",
+     "DA_LastWhisper",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 4,
+    "count": 78
+   }
+  ],
+  "carries": [
+   "DA_Garen19",
+   "DA_Nidalee19",
+   "DA_19_Ahri",
+   "DA_Zeri19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 11596,
+  "avg": 4.5923,
+  "pick": 0.008473725715105025,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "A",
+  "share": 0.007739252076970719
+ },
+ {
+  "id": "427013",
+  "name": "Dũng Sĩ + Kayle",
+  "units": [
+   "DA_Ashe19",
+   "DA_Kayle19",
+   "DA_Locke19",
+   "DA_Olaf19",
+   "DA_Pyke19",
+   "DA_Taric19",
+   "DA_Yorick19",
+   "DA_Zac19",
+   "DA_Zeri19"
+  ],
+  "traits": [
+   {
+    "id": "DA_DemonVision19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 2
+   },
+   {
+    "id": "DA_OceanSong19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Pentakill19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Zeri19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Kayle19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_JeweledGauntlet",
+     "DA_RabadonsDeathcap"
+    ],
+    "avg": 4.2362,
+    "count": 127
+   },
+   {
+    "unit": "DA_Zac19",
+    "items": [
+     "DA_Evenshroud",
+     "DA_GargoyleStoneplate",
+     "DA_SunfireCape"
+    ],
+    "avg": 3.1714,
+    "count": 35
+   },
+   {
+    "unit": "DA_Yorick19",
+    "items": [
+     "DA_BrambleVest",
+     "DA_DragonsClaw",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.2941,
+    "count": 17
+   },
+   {
+    "unit": "DA_Zeri19",
+    "items": [
+     "DA_InfinityEdge",
+     "DA_RedBuff",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 3.5316,
+    "count": 79
+   }
+  ],
+  "carries": [
+   "DA_Kayle19",
+   "DA_Zac19",
+   "DA_Yorick19",
+   "DA_Zeri19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 7607,
+  "avg": 4.5988,
+  "pick": 0.004279876693669797,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Gnar19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "A",
+  "share": 0.005076965380261837
+ },
+ {
+  "id": "427026",
+  "name": "Vệ Sĩ + Jax",
+  "units": [
+   "DA_Garen19",
+   "DA_Jax19",
+   "DA_KSante19",
+   "DA_Leona19",
+   "DA_Lillia19",
+   "DA_Nasus19",
+   "DA_RenataGlasc19",
+   "DA_Tibbers19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Choreographer19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Garen19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_KDA19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Virtuosos19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Jax19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SpearOfShojin",
+     "DA_TitansResolve"
+    ],
+    "avg": 3.3239,
+    "count": 988
+   },
+   {
+    "unit": "DA_Nasus19",
+    "items": [
+     "DA_IonicSpark",
+     "DA_SpiritVisage",
+     "DA_SunfireCape"
+    ],
+    "avg": 3.3208,
+    "count": 848
+   },
+   {
+    "unit": "DA_RenataGlasc19",
+    "items": [
+     "DA_ArchangelsStaff",
+     "DA_HextechGunblade",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 3.6731,
+    "count": 3576
+   },
+   {
+    "unit": "DA_Leona19",
+    "items": [
+     "DA_IonicSpark",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 2.5278,
+    "count": 36
+   }
+  ],
+  "carries": [
+   "DA_Jax19",
+   "DA_Nasus19",
+   "DA_RenataGlasc19",
+   "DA_Leona19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 25282,
+  "avg": 4.6227,
+  "pick": 0.03213133557961144,
+  "levelling": "lvl 6",
+  "levellingVi": "Reroll cấp 6",
+  "extraUnits": [
+   "DA_Kennen19",
+   "DA_Seraphine19_Indie",
+   "DA_Ashe19",
+   "DA_Katarina19"
+  ],
+  "tier": "A",
+  "share": 0.016873384874954617
+ },
+ {
+  "id": "427016",
+  "name": "Cổ Phong + Xayah",
+  "units": [
+   "DA_DrMundo19",
+   "DA_Janna19",
+   "DA_LeeSin19",
+   "DA_Leona19",
+   "DA_MissFortune19",
+   "DA_Nidalee19",
+   "DA_Rell19",
+   "DA_Wukong19",
+   "DA_Xayah19"
+  ],
+  "traits": [
+   {
+    "id": "DA_DrMundo19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heavenscale19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Hitmaker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Janna19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Manager19",
+    "tier": 1
+   },
+   {
+    "id": "DA_MissFortune19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nidalee19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Rell19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_RnB19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Xayah19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_Heavenscale19_DangerousItem",
+     "DA_InfinityEdge"
+    ],
+    "avg": 3.6614,
+    "count": 446
+   },
+   {
+    "unit": "DA_Wukong19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.0283,
+    "count": 1482
+   },
+   {
+    "unit": "DA_Janna19",
+    "items": [
+     "DA_Heavenscale19_DangerousItem",
+     "DA_Morellonomicon",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 3.2642,
+    "count": 159
+   },
+   {
+    "unit": "DA_LeeSin19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_EdgeOfNight",
+     "DA_Heavenscale19_DangerousItem"
+    ],
+    "avg": 2.9146,
+    "count": 328
+   }
+  ],
+  "carries": [
+   "DA_Xayah19",
+   "DA_Wukong19",
+   "DA_Janna19",
+   "DA_LeeSin19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 54024,
+  "avg": 4.6375,
+  "pick": 0.035579611441680405,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Ziggs19",
+   "DA_Kobuko19"
+  ],
+  "tier": "B",
+  "share": 0.036055998120581766
+ },
+ {
+  "id": "427022",
+  "name": "Heartsteel + Alune",
+  "units": [
+   "DA_Alune19",
+   "DA_Aphelios19",
+   "DA_DrMundo19",
+   "DA_Ezreal19",
+   "DA_KSante19",
+   "DA_Kayn19",
+   "DA_Leona19",
+   "DA_Sett19",
+   "DA_Yone19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 1
+   },
+   {
+    "id": "DA_DrMundo19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 4
+   },
+   {
+    "id": "DA_Manager19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Mosher19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Aphelios19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_InfinityEdge",
+     "DA_KrakensFury"
+    ],
+    "avg": 3.7877,
+    "count": 5548
+   },
+   {
+    "unit": "DA_Alune19",
+    "items": [
+     "DA_BlueBuff",
+     "DA_Morellonomicon",
+     "DA_VoidStaff"
+    ],
+    "avg": 3.916,
+    "count": 583
+   },
+   {
+    "unit": "DA_Yone19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_EdgeOfNight",
+     "DA_SteraksGage"
+    ],
+    "avg": 3.9786,
+    "count": 701
+   },
+   {
+    "unit": "DA_KSante19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.4065,
+    "count": 1695
+   }
+  ],
+  "carries": [
+   "DA_Aphelios19",
+   "DA_Alune19",
+   "DA_Yone19",
+   "DA_KSante19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 97662,
+  "avg": 4.6794,
+  "pick": 0.057473654025378164,
+  "levelling": "Fast 8",
+  "levellingVi": "Lên nhanh cấp 8",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "B",
+  "share": 0.06518030668688465
+ },
+ {
+  "id": "427027",
+  "name": "Đồ Tể + Viego",
+  "units": [
+   "DA_Briar19",
+   "DA_Camille19",
+   "DA_Kayn19",
+   "DA_Olaf19",
+   "DA_Viego19",
+   "DA_Yasuo19",
+   "DA_Yone19",
+   "DA_Yorick19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Mosher19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Pentakill19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Viego19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_InfinityEdge"
+    ],
+    "avg": 3.5753,
+    "count": 1229
+   },
+   {
+    "unit": "DA_Briar19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 3.4867,
+    "count": 452
+   },
+   {
+    "unit": "DA_Yorick19",
+    "items": [
+     "DA_Evenshroud",
+     "DA_SunfireCape",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 2.8033,
+    "count": 61
+   },
+   {
+    "unit": "DA_Yone19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 3.7674,
+    "count": 43
+   }
+  ],
+  "carries": [
+   "DA_Viego19",
+   "DA_Briar19",
+   "DA_Yorick19",
+   "DA_Yone19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 11671,
+  "avg": 4.6891,
+  "pick": 0.01227328123879848,
+  "levelling": "lvl 7",
+  "levellingVi": "Roll cấp 7",
+  "extraUnits": [
+   "DA_Amumu19",
+   "DA_KSante19",
+   "DA_Braum19",
+   "DA_Tibbers19",
+   "DA_Draven19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "B",
+  "share": 0.007789307605236742
+ },
+ {
+  "id": "427014",
+  "name": "Rock + Vayne + Swain",
+  "units": [
+   "DA_Camille19",
+   "DA_Locke19",
+   "DA_Nunu19",
+   "DA_Olaf19",
+   "DA_Pyke19",
+   "DA_Samira19",
+   "DA_Swain19",
+   "DA_Varus19",
+   "DA_Vayne19"
+  ],
+  "traits": [
+   {
+    "id": "DA_DemonVision19",
+    "tier": 4
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nunu19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Renegade19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Trickshot19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Vayne19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_KrakensFury",
+     "DA_LastWhisper"
+    ],
+    "avg": 4.042,
+    "count": 2048
+   },
+   {
+    "unit": "DA_Swain19",
+    "items": [
+     "DA_Evenshroud",
+     "DA_ProtectorsVow",
+     "DA_SunfireCape"
+    ],
+    "avg": 3.621,
+    "count": 124
+   },
+   {
+    "unit": "DA_Pyke19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_InfinityEdge"
+    ],
+    "avg": 3.4933,
+    "count": 1484
+   },
+   {
+    "unit": "DA_Locke19",
+    "items": [
+     "DA_HandOfJustice",
+     "DA_IonicSpark",
+     "DA_JeweledGauntlet"
+    ],
+    "avg": 4.3139,
+    "count": 137
+   }
+  ],
+  "carries": [
+   "DA_Vayne19",
+   "DA_Swain19",
+   "DA_Pyke19",
+   "DA_Locke19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 59311,
+  "avg": 4.7078,
+  "pick": 0.036418381245967454,
+  "levelling": "Standard",
+  "levellingVi": "Tiêu chuẩn (roll cấp 8)",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "B",
+  "share": 0.03958457915981462
+ },
+ {
+  "id": "427012",
+  "name": "Beach Pop + Graves",
+  "units": [
+   "DA_Annie19",
+   "DA_Aurora19",
+   "DA_Ezreal19",
+   "DA_Graves19",
+   "DA_Renekton19",
+   "DA_Shyvana19",
+   "DA_Taliyah19",
+   "DA_Zac19",
+   "DA_Zoe19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Arcanist19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Encore19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_IonicSpark19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_OceanSong19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Renegade19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Graves19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_EdgeOfNight",
+     "DA_InfinityEdge"
+    ],
+    "avg": 4.181,
+    "count": 116
+   },
+   {
+    "unit": "DA_Zac19",
+    "items": [
+     "DA_Crownguard",
+     "DA_ProtectorsVow",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.6889,
+    "count": 45
+   },
+   {
+    "unit": "DA_Aurora19",
+    "items": [
+     "DA_JeweledGauntlet",
+     "DA_Oceansong19_Emblem",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 4.1719,
+    "count": 64
+   },
+   {
+    "unit": "DA_Taliyah19",
+    "items": [
+     "DA_RabadonsDeathcap",
+     "DA_SpearOfShojin",
+     "DA_VoidStaff"
+    ],
+    "avg": 3.7222,
+    "count": 54
+   }
+  ],
+  "carries": [
+   "DA_Graves19",
+   "DA_Zac19",
+   "DA_Aurora19",
+   "DA_Taliyah19"
+  ],
+  "topItems": [
+   null
+  ],
+  "count": 14317,
+  "avg": 4.7417,
+  "pick": 0.009341171410136927,
+  "levelling": "Fast 8",
+  "levellingVi": "Lên nhanh cấp 8",
+  "extraUnits": [],
+  "tier": "B",
+  "share": 0.009555266642462038
+ },
+ {
+  "id": "427029",
+  "name": "Đồ Tể + Yone",
+  "units": [
+   "DA_Briar19",
+   "DA_KSante19",
+   "DA_Katarina19",
+   "DA_Kayn19",
+   "DA_Nasus19",
+   "DA_Nidalee19",
+   "DA_Viego19",
+   "DA_Yasuo19",
+   "DA_Yone19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Choreographer19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Mosher19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Nidalee19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Virtuosos19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Yone19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_LastWhisper",
+     "DA_TitansResolve"
+    ],
+    "avg": 3.9922,
+    "count": 129
+   },
+   {
+    "unit": "DA_Yasuo19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_InfinityEdge"
+    ],
+    "avg": 3.9188,
+    "count": 345
+   },
+   {
+    "unit": "DA_Aphelios19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_InfinityEdge",
+     "DA_Mosher19_Emblem"
+    ],
+    "avg": 3.2407,
+    "count": 54
+   },
+   {
+    "unit": "DA_KSante19",
+    "items": [
+     "DA_Evenshroud",
+     "DA_GargoyleStoneplate",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.4333,
+    "count": 60
+   }
+  ],
+  "carries": [
+   "DA_Yone19",
+   "DA_Yasuo19",
+   "DA_Aphelios19",
+   "DA_KSante19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 16833,
+  "avg": 4.7554,
+  "pick": 0.010581403684851961,
+  "levelling": "Fast 8",
+  "levellingVi": "Lên nhanh cấp 8",
+  "extraUnits": [
+   "DA_Amumu19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "B",
+  "share": 0.011234462764026227
+ },
+ {
+  "id": "427041",
+  "name": "Tốc Kích + Zeri",
+  "units": [
+   "DA_Bard19",
+   "DA_DrMundo19",
+   "DA_Galio19",
+   "DA_Jax19",
+   "DA_Leona19",
+   "DA_Nunu19",
+   "DA_Vi19",
+   "DA_Yorick19",
+   "DA_Zeri19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 1
+   },
+   {
+    "id": "DA_DrMundo19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_EDM19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Jazz19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Manager19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nunu19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Zeri19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Zeri19",
+    "items": [
+     "DA_InfinityEdge",
+     "DA_SpearOfShojin",
+     "DA_StrikersFlail"
+    ],
+    "avg": 3.7125,
+    "count": 779
+   },
+   {
+    "unit": "DA_DrMundo19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.4837,
+    "count": 368
+   },
+   {
+    "unit": "DA_Kayle19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_RabadonsDeathcap",
+     "DA_RedBuff"
+    ],
+    "avg": 4.0789,
+    "count": 38
+   },
+   {
+    "unit": "DA_Leona19",
+    "items": [
+     "DA_Crownguard",
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage"
+    ],
+    "avg": 3.9425,
+    "count": 87
+   }
+  ],
+  "carries": [
+   "DA_Zeri19",
+   "DA_DrMundo19",
+   "DA_Kayle19",
+   "DA_Leona19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 18570,
+  "avg": 4.8001,
+  "pick": 0.019807871532009462,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [],
+  "tier": "B",
+  "share": 0.012393748798667321
+ },
+ {
+  "id": "427017",
+  "name": "Ionic Spark + Annie",
+  "units": [
+   "DA_Annie19",
+   "DA_Aurora19",
+   "DA_Elise19",
+   "DA_Gwen19",
+   "DA_Jinx19",
+   "DA_Shyvana19",
+   "DA_Tibbers19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Gwen19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_IonicSpark19",
+    "tier": 3
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Annie19",
+    "items": [
+     "DA_JeweledGauntlet",
+     "DA_SpearOfShojin",
+     "DA_StrikersFlail"
+    ],
+    "avg": 4.2921,
+    "count": 534
+   },
+   {
+    "unit": "DA_Tibbers19",
+    "items": [
+     "DA_Crownguard",
+     "DA_GargoyleStoneplate",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.0874,
+    "count": 572
+   },
+   {
+    "unit": "DA_Gwen19",
+    "items": [
+     "DA_HandOfJustice",
+     "DA_JeweledGauntlet",
+     "DA_NashorsTooth"
+    ],
+    "avg": 3.5091,
+    "count": 55
+   },
+   {
+    "unit": "DA_Shyvana19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.5088,
+    "count": 57
+   }
+  ],
+  "carries": [
+   "DA_Annie19",
+   "DA_Tibbers19",
+   "DA_Gwen19",
+   "DA_Shyvana19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 24519,
+  "avg": 4.8154,
+  "pick": 0.014717900924797477,
+  "levelling": "lvl 6",
+  "levellingVi": "Reroll cấp 6",
+  "extraUnits": [
+   "DA_Yunara19",
+   "DA_Nasus19",
+   "DA_Malzahar19",
+   "DA_Karthus19",
+   "DA_Gragas19",
+   "DA_Zoe19",
+   "DA_Seraphine19_Indie",
+   "DA_Illaoi19"
+  ],
+  "tier": "B",
+  "share": 0.016364153300728275
+ },
+ {
+  "id": "427032",
+  "name": "Jazz + Jhin",
+  "units": [
+   "DA_Galio19",
+   "DA_Jhin19",
+   "DA_Lucian19",
+   "DA_MissFortune19",
+   "DA_Pyke19",
+   "DA_Rell19",
+   "DA_Samira19",
+   "DA_Swain19",
+   "DA_Vayne19"
+  ],
+  "traits": [
+   {
+    "id": "DA_DemonVision19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Encore19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Hitmaker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Jazz19",
+    "tier": 1
+   },
+   {
+    "id": "DA_MissFortune19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Rell19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Renegade19",
+    "tier": 1
+   },
+   {
+    "id": "DA_RnB19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Trickshot19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Virtuosos19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Jhin19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_InfinityEdge",
+     "DA_StrikersFlail"
+    ],
+    "avg": 4.4953,
+    "count": 317
+   },
+   {
+    "unit": "DA_MissFortune19",
+    "items": [
+     "DA_InfinityEdge",
+     "DA_LastWhisper",
+     "DA_RedBuff"
+    ],
+    "avg": 3.2174,
+    "count": 115
+   },
+   {
+    "unit": "DA_Smeech19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 2.6623,
+    "count": 228
+   },
+   {
+    "unit": "DA_Galio19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.5802,
+    "count": 212
+   }
+  ],
+  "carries": [
+   "DA_Jhin19",
+   "DA_MissFortune19",
+   "DA_Smeech19",
+   "DA_Galio19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 30234,
+  "avg": 4.8376,
+  "pick": 0.019442253925012545,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "B",
+  "share": 0.020178384554599235
+ },
+ {
+  "id": "427020",
+  "name": "Pháp Sư + Mel",
+  "units": [
+   "DA_Annie19",
+   "DA_Karthus19",
+   "DA_Mel19",
+   "DA_Nunu19",
+   "DA_Rell19",
+   "DA_Swain19",
+   "DA_Vi19",
+   "DA_Vladimir19",
+   "DA_Zoe19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Arcanist19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nunu19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Rell19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_RnB19",
+    "tier": 2
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Mel19",
+    "items": [
+     "DA_Morellonomicon",
+     "DA_SpearOfShojin",
+     "DA_VoidStaff"
+    ],
+    "avg": 4.3233,
+    "count": 266
+   },
+   {
+    "unit": "DA_Rell19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_GargoyleStoneplate",
+     "DA_GargoyleStoneplate"
+    ],
+    "avg": 3.3788,
+    "count": 66
+   },
+   {
+    "unit": "DA_Vladimir19",
+    "items": [
+     "DA_ArchangelsStaff",
+     "DA_BlueBuff",
+     "DA_JeweledGauntlet"
+    ],
+    "avg": 4.1765,
+    "count": 68
+   },
+   {
+    "unit": "DA_Swain19",
+    "items": [
+     "DA_Crownguard",
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage"
+    ],
+    "avg": 4.5556,
+    "count": 63
+   }
+  ],
+  "carries": [
+   "DA_Mel19",
+   "DA_Rell19",
+   "DA_Vladimir19",
+   "DA_Swain19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 23235,
+  "avg": 4.8496,
+  "pick": 0.014380959208545416,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "B",
+  "share": 0.015507202656813959
+ },
+ {
+  "id": "427021",
+  "name": "Cổ Điển + Thresh",
+  "units": [
+   "DA_Galio19",
+   "DA_Jhin19",
+   "DA_Lucian19",
+   "DA_MissFortune19",
+   "DA_Nasus19",
+   "DA_Nunu19",
+   "DA_Swain19",
+   "DA_Thresh19",
+   "DA_Vladimir19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Arcanist19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Encore19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Hitmaker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Jazz19",
+    "tier": 1
+   },
+   {
+    "id": "DA_MissFortune19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nunu19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Virtuosos19",
+    "tier": 2
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Thresh19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.2794,
+    "count": 2573
+   },
+   {
+    "unit": "DA_Jhin19",
+    "items": [
+     "DA_Deathblade",
+     "DA_InfinityEdge",
+     "DA_LastWhisper"
+    ],
+    "avg": 4.0481,
+    "count": 2557
+   },
+   {
+    "unit": "DA_Vladimir19",
+    "items": [
+     "DA_ArchangelsStaff",
+     "DA_Morellonomicon",
+     "DA_VoidStaff"
+    ],
+    "avg": 3.9703,
+    "count": 471
+   },
+   {
+    "unit": "DA_RenataGlasc19",
+    "items": [
+     "DA_ArchangelsStaff",
+     "DA_HextechGunblade",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 4.2339,
+    "count": 171
+   }
+  ],
+  "carries": [
+   "DA_Thresh19",
+   "DA_Jhin19",
+   "DA_Vladimir19",
+   "DA_RenataGlasc19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 52166,
+  "avg": 4.8558,
+  "pick": 0.036275001792243175,
+  "levelling": "Fast 8",
+  "levellingVi": "Lên nhanh cấp 8",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "B",
+  "share": 0.03481595583367149
+ },
+ {
+  "id": "427028",
+  "name": "Beach Pop + Zac",
+  "units": [
+   "DA_Graves19",
+   "DA_Illaoi19",
+   "DA_Renekton19",
+   "DA_Syndra19",
+   "DA_Taliyah19",
+   "DA_Taric19",
+   "DA_Yuumi19",
+   "DA_Zac19",
+   "DA_Zoe19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Encore19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Illbeats19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_OceanSong19",
+    "tier": 3
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Zac19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.2513,
+    "count": 2101
+   },
+   {
+    "unit": "DA_Taliyah19",
+    "items": [
+     "DA_JeweledGauntlet",
+     "DA_RabadonsDeathcap",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 4.2124,
+    "count": 1036
+   },
+   {
+    "unit": "DA_Graves19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_InfinityEdge",
+     "DA_LastWhisper"
+    ],
+    "avg": 3.8592,
+    "count": 142
+   },
+   {
+    "unit": "DA_Syndra19",
+    "items": [
+     "DA_BlueBuff",
+     "DA_HextechGunblade",
+     "DA_JeweledGauntlet"
+    ],
+    "avg": 4.6385,
+    "count": 130
+   }
+  ],
+  "carries": [
+   "DA_Zac19",
+   "DA_Taliyah19",
+   "DA_Graves19",
+   "DA_Syndra19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 59018,
+  "avg": 4.8623,
+  "pick": 0.035278514588859416,
+  "levelling": "Standard",
+  "levellingVi": "Tiêu chuẩn (roll cấp 8)",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "B",
+  "share": 0.039389028896055354
+ },
+ {
+  "id": "427019",
+  "name": "R&B + Mel",
+  "units": [
+   "DA_Graves19",
+   "DA_Mel19",
+   "DA_Rell19",
+   "DA_Renekton19",
+   "DA_Syndra19",
+   "DA_Taliyah19",
+   "DA_Taric19",
+   "DA_Zac19",
+   "DA_Zoe19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Arcanist19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_OceanSong19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Rell19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_RnB19",
+    "tier": 2
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Mel19",
+    "items": [
+     "DA_Morellonomicon",
+     "DA_RabadonsDeathcap",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 3.6563,
+    "count": 32
+   },
+   {
+    "unit": "DA_Zac19",
+    "items": [
+     "DA_Frontman19_Emblem",
+     "DA_GargoyleStoneplate",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.5556,
+    "count": 18
+   },
+   {
+    "unit": "DA_Rell19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_GargoyleStoneplate",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.9213,
+    "count": 89
+   },
+   {
+    "unit": "DA_Taliyah19",
+    "items": [
+     "DA_JeweledGauntlet",
+     "DA_NashorsTooth",
+     "DA_RabadonsDeathcap"
+    ],
+    "avg": 3.5556,
+    "count": 27
+   }
+  ],
+  "carries": [
+   "DA_Mel19",
+   "DA_Zac19",
+   "DA_Rell19",
+   "DA_Taliyah19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 9570,
+  "avg": 4.872,
+  "pick": 0.006072119865223313,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "B",
+  "share": 0.0063870854067445484
+ },
+ {
+  "id": "427034",
+  "name": "Illbeats + Yuumi",
+  "units": [
+   "DA_Braum19",
+   "DA_Draven19",
+   "DA_Galio19",
+   "DA_Illaoi19",
+   "DA_Lucian19",
+   "DA_Nunu19",
+   "DA_Rell19",
+   "DA_TwistedFate19",
+   "DA_Yuumi19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Encore19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Illbeats19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Jazz19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nunu19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Rell19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_RnB19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Trickshot19",
+    "tier": 1
+   },
+   {
+    "id": "DA_TwistedFate19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Yuumi19",
+    "items": [
+     "DA_HextechGunblade",
+     "DA_Morellonomicon",
+     "DA_VoidStaff"
+    ],
+    "avg": 3.9722,
+    "count": 36
+   },
+   {
+    "unit": "DA_Jhin19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_InfinityEdge",
+     "DA_LastWhisper"
+    ],
+    "avg": 4.1304,
+    "count": 92
+   },
+   {
+    "unit": "DA_Braum19",
+    "items": [
+     "DA_Crownguard",
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage"
+    ],
+    "avg": 4.2727,
+    "count": 22
+   },
+   {
+    "unit": "DA_Illaoi19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage"
+    ],
+    "avg": 4.0769,
+    "count": 26
+   }
+  ],
+  "carries": [
+   "DA_Yuumi19",
+   "DA_Jhin19",
+   "DA_Braum19",
+   "DA_Illaoi19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null
+  ],
+  "count": 12489,
+  "avg": 5.0545,
+  "pick": 0.009004229693884867,
+  "levelling": "Fast 8",
+  "levellingVi": "Lên nhanh cấp 8",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "C",
+  "share": 0.008335246566858167
+ },
+ {
+  "id": "427033",
+  "name": "Jazz + Smeech",
+  "units": [
+   "DA_Bard19",
+   "DA_DrMundo19",
+   "DA_Leona19",
+   "DA_Lucian19",
+   "DA_MissFortune19",
+   "DA_Rell19",
+   "DA_Smeech19",
+   "DA_Yone19",
+   "DA_Zeri19"
+  ],
+  "traits": [
+   {
+    "id": "DA_DrMundo19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Hitmaker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Jazz19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Manager19",
+    "tier": 1
+   },
+   {
+    "id": "DA_MissFortune19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Mosher19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Rell19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_RnB19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Zeri19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Smeech19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 3.2266,
+    "count": 481
+   },
+   {
+    "unit": "DA_MissFortune19",
+    "items": [
+     "DA_InfinityEdge",
+     "DA_LastWhisper",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 3.9883,
+    "count": 769
+   },
+   {
+    "unit": "DA_Rell19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.0427,
+    "count": 562
+   },
+   {
+    "unit": "DA_Bard19",
+    "items": [
+     "DA_Bard19_UniqueItem",
+     "DA_TacticiansCrown"
+    ],
+    "avg": 4.0632,
+    "count": 95
+   }
+  ],
+  "carries": [
+   "DA_Smeech19",
+   "DA_MissFortune19",
+   "DA_Rell19",
+   "DA_Bard19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 38273,
+  "avg": 5.1085,
+  "pick": 0.028640045881425193,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "C",
+  "share": 0.025543669777673365
+ },
+ {
+  "id": "427030",
+  "name": "Tốc Kích + Ashe",
+  "units": [
+   "DA_Ashe19",
+   "DA_Bard19",
+   "DA_Galio19",
+   "DA_Jax19",
+   "DA_KSante19",
+   "DA_Renekton19",
+   "DA_Vi19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 1
+   },
+   {
+    "id": "DA_EDM19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Jazz19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 2
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Ashe19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_KrakensFury",
+     "DA_LastWhisper"
+    ],
+    "avg": 4.5598,
+    "count": 736
+   },
+   {
+    "unit": "DA_Renekton19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 4.1341,
+    "count": 276
+   },
+   {
+    "unit": "DA_Jax19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_TitansResolve"
+    ],
+    "avg": 3.6571,
+    "count": 35
+   },
+   {
+    "unit": "DA_Bard19",
+    "items": [
+     "DA_Morellonomicon",
+     "DA_VoidStaff"
+    ],
+    "avg": 3.8462,
+    "count": 13
+   }
+  ],
+  "carries": [
+   "DA_Ashe19",
+   "DA_Renekton19",
+   "DA_Jax19",
+   "DA_Bard19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 7532,
+  "avg": 5.1281,
+  "pick": 0.004251200802924941,
+  "levelling": "lvl 6",
+  "levellingVi": "Reroll cấp 6",
+  "extraUnits": [
+   "DA_Sett19",
+   "DA_Illaoi19",
+   "DA_Annie19",
+   "DA_Elise19",
+   "DA_Yunara19",
+   "DA_Seraphine19_Indie",
+   "DA_Nasus19",
+   "DA_Gragas19"
+  ],
+  "tier": "C",
+  "share": 0.005026909851995814
+ },
+ {
+  "id": "427038",
+  "name": "Ngoại Đạo + Pyke",
+  "units": [
+   "DA_Evelynn19",
+   "DA_Gragas19",
+   "DA_Jax19",
+   "DA_Leona19",
+   "DA_Nunu19",
+   "DA_Pyke19",
+   "DA_Rell19",
+   "DA_Vi19",
+   "DA_Zeri19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 1
+   },
+   {
+    "id": "DA_EDM19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_KDA19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nunu19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Rell19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Renegade19",
+    "tier": 1
+   },
+   {
+    "id": "DA_RnB19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Zeri19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Pyke19",
+    "items": [
+     "DA_HandOfJustice",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 3.4048,
+    "count": 42
+   },
+   {
+    "unit": "DA_Graves19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_GiantSlayer",
+     "DA_HandOfJustice"
+    ],
+    "avg": 3.68,
+    "count": 25
+   },
+   {
+    "unit": "DA_Aurora19",
+    "items": [
+     "DA_Morellonomicon",
+     "DA_SpearOfShojin",
+     "DA_VoidStaff"
+    ],
+    "avg": 3.5769,
+    "count": 26
+   },
+   {
+    "unit": "DA_Qiyana19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_StrikersFlail"
+    ],
+    "avg": 4.1111,
+    "count": 54
+   }
+  ],
+  "carries": [
+   "DA_Pyke19",
+   "DA_Graves19",
+   "DA_Aurora19",
+   "DA_Qiyana19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 14953,
+  "avg": 5.1836,
+  "pick": 0.010108251487561832,
+  "levelling": "Standard",
+  "levellingVi": "Tiêu chuẩn (roll cấp 8)",
+  "extraUnits": [
+   "DA_Amumu19",
+   "DA_Gnar19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "C",
+  "share": 0.009979737522157913
+ },
+ {
+  "id": "427037",
+  "name": "Illbeats + Draven",
+  "units": [
+   "DA_Braum19",
+   "DA_Draven19",
+   "DA_Illaoi19",
+   "DA_Kaisa19",
+   "DA_Olaf19",
+   "DA_Swain19",
+   "DA_Yuumi19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Illbeats19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Trickshot19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Draven19",
+    "items": [
+     "DA_Deathblade",
+     "DA_InfinityEdge",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 4.5037,
+    "count": 2045
+   },
+   {
+    "unit": "DA_Braum19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.3979,
+    "count": 847
+   },
+   {
+    "unit": "DA_Kaisa19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_LastWhisper",
+     "DA_RedBuff"
+    ],
+    "avg": 3.7131,
+    "count": 495
+   },
+   {
+    "unit": "DA_TwistedFate19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_HextechGunblade",
+     "DA_JeweledGauntlet"
+    ],
+    "avg": 3.9038,
+    "count": 104
+   }
+  ],
+  "carries": [
+   "DA_Draven19",
+   "DA_Braum19",
+   "DA_Kaisa19",
+   "DA_TwistedFate19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 29300,
+  "avg": 5.2039,
+  "pick": 0.018875905082801635,
+  "levelling": "lvl 7",
+  "levellingVi": "Roll cấp 7",
+  "extraUnits": [
+   "DA_Amumu19",
+   "DA_Evelynn19",
+   "DA_Malzahar19",
+   "DA_Qiyana19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "C",
+  "share": 0.019555026375926363
+ },
+ {
+  "id": "427035",
+  "name": "Jazz + Galio",
+  "units": [
+   "DA_Galio19",
+   "DA_Jhin19",
+   "DA_LeeSin19",
+   "DA_Lucian19",
+   "DA_Nunu19",
+   "DA_Sett19",
+   "DA_Thresh19",
+   "DA_Wukong19",
+   "DA_Xayah19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Encore19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heavenscale19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Hitmaker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Jazz19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nunu19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Virtuosos19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Galio19",
+    "items": [
+     "DA_Evenshroud",
+     "DA_SpiritVisage",
+     "DA_SunfireCape"
+    ],
+    "avg": 3.2857,
+    "count": 42
+   },
+   {
+    "unit": "DA_Xayah19",
+    "items": [
+     "DA_BlueBuff",
+     "DA_InfinityEdge",
+     "DA_LastWhisper"
+    ],
+    "avg": 4.5135,
+    "count": 74
+   },
+   {
+    "unit": "DA_Smeech19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 3.0353,
+    "count": 85
+   },
+   {
+    "unit": "DA_Bard19",
+    "items": [
+     "DA_Bard19_UniqueItem",
+     "DA_TacticiansCrown"
+    ],
+    "avg": 5.1563,
+    "count": 32
+   }
+  ],
+  "carries": [
+   "DA_Galio19",
+   "DA_Xayah19",
+   "DA_Smeech19",
+   "DA_Bard19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 17302,
+  "avg": 5.2812,
+  "pick": 0.011341314789590651,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Karthus19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "C",
+  "share": 0.011547476667449758
+ },
+ {
+  "id": "427025",
+  "name": "True Damage + Xayah",
+  "units": [
+   "DA_Ekko19",
+   "DA_Janna19",
+   "DA_Kennen19",
+   "DA_LeeSin19",
+   "DA_Qiyana19",
+   "DA_Senna19",
+   "DA_Wukong19",
+   "DA_Xayah19",
+   "DA_Yasuo19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Heavenscale19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Hitmaker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Janna19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Prodigy19",
+    "tier": 1
+   },
+   {
+    "id": "DA_TrueDamage19",
+    "tier": 2
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Xayah19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_Heavenscale19_DangerousItem",
+     "DA_InfinityEdge"
+    ],
+    "avg": 3.6949,
+    "count": 59
+   },
+   {
+    "unit": "DA_Wukong19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_SpiritVisage"
+    ],
+    "avg": 3.55,
+    "count": 20
+   },
+   {
+    "unit": "DA_Yasuo19",
+    "items": [
+     "DA_HandOfJustice",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 4.3214,
+    "count": 28
+   },
+   {
+    "unit": "DA_Janna19",
+    "items": [
+     "DA_Heavenscale19_DangerousItem",
+     "DA_JeweledGauntlet",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 3.9259,
+    "count": 27
+   }
+  ],
+  "carries": [
+   "DA_Xayah19",
+   "DA_Wukong19",
+   "DA_Yasuo19",
+   "DA_Janna19"
+  ],
+  "topItems": [
+   null,
+   null,
+   null,
+   null
+  ],
+  "count": 8722,
+  "avg": 5.2978,
+  "pick": 0.006581116925944512,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [],
+  "tier": "C",
+  "share": 0.005821124233816714
+ },
+ {
+  "id": "427031",
+  "name": "Pháp Sư + Karthus",
+  "units": [
+   "DA_Annie19",
+   "DA_Gragas19",
+   "DA_Karthus19",
+   "DA_Mel19",
+   "DA_Olaf19",
+   "DA_Sett19",
+   "DA_Vladimir19",
+   "DA_Yorick19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Arcanist19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Pentakill19",
+    "tier": 1
+   },
+   {
+    "id": "DA_RnB19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Karthus19",
+    "items": [
+     "DA_BlueBuff",
+     "DA_HextechGunblade",
+     "DA_JeweledGauntlet"
+    ],
+    "avg": 4.3495,
+    "count": 103
+   },
+   {
+    "unit": "DA_Mel19",
+    "items": [
+     "DA_RedBuff",
+     "DA_SpearOfShojin",
+     "DA_VoidStaff"
+    ],
+    "avg": 3.7333,
+    "count": 30
+   },
+   {
+    "unit": "DA_Annie19",
+    "items": [
+     "DA_Crownguard",
+     "DA_GargoyleStoneplate",
+     "DA_GargoyleStoneplate"
+    ],
+    "avg": 3.3,
+    "count": 20
+   },
+   {
+    "unit": "DA_Yorick19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage"
+    ],
+    "avg": 4.0357,
+    "count": 28
+   }
+  ],
+  "carries": [
+   "DA_Karthus19",
+   "DA_Mel19",
+   "DA_Annie19",
+   "DA_Yorick19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 8957,
+  "avg": 5.5156,
+  "pick": 0.005290701842425981,
+  "levelling": "lvl 6",
+  "levellingVi": "Reroll cấp 6",
+  "extraUnits": [
+   "DA_Taric19",
+   "DA_Seraphine19_Indie",
+   "DA_Illaoi19",
+   "DA_Renekton19"
+  ],
+  "tier": "C",
+  "share": 0.005977964889050253
+ },
+ {
+  "id": "427039",
+  "name": "Hát Chính + Shyvana",
+  "units": [
+   "DA_Bard19",
+   "DA_Briar19",
+   "DA_Ezreal19",
+   "DA_Galio19",
+   "DA_Jinx19",
+   "DA_Lucian19",
+   "DA_Shyvana19",
+   "DA_Smeech19",
+   "DA_Zeri19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Encore19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Hitmaker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_IonicSpark19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Jazz19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Mosher19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Zeri19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Shyvana19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.1558,
+    "count": 199
+   },
+   {
+    "unit": "DA_Jinx19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_KrakensFury",
+     "DA_LastWhisper"
+    ],
+    "avg": 3.6774,
+    "count": 31
+   },
+   {
+    "unit": "DA_Zeri19",
+    "items": [
+     "DA_InfinityEdge",
+     "DA_SpearOfShojin",
+     "DA_StrikersFlail"
+    ],
+    "avg": 3.8281,
+    "count": 64
+   },
+   {
+    "unit": "DA_MissFortune19",
+    "items": [
+     "DA_Deathblade",
+     "DA_InfinityEdge",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 4.5357,
+    "count": 56
+   }
+  ],
+  "carries": [
+   "DA_Shyvana19",
+   "DA_Jinx19",
+   "DA_Zeri19",
+   "DA_MissFortune19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 12257,
+  "avg": 5.5341,
+  "pick": 0.008151121944225393,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Yunara19"
+  ],
+  "tier": "C",
+  "share": 0.00818040813275527
+ },
+ {
+  "id": "427015",
+  "name": "Ionic Spark + Lux",
+  "units": [
+   "DA_Annie19",
+   "DA_Briar19",
+   "DA_Elise19",
+   "DA_Gwen19",
+   "DA_Jinx19",
+   "DA_Lux19",
+   "DA_Tibbers19",
+   "DA_Yunara19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Gwen19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_IonicSpark19",
+    "tier": 3
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Lux19",
+    "items": [
+     "DA_BlueBuff",
+     "DA_JeweledGauntlet",
+     "DA_StrikersFlail"
+    ],
+    "avg": 3.3,
+    "count": 50
+   },
+   {
+    "unit": "DA_Annie19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage"
+    ],
+    "avg": 3.4364,
+    "count": 55
+   },
+   {
+    "unit": "DA_Gwen19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_JeweledGauntlet"
+    ],
+    "avg": 3.4815,
+    "count": 54
+   },
+   {
+    "unit": "DA_Elise19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_JeweledGauntlet"
+    ],
+    "avg": 4.88,
+    "count": 100
+   }
+  ],
+  "carries": [
+   "DA_Lux19",
+   "DA_Annie19",
+   "DA_Gwen19",
+   "DA_Elise19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 13228,
+  "avg": 5.5475,
+  "pick": 0.007792673309914689,
+  "levelling": "lvl 6",
+  "levellingVi": "Reroll cấp 6",
+  "extraUnits": [
+   "DA_Seraphine19_Indie",
+   "DA_Sett19",
+   "DA_Karthus19",
+   "DA_Kobuko19"
+  ],
+  "tier": "D",
+  "share": 0.008828460372039382
+ },
+ {
+  "id": "427043",
+  "name": "True Damage + Yasuo",
+  "units": [
+   "DA_Ekko19",
+   "DA_Galio19",
+   "DA_Jax19",
+   "DA_MissFortune19",
+   "DA_Nunu19",
+   "DA_Rell19",
+   "DA_Senna19",
+   "DA_Vi19",
+   "DA_Yasuo19"
+  ],
+  "traits": [
+   {
+    "id": "DA_EDM19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Hitmaker19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_MissFortune19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nunu19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Rell19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_RnB19",
+    "tier": 1
+   },
+   {
+    "id": "DA_TrueDamage19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Yasuo19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 4.8877,
+    "count": 988
+   },
+   {
+    "unit": "DA_Ekko19",
+    "items": [
+     "DA_Evenshroud",
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage"
+    ],
+    "avg": 4.9286,
+    "count": 210
+   },
+   {
+    "unit": "DA_Senna19",
+    "items": [
+     "DA_Deathblade",
+     "DA_InfinityEdge",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 5.1553,
+    "count": 412
+   },
+   {
+    "unit": "DA_Akali_TrueDamage19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_JeweledGauntlet"
+    ],
+    "avg": 4.1985,
+    "count": 534
+   }
+  ],
+  "carries": [
+   "DA_Yasuo19",
+   "DA_Ekko19",
+   "DA_Senna19",
+   "DA_Akali_TrueDamage19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 61034,
+  "avg": 5.6548,
+  "pick": 0.03765144454799627,
+  "levelling": "Standard",
+  "levellingVi": "Tiêu chuẩn (roll cấp 8)",
+  "extraUnits": [
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "D",
+  "share": 0.04073452149584606
+ },
+ {
+  "id": "427042",
+  "name": "Hát Chính + Renekton",
+  "units": [
+   "DA_Galio19",
+   "DA_Graves19",
+   "DA_Illaoi19",
+   "DA_Renekton19",
+   "DA_Sett19",
+   "DA_Shyvana19",
+   "DA_Swain19",
+   "DA_Zoe19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Arcanist19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_OceanSong19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Renekton19",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SteraksGage",
+     "DA_TitansResolve"
+    ],
+    "avg": 4.9097,
+    "count": 1705
+   },
+   {
+    "unit": "DA_Illaoi19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.4631,
+    "count": 149
+   },
+   {
+    "unit": "DA_Swain19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SunfireCape",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.6154,
+    "count": 26
+   },
+   {
+    "unit": "DA_Ashe19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_KrakensFury",
+     "DA_LastWhisper"
+    ],
+    "avg": 4.25,
+    "count": 88
+   }
+  ],
+  "carries": [
+   "DA_Renekton19",
+   "DA_Illaoi19",
+   "DA_Swain19",
+   "DA_Ashe19"
+  ],
+  "topItems": [
+   null
+  ],
+  "count": 18033,
+  "avg": 5.8156,
+  "pick": 0.010803641838124597,
+  "levelling": "lvl 6",
+  "levellingVi": "Reroll cấp 6",
+  "extraUnits": [
+   "DA_Ashe19",
+   "DA_Seraphine19_Indie",
+   "DA_Yunara19",
+   "DA_RenataGlasc19",
+   "DA_Ezreal19",
+   "DA_Karthus19"
+  ],
+  "tier": "D",
+  "share": 0.012035351216282596
+ },
+ {
+  "id": "427040",
+  "name": "Dũng Sĩ + Yorick",
+  "units": [
+   "DA_DrMundo19",
+   "DA_MissFortune19",
+   "DA_Nidalee19",
+   "DA_Nunu19",
+   "DA_Rell19",
+   "DA_TwistedFate19",
+   "DA_Vi19",
+   "DA_Yorick19",
+   "DA_Zeri19"
+  ],
+  "traits": [
+   {
+    "id": "DA_DrMundo19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_MissFortune19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nidalee19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nunu19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Rell19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_RnB19",
+    "tier": 1
+   },
+   {
+    "id": "DA_TwistedFate19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Zeri19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Yorick19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 4.7178,
+    "count": 241
+   },
+   {
+    "unit": "DA_Zeri19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_InfinityEdge",
+     "DA_StrikersFlail"
+    ],
+    "avg": 3.7561,
+    "count": 82
+   },
+   {
+    "unit": "DA_TwistedFate19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_JeweledGauntlet",
+     "DA_VoidStaff"
+    ],
+    "avg": 3.7522,
+    "count": 113
+   },
+   {
+    "unit": "DA_MissFortune19",
+    "items": [
+     "DA_InfinityEdge",
+     "DA_LastWhisper",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 4.3134,
+    "count": 201
+   }
+  ],
+  "carries": [
+   "DA_Yorick19",
+   "DA_Zeri19",
+   "DA_TwistedFate19",
+   "DA_MissFortune19"
+  ],
+  "topItems": [],
+  "count": 47657,
+  "avg": 5.9717,
+  "pick": 0.029686715893612447,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [],
+  "tier": "D",
+  "share": 0.03180661747431818
+ },
+ {
+  "id": "427036",
+  "name": "Heartsteel + Sett",
+  "units": [
+   "DA_Alune19",
+   "DA_Aphelios19",
+   "DA_Ezreal19",
+   "DA_KSante19",
+   "DA_Kayn19",
+   "DA_Sett19",
+   "DA_Shyvana19",
+   "DA_Yone19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 4
+   },
+   {
+    "id": "DA_Mosher19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Sett19",
+    "items": [
+     "DA_Evenshroud",
+     "DA_GargoyleStoneplate",
+     "DA_SunfireCape"
+    ],
+    "avg": 4.325,
+    "count": 40
+   },
+   {
+    "unit": "DA_Kayn19",
+    "items": [
+     "DA_HandOfJustice",
+     "DA_InfinityEdge",
+     "DA_SteraksGage"
+    ],
+    "avg": 4.0932,
+    "count": 118
+   },
+   {
+    "unit": "DA_Ezreal19",
+    "items": [
+     "DA_BlueBuff",
+     "DA_InfinityEdge",
+     "DA_RedBuff"
+    ],
+    "avg": 4.55,
+    "count": 20
+   },
+   {
+    "unit": "DA_Katarina19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_JeweledGauntlet"
+    ],
+    "avg": 4.185,
+    "count": 227
+   }
+  ],
+  "carries": [
+   "DA_Sett19",
+   "DA_Kayn19",
+   "DA_Ezreal19",
+   "DA_Katarina19"
+  ],
+  "topItems": [],
+  "count": 17136,
+  "avg": 6.2487,
+  "pick": 0.010416517313069038,
+  "levelling": "lvl 5",
+  "levellingVi": "Reroll cấp 5",
+  "extraUnits": [
+   "DA_Katarina19",
+   "DA_Elise19",
+   "DA_Nasus19",
+   "DA_Seraphine19_Indie",
+   "DA_Varus19",
+   "DA_Yunara19",
+   "DA_Taric19"
+  ],
+  "tier": "D",
+  "share": 0.01143668709822096
+ },
+ {
+  "id": "427024",
+  "name": "Biên Đạo + Syndra",
+  "units": [
+   "DA_19_Ahri",
+   "DA_Garen19",
+   "DA_Nidalee19",
+   "DA_Syndra19",
+   "DA_Taric19",
+   "DA_Viego19",
+   "DA_Yone19",
+   "DA_Zac19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Choreographer19",
+    "tier": 4
+   },
+   {
+    "id": "DA_Garen19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_Heartsteel19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Mosher19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Nidalee19_UniqueTrait",
+    "tier": 1
+   },
+   {
+    "id": "DA_OceanSong19",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Syndra19",
+    "items": [
+     "DA_HextechGunblade",
+     "DA_JeweledGauntlet",
+     "DA_NashorsTooth"
+    ],
+    "avg": 3.9423,
+    "count": 52
+   },
+   {
+    "unit": "DA_Viego19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_InfinityEdge"
+    ],
+    "avg": 3.8261,
+    "count": 69
+   },
+   {
+    "unit": "DA_Zac19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_SteadfastHeart",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.5909,
+    "count": 22
+   },
+   {
+    "unit": "DA_19_Ahri",
+    "items": [
+     "DA_Morellonomicon",
+     "DA_SpearOfShojin",
+     "DA_VoidStaff"
+    ],
+    "avg": 3.3846,
+    "count": 13
+   }
+  ],
+  "carries": [
+   "DA_Syndra19",
+   "DA_Viego19",
+   "DA_Zac19",
+   "DA_19_Ahri"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 5385,
+  "avg": 5.0433,
+  "pick": 0.0032045307907376873,
+  "levelling": "lvl 7",
+  "levellingVi": "Roll cấp 7",
+  "extraUnits": [
+   "DA_Swain19",
+   "DA_Amumu19",
+   "DA_Briar19",
+   "DA_Malzahar19",
+   "DA_Draven19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "?",
+  "share": 0.003593986929500459
+ },
+ {
+  "id": "427018",
+  "name": "Tốc Kích + Annie",
+  "units": [
+   "DA_Annie19",
+   "DA_Elise19",
+   "DA_Jax19",
+   "DA_Shyvana19",
+   "DA_Tibbers19",
+   "DA_Vi19",
+   "DA_Yunara19",
+   "DA_Ziggs19"
+  ],
+  "traits": [
+   {
+    "id": "DA_Arcanist19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Bodyguard19",
+    "tier": 1
+   },
+   {
+    "id": "DA_EDM19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Frontman19",
+    "tier": 1
+   },
+   {
+    "id": "DA_IonicSpark19",
+    "tier": 2
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 2
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Jax19",
+    "items": [
+     "DA_EdgeOfNight",
+     "DA_HandOfJustice",
+     "DA_JeweledGauntlet"
+    ],
+    "avg": 3.6585,
+    "count": 41
+   },
+   {
+    "unit": "DA_Annie19",
+    "items": [
+     "DA_GargoyleStoneplate",
+     "DA_IonicSpark",
+     "DA_SpiritVisage"
+    ],
+    "avg": 3.0588,
+    "count": 17
+   },
+   {
+    "unit": "DA_Yunara19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_HextechGunblade",
+     "DA_KrakensFury"
+    ],
+    "avg": 3.8182,
+    "count": 33
+   },
+   {
+    "unit": "DA_Tibbers19",
+    "items": [
+     "DA_DragonsClaw",
+     "DA_GargoyleStoneplate",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.0588,
+    "count": 17
+   }
+  ],
+  "carries": [
+   "DA_Jax19",
+   "DA_Annie19",
+   "DA_Yunara19",
+   "DA_Tibbers19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 4646,
+  "avg": 5.4542,
+  "pick": 0.0028890959925442685,
+  "levelling": "lvl 6",
+  "levellingVi": "Reroll cấp 6",
+  "extraUnits": [
+   "DA_Seraphine19_Indie",
+   "DA_Kobuko19",
+   "DA_Nasus19",
+   "DA_Lillia19",
+   "DA_Zoe19",
+   "DA_Taric19",
+   "DA_Gragas19",
+   "DA_Ashe19"
+  ],
+  "tier": "?",
+  "share": 0.003100773124319245
+ }
+]
