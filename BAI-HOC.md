@@ -4,7 +4,7 @@ Những lỗi đã gặp và đã sửa. Trước mỗi việc có sửa file: �
 Quy trình và lúc nào cần ghi: `.claude/skills/quy-trinh-lam-viec/SKILL.md`.
 
 ## Luôn nhớ
-(vài dòng quan trọng nhất, dùng cho mọi việc — thêm dần)
+- Sửa file bằng đoạn code dài (nhiều dấu nháy, backtick, `${}`): ghi script ra thư mục scratchpad rồi chạy `python -I <file>`, đừng nhét vào heredoc trong lệnh bash (bị lỗi "unexpected EOF").
 
 ## Mục lục
 | Nhóm | Đọc khi | Các bài |

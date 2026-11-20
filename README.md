@@ -18,6 +18,10 @@ Các tab:
   - Chọn tướng: **bấm trái** = thêm vào Bàn của tôi, **bấm phải** = Nhà khác tranh. Hoặc bấm `/`, gõ vài chữ tên rồi **Enter** (Shift+Enter = Nhà khác tranh). Bấm tướng ở Bàn của tôi để bỏ.
   - Cột phải: gợi ý đội hợp nhất (thanh % khớp). Bấm **🎯 Nhắm** để xem kế hoạch: mức khớp, **🪜 lộ trình theo cấp**, việc cần làm, mua / bán (kèm điều kiện mở khoá), đồ cần cho chủ lực (ghép ngay / thiếu mảnh nào), lõi hợp tộc hệ.
   - **🪜 Lộ trình theo cấp**: bàn cờ nên đặt ở cấp 4 → 10 của đội đang nhắm (số liệu MetaTFT), tự chọn đúng cấp bạn đang ở, đánh dấu tướng có / thiếu, vòng thường lên cấp đó, 1 bàn chính + 2 bàn thay thế, nút 📋 copy mã từng bàn. Ngăn chi tiết đội cũng có đủ các cấp.
+  - **🔔 Nhắc việc** (đầu cột phải, viền đỏ khi có việc cần làm ngay):
+    - Mở khoá tướng của đội đang nhắm (kể cả tướng trong lộ trình theo cấp): điều kiện (tiếng Anh), cấp tối thiểu, và tiến độ tự kiểm tra được từ bàn của bạn (vd đủ Ziggs 2★ → "nhớ cho Ziggs cầm 1 đồ!"; Seraphine phải làm trước vòng 2-4). Nút **✓ Đã mở khoá** ẩn lời nhắc và bỏ 🔒.
+    - Lõi nhiệm vụ đang có: Prismatic Tour của Ionic Spark / Heartsteel / Pentakill / True Damage / K/DA (kiểm tra số tướng tộc hệ, vd "đang có 5/7 Ionic Spark — chưa nhận chữ ký album!"), Ngàn Nhát Cắt, Quản Lý Cổ Đông, Nhiệm Vụ Trang Bị, Nhà Máy Tái Chế, Vượt Thời Gian, Trứng Vàng; lõi có thưởng theo thời gian thì nhắc nhẹ kèm vòng lấy lõi. Nút **✓ Đã xong** để ẩn.
+  - Nút **🆕 Ván mới** (cạnh Vòng / Cấp / Vàng / Máu): xoá hết để bắt đầu ván khác.
   - Các lựa chọn được nhớ lại cho lần mở sau.
 - **🏆 Đội hình mạnh**: đội hình từ số liệu MetaTFT (bậc S–D theo hạng trung bình), đồ chủ lực, lối chơi (reroll / lên nhanh).
 - **📋 Copy mã**: có ở mỗi đội hình, ở khung Đội đang nhắm, và nút "Copy mã" của Bàn của tôi. Vào game: Team Planner → Import → dán. Một số tướng PBE chưa có mã đúng (hiện là Graves, Mordekaiser, Nasus) sẽ bị bỏ qua và tool có báo.

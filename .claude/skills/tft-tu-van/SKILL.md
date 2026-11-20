@@ -41,6 +41,8 @@ Chỗ nào mờ / bị che / không chắc: ghi vào mục **Chưa chắc**, đ�
 ## Cách suy nghĩ
 
 - **Đội hình:** so tướng + đồ đang có với `comps.json`. Ưu tiên đội (1) có sẵn chủ lực hoặc nhiều tướng, (2) mảnh đồ đang có ghép được đồ chủ lực, (3) ít nhà khác tranh, (4) `avg` tốt. Giữa 2 đội ngang nhau, chọn đội linh hoạt hơn ở thời điểm hiện tại.
+- **Nhắc mở khoá (Set 19):** với đội đang khuyên, liệt kê tướng có `unlock` mà người dùng chưa có, kèm điều kiện và việc cần làm ngay (vd đủ Ziggs 2★ thì nhắc cho cầm 1 đồ; Seraphine phải roll 4 lần trước vòng 2-4). Đưa lên đầu câu trả lời nếu sắp lỡ.
+- **Nhắc lõi nhiệm vụ:** thấy lõi Prismatic Tour (Ionic Spark cần giữ 7 Ionic Spark kích hoạt 10 vòng để nhận chữ ký rồi đặt 10; Heartsteel 7; Pentakill 7 + cấp 10; True Damage 5 + đúng chuỗi; K/DA 21 cấp sao) hoặc lõi có điều kiện (Ngàn Nhát Cắt, Quản Lý Cổ Đông, Nhà Máy Tái Chế...) thì nhắc rõ đang thiếu gì.
 - **Bàn theo cấp:** khi khuyên nên đặt tướng gì ở cấp hiện tại, lấy `path[cấp].boards[0]` của đội đang nhắm, so với tướng người dùng có; thiếu tướng thì xem 2 bàn thay thế.
 - **Tướng bị tranh:** đếm số nhà đang giữ cùng tướng chủ lực / cùng tộc hệ chính. Hai nhà trở lên chơi cùng đội reroll thì nên đổi hướng.
 - **Mở khoá (Set 19):** tướng có `unlock` chỉ ra shop khi đạt điều kiện. Đừng khuyên đi đội cần tướng chưa mở khoá trừ khi điều kiện dễ đạt, và nói rõ điều kiện.
@@ -54,6 +56,7 @@ Ngắn gọn, mỗi mục 1–3 dòng, bỏ mục không liên quan:
 
 ```
 **Tình hình:** 3-2 · cấp 5 · 32 vàng · 78 máu · thua 2 trận liền
+**⚠ Nhắc:** đủ Ziggs 2★ → cho cầm 1 đồ để mở Kobuko; đang 5/7 Ionic Spark, chưa nhận chữ ký album
 **Làm ngay:** mua Ziggs, Lulu; bán Garen; roll tới 30 vàng tìm Kobuko 2★ rồi dừng
 **Hướng đội:** Hyperpop + Kobuko (reroll cấp 5, hạng TB 3.03): có sẵn 4/9 tướng, chủ lực Kobuko. Dự phòng: …
 **Đồ:** ghép ngay Cuồng Đao (Cung + Gậy) cho Ziggs; giữ Đai + Giáp chờ Thạch Giáp cho Kobuko

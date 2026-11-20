@@ -23,7 +23,7 @@ for (let s = 2; s <= 7; s++) for (let r = 1; r <= 7; r++) ROUNDS.push(`${s}-${r}
 
 const KEY = 'tft-helper-state-v1';
 const state = Object.assign(
-  { mine: [], contested: [], comps: {}, augs: [], stage: '', level: 5, gold: 20, hp: 100, target: null },
+  { mine: [], contested: [], comps: {}, augs: [], augAt: {}, unlocked: [], done: [], stage: '', level: 5, gold: 20, hp: 100, target: null },
   (() => { try { return JSON.parse(localStorage.getItem(KEY)) || {}; } catch { return {}; } })()
 );
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
@@ -55,7 +55,7 @@ function uIcon(id, opt = {}) {
   return `<span class="${cls}" ${attr}><span class="fb">${esc(u.name)}</span>` +
     `<img src="${esc(thumb(u.icon))}" alt="" onerror="this.parentNode.classList.add('noimg');this.remove()">` +
     `${opt.badge ? `<span class="badge ${opt.badgeCls || ''}">${opt.badge}</span>` : ''}` +
-    `${u.unlock ? '<span class="lock">🔒</span>' : ''}</span>`;
+    `${u.unlock && !state.unlocked.includes(id) ? '<span class="lock">🔒</span>' : ''}</span>`;
 }
 function iIcon(id, size = '') {
   const i = I.get(id);
@@ -437,7 +437,7 @@ function renderTargetView(c) {
   const sell = [...new Set(state.mine)].filter(u => !keep.has(u));
   const reroll = /lvl (\d)/.exec(c.levelling || '');
   const buyOrder = [...a.missing].sort((x, y) => ((a.carries.includes(y) - a.carries.includes(x)) * (reroll ? 1 : 0)) || (U.get(x)?.cost || 0) - (U.get(y)?.cost || 0));
-  const locked = buyOrder.filter(u => U.get(u)?.unlock);
+  const locked = buyOrder.filter(u => U.get(u)?.unlock && !state.unlocked.includes(u));
   const traitNow = activeTraits(state.mine);
   const traitGoal = activeTraits(c.units).filter(x => x.on).map(x => {
     const now = traitNow.find(y => y.id === x.id)?.n || 0;
@@ -495,14 +495,148 @@ function renderTargetView(c) {
     ${better.length && !a.empty ? `<div class="section-title">Đội đang hợp tình huống hơn</div>${better.map(r => suggCard(r, { analysis: targetAnalysis(r.c) })).join('')}` : ''}`;
 }
 
+// =====================================================================
+// Nhắc việc: mở khoá tướng + lõi nhiệm vụ
+// =====================================================================
+const TRAIT_BY_NAME = new Map(D.traits.map(t => [t.nameEn.toLowerCase(), t.id]));
+const UNIT_BY_NAME = (() => { const m = new Map(); D.units.forEach(u => { const k = u.nameEn.toLowerCase(); m.set(k, m.has(k) ? null : u.id); }); return m; })();
+const copiesOf = id => state.mine.filter(x => x === id).length;
+const starOf = n => n >= 9 ? 3 : n >= 3 ? 2 : n >= 1 ? 1 : 0;
+const uniqMine = () => [...new Set(state.mine)];
+const traitUnitCount = tid => uniqMine().filter(u => U.get(u)?.traits.includes(tid)).length;
+const traitStarLevels = tids => uniqMine().filter(u => U.get(u)?.traits.some(t => tids.includes(t))).reduce((s, u) => s + starOf(copiesOf(u)), 0);
+const traitIds = str => String(str).split(/\s+or\s+|,\s*/i).map(x => TRAIT_BY_NAME.get(x.trim().toLowerCase())).filter(Boolean);
+function roundIndex(r) { const m = /^(\d)-(\d)$/.exec(r || ''); return m ? Number(m[1]) * 10 + Number(m[2]) : null; }
+
+// Mở khoá: đọc điều kiện tiếng Anh, tự kiểm tra phần đọc được từ bàn của bạn.
+function unlockCheck(u) {
+  const txt = String(u.unlock || '').split(' / ')[0];
+  const lvl = Number(state.level) || 0;
+  const base = { title: `🔒 Mở khoá ${u.name}`, cond: u.unlock };
+  if (u.unlockLevel && lvl < u.unlockLevel) return { ...base, level: 'grey', status: `Từ cấp ${u.unlockLevel} (đang cấp ${lvl})` };
+  let m;
+  if ((m = /^(\d)-star (.+?) with (\d+) items?/i.exec(txt))) {
+    const id = UNIT_BY_NAME.get(m[2].toLowerCase()); const need = m[1] === '3' ? 9 : 3; const have = id ? copiesOf(id) : 0;
+    if (!id) return { ...base, level: 'orange', status: 'Tự theo dõi trong game' };
+    return have >= need ? { ...base, level: 'red', status: `Đủ ${esc(uname(id))} ${m[1]}★ → <b>nhớ cho ${esc(uname(id))} cầm ${m[3]} đồ!</b>` }
+      : { ...base, level: 'orange', status: `${esc(uname(id))}: ${have}/${need} bản (cần ${m[1]}★ + ${m[3]} đồ)` };
+  }
+  if ((m = /^(\d)-star (.+?) or (.+?)\.?$/i.exec(txt))) {
+    const ids = [m[2], m[3]].map(n => UNIT_BY_NAME.get(n.trim().toLowerCase())).filter(Boolean); const need = m[1] === '3' ? 9 : 3;
+    const best = Math.max(0, ...ids.map(copiesOf));
+    return best >= need ? { ...base, level: 'green', status: 'Đủ điều kiện ✔ (kiểm tra trong game đã mở chưa)' }
+      : { ...base, level: 'orange', status: ids.map(i => `${esc(uname(i))} ${copiesOf(i)}/${need}`).join(' · ') };
+  }
+  if ((m = /^(\d+) unique star levels of (.+?)( Champions)?( without .*)?\.?$/i.exec(txt))) {
+    const tids = traitIds(m[2]); const need = Number(m[1]); const have = traitStarLevels(tids);
+    return have >= need ? { ...base, level: 'green', status: `Ước tính đủ ${have}/${need} cấp sao ✔` }
+      : { ...base, level: 'orange', status: `Ước tính ${have}/${need} cấp sao (theo số bản bạn nhập)` };
+  }
+  if ((m = /^(\d+) unique (.+?) Champions/i.exec(txt))) {
+    const tids = traitIds(m[2]); const need = Number(m[1]);
+    const have = uniqMine().filter(x => U.get(x)?.traits.some(t => tids.includes(t))).length;
+    return have >= need ? { ...base, level: 'green', status: `Đủ ${have}/${need} tướng ✔ (nhớ đặt lên bàn)` }
+      : { ...base, level: 'orange', status: `Có ${have}/${need} tướng khác nhau` };
+  }
+  if ((m = /Have (\d+) or more non-unique traits active/i.exec(txt))) {
+    const need = Number(m[1]); const have = activeTraits(state.mine).filter(x => x.on && x.t.type !== 'unique').length;
+    return { ...base, level: have >= need ? 'red' : 'orange', status: have >= need ? `Đủ ${have}/${need} tộc hệ → <b>đặt đủ lên bàn khi giao tranh!</b>` : `Đang kích ${have}/${need} tộc hệ` };
+  }
+  if ((m = /before Stage (\d) Carousel/i.exec(txt))) {
+    const cur = roundIndex(state.stage), deadline = Number(m[1]) * 10 + 4;
+    if (cur && cur >= deadline) return { ...base, level: 'grey', status: 'Đã qua vòng chọn đồ chung, nếu chưa làm thì đã lỡ' };
+    return { ...base, level: 'red', status: `<b>Làm ngay trước vòng ${m[1]}-4!</b>` };
+  }
+  if ((m = /while fielding (\w[\w' ]*)/i.exec(txt))) {
+    const id = UNIT_BY_NAME.get(m[1].trim().toLowerCase());
+    return { ...base, level: id && !copiesOf(id) ? 'red' : 'orange', status: id ? (copiesOf(id) ? `Đang có ${esc(uname(id))} ✔ · tự theo dõi tiến độ` : `<b>Cần đặt ${esc(uname(id))} lên bàn</b>`) : 'Tự theo dõi trong game' };
+  }
+  if ((m = /^Field (.+?) for (\d+) combats/i.exec(txt))) {
+    const tid = TRAIT_BY_NAME.get(m[1].toLowerCase()); const on = tid && activeTraits(state.mine).find(x => x.id === tid && x.on);
+    return { ...base, level: on ? 'orange' : 'red', status: on ? `Đang kích ${esc(T.get(tid).name)} ✔ · giữ ${m[2]} giao tranh` : `<b>Cần kích ${esc(tid ? T.get(tid).name : m[1])} trong ${m[2]} giao tranh</b>` };
+  }
+  return { ...base, level: 'orange', status: 'Tự theo dõi trong game' };
+}
+
+// Lõi: luật riêng cho lõi nhiệm vụ, còn lại nhắc theo mô tả.
+const AUG_RULES = [
+  { re: /IonicSparkPrismaticTour/, run: () => { const n = traitUnitCount('DA_IonicSpark19');
+      return n < 7 ? { level: 'red', status: `<b>Đang có ${n}/7 Ionic Spark — chưa nhận chữ ký album!</b> Giữ 7 Ionic Spark kích hoạt suốt 10 vòng, rồi đặt đủ 10 Ionic Spark.` }
+        : n < 10 ? { level: 'orange', status: `Đủ ${n}/7 Ionic Spark ✔ đang nhận chữ ký. Sau 10 vòng nhớ <b>đặt đủ 10 Ionic Spark</b>.` }
+        : { level: 'green', status: `Đã có ${n} Ionic Spark ✔` }; } },
+  { re: /HeartsteelPrismaticTour/, run: () => { const n = traitUnitCount('DA_Heartsteel19');
+      return { level: n < 7 ? 'red' : 'orange', status: n < 7 ? `<b>Đang có ${n}/7 Heartsteel</b> — cần 7 Heartsteel kích hoạt để làm nhiệm vụ (gây / chặn sát thương, hồi máu).` : `Đủ ${n}/7 Heartsteel ✔ giữ nguyên để hoàn thành nhiệm vụ.` }; } },
+  { re: /PentakillPrismaticTour/, run: () => { const n = traitUnitCount('DA_Pentakill19'), l = Number(state.level) || 0;
+      return { level: n < 7 ? 'red' : 'orange', status: `${n < 7 ? `<b>Đang có ${n}/7 Pentakill</b>` : `Đủ ${n}/7 Pentakill ✔`} · cấp ${l}/10 · để tướng Pentakill hạ gục liên tiếp.` }; } },
+  { re: /TrueDamagePrismaticTour/, run: () => { const n = traitUnitCount('DA_TrueDamage19');
+      return { level: n < 5 ? 'red' : 'orange', status: `${n < 5 ? `<b>Đang có ${n}/5 True Damage</b>` : `Đủ ${n}/5 True Damage ✔`} · nhớ <b>giữ đúng chuỗi thắng / thua</b> theo yêu cầu nhiệm vụ.` }; } },
+  { re: /KDAPrismaticTour/, run: () => { const n = traitStarLevels(['DA_KDA19']);
+      return { level: n < 21 ? 'orange' : 'green', status: n < 21 ? `Ước tính <b>${n}/21 cấp sao K/DA</b> — nâng sao tướng K/DA (dùng Máy Sao Chép).` : `Ước tính đủ ${n}/21 cấp sao K/DA ✔` }; } },
+  { re: /DeathByAThousandCuts/, run: () => { const n = traitUnitCount('DA_Swiftstriker19');
+      return { level: n ? 'orange' : 'red', status: n ? `Có ${n} tướng Tốc Kích ✔ để chúng đánh đủ 250 rồi 1000 đòn.` : '<b>Chưa có tướng Tốc Kích trên bàn</b> — cần Tốc Kích đánh 250 / 1000 đòn mới nhận thưởng.' }; } },
+  { re: /Manager_StakeholderMeeting/, run: () => { const n = traitUnitCount('DA_Manager19');
+      return { level: n ? 'orange' : 'red', status: n ? 'Nhớ <b>đặt tướng Quản Lý vào ô Quản Lý</b>.' : '<b>Chưa có tướng Quản Lý</b> để đặt vào ô Quản Lý.' }; } },
+  { re: /ComponentQuest/, run: () => ({ level: 'orange', status: 'Thắng giao tranh người chơi để nhận mảnh (7 lần) — ưu tiên giữ bàn mạnh.' }) },
+  { re: /SalvageBin/, run: () => ({ level: 'orange', status: '<b>Bán tướng sẽ tách đồ hoàn chỉnh</b> — cẩn thận khi bán tướng đang cầm đồ.' }) },
+  { re: /TimeSkip/, run: () => ({ level: 'orange', status: 'Cửa hàng bị khoá 3 vòng, sau đó nhận 32 XP — mua đủ tướng trước.' }) },
+  { re: /GoldenEgg/, run: () => ({ level: 'orange', status: 'Thắng giao tranh người chơi để trứng nở nhanh hơn 1 vòng.' }) },
+];
+const TIMED_RE = /Sau \d+|sau \d+|Trong \d+|After \d+|after \d+|in \d+ rounds?|khi bắt đầu mỗi giai đoạn|start of each stage|lần tiếp theo/i;
+function augReminder(a) {
+  const rule = AUG_RULES.find(r => r.re.test(a.id));
+  const at = state.augAt?.[a.id];
+  const base = { title: `✨ ${a.name}`, cond: short(a.desc, 200), at };
+  if (rule) return { ...base, ...rule.run() };
+  if (TIMED_RE.test(a.desc)) return { ...base, level: 'grey', status: '⏱ Có thưởng theo thời gian' };
+  return null;
+}
+function collectReminders() {
+  const list = [];
+  const target = state.target && D.comps.find(c => c.id === state.target);
+  const hasInput = state.mine.length || compTotal(state.comps);
+  const comp = target || (hasInput ? D.comps.map(scoreComp).sort((a, b) => b.s - a.s)[0]?.c : null);
+  // Tướng của đội cuối + tướng trong bàn chính của lộ trình theo cấp (vd Seraphine phải mở từ đầu trận).
+  const pathUnits = comp ? Object.values(comp.path || {}).flatMap(l => l.boards[0]?.units || []) : [];
+  if (comp) [...new Set([...comp.units, ...pathUnits])].forEach(id => {
+    const u = U.get(id);
+    if (!u?.unlock || state.unlocked.includes(id) || copiesOf(id)) return; // đã có tướng trên bàn tức là đã mở
+    list.push({ key: 'unlock:' + id, unit: id, kind: 'unlock', ...unlockCheck(u) });
+  });
+  state.augs.forEach(aid => {
+    const a = A.get(aid); if (!a) return;
+    const r = augReminder(a); if (r) list.push({ key: 'aug:' + aid, kind: 'aug', aug: aid, ...r });
+  });
+  const ORDER = { red: 0, orange: 1, grey: 2, green: 3 };
+  return { comp, target, items: list.filter(r => !state.done.includes(r.key)).sort((x, y) => ORDER[x.level] - ORDER[y.level]) };
+}
+function remindersHtml() {
+  const { comp, target, items } = collectReminders();
+  if (!items.length) return '';
+  const urgent = items.filter(r => r.level === 'red').length;
+  const LBL = { red: 'Làm ngay', orange: 'Đang làm', grey: 'Chưa tới', green: 'Đã đủ' };
+  return `<div class="card remind ${urgent ? 'hot' : ''}" id="remind">
+    <div class="card-title">🔔 Nhắc việc <span class="rcount ${urgent ? 'hot' : ''}">${urgent ? urgent + ' việc cần làm ngay' : items.length + ' việc'}</span>
+      ${comp && !target ? `<span class="hint-inline">mở khoá theo đội gợi ý: ${esc(comp.name)}</span>` : ''}</div>
+    ${items.map(r => `<div class="ritem ${r.level}">
+      <span class="rtag">${LBL[r.level]}</span>
+      ${r.unit ? uIcon(r.unit, { size: 'sm' }) : r.aug ? `<img class="raug" src="${esc(A.get(r.aug)?.icon || '')}" alt="" onerror="this.remove()">` : ''}
+      <div class="rbody"><div><b>${esc(r.title)}</b>${r.at ? ` <span class="muted">· lấy ở vòng ${esc(r.at)}</span>` : ''}</div>
+        <div class="rstatus">${r.status}</div>
+        <div class="rcond" ${r.kind === 'aug' ? `data-aug="${esc(r.aug)}"` : ''}>${esc(r.cond)}</div></div>
+      <button class="btn ghost" ${r.kind === 'unlock' ? `data-unlocked="${esc(r.unit)}"` : `data-done="${esc(r.key)}"`}>${r.kind === 'unlock' ? '✓ Đã mở khoá' : '✓ Đã xong'}</button>
+    </div>`).join('')}
+  </div>`;
+}
+
 function renderOutput() {
   const out = $('#board-output');
   const target = state.target && D.comps.find(c => c.id === state.target);
-  if (target) { out.innerHTML = renderTargetView(target); return; }
+  const rem = remindersHtml();
+  if (target) { out.innerHTML = rem + renderTargetView(target); return; }
   const empty = !state.mine.length && !compTotal(state.comps);
   if (empty) {
     const top = D.comps.filter(c => c.tier !== '?').slice(0, 4).map(c => ({ c, why: [] }));
-    out.innerHTML = `<div class="card welcome"><h2>Chào bạn 👋</h2>
+    out.innerHTML = rem + `<div class="card welcome"><h2>Chào bạn 👋</h2>
         <div class="muted">Nhập tình huống ở cột trái, tool sẽ gợi ý đội hợp nhất, việc cần làm, đồ và lõi.</div>
         <div class="steps3"><div><b>1. Tướng</b>Bấm trái: của bạn · bấm phải: nhà khác đang tranh. Gõ tên + Enter cho nhanh.</div>
         <div><b>2. Mảnh đồ</b>Bấm trái thêm, bấm phải bớt.</div><div><b>3. Nhắm đội</b>Bấm 🎯 Nhắm để xem kế hoạch chi tiết và copy mã đội.</div></div></div>
@@ -512,7 +646,7 @@ function renderOutput() {
   }
   const ranked = D.comps.map(scoreComp).sort((a, b) => b.s - a.s).slice(0, 5);
   const now = compTotal(state.comps) ? craftableNow(state.comps) : [];
-  out.innerHTML = `<div class="cards2">
+  out.innerHTML = rem + `<div class="cards2">
       <div class="card"><div class="card-title">📋 Bước tiếp theo</div>${linesHtml(tempoLines(null))}</div>
       <div class="card"><div class="card-title">🔷 Tộc hệ đang có</div>${traitChipsFor(state.mine) || '<span class="muted">Chưa chọn tướng.</span>'}</div>
     </div>
@@ -557,6 +691,11 @@ function bindBoard() {
     const t = e.target.closest('[data-rm-cont]'); if (!t) return;
     state.contested = state.contested.filter(x => x !== t.dataset.rmCont); save(); renderTrays(); markPool(); renderOutput(); hideTip();
   });
+  $('#new-game').addEventListener('click', () => {
+    if (!confirm('Bắt đầu ván mới? Sẽ xoá tướng, mảnh đồ, lõi, đội đang nhắm và các dấu đã xong / đã mở khoá.')) return;
+    Object.assign(state, { mine: [], contested: [], comps: {}, augs: [], augAt: {}, unlocked: [], done: [], stage: '1-2', level: 1, gold: 0, hp: 100, target: null });
+    ui.pathLevel = null; save(); renderBoard(); toast('🆕 Đã bắt đầu ván mới', 2000);
+  });
   $('#clear-units').addEventListener('click', () => { state.mine = []; state.contested = []; save(); renderBoardState(); });
   $('#copy-mine').addEventListener('click', () => copyTeam(state.mine, 'bàn của bạn'));
   $('#clear-comps').addEventListener('click', () => { state.comps = {}; save(); renderComponents(); renderOutput(); });
@@ -597,13 +736,14 @@ function bindBoard() {
     sug.innerHTML = list.map((a, i) => `<div data-add-aug="${esc(a.id)}" class="${i === 0 ? 'sel' : ''}"><span>${esc(a.name)}</span><span class="muted">${RARITY_VI[a.rarity] || ''}</span></div>`).join('');
     sug.classList.toggle('show', list.length > 0);
   });
-  const addAug = id => { if (!state.augs.includes(id)) state.augs.push(id); as.value = ''; sug.classList.remove('show'); save(); renderAugChosen(); renderOutput(); };
+  const addAug = id => { if (!state.augs.includes(id)) { state.augs.push(id); state.augAt[id] = state.stage || null; } as.value = ''; sug.classList.remove('show'); save(); renderAugChosen(); renderOutput(); };
   as.addEventListener('keydown', e => { if (e.key === 'Enter') { const f = sug.querySelector('[data-add-aug]'); if (f) addAug(f.dataset.addAug); } if (e.key === 'Escape') { as.value = ''; sug.classList.remove('show'); } });
   as.addEventListener('blur', () => setTimeout(() => sug.classList.remove('show'), 150));
   sug.addEventListener('mousedown', e => { const el = e.target.closest('[data-add-aug]'); if (el) { e.preventDefault(); addAug(el.dataset.addAug); } });
   $('#aug-chosen').addEventListener('click', e => {
     const el = e.target.closest('[data-rm-aug]'); if (!el) return;
-    state.augs.splice(Number(el.dataset.rmAug), 1); save(); renderAugChosen(); renderOutput(); hideTip();
+    const [rm] = state.augs.splice(Number(el.dataset.rmAug), 1); if (rm) { delete state.augAt[rm]; state.done = state.done.filter(k => k !== 'aug:' + rm); }
+    save(); renderAugChosen(); renderOutput(); hideTip();
   });
 }
 
@@ -878,6 +1018,8 @@ function init() {
       else if (key.startsWith('units:')) copyTeam(key.slice(6).split(',').filter(Boolean), 'bàn cờ này');
       return;
     }
+    const dn = e.target.closest('[data-done]'); if (dn) { state.done.push(dn.dataset.done); save(); renderOutput(); hideTip(); return; }
+    const ul = e.target.closest('[data-unlocked]'); if (ul) { if (!state.unlocked.includes(ul.dataset.unlocked)) state.unlocked.push(ul.dataset.unlocked); save(); renderBoard(); hideTip(); toast(`🔓 Đã đánh dấu mở khoá <b>${esc(uname(ul.dataset.unlocked))}</b>`, 2000); return; }
     const pl = e.target.closest('[data-path-level]'); if (pl) { ui.pathLevel = Number(pl.dataset.pathLevel); renderOutput(); return; }
     if (e.target.closest('[data-path-alt]')) { ui.pathAlt = !ui.pathAlt; renderOutput(); return; }
     const st = e.target.closest('[data-set-target]'); if (st) { e.preventDefault(); setTarget(st.dataset.setTarget); return; }
