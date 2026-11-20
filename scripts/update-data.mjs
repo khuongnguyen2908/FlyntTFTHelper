@@ -241,6 +241,77 @@ function buildComps(raw, nameOf) {
   return { set: d.tft_set, clusterId: d.cluster_id, totalGames: total, comps };
 }
 
+// ---------- Lộ trình theo cấp: bàn cờ phổ biến ở từng cấp của mỗi đội ----------
+// Mã tướng trong số liệu theo cấp đôi khi là mã cũ (DA_18_Kobuko, DA_SeraphineIndie19...) → quy về mã tướng hiện tại.
+function makeUnitResolver(en, units) {
+  const known = new Set(units.map(u => u.id));
+  const assets = en.unitAssetNames || {};
+  const enName = new Map(en.units.map(u => [u.apiName, u.name]));
+  const byName = new Map();
+  units.forEach(u => { const k = u.nameEn.toLowerCase().replace(/[^a-z]/g, ''); byName.set(k, byName.has(k) ? null : u.id); }); // null = trùng tên, không đoán
+  const viaName = n => (n ? byName.get(String(n).toLowerCase().replace(/[^a-z]/g, '')) : null) || null;
+  const nonShop = new Set(en.units.filter(u => !u.shopUnit).map(u => u.apiName));
+  // Vật đặt trên bàn, không phải tướng (nhạc cụ Beach Pop, hình nộm, tượng...) → bỏ qua, vẫn giữ bàn.
+  const OBJECT_RE = /Maracas|Bongos|Rainstick|Panflute|Ukelele|Steeldrum|TrainingDummy|VoidSpawn|InfernalIdol|GoldenEgg|Golem/i;
+  const cache = new Map();
+  return raw => {
+    if (cache.has(raw)) return cache.get(raw);
+    let id = null;
+    if (OBJECT_RE.test(raw) || (nonShop.has(raw) && !known.has(raw)) || (nonShop.has(assets[raw]) && !viaName(enName.get(assets[raw])))) id = SKIP;
+    else if (known.has(raw)) id = raw;
+    else if (known.has(assets[raw])) id = assets[raw];
+    else if (assets[raw] && viaName(enName.get(assets[raw]))) id = viaName(enName.get(assets[raw]));
+    else {
+      const m = raw.match(/^DA_18_(.+)$/);
+      if (m) { const base = m[1].replace(/(Small|Big|Mega)$/, ''); id = [`DA_${base}19`, `DA_19_${base}`].find(x => known.has(x)) || viaName(base); }
+    }
+    cache.set(raw, id);
+    return id;
+  };
+}
+const SKIP = '__skip__';
+function pickBoards(list, resolve, lost) {
+  const boards = [];
+  for (const o of list || []) {
+    const raw = String(o.unit_list || o.units_list || '').split('&').filter(Boolean);
+    const ids = raw.map(resolve);
+    if (ids.some(x => !x)) { raw.forEach((r, i) => { if (!ids[i]) lost.add(r); }); continue; } // tướng lạ (vd Set cũ) thì bỏ cả bàn, tránh hiện sai
+    const units = [...new Set(ids.filter(x => x !== SKIP))];
+    if (units.length) boards.push({ units, count: o.count, avg: o.avg, win: o.win ?? null });
+  }
+  if (!boards.length) return [];
+  const main = boards.reduce((a, b) => (b.count > a.count ? b : a));
+  const alts = boards.filter(b => b !== main && b.count >= main.count * 0.25).sort((a, b) => a.avg - b.avg).slice(0, 2);
+  return [main, ...alts];
+}
+async function fetchLevelPaths(comps, clusterId, resolve) {
+  const lost = new Set();
+  let ok = 0, fail = 0;
+  const queue = [...comps];
+  async function worker() {
+    while (queue.length) {
+      const c = queue.shift();
+      try {
+        const url = `https://api-hc.metatft.com/tft-comps-api/comp_details?comp=${c.id}&cluster_id=${clusterId}&queue=${QUEUE}`;
+        const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (tft-helper)' }, signal: AbortSignal.timeout(30000) });
+        if (!res.ok) throw new Error(String(res.status));
+        const r = (await res.json()).results || {};
+        const stageOf = {};
+        (r.levels || []).forEach(l => { if (l.stage && l.round) stageOf[l.level] = `${l.stage}-${l.round}`; });
+        const levels = {};
+        for (let L = 4; L <= 10; L++) {
+          const src = r.early_options?.[L]?.length ? r.early_options[L] : r.options?.[L];
+          const boards = pickBoards(src, resolve, lost);
+          if (boards.length) levels[L] = { stage: stageOf[L] || null, boards };
+        }
+        if (Object.keys(levels).length) { c.path = levels; ok++; } else fail++;
+      } catch { fail++; }
+    }
+  }
+  await Promise.all(Array.from({ length: 4 }, worker));
+  return { ok, fail, lost: [...lost] };
+}
+
 // Đồ hay lên cho từng tướng: gộp từ build của các đội hình (theo số trận).
 function buildUnitItems(comps) {
   const map = {};
@@ -294,6 +365,9 @@ async function main() {
     comps = buildComps(compsRaw, nameOf);
     if (comps.set !== `TFTSet${SET}` && 'strict' in args) throw new Error(`Đội hình là của ${comps.set}, không phải Set ${SET} (--strict).`);
     if (comps.set !== `TFTSet${SET}`) console.warn(`Chú ý: đội hình là của ${comps.set}, không phải Set ${SET}.`);
+    console.log(`Đang tải lộ trình theo cấp cho ${comps.comps.length} đội...`);
+    const lp = await fetchLevelPaths(comps.comps, comps.clusterId, makeUnitResolver(en, units));
+    console.log(`Lộ trình theo cấp: ${lp.ok} đội có, ${lp.fail} đội thiếu.${lp.lost.length ? ' Mã tướng không quy đổi được (bỏ bàn đó): ' + lp.lost.join(', ') : ''}`);
   }
 
   const data = {

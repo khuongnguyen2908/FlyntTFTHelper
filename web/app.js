@@ -28,7 +28,7 @@ const state = Object.assign(
 );
 const save = () => { try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} };
 // Bộ lọc giao diện (không lưu)
-const ui = { poolCost: 0, compLevel: '', unitCost: 0, unitTrait: '', traitType: '', itemKind: 'craftable', augRarity: '', augTag: '' };
+const ui = { pathLevel: null, pathAlt: false, poolCost: 0, compLevel: '', unitCost: 0, unitTrait: '', traitType: '', itemKind: 'craftable', augRarity: '', augTag: '' };
 
 // =====================================================================
 // Tiện ích
@@ -390,6 +390,40 @@ function suggCard(r, opt = {}) {
   </div>`;
 }
 
+// ---------- Lộ trình theo cấp ----------
+const pathLevels = c => Object.keys(c.path || {}).map(Number).sort((a, b) => a - b);
+function pathBoardHtml(b, mine, opt = {}) {
+  const have = b.units.filter(u => mine.has(u));
+  const missing = b.units.filter(u => !mine.has(u));
+  const track = mine.size > 0;
+  return `<div class="pboard ${opt.alt ? 'alt' : ''}">
+    <div class="units-row">${b.units.map(u => unitCell(u, [], { owned: track && mine.has(u), dim: track && !mine.has(u), size: opt.alt ? 'sm' : '' })).join('')}</div>
+    <div class="icons pmeta">
+      ${opt.label ? `<span class="pill">${opt.label}</span>` : ''}
+      <span class="pill">hạng TB <b>${fmt(b.avg)}</b></span>
+      ${b.win != null ? `<span class="pill">thắng vòng <b>${Math.round(b.win * 100)}%</b></span>` : ''}
+      <span class="pill">${(b.count || 0).toLocaleString('vi-VN')} trận</span>
+      ${track ? `<span class="pill ${missing.length ? '' : 'good'}">${missing.length ? `có <b>${have.length}/${b.units.length}</b> · thiếu ${missing.map(uname).map(esc).join(', ')}` : '✔ đủ tướng'}</span>` : ''}
+      <button class="icon-btn" data-copy="units:${esc(b.units.join(','))}" data-tip-text="Copy mã bàn này để dán vào Team Planner">📋</button>
+    </div></div>`;
+}
+function levelPathCard(c, mine) {
+  const levels = pathLevels(c);
+  if (!levels.length) return '';
+  const myLvl = Number(state.level) || 0;
+  const auto = levels.includes(myLvl) ? myLvl : myLvl < levels[0] ? levels[0] : levels.filter(l => l <= myLvl).at(-1) ?? levels[0];
+  const L = levels.includes(ui.pathLevel) ? ui.pathLevel : auto;
+  const lv = c.path[L];
+  const [main, ...alts] = lv.boards;
+  return `<div class="card" id="level-path"><div class="card-title">🪜 Lộ trình theo cấp <span class="hint-inline" data-tip-text="Bàn cờ hay được đặt ở từng cấp khi chơi đội này (số liệu MetaTFT). Viền xanh = bạn đã có, mờ = còn thiếu.">ⓘ</span></div>
+    <div class="chips lvl-chips">${levels.map(l => `<span class="chip ${l === L ? 'on' : ''}" data-path-level="${l}">Cấp ${l}${c.path[l].stage ? ` <small>· ${esc(c.path[l].stage)}</small>` : ''}${l === myLvl ? ' •' : ''}</span>`).join('')}</div>
+    <div class="sub-title">Cấp ${L}${lv.stage ? ` · thường lên cấp này ở vòng <b>${esc(lv.stage)}</b>` : ''}${L === myLvl ? ' · <span class="good">cấp hiện tại của bạn</span>' : ''}</div>
+    ${pathBoardHtml(main, mine, { label: 'Bàn chính' })}
+    ${alts.length ? `<button class="btn ghost" data-path-alt="1">${ui.pathAlt ? '▲ Ẩn bàn thay thế' : `▼ Xem ${alts.length} bàn thay thế`}</button>
+      ${ui.pathAlt ? alts.map((b, i) => pathBoardHtml(b, mine, { alt: true, label: 'Thay thế ' + (i + 1) })).join('') : ''}` : ''}
+  </div>`;
+}
+
 function renderTargetView(c) {
   const a = targetAnalysis(c);
   const ranked = D.comps.map(scoreComp).sort((x, y) => y.s - x.s);
@@ -435,6 +469,7 @@ function renderTargetView(c) {
       ${compUnitsRow(c, { mine: a.mine, cont: a.cont, dimMissing: !a.empty })}
       <div style="margin-top:8px">${traitGoal}</div>
     </div>
+    ${levelPathCard(c, a.mine)}
     <div class="cards2">
       <div class="card"><div class="card-title">📋 Việc cần làm</div>${linesHtml(todo)}</div>
       <div class="card"><div class="card-title">🛒 Mua / bán</div>
@@ -491,7 +526,7 @@ function renderBoard() { renderPool(); renderBoardState(); }
 function addMine(id) { state.mine.push(id); save(); renderTrays(); markPool(); renderOutput(); }
 function addContested(id) { if (!state.contested.includes(id)) state.contested.push(id); save(); renderTrays(); markPool(); renderOutput(); }
 function setTarget(id) {
-  state.target = id; save();
+  state.target = id; ui.pathLevel = null; save();
   if (!$('#tab-board').classList.contains('active')) showTab('board'); else renderOutput();
   closeDrawer();
   const out = $('#board-output'); out.scrollTop = 0;
@@ -538,18 +573,21 @@ function bindBoard() {
   const st = $('#steppers');
   st.addEventListener('click', e => {
     const b = e.target.closest('button[data-dir]'); if (!b) return;
-    stepValue(b.closest('[data-step]').dataset.step, Number(b.dataset.dir), e.shiftKey ? 5 : 1);
+    const k = b.closest('[data-step]').dataset.step;
+    stepValue(k, Number(b.dataset.dir), e.shiftKey ? 5 : 1);
+    if (k === 'level') ui.pathLevel = null;
     save(); renderSteppers(); renderOutput();
   });
   st.addEventListener('change', e => {
     const box = e.target.closest('[data-step]'); if (!box || e.target.tagName !== 'INPUT') return;
     const k = box.dataset.step, v = e.target.value.trim();
     if (k === 'stage') state.stage = /^\d-\d$/.test(v) ? v : ''; else state[k] = Number(v) || 0;
+    if (k === 'level') ui.pathLevel = null;
     save(); renderSteppers(); renderOutput();
   });
   st.addEventListener('wheel', e => {
     const box = e.target.closest('[data-step]'); if (!box) return;
-    e.preventDefault(); stepValue(box.dataset.step, e.deltaY < 0 ? 1 : -1, 1); save(); renderSteppers(); renderOutput();
+    e.preventDefault(); stepValue(box.dataset.step, e.deltaY < 0 ? 1 : -1, 1); if (box.dataset.step === 'level') ui.pathLevel = null; save(); renderSteppers(); renderOutput();
   }, { passive: false });
   // Lõi
   const as = $('#aug-search'), sug = $('#aug-suggest');
@@ -598,6 +636,11 @@ function compDetail(id) {
     <div class="icons" style="margin:8px 0"><span class="pill">${esc(c.levellingVi)}</span><span class="pill">hạng TB <b>${fmt(c.avg)}</b></span><span class="pill">${(c.count || 0).toLocaleString('vi-VN')} trận</span><span class="pill">tỉ lệ chơi ${pct(c.share)}</span></div>
     <div class="icons"><button class="btn primary big" data-set-target="${esc(c.id)}">🎯 Nhắm đội này</button><button class="btn big" data-copy="comp:${esc(c.id)}">📋 Copy mã</button></div>
     <h3>Đội hình</h3>${compUnitsRow(c)}<div style="margin-top:6px">${traitChipsFor(c.units, true)}</div>
+    ${pathLevels(c).length ? `<h3>🪜 Lộ trình theo cấp</h3>${pathLevels(c).map(L => {
+      const lv = c.path[L];
+      return `<div class="plevel"><div class="sub-title">Cấp ${L}${lv.stage ? ` · thường ở vòng <b>${esc(lv.stage)}</b>` : ''}</div>
+        ${lv.boards.map((b, i) => pathBoardHtml(b, new Set(), { alt: i > 0, label: i ? 'Thay thế ' + i : 'Bàn chính' })).join('')}</div>`;
+    }).join('')}` : ''}
     <h3>Lên đồ chủ lực</h3>${c.builds.map(b => `<div class="build-row"><span class="who">${uIcon(b.unit, { size: 'sm' })}${esc(uname(b.unit))}</span>${b.items.map(x => iIcon(x, 'md')).join('')}<span class="muted" style="font-size:12px">hạng TB ${fmt(b.avg)} · ${b.count} trận</span></div>`).join('')}
     <h3>Đồ hay dùng trong đội</h3><div class="icons">${c.topItems.map(x => iIcon(x, 'md')).join('')}</div>
     ${c.extraUnits.length ? `<h3>Thêm khi lên cấp</h3><div class="icons">${c.extraUnits.map(u => uIcon(u, { size: 'sm' })).join('')}</div>` : ''}`);
@@ -832,8 +875,11 @@ function init() {
       e.preventDefault();
       const key = cp.dataset.copy;
       if (key.startsWith('comp:')) { const c = D.comps.find(x => x.id === key.slice(5)); if (c) copyTeam(c.units, 'đội ' + c.name); }
+      else if (key.startsWith('units:')) copyTeam(key.slice(6).split(',').filter(Boolean), 'bàn cờ này');
       return;
     }
+    const pl = e.target.closest('[data-path-level]'); if (pl) { ui.pathLevel = Number(pl.dataset.pathLevel); renderOutput(); return; }
+    if (e.target.closest('[data-path-alt]')) { ui.pathAlt = !ui.pathAlt; renderOutput(); return; }
     const st = e.target.closest('[data-set-target]'); if (st) { e.preventDefault(); setTarget(st.dataset.setTarget); return; }
     if (e.target.closest('[data-untarget]')) { state.target = null; save(); renderOutput(); hideTip(); return; }
     const gt = e.target.closest('[data-goto]'); if (gt) { e.preventDefault(); showTab(gt.dataset.goto); return; }

@@ -16,7 +16,8 @@ Các tab:
 - **🎯 Tình huống**: chia 2 cột.
   - Cột trái nhập: Vòng / Cấp / Vàng / Máu bằng nút − / + (lăn chuột cũng được, Shift = ×5); Bàn của tôi; Nhà khác tranh; mảnh trang bị (trái thêm, phải bớt); lõi đang có; bảng chọn tướng.
   - Chọn tướng: **bấm trái** = thêm vào Bàn của tôi, **bấm phải** = Nhà khác tranh. Hoặc bấm `/`, gõ vài chữ tên rồi **Enter** (Shift+Enter = Nhà khác tranh). Bấm tướng ở Bàn của tôi để bỏ.
-  - Cột phải: gợi ý đội hợp nhất (thanh % khớp). Bấm **🎯 Nhắm** để xem kế hoạch: mức khớp, việc cần làm, mua / bán (kèm điều kiện mở khoá), đồ cần cho chủ lực (ghép ngay / thiếu mảnh nào), lõi hợp tộc hệ.
+  - Cột phải: gợi ý đội hợp nhất (thanh % khớp). Bấm **🎯 Nhắm** để xem kế hoạch: mức khớp, **🪜 lộ trình theo cấp**, việc cần làm, mua / bán (kèm điều kiện mở khoá), đồ cần cho chủ lực (ghép ngay / thiếu mảnh nào), lõi hợp tộc hệ.
+  - **🪜 Lộ trình theo cấp**: bàn cờ nên đặt ở cấp 4 → 10 của đội đang nhắm (số liệu MetaTFT), tự chọn đúng cấp bạn đang ở, đánh dấu tướng có / thiếu, vòng thường lên cấp đó, 1 bàn chính + 2 bàn thay thế, nút 📋 copy mã từng bàn. Ngăn chi tiết đội cũng có đủ các cấp.
   - Các lựa chọn được nhớ lại cho lần mở sau.
 - **🏆 Đội hình mạnh**: đội hình từ số liệu MetaTFT (bậc S–D theo hạng trung bình), đồ chủ lực, lối chơi (reroll / lên nhanh).
 - **📋 Copy mã**: có ở mỗi đội hình, ở khung Đội đang nhắm, và nút "Copy mã" của Bàn của tôi. Vào game: Team Planner → Import → dán. Một số tướng PBE chưa có mã đúng (hiện là Graves, Mordekaiser, Nasus) sẽ bị bỏ qua và tool có báo.

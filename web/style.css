@@ -193,6 +193,14 @@ main { padding: 14px 18px 20px; }
 .steps3 div { background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 10px; font-size: 13px; }
 .steps3 b { display: block; color: var(--gold-hi); margin-bottom: 2px; }
 
+/* ---------- Lộ trình theo cấp ---------- */
+.lvl-chips { margin-bottom: 4px; }
+.lvl-chips small { font-weight: 500; opacity: .8; }
+.pboard { background: var(--bg2); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; margin: 6px 0; }
+.pboard.alt { opacity: .92; }
+.pboard .pmeta { margin-top: 6px; }
+.plevel { margin-bottom: 6px; }
+
 /* ---------- Thẻ đội hình ---------- */
 .comp-card .head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 .comp-card .head .name { font-weight: 700; font-size: 15px; }

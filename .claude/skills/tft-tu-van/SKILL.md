@@ -19,7 +19,7 @@ Tất cả ở `data/set19/` (tạo bởi `scripts/update-data.mjs`, nguồn Met
 | `traits.json` | Tộc hệ: `name`, `type` (origin/class/unique), `steps` (mốc kích + hiệu ứng), `units` |
 | `items.json` | Trang bị: `kind` (component/craftable/emblem/artifact/radiant/support/other), `from` (2 mảnh), `desc` |
 | `augments.json` | Lõi: `rarity` (Silver/Gold/Prismatic), `tags`, `traits` liên quan, `desc` |
-| `comps.json` | Đội hình mạnh: `units`, `carries`, `builds` (đồ của chủ lực + hạng TB), `avg` (hạng trung bình, thấp = tốt), `count`, `tier` S–D, `levelling` (lvl 5/6/7 = reroll; Standard; Fast 8/9), `extraUnits` |
+| `comps.json` | Đội hình mạnh: `units`, `carries`, `builds` (đồ của chủ lực + hạng TB), `avg` (hạng trung bình, thấp = tốt), `count`, `tier` S–D, `levelling` (lvl 5/6/7 = reroll; Standard; Fast 8/9), `extraUnits`, `path` (lộ trình theo cấp: `path["5"] = { stage: "3-2", boards: [{units, avg, win, count}, ...] }`, phần tử đầu là bàn chính) |
 | `unitItems.json` | Theo từng tướng: đồ hay lên nhất (`items` có `avg`) và bộ 3 món tốt (`builds`) |
 
 - Tìm bằng Grep theo tên (Việt hoặc Anh) hay id, **không đọc nguyên file lớn**. Ví dụ: Grep `"nameEn": "Jinx"` trong `data/set19/units.json` với vài dòng sau.
@@ -41,6 +41,7 @@ Chỗ nào mờ / bị che / không chắc: ghi vào mục **Chưa chắc**, đ�
 ## Cách suy nghĩ
 
 - **Đội hình:** so tướng + đồ đang có với `comps.json`. Ưu tiên đội (1) có sẵn chủ lực hoặc nhiều tướng, (2) mảnh đồ đang có ghép được đồ chủ lực, (3) ít nhà khác tranh, (4) `avg` tốt. Giữa 2 đội ngang nhau, chọn đội linh hoạt hơn ở thời điểm hiện tại.
+- **Bàn theo cấp:** khi khuyên nên đặt tướng gì ở cấp hiện tại, lấy `path[cấp].boards[0]` của đội đang nhắm, so với tướng người dùng có; thiếu tướng thì xem 2 bàn thay thế.
 - **Tướng bị tranh:** đếm số nhà đang giữ cùng tướng chủ lực / cùng tộc hệ chính. Hai nhà trở lên chơi cùng đội reroll thì nên đổi hướng.
 - **Mở khoá (Set 19):** tướng có `unlock` chỉ ra shop khi đạt điều kiện. Đừng khuyên đi đội cần tướng chưa mở khoá trừ khi điều kiện dễ đạt, và nói rõ điều kiện.
 - **Lên cấp / roll:** mốc chuẩn 2-1 cấp 4, 2-5 cấp 5, 3-2 cấp 6, 3-5/4-1 cấp 7, 4-2 cấp 8, 5-1 cấp 9 (tuỳ đội). Đội reroll thì giữ cấp và roll phần vàng trên 50 tới khi chủ lực 3★. Đội lên nhanh thì giữ 50 vàng, roll mạnh ở cấp 8 / 9. Máu ≤ 30–40 thì ưu tiên mạnh ngay.
