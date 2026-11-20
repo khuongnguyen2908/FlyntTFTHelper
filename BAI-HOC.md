@@ -10,7 +10,7 @@ Quy trình và lúc nào cần ghi: `.claude/skills/quy-trinh-lam-viec/SKILL.md`
 | Nhóm | Đọc khi | Các bài |
 |---|---|---|
 | 1. Dữ liệu | Sửa `scripts/update-data.mjs` hoặc dữ liệu trong `data/` | |
-| 2. Web | Sửa `web/` | Nút bấm không thấy kết quả; Trình duyệt tích hợp không chạy JS của file:// |
+| 2. Web | Sửa `web/` | CSS cũ bị lưu đệm khi thử; Nút bấm không thấy kết quả; Trình duyệt tích hợp không chạy JS của file:// |
 | 3. Tư vấn | Sửa skill `tft-tu-van` hoặc khi tư vấn sai | |
 
 Mẫu một bài (ghi vào đúng nhóm, mới nhất lên đầu nhóm; trùng chủ đề thì bổ sung bài cũ; tối đa khoảng 8 dòng):
@@ -27,6 +27,13 @@ Mẫu một bài (ghi vào đúng nhóm, mới nhất lên đầu nhóm; trùng 
 ## 1. Dữ liệu
 
 ## 2. Web
+
+### CSS / JS cũ bị lưu đệm khi tự thử trên server
+- Ngày: 20/11/2026
+- Chuyện gì xảy ra: sửa `style.css` rồi tải lại trang trong trình duyệt tích hợp, giao diện vẫn như cũ.
+- Nguyên nhân: server Python (`http.server`) không cấm lưu đệm, trình duyệt dùng lại file cũ.
+- Đã sửa thế nào: ép tải lại bằng JS: `await Promise.all(['style.css','app.js','index.html','data.js'].map(f=>fetch(f,{cache:'reload'}))); location.reload()`.
+- Lần sau tránh bằng cách: sau mỗi lần sửa file web, ép tải lại như trên trước khi chụp màn hình. Kiểm tra bằng `getComputedStyle` nếu nghi ngờ. Nhắc người dùng Ctrl+F5.
 
 ### Bấm "Nhắm đội này" mà không thấy gì
 - Ngày: 20/11/2026

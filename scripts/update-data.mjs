@@ -287,9 +287,12 @@ async function main() {
   [...units, ...traits, ...items].forEach(x => { if (!nameIdx.has(x.id)) nameIdx.set(x.id, x.name); });
   const nameOf = id => nameIdx.get(id) || id.replace(/^DA_|19$|_.*$/g, '');
 
+  // --strict (dùng trên GitHub Actions): thiếu đội hình thì dừng, không ghi đè dữ liệu cũ bằng dữ liệu rỗng.
+  if ('strict' in args && !compsRaw?.results?.data?.cluster_details) throw new Error('Không có dữ liệu đội hình (--strict).');
   let comps = null;
   if (compsRaw?.results?.data?.cluster_details) {
     comps = buildComps(compsRaw, nameOf);
+    if (comps.set !== `TFTSet${SET}` && 'strict' in args) throw new Error(`Đội hình là của ${comps.set}, không phải Set ${SET} (--strict).`);
     if (comps.set !== `TFTSet${SET}`) console.warn(`Chú ý: đội hình là của ${comps.set}, không phải Set ${SET}.`);
   }
 

@@ -3,13 +3,13 @@
   "items": [
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 12948,
-    "avg": 2.31
+    "count": 13174,
+    "avg": 2.3
    },
    {
     "id": "DA_SpiritVisage",
-    "count": 6474,
-    "avg": 2.31
+    "count": 6587,
+    "avg": 2.3
    }
   ],
   "builds": [
@@ -20,8 +20,8 @@
      "DA_GargoyleStoneplate",
      "DA_SpiritVisage"
     ],
-    "avg": 2.2604,
-    "count": 6013
+    "avg": 2.2569,
+    "count": 6119
    },
    {
     "comp": "427001",
@@ -30,8 +30,8 @@
      "DA_GargoyleStoneplate",
      "DA_SpiritVisage"
     ],
-    "avg": 2.8915,
-    "count": 461
+    "avg": 2.9145,
+    "count": 468
    }
   ]
  },
@@ -39,28 +39,28 @@
   "items": [
    {
     "id": "DA_GuinsoosRageblade",
-    "count": 7197,
+    "count": 7430,
     "avg": 2.61
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 7078,
-    "avg": 2.6
+    "count": 7302,
+    "avg": 2.61
    },
    {
     "id": "DA_StrikersFlail",
-    "count": 7078,
-    "avg": 2.6
+    "count": 7302,
+    "avg": 2.61
    },
    {
     "id": "DA_ArchangelsStaff",
-    "count": 119,
-    "avg": 2.98
+    "count": 128,
+    "avg": 3.03
    },
    {
     "id": "DA_HextechGunblade",
-    "count": 119,
-    "avg": 2.98
+    "count": 128,
+    "avg": 3.03
    }
   ],
   "builds": [
@@ -71,8 +71,8 @@
      "DA_JeweledGauntlet",
      "DA_StrikersFlail"
     ],
-    "avg": 2.6024,
-    "count": 7078
+    "avg": 2.6068,
+    "count": 7302
    },
    {
     "comp": "427001",
@@ -81,8 +81,8 @@
      "DA_GuinsoosRageblade",
      "DA_HextechGunblade"
     ],
-    "avg": 2.9832,
-    "count": 119
+    "avg": 3.0313,
+    "count": 128
    }
   ]
  },
@@ -90,28 +90,28 @@
   "items": [
    {
     "id": "DA_SpearOfShojin",
-    "count": 3756,
+    "count": 3802,
     "avg": 1.96
    },
    {
     "id": "DA_Morellonomicon",
-    "count": 3330,
+    "count": 3373,
     "avg": 1.89
    },
    {
     "id": "DA_VoidStaff",
-    "count": 3330,
+    "count": 3373,
     "avg": 1.89
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 426,
-    "avg": 2.48
+    "count": 429,
+    "avg": 2.49
    },
    {
     "id": "DA_StrikersFlail",
-    "count": 426,
-    "avg": 2.48
+    "count": 429,
+    "avg": 2.49
    }
   ],
   "builds": [
@@ -122,8 +122,8 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 1.8889,
-    "count": 3330
+    "avg": 1.8897,
+    "count": 3373
    },
    {
     "comp": "427001",
@@ -132,8 +132,8 @@
      "DA_SpearOfShojin",
      "DA_StrikersFlail"
     ],
-    "avg": 2.4836,
-    "count": 426
+    "avg": 2.4895,
+    "count": 429
    }
   ]
  },
@@ -141,18 +141,18 @@
   "items": [
    {
     "id": "DA_Morellonomicon",
-    "count": 998,
-    "avg": 2.88
+    "count": 1011,
+    "avg": 2.87
    },
    {
     "id": "DA_SpearOfShojin",
-    "count": 998,
-    "avg": 2.88
+    "count": 1011,
+    "avg": 2.87
    },
    {
     "id": "DA_VoidStaff",
-    "count": 998,
-    "avg": 2.88
+    "count": 1011,
+    "avg": 2.87
    }
   ],
   "builds": [
@@ -163,8 +163,8 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 2.8778,
-    "count": 998
+    "avg": 2.8714,
+    "count": 1011
    }
   ]
  },
@@ -172,17 +172,17 @@
   "items": [
    {
     "id": "DA_JeweledGauntlet",
-    "count": 8344,
+    "count": 8532,
     "avg": 2.75
    },
    {
     "id": "DA_RabadonsDeathcap",
-    "count": 8344,
+    "count": 8532,
     "avg": 2.75
    },
    {
     "id": "DA_StrikersFlail",
-    "count": 8344,
+    "count": 8532,
     "avg": 2.75
    }
   ],
@@ -194,8 +194,8 @@
      "DA_RabadonsDeathcap",
      "DA_StrikersFlail"
     ],
-    "avg": 2.6842,
-    "count": 4481
+    "avg": 2.6893,
+    "count": 4589
    },
    {
     "comp": "427008",
@@ -204,8 +204,8 @@
      "DA_RabadonsDeathcap",
      "DA_StrikersFlail"
     ],
-    "avg": 2.8203,
-    "count": 3863
+    "avg": 2.8293,
+    "count": 3943
    }
   ]
  },
@@ -213,45 +213,45 @@
   "items": [
    {
     "id": "DA_Morellonomicon",
-    "count": 736,
-    "avg": 3.56
+    "count": 1785,
+    "avg": 3.74
    },
    {
     "id": "DA_VoidStaff",
-    "count": 736,
-    "avg": 3.56
+    "count": 1785,
+    "avg": 3.74
+   },
+   {
+    "id": "DA_SpearOfShojin",
+    "count": 1369,
+    "avg": 4.12
    },
    {
     "id": "DA_BlueBuff",
-    "count": 583,
-    "avg": 3.92
-   },
-   {
-    "id": "DA_ArchangelsStaff",
-    "count": 153,
-    "avg": 2.18
+    "count": 416,
+    "avg": 2.51
    }
   ],
   "builds": [
    {
     "comp": "427022",
     "items": [
-     "DA_BlueBuff",
      "DA_Morellonomicon",
+     "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 3.916,
-    "count": 583
+    "avg": 4.1161,
+    "count": 1369
    },
    {
     "comp": "427010",
     "items": [
-     "DA_ArchangelsStaff",
+     "DA_BlueBuff",
      "DA_Morellonomicon",
      "DA_VoidStaff"
     ],
-    "avg": 2.183,
-    "count": 153
+    "avg": 2.5096,
+    "count": 416
    }
   ]
  },
@@ -259,32 +259,32 @@
   "items": [
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 3198,
+    "count": 3273,
     "avg": 2.89
    },
    {
     "id": "DA_SpiritVisage",
-    "count": 1847,
+    "count": 1882,
     "avg": 3.16
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 1637,
+    "count": 1668,
     "avg": 2.93
    },
    {
     "id": "DA_AdaptiveHelm",
-    "count": 1351,
-    "avg": 2.53
+    "count": 1391,
+    "avg": 2.52
    },
    {
     "id": "DA_Crownguard",
-    "count": 1351,
-    "avg": 2.53
+    "count": 1391,
+    "avg": 2.52
    },
    {
     "id": "DA_Evenshroud",
-    "count": 210,
+    "count": 214,
     "avg": 4.93
    }
   ],
@@ -296,8 +296,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 2.931,
-    "count": 1637
+    "avg": 2.9347,
+    "count": 1668
    },
    {
     "comp": "427010",
@@ -306,8 +306,8 @@
      "DA_Crownguard",
      "DA_GargoyleStoneplate"
     ],
-    "avg": 2.527,
-    "count": 1351
+    "avg": 2.5234,
+    "count": 1391
    },
    {
     "comp": "427043",
@@ -316,8 +316,8 @@
      "DA_GargoyleStoneplate",
      "DA_SpiritVisage"
     ],
-    "avg": 4.9286,
-    "count": 210
+    "avg": 4.9252,
+    "count": 214
    }
   ]
  },
@@ -325,32 +325,32 @@
   "items": [
    {
     "id": "DA_Bloodthirster",
-    "count": 358,
-    "avg": 2.03
+    "count": 363,
+    "avg": 2.04
    },
    {
     "id": "DA_SteraksGage",
-    "count": 358,
-    "avg": 2.03
+    "count": 363,
+    "avg": 2.04
    },
    {
     "id": "DA_TitansResolve",
-    "count": 358,
-    "avg": 2.03
+    "count": 363,
+    "avg": 2.04
    },
    {
     "id": "DA_EdgeOfNight",
-    "count": 300,
+    "count": 302,
     "avg": 1.99
    },
    {
     "id": "DA_HandOfJustice",
-    "count": 300,
+    "count": 302,
     "avg": 1.99
    },
    {
     "id": "DA_InfinityEdge",
-    "count": 300,
+    "count": 302,
     "avg": 1.99
    }
   ],
@@ -362,8 +362,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 2.0279,
-    "count": 358
+    "avg": 2.0386,
+    "count": 363
    },
    {
     "comp": "427008",
@@ -372,8 +372,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 1.99,
-    "count": 300
+    "avg": 1.9868,
+    "count": 302
    }
   ]
  },
@@ -381,17 +381,17 @@
   "items": [
    {
     "id": "DA_JeweledGauntlet",
-    "count": 4563,
+    "count": 4690,
     "avg": 3.24
    },
    {
     "id": "DA_SpearOfShojin",
-    "count": 4563,
+    "count": 4690,
     "avg": 3.24
    },
    {
     "id": "DA_StrikersFlail",
-    "count": 4563,
+    "count": 4690,
     "avg": 3.24
    }
   ],
@@ -403,8 +403,8 @@
      "DA_SpearOfShojin",
      "DA_StrikersFlail"
     ],
-    "avg": 3.24,
-    "count": 4563
+    "avg": 3.2409,
+    "count": 4690
    }
   ]
  },
@@ -412,18 +412,18 @@
   "items": [
    {
     "id": "DA_Crownguard",
-    "count": 1022,
-    "avg": 2.72
+    "count": 1043,
+    "avg": 2.73
    },
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 1022,
-    "avg": 2.72
+    "count": 1043,
+    "avg": 2.73
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 1022,
-    "avg": 2.72
+    "count": 1043,
+    "avg": 2.73
    }
   ],
   "builds": [
@@ -434,8 +434,8 @@
      "DA_GargoyleStoneplate",
      "DA_WarmogsArmor"
     ],
-    "avg": 2.7211,
-    "count": 1022
+    "avg": 2.7258,
+    "count": 1043
    }
   ]
  },
@@ -443,28 +443,28 @@
   "items": [
    {
     "id": "DA_EdgeOfNight",
-    "count": 2662,
-    "avg": 2.76
+    "count": 2711,
+    "avg": 2.77
    },
    {
     "id": "DA_HandOfJustice",
-    "count": 1787,
-    "avg": 2.86
+    "count": 1812,
+    "avg": 2.87
    },
    {
     "id": "DA_InfinityEdge",
-    "count": 1787,
-    "avg": 2.86
+    "count": 1812,
+    "avg": 2.87
    },
    {
     "id": "DA_Bloodthirster",
-    "count": 875,
-    "avg": 2.55
+    "count": 899,
+    "avg": 2.57
    },
    {
     "id": "DA_RedBuff",
-    "count": 875,
-    "avg": 2.55
+    "count": 899,
+    "avg": 2.57
    }
   ],
   "builds": [
@@ -475,8 +475,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 2.8551,
-    "count": 1787
+    "avg": 2.8653,
+    "count": 1812
    },
    {
     "comp": "427007",
@@ -485,8 +485,8 @@
      "DA_EdgeOfNight",
      "DA_RedBuff"
     ],
-    "avg": 2.5531,
-    "count": 875
+    "avg": 2.5729,
+    "count": 899
    }
   ]
  },
@@ -494,18 +494,18 @@
   "items": [
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 444,
-    "avg": 3.22
+    "count": 452,
+    "avg": 3.19
    },
    {
     "id": "DA_IonicSpark",
-    "count": 444,
-    "avg": 3.22
+    "count": 452,
+    "avg": 3.19
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 444,
-    "avg": 3.22
+    "count": 452,
+    "avg": 3.19
    }
   ],
   "builds": [
@@ -516,8 +516,8 @@
      "DA_IonicSpark",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.2207,
-    "count": 444
+    "avg": 3.1903,
+    "count": 452
    }
   ]
  },
@@ -525,23 +525,23 @@
   "items": [
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 1193,
-    "avg": 3.92
+    "count": 1214,
+    "avg": 3.9
    },
    {
     "id": "DA_SpiritVisage",
-    "count": 869,
-    "avg": 4.39
+    "count": 882,
+    "avg": 4.38
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 847,
-    "avg": 4.4
+    "count": 860,
+    "avg": 4.38
    },
    {
     "id": "DA_Crownguard",
-    "count": 184,
-    "avg": 2.83
+    "count": 188,
+    "avg": 2.81
    }
   ],
   "builds": [
@@ -552,8 +552,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.3979,
-    "count": 847
+    "avg": 4.3791,
+    "count": 860
    },
    {
     "comp": "427008",
@@ -562,8 +562,8 @@
      "DA_GargoyleStoneplate",
      "DA_GargoyleStoneplate"
     ],
-    "avg": 2.6358,
-    "count": 162
+    "avg": 2.6205,
+    "count": 166
    },
    {
     "comp": "427034",
@@ -581,28 +581,33 @@
   "items": [
    {
     "id": "DA_GuinsoosRageblade",
-    "count": 11829,
+    "count": 12163,
     "avg": 3.55
    },
    {
-    "id": "DA_LastWhisper",
-    "count": 11391,
-    "avg": 3.54
-   },
-   {
     "id": "DA_InfinityEdge",
-    "count": 11360,
+    "count": 11716,
     "avg": 3.54
    },
    {
-    "id": "DA_KrakensFury",
-    "count": 469,
-    "avg": 3.85
+    "id": "DA_LastWhisper",
+    "count": 11674,
+    "avg": 3.54
    },
    {
     "id": "DA_Deathblade",
-    "count": 438,
-    "avg": 3.87
+    "count": 447,
+    "avg": 3.86
+   },
+   {
+    "id": "DA_KrakensFury",
+    "count": 447,
+    "avg": 3.86
+   },
+   {
+    "id": "DA_RedBuff",
+    "count": 42,
+    "avg": 3.71
    }
   ],
   "builds": [
@@ -613,8 +618,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 3.5399,
-    "count": 11360
+    "avg": 3.5421,
+    "count": 11674
    },
    {
     "comp": "427009",
@@ -623,18 +628,18 @@
      "DA_GuinsoosRageblade",
      "DA_KrakensFury"
     ],
-    "avg": 3.8653,
-    "count": 438
+    "avg": 3.8568,
+    "count": 447
    },
    {
     "comp": "427039",
     "items": [
      "DA_GuinsoosRageblade",
-     "DA_KrakensFury",
-     "DA_LastWhisper"
+     "DA_InfinityEdge",
+     "DA_RedBuff"
     ],
-    "avg": 3.6774,
-    "count": 31
+    "avg": 3.7143,
+    "count": 42
    }
   ]
  },
@@ -642,17 +647,17 @@
   "items": [
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 6905,
+    "count": 7030,
     "avg": 3.3
    },
    {
     "id": "DA_SpiritVisage",
-    "count": 6905,
+    "count": 7030,
     "avg": 3.3
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 6905,
+    "count": 7030,
     "avg": 3.3
    }
   ],
@@ -665,7 +670,7 @@
      "DA_WarmogsArmor"
     ],
     "avg": 3.2386,
-    "count": 6278
+    "count": 6387
    },
    {
     "comp": "427009",
@@ -674,8 +679,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.7655,
-    "count": 371
+    "avg": 3.79,
+    "count": 381
    },
    {
     "comp": "427039",
@@ -684,8 +689,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.1558,
-    "count": 199
+    "avg": 4.1805,
+    "count": 205
    },
    {
     "comp": "427017",
@@ -703,23 +708,23 @@
   "items": [
    {
     "id": "DA_HandOfJustice",
-    "count": 1151,
+    "count": 1168,
     "avg": 3
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 1151,
+    "count": 1168,
     "avg": 3
    },
    {
     "id": "DA_StrikersFlail",
-    "count": 1042,
+    "count": 1058,
     "avg": 2.95
    },
    {
     "id": "DA_NashorsTooth",
-    "count": 55,
-    "avg": 3.51
+    "count": 56,
+    "avg": 3.52
    },
    {
     "id": "DA_EdgeOfNight",
@@ -735,8 +740,8 @@
      "DA_JeweledGauntlet",
      "DA_StrikersFlail"
     ],
-    "avg": 2.9453,
-    "count": 1042
+    "avg": 2.9461,
+    "count": 1058
    },
    {
     "comp": "427017",
@@ -745,8 +750,8 @@
      "DA_JeweledGauntlet",
      "DA_NashorsTooth"
     ],
-    "avg": 3.5091,
-    "count": 55
+    "avg": 3.5179,
+    "count": 56
    },
    {
     "comp": "427015",
@@ -764,28 +769,28 @@
   "items": [
    {
     "id": "DA_SpearOfShojin",
-    "count": 577,
-    "avg": 3.03
+    "count": 589,
+    "avg": 3.04
    },
    {
     "id": "DA_VoidStaff",
-    "count": 513,
-    "avg": 2.88
+    "count": 523,
+    "avg": 2.89
    },
    {
     "id": "DA_RedBuff",
-    "count": 487,
-    "avg": 2.85
+    "count": 497,
+    "avg": 2.86
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 64,
-    "avg": 4.17
+    "count": 66,
+    "avg": 4.18
    },
    {
     "id": "DA_Oceansong19_Emblem",
-    "count": 64,
-    "avg": 4.17
+    "count": 66,
+    "avg": 4.18
    },
    {
     "id": "DA_Morellonomicon",
@@ -801,8 +806,8 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 2.848,
-    "count": 487
+    "avg": 2.8571,
+    "count": 497
    },
    {
     "comp": "427012",
@@ -811,8 +816,8 @@
      "DA_Oceansong19_Emblem",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.1719,
-    "count": 64
+    "avg": 4.1818,
+    "count": 66
    },
    {
     "comp": "427038",
@@ -830,28 +835,28 @@
   "items": [
    {
     "id": "DA_SpiritVisage",
-    "count": 4442,
-    "avg": 3.25
+    "count": 4521,
+    "avg": 3.26
    },
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 4406,
+    "count": 4483,
     "avg": 3.26
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 4355,
+    "count": 4433,
     "avg": 3.24
    },
    {
     "id": "DA_Crownguard",
-    "count": 87,
-    "avg": 3.94
+    "count": 88,
+    "avg": 3.91
    },
    {
     "id": "DA_IonicSpark",
-    "count": 36,
-    "avg": 2.53
+    "count": 38,
+    "avg": 2.63
    }
   ],
   "builds": [
@@ -862,8 +867,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.2445,
-    "count": 4319
+    "avg": 3.248,
+    "count": 4395
    },
    {
     "comp": "427041",
@@ -872,8 +877,8 @@
      "DA_GargoyleStoneplate",
      "DA_SpiritVisage"
     ],
-    "avg": 3.9425,
-    "count": 87
+    "avg": 3.9091,
+    "count": 88
    },
    {
     "comp": "427026",
@@ -882,8 +887,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 2.5278,
-    "count": 36
+    "avg": 2.6316,
+    "count": 38
    }
   ]
  },
@@ -891,18 +896,18 @@
   "items": [
    {
     "id": "DA_SpearOfShojin",
-    "count": 3784,
+    "count": 3845,
     "avg": 3.02
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 3771,
+    "count": 3832,
     "avg": 3.02
    },
    {
     "id": "DA_VoidStaff",
-    "count": 3733,
-    "avg": 3.01
+    "count": 3794,
+    "avg": 3.02
    },
    {
     "id": "DA_ArchangelsStaff",
@@ -923,8 +928,8 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 3.0124,
-    "count": 3720
+    "avg": 3.0182,
+    "count": 3781
    },
    {
     "comp": "427023",
@@ -952,23 +957,23 @@
   "items": [
    {
     "id": "DA_GuinsoosRageblade",
-    "count": 969,
-    "avg": 3.51
+    "count": 978,
+    "avg": 3.5
    },
    {
     "id": "DA_RedBuff",
-    "count": 969,
-    "avg": 3.51
+    "count": 978,
+    "avg": 3.5
    },
    {
     "id": "DA_LastWhisper",
-    "count": 495,
-    "avg": 3.71
+    "count": 498,
+    "avg": 3.7
    },
    {
     "id": "DA_KrakensFury",
-    "count": 474,
-    "avg": 3.29
+    "count": 480,
+    "avg": 3.28
    }
   ],
   "builds": [
@@ -979,8 +984,8 @@
      "DA_LastWhisper",
      "DA_RedBuff"
     ],
-    "avg": 3.7131,
-    "count": 495
+    "avg": 3.7048,
+    "count": 498
    },
    {
     "comp": "427007",
@@ -989,8 +994,8 @@
      "DA_KrakensFury",
      "DA_RedBuff"
     ],
-    "avg": 3.289,
-    "count": 474
+    "avg": 3.2813,
+    "count": 480
    }
   ]
  },
@@ -998,18 +1003,18 @@
   "items": [
    {
     "id": "DA_Deathblade",
-    "count": 74,
-    "avg": 2.91
+    "count": 75,
+    "avg": 2.89
    },
    {
     "id": "DA_InfinityEdge",
-    "count": 74,
-    "avg": 2.91
+    "count": 75,
+    "avg": 2.89
    },
    {
     "id": "DA_LastWhisper",
-    "count": 74,
-    "avg": 2.91
+    "count": 75,
+    "avg": 2.89
    }
   ],
   "builds": [
@@ -1020,8 +1025,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 2.9054,
-    "count": 74
+    "avg": 2.8933,
+    "count": 75
    }
   ]
  },
@@ -1029,17 +1034,17 @@
   "items": [
    {
     "id": "DA_GuinsoosRageblade",
-    "count": 4116,
+    "count": 4195,
     "avg": 4.06
    },
    {
     "id": "DA_KrakensFury",
-    "count": 4116,
+    "count": 4195,
     "avg": 4.06
    },
    {
     "id": "DA_LastWhisper",
-    "count": 4116,
+    "count": 4195,
     "avg": 4.06
    }
   ],
@@ -1051,8 +1056,8 @@
      "DA_KrakensFury",
      "DA_LastWhisper"
     ],
-    "avg": 4.0764,
-    "count": 2068
+    "avg": 4.0714,
+    "count": 2115
    },
    {
     "comp": "427014",
@@ -1061,8 +1066,8 @@
      "DA_KrakensFury",
      "DA_LastWhisper"
     ],
-    "avg": 4.042,
-    "count": 2048
+    "avg": 4.0495,
+    "count": 2080
    }
   ]
  },
@@ -1070,43 +1075,33 @@
   "items": [
    {
     "id": "DA_SpiritVisage",
-    "count": 1038,
+    "count": 1275,
     "avg": 3.73
    },
    {
     "id": "DA_SunfireCape",
-    "count": 830,
-    "avg": 3.37
+    "count": 844,
+    "avg": 3.36
    },
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 798,
-    "avg": 4.02
+    "count": 764,
+    "avg": 4.01
    },
    {
     "id": "DA_IonicSpark",
-    "count": 530,
+    "count": 539,
     "avg": 3.35
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 319,
-    "avg": 4.28
-   },
-   {
-    "id": "DA_Crownguard",
-    "count": 262,
-    "avg": 3.81
-   },
-   {
-    "id": "DA_ProtectorsVow",
-    "count": 262,
-    "avg": 3.81
+    "count": 324,
+    "avg": 4.27
    },
    {
     "id": "DA_Evenshroud",
-    "count": 61,
-    "avg": 2.8
+    "count": 282,
+    "avg": 3.57
    },
    {
     "id": "DA_BrambleVest",
@@ -1127,18 +1122,8 @@
      "DA_SpiritVisage",
      "DA_SunfireCape"
     ],
-    "avg": 3.3472,
-    "count": 530
-   },
-   {
-    "comp": "427006",
-    "items": [
-     "DA_Crownguard",
-     "DA_GargoyleStoneplate",
-     "DA_ProtectorsVow"
-    ],
-    "avg": 3.8053,
-    "count": 262
+    "avg": 3.3451,
+    "count": 539
    },
    {
     "comp": "427040",
@@ -1147,8 +1132,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.7178,
-    "count": 241
+    "avg": 4.6898,
+    "count": 245
    },
    {
     "comp": "427003",
@@ -1157,8 +1142,18 @@
      "DA_SpiritVisage",
      "DA_SunfireCape"
     ],
-    "avg": 3.5523,
-    "count": 239
+    "avg": 3.5391,
+    "count": 243
+   },
+   {
+    "comp": "427006",
+    "items": [
+     "DA_Evenshroud",
+     "DA_GargoyleStoneplate",
+     "DA_SpiritVisage"
+    ],
+    "avg": 3.7682,
+    "count": 220
    },
    {
     "comp": "427027",
@@ -1167,8 +1162,8 @@
      "DA_SunfireCape",
      "DA_WarmogsArmor"
     ],
-    "avg": 2.8033,
-    "count": 61
+    "avg": 2.8548,
+    "count": 62
    }
   ]
  },
@@ -1176,33 +1171,33 @@
   "items": [
    {
     "id": "DA_EdgeOfNight",
-    "count": 1949,
+    "count": 2041,
     "avg": 3.5
    },
    {
     "id": "DA_HandOfJustice",
-    "count": 1526,
+    "count": 1559,
     "avg": 3.49
    },
    {
     "id": "DA_InfinityEdge",
-    "count": 1484,
+    "count": 1503,
     "avg": 3.49
    },
    {
-    "id": "DA_SteraksGage",
-    "count": 507,
-    "avg": 3.51
-   },
-   {
     "id": "DA_Bloodthirster",
-    "count": 465,
+    "count": 482,
     "avg": 3.52
    },
    {
-    "id": "DA_TitansResolve",
-    "count": 42,
-    "avg": 3.4
+    "id": "DA_SteraksGage",
+    "count": 482,
+    "avg": 3.52
+   },
+   {
+    "id": "DA_LastWhisper",
+    "count": 56,
+    "avg": 3.52
    }
   ],
   "builds": [
@@ -1213,8 +1208,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 3.4933,
-    "count": 1484
+    "avg": 3.4884,
+    "count": 1503
    },
    {
     "comp": "427006",
@@ -1223,18 +1218,18 @@
      "DA_EdgeOfNight",
      "DA_SteraksGage"
     ],
-    "avg": 3.5247,
-    "count": 465
+    "avg": 3.5207,
+    "count": 482
    },
    {
     "comp": "427038",
     "items": [
+     "DA_EdgeOfNight",
      "DA_HandOfJustice",
-     "DA_SteraksGage",
-     "DA_TitansResolve"
+     "DA_LastWhisper"
     ],
-    "avg": 3.4048,
-    "count": 42
+    "avg": 3.5179,
+    "count": 56
    }
   ]
  },
@@ -1242,36 +1237,26 @@
   "items": [
    {
     "id": "DA_HandOfJustice",
-    "count": 272,
-    "avg": 4.15
+    "count": 277,
+    "avg": 4.17
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 272,
-    "avg": 4.15
-   },
-   {
-    "id": "DA_IonicSpark",
-    "count": 137,
-    "avg": 4.31
+    "count": 277,
+    "avg": 4.17
    },
    {
     "id": "DA_StrikersFlail",
-    "count": 135,
-    "avg": 3.99
+    "count": 139,
+    "avg": 4.03
+   },
+   {
+    "id": "DA_IonicSpark",
+    "count": 138,
+    "avg": 4.3
    }
   ],
   "builds": [
-   {
-    "comp": "427014",
-    "items": [
-     "DA_HandOfJustice",
-     "DA_IonicSpark",
-     "DA_JeweledGauntlet"
-    ],
-    "avg": 4.3139,
-    "count": 137
-   },
    {
     "comp": "427006",
     "items": [
@@ -1279,27 +1264,42 @@
      "DA_JeweledGauntlet",
      "DA_StrikersFlail"
     ],
-    "avg": 3.9852,
-    "count": 135
+    "avg": 4.0288,
+    "count": 139
+   },
+   {
+    "comp": "427014",
+    "items": [
+     "DA_HandOfJustice",
+     "DA_IonicSpark",
+     "DA_JeweledGauntlet"
+    ],
+    "avg": 4.3043,
+    "count": 138
    }
   ]
  },
  "DA_Wukong19": {
   "items": [
    {
-    "id": "DA_SpiritVisage",
-    "count": 2775,
-    "avg": 3.97
-   },
-   {
     "id": "DA_GargoyleStoneplate",
-    "count": 2755,
+    "count": 2854,
     "avg": 3.98
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 2735,
+    "count": 2854,
     "avg": 3.98
+   },
+   {
+    "id": "DA_SpiritVisage",
+    "count": 2789,
+    "avg": 3.98
+   },
+   {
+    "id": "DA_ProtectorsVow",
+    "count": 65,
+    "avg": 4.14
    }
   ],
   "builds": [
@@ -1310,8 +1310,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.0283,
-    "count": 1482
+    "avg": 4.0364,
+    "count": 1512
    },
    {
     "comp": "427002",
@@ -1320,8 +1320,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.9357,
-    "count": 902
+    "avg": 3.9262,
+    "count": 921
    },
    {
     "comp": "427009",
@@ -1330,18 +1330,18 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.8775,
-    "count": 351
+    "avg": 3.8792,
+    "count": 356
    },
    {
     "comp": "427025",
     "items": [
      "DA_GargoyleStoneplate",
-     "DA_SpiritVisage",
-     "DA_SpiritVisage"
+     "DA_ProtectorsVow",
+     "DA_WarmogsArmor"
     ],
-    "avg": 3.55,
-    "count": 20
+    "avg": 4.1385,
+    "count": 65
    }
   ]
  },
@@ -1349,28 +1349,28 @@
   "items": [
    {
     "id": "DA_InfinityEdge",
-    "count": 1189,
-    "avg": 3.66
+    "count": 1218,
+    "avg": 3.64
    },
    {
     "id": "DA_Heavenscale19_DangerousItem",
-    "count": 1115,
-    "avg": 3.6
+    "count": 1142,
+    "avg": 3.59
    },
    {
     "id": "DA_LastWhisper",
-    "count": 684,
-    "avg": 3.65
+    "count": 700,
+    "avg": 3.64
    },
    {
     "id": "DA_GuinsoosRageblade",
-    "count": 505,
-    "avg": 3.67
+    "count": 518,
+    "avg": 3.65
    },
    {
     "id": "DA_BlueBuff",
-    "count": 74,
-    "avg": 4.51
+    "count": 76,
+    "avg": 4.49
    }
   ],
   "builds": [
@@ -1381,8 +1381,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 3.5361,
-    "count": 485
+    "avg": 3.5273,
+    "count": 495
    },
    {
     "comp": "427016",
@@ -1391,8 +1391,8 @@
      "DA_Heavenscale19_DangerousItem",
      "DA_InfinityEdge"
     ],
-    "avg": 3.6614,
-    "count": 446
+    "avg": 3.6308,
+    "count": 455
    },
    {
     "comp": "427009",
@@ -1401,8 +1401,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 3.568,
-    "count": 125
+    "avg": 3.5814,
+    "count": 129
    },
    {
     "comp": "427035",
@@ -1411,8 +1411,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 4.5135,
-    "count": 74
+    "avg": 4.4868,
+    "count": 76
    },
    {
     "comp": "427025",
@@ -1421,8 +1421,8 @@
      "DA_Heavenscale19_DangerousItem",
      "DA_InfinityEdge"
     ],
-    "avg": 3.6949,
-    "count": 59
+    "avg": 3.7778,
+    "count": 63
    }
   ]
  },
@@ -1430,18 +1430,18 @@
   "items": [
    {
     "id": "DA_Heavenscale19_DangerousItem",
-    "count": 327,
-    "avg": 3.18
+    "count": 331,
+    "avg": 3.19
    },
    {
     "id": "DA_SpearOfShojin",
-    "count": 327,
-    "avg": 3.18
+    "count": 331,
+    "avg": 3.19
    },
    {
     "id": "DA_Morellonomicon",
-    "count": 300,
-    "avg": 3.11
+    "count": 304,
+    "avg": 3.12
    },
    {
     "id": "DA_JeweledGauntlet",
@@ -1457,8 +1457,8 @@
      "DA_Morellonomicon",
      "DA_SpearOfShojin"
     ],
-    "avg": 3.2642,
-    "count": 159
+    "avg": 3.2609,
+    "count": 161
    },
    {
     "comp": "427002",
@@ -1467,8 +1467,8 @@
      "DA_Morellonomicon",
      "DA_SpearOfShojin"
     ],
-    "avg": 2.9362,
-    "count": 141
+    "avg": 2.965,
+    "count": 143
    },
    {
     "comp": "427025",
@@ -1485,24 +1485,24 @@
  "DA_LeeSin19": {
   "items": [
    {
-    "id": "DA_EdgeOfNight",
-    "count": 450,
-    "avg": 2.81
-   },
-   {
     "id": "DA_Heavenscale19_DangerousItem",
-    "count": 450,
-    "avg": 2.81
-   },
-   {
-    "id": "DA_Bloodthirster",
-    "count": 328,
-    "avg": 2.91
+    "count": 550,
+    "avg": 2.92
    },
    {
     "id": "DA_SteraksGage",
-    "count": 122,
-    "avg": 2.53
+    "count": 550,
+    "avg": 2.92
+   },
+   {
+    "id": "DA_Bloodthirster",
+    "count": 426,
+    "avg": 3.04
+   },
+   {
+    "id": "DA_EdgeOfNight",
+    "count": 124,
+    "avg": 2.52
    }
   ],
   "builds": [
@@ -1510,11 +1510,11 @@
     "comp": "427016",
     "items": [
      "DA_Bloodthirster",
-     "DA_EdgeOfNight",
-     "DA_Heavenscale19_DangerousItem"
+     "DA_Heavenscale19_DangerousItem",
+     "DA_SteraksGage"
     ],
-    "avg": 2.9146,
-    "count": 328
+    "avg": 3.0376,
+    "count": 426
    },
    {
     "comp": "427002",
@@ -1523,8 +1523,8 @@
      "DA_Heavenscale19_DangerousItem",
      "DA_SteraksGage"
     ],
-    "avg": 2.5328,
-    "count": 122
+    "avg": 2.5242,
+    "count": 124
    }
   ]
  },
@@ -1532,23 +1532,23 @@
   "items": [
    {
     "id": "DA_GuinsoosRageblade",
-    "count": 9946,
-    "avg": 3.99
+    "count": 10102,
+    "avg": 4
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 9908,
-    "avg": 3.99
+    "count": 10064,
+    "avg": 4
    },
    {
     "id": "DA_StrikersFlail",
-    "count": 9781,
-    "avg": 3.99
+    "count": 9934,
+    "avg": 4
    },
    {
     "id": "DA_RabadonsDeathcap",
-    "count": 165,
-    "avg": 4.2
+    "count": 168,
+    "avg": 4.19
    },
    {
     "id": "DA_RedBuff",
@@ -1564,8 +1564,8 @@
      "DA_JeweledGauntlet",
      "DA_StrikersFlail"
     ],
-    "avg": 3.9478,
-    "count": 6565
+    "avg": 3.9558,
+    "count": 6659
    },
    {
     "comp": "427003",
@@ -1574,8 +1574,8 @@
      "DA_JeweledGauntlet",
      "DA_StrikersFlail"
     ],
-    "avg": 4.0684,
-    "count": 3216
+    "avg": 4.0763,
+    "count": 3275
    },
    {
     "comp": "427013",
@@ -1584,8 +1584,8 @@
      "DA_JeweledGauntlet",
      "DA_RabadonsDeathcap"
     ],
-    "avg": 4.2362,
-    "count": 127
+    "avg": 4.2231,
+    "count": 130
    },
    {
     "comp": "427041",
@@ -1603,18 +1603,18 @@
   "items": [
    {
     "id": "DA_Bloodthirster",
-    "count": 3754,
-    "avg": 3.39
+    "count": 3801,
+    "avg": 3.4
    },
    {
     "id": "DA_EdgeOfNight",
-    "count": 3754,
-    "avg": 3.39
+    "count": 3801,
+    "avg": 3.4
    },
    {
     "id": "DA_GuinsoosRageblade",
-    "count": 3754,
-    "avg": 3.39
+    "count": 3801,
+    "avg": 3.4
    }
   ],
   "builds": [
@@ -1625,8 +1625,8 @@
      "DA_EdgeOfNight",
      "DA_GuinsoosRageblade"
     ],
-    "avg": 3.3945,
-    "count": 3754
+    "avg": 3.3981,
+    "count": 3801
    }
   ]
  },
@@ -1634,27 +1634,27 @@
   "items": [
    {
     "id": "DA_EdgeOfNight",
-    "count": 1638,
+    "count": 1705,
     "avg": 3.66
    },
    {
     "id": "DA_HandOfJustice",
-    "count": 1298,
+    "count": 1361,
     "avg": 3.59
    },
    {
     "id": "DA_InfinityEdge",
-    "count": 1298,
+    "count": 1361,
     "avg": 3.59
    },
    {
     "id": "DA_Bloodthirster",
-    "count": 340,
+    "count": 344,
     "avg": 3.92
    },
    {
     "id": "DA_TitansResolve",
-    "count": 340,
+    "count": 344,
     "avg": 3.92
    }
   ],
@@ -1666,8 +1666,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 3.5753,
-    "count": 1229
+    "avg": 3.5749,
+    "count": 1289
    },
    {
     "comp": "427011",
@@ -1676,8 +1676,8 @@
      "DA_EdgeOfNight",
      "DA_TitansResolve"
     ],
-    "avg": 3.9206,
-    "count": 340
+    "avg": 3.9244,
+    "count": 344
    },
    {
     "comp": "427024",
@@ -1686,8 +1686,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 3.8261,
-    "count": 69
+    "avg": 3.8333,
+    "count": 72
    }
   ]
  },
@@ -1695,17 +1695,17 @@
   "items": [
    {
     "id": "DA_Bloodthirster",
-    "count": 2529,
+    "count": 2588,
     "avg": 2.97
    },
    {
     "id": "DA_SteraksGage",
-    "count": 2529,
+    "count": 2588,
     "avg": 2.97
    },
    {
     "id": "DA_TitansResolve",
-    "count": 2529,
+    "count": 2588,
     "avg": 2.97
    }
   ],
@@ -1717,8 +1717,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 2.9418,
-    "count": 1735
+    "avg": 2.9383,
+    "count": 1768
    },
    {
     "comp": "427033",
@@ -1727,8 +1727,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 3.2266,
-    "count": 481
+    "avg": 3.1988,
+    "count": 493
    },
    {
     "comp": "427032",
@@ -1737,8 +1737,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 2.6623,
-    "count": 228
+    "avg": 2.6949,
+    "count": 236
    },
    {
     "comp": "427035",
@@ -1747,8 +1747,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 3.0353,
-    "count": 85
+    "avg": 3.0879,
+    "count": 91
    }
   ]
  },
@@ -1756,33 +1756,33 @@
   "items": [
    {
     "id": "DA_Morellonomicon",
-    "count": 429,
-    "avg": 3.86
-   },
-   {
-    "id": "DA_VoidStaff",
-    "count": 427,
+    "count": 438,
     "avg": 3.87
    },
    {
+    "id": "DA_VoidStaff",
+    "count": 437,
+    "avg": 3.88
+   },
+   {
     "id": "DA_SpearOfShojin",
-    "count": 328,
+    "count": 338,
     "avg": 4.2
    },
    {
     "id": "DA_BlueBuff",
-    "count": 131,
-    "avg": 2.97
+    "count": 132,
+    "avg": 2.98
    },
    {
     "id": "DA_RabadonsDeathcap",
-    "count": 32,
-    "avg": 3.66
+    "count": 33,
+    "avg": 3.58
    },
    {
     "id": "DA_RedBuff",
-    "count": 30,
-    "avg": 3.73
+    "count": 32,
+    "avg": 3.75
    }
   ],
   "builds": [
@@ -1793,8 +1793,8 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 4.3233,
-    "count": 266
+    "avg": 4.3297,
+    "count": 273
    },
    {
     "comp": "427003",
@@ -1803,8 +1803,8 @@
      "DA_Morellonomicon",
      "DA_VoidStaff"
     ],
-    "avg": 2.9695,
-    "count": 131
+    "avg": 2.9848,
+    "count": 132
    },
    {
     "comp": "427019",
@@ -1813,8 +1813,8 @@
      "DA_RabadonsDeathcap",
      "DA_SpearOfShojin"
     ],
-    "avg": 3.6563,
-    "count": 32
+    "avg": 3.5758,
+    "count": 33
    },
    {
     "comp": "427031",
@@ -1823,190 +1823,37 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 3.7333,
-    "count": 30
-   }
-  ]
- },
- "DA_Garen19": {
-  "items": [
-   {
-    "id": "DA_DragonsClaw",
-    "count": 27,
-    "avg": 3.56
-   },
-   {
-    "id": "DA_SunfireCape",
-    "count": 27,
-    "avg": 3.56
-   },
-   {
-    "id": "DA_WarmogsArmor",
-    "count": 27,
-    "avg": 3.56
-   }
-  ],
-  "builds": [
-   {
-    "comp": "427023",
-    "items": [
-     "DA_DragonsClaw",
-     "DA_SunfireCape",
-     "DA_WarmogsArmor"
-    ],
-    "avg": 3.5556,
-    "count": 27
-   }
-  ]
- },
- "DA_Nidalee19": {
-  "items": [
-   {
-    "id": "DA_JeweledGauntlet",
-    "count": 27,
-    "avg": 3.33
-   },
-   {
-    "id": "DA_NashorsTooth",
-    "count": 27,
-    "avg": 3.33
-   },
-   {
-    "id": "DA_RabadonsDeathcap",
-    "count": 27,
-    "avg": 3.33
-   }
-  ],
-  "builds": [
-   {
-    "comp": "427023",
-    "items": [
-     "DA_JeweledGauntlet",
-     "DA_NashorsTooth",
-     "DA_RabadonsDeathcap"
-    ],
-    "avg": 3.3333,
-    "count": 27
-   }
-  ]
- },
- "DA_Zeri19": {
-  "items": [
-   {
-    "id": "DA_InfinityEdge",
-    "count": 1082,
-    "avg": 3.73
-   },
-   {
-    "id": "DA_SpearOfShojin",
-    "count": 1000,
-    "avg": 3.73
-   },
-   {
-    "id": "DA_StrikersFlail",
-    "count": 925,
-    "avg": 3.72
-   },
-   {
-    "id": "DA_GuinsoosRageblade",
-    "count": 82,
-    "avg": 3.76
-   },
-   {
-    "id": "DA_RedBuff",
-    "count": 79,
-    "avg": 3.53
-   },
-   {
-    "id": "DA_LastWhisper",
-    "count": 78,
-    "avg": 4
-   }
-  ],
-  "builds": [
-   {
-    "comp": "427041",
-    "items": [
-     "DA_InfinityEdge",
-     "DA_SpearOfShojin",
-     "DA_StrikersFlail"
-    ],
-    "avg": 3.7125,
-    "count": 779
-   },
-   {
-    "comp": "427040",
-    "items": [
-     "DA_GuinsoosRageblade",
-     "DA_InfinityEdge",
-     "DA_StrikersFlail"
-    ],
-    "avg": 3.7561,
-    "count": 82
-   },
-   {
-    "comp": "427013",
-    "items": [
-     "DA_InfinityEdge",
-     "DA_RedBuff",
-     "DA_SpearOfShojin"
-    ],
-    "avg": 3.5316,
-    "count": 79
-   },
-   {
-    "comp": "427023",
-    "items": [
-     "DA_InfinityEdge",
-     "DA_LastWhisper",
-     "DA_SpearOfShojin"
-    ],
-    "avg": 4,
-    "count": 78
-   },
-   {
-    "comp": "427039",
-    "items": [
-     "DA_InfinityEdge",
-     "DA_SpearOfShojin",
-     "DA_StrikersFlail"
-    ],
-    "avg": 3.8281,
-    "count": 64
+    "avg": 3.75,
+    "count": 32
    }
   ]
  },
  "DA_Zac19": {
   "items": [
    {
-    "id": "DA_WarmogsArmor",
-    "count": 2186,
-    "avg": 4.23
-   },
-   {
     "id": "DA_GargoyleStoneplate",
-    "count": 2176,
+    "count": 2202,
     "avg": 4.22
    },
    {
     "id": "DA_SpiritVisage",
-    "count": 2101,
-    "avg": 4.25
+    "count": 2183,
+    "avg": 4.23
    },
    {
-    "id": "DA_Crownguard",
-    "count": 45,
-    "avg": 3.69
-   },
-   {
-    "id": "DA_ProtectorsVow",
-    "count": 45,
-    "avg": 3.69
+    "id": "DA_WarmogsArmor",
+    "count": 2167,
+    "avg": 4.24
    },
    {
     "id": "DA_Evenshroud",
-    "count": 35,
-    "avg": 3.17
+    "count": 91,
+    "avg": 3.52
+   },
+   {
+    "id": "DA_Crownguard",
+    "count": 56,
+    "avg": 3.73
    },
    {
     "id": "DA_SunfireCape",
@@ -2032,18 +1879,18 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.2513,
-    "count": 2101
+    "avg": 4.2478,
+    "count": 2127
    },
    {
     "comp": "427012",
     "items": [
      "DA_Crownguard",
-     "DA_ProtectorsVow",
-     "DA_WarmogsArmor"
+     "DA_Evenshroud",
+     "DA_SpiritVisage"
     ],
-    "avg": 3.6889,
-    "count": 45
+    "avg": 3.7321,
+    "count": 56
    },
    {
     "comp": "427013",
@@ -2077,36 +1924,184 @@
    }
   ]
  },
+ "DA_Zeri19": {
+  "items": [
+   {
+    "id": "DA_InfinityEdge",
+    "count": 1081,
+    "avg": 3.71
+   },
+   {
+    "id": "DA_SpearOfShojin",
+    "count": 997,
+    "avg": 3.7
+   },
+   {
+    "id": "DA_StrikersFlail",
+    "count": 916,
+    "avg": 3.72
+   },
+   {
+    "id": "DA_GuinsoosRageblade",
+    "count": 84,
+    "avg": 3.81
+   },
+   {
+    "id": "DA_RedBuff",
+    "count": 79,
+    "avg": 3.53
+   },
+   {
+    "id": "DA_Deathblade",
+    "count": 56,
+    "avg": 3.79
+   },
+   {
+    "id": "DA_GiantSlayer",
+    "count": 30,
+    "avg": 3.73
+   }
+  ],
+  "builds": [
+   {
+    "comp": "427041",
+    "items": [
+     "DA_InfinityEdge",
+     "DA_SpearOfShojin",
+     "DA_StrikersFlail"
+    ],
+    "avg": 3.7079,
+    "count": 832
+   },
+   {
+    "comp": "427040",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_InfinityEdge",
+     "DA_StrikersFlail"
+    ],
+    "avg": 3.8095,
+    "count": 84
+   },
+   {
+    "comp": "427013",
+    "items": [
+     "DA_InfinityEdge",
+     "DA_RedBuff",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 3.5316,
+    "count": 79
+   },
+   {
+    "comp": "427039",
+    "items": [
+     "DA_Deathblade",
+     "DA_InfinityEdge",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 3.7857,
+    "count": 56
+   },
+   {
+    "comp": "427023",
+    "items": [
+     "DA_GiantSlayer",
+     "DA_InfinityEdge",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 3.7333,
+    "count": 30
+   }
+  ]
+ },
+ "DA_Garen19": {
+  "items": [
+   {
+    "id": "DA_DragonsClaw",
+    "count": 28,
+    "avg": 3.5
+   },
+   {
+    "id": "DA_SunfireCape",
+    "count": 28,
+    "avg": 3.5
+   },
+   {
+    "id": "DA_WarmogsArmor",
+    "count": 28,
+    "avg": 3.5
+   }
+  ],
+  "builds": [
+   {
+    "comp": "427023",
+    "items": [
+     "DA_DragonsClaw",
+     "DA_SunfireCape",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.5,
+    "count": 28
+   }
+  ]
+ },
+ "DA_Nidalee19": {
+  "items": [
+   {
+    "id": "DA_JeweledGauntlet",
+    "count": 28,
+    "avg": 3.39
+   },
+   {
+    "id": "DA_NashorsTooth",
+    "count": 28,
+    "avg": 3.39
+   },
+   {
+    "id": "DA_RabadonsDeathcap",
+    "count": 28,
+    "avg": 3.39
+   }
+  ],
+  "builds": [
+   {
+    "comp": "427023",
+    "items": [
+     "DA_JeweledGauntlet",
+     "DA_NashorsTooth",
+     "DA_RabadonsDeathcap"
+    ],
+    "avg": 3.3929,
+    "count": 28
+   }
+  ]
+ },
  "DA_Jax19": {
   "items": [
    {
     "id": "DA_TitansResolve",
-    "count": 1023,
-    "avg": 3.34
+    "count": 1114,
+    "avg": 3.33
    },
    {
     "id": "DA_Bloodthirster",
-    "count": 988,
+    "count": 1079,
     "avg": 3.32
    },
    {
     "id": "DA_SpearOfShojin",
-    "count": 988,
+    "count": 1079,
     "avg": 3.32
    },
    {
     "id": "DA_EdgeOfNight",
-    "count": 76,
+    "count": 35,
     "avg": 3.66
    },
    {
     "id": "DA_HandOfJustice",
-    "count": 76,
-    "avg": 3.66
-   },
-   {
-    "id": "DA_JeweledGauntlet",
-    "count": 41,
+    "count": 35,
     "avg": 3.66
    }
   ],
@@ -2118,18 +2113,8 @@
      "DA_SpearOfShojin",
      "DA_TitansResolve"
     ],
-    "avg": 3.3239,
-    "count": 988
-   },
-   {
-    "comp": "427018",
-    "items": [
-     "DA_EdgeOfNight",
-     "DA_HandOfJustice",
-     "DA_JeweledGauntlet"
-    ],
-    "avg": 3.6585,
-    "count": 41
+    "avg": 3.3144,
+    "count": 1056
    },
    {
     "comp": "427030",
@@ -2140,6 +2125,16 @@
     ],
     "avg": 3.6571,
     "count": 35
+   },
+   {
+    "comp": "427018",
+    "items": [
+     "DA_Bloodthirster",
+     "DA_SpearOfShojin",
+     "DA_TitansResolve"
+    ],
+    "avg": 3.3478,
+    "count": 23
    }
   ]
  },
@@ -2147,18 +2142,18 @@
   "items": [
    {
     "id": "DA_IonicSpark",
-    "count": 848,
-    "avg": 3.32
+    "count": 864,
+    "avg": 3.33
    },
    {
     "id": "DA_SpiritVisage",
-    "count": 848,
-    "avg": 3.32
+    "count": 864,
+    "avg": 3.33
    },
    {
     "id": "DA_SunfireCape",
-    "count": 848,
-    "avg": 3.32
+    "count": 864,
+    "avg": 3.33
    }
   ],
   "builds": [
@@ -2169,8 +2164,8 @@
      "DA_SpiritVisage",
      "DA_SunfireCape"
     ],
-    "avg": 3.3208,
-    "count": 848
+    "avg": 3.3264,
+    "count": 864
    }
   ]
  },
@@ -2178,17 +2173,17 @@
   "items": [
    {
     "id": "DA_ArchangelsStaff",
-    "count": 3747,
+    "count": 3839,
     "avg": 3.7
    },
    {
     "id": "DA_HextechGunblade",
-    "count": 3747,
+    "count": 3839,
     "avg": 3.7
    },
    {
     "id": "DA_SpearOfShojin",
-    "count": 3747,
+    "count": 3839,
     "avg": 3.7
    }
   ],
@@ -2200,8 +2195,8 @@
      "DA_HextechGunblade",
      "DA_SpearOfShojin"
     ],
-    "avg": 3.6731,
-    "count": 3576
+    "avg": 3.6776,
+    "count": 3663
    },
    {
     "comp": "427021",
@@ -2210,8 +2205,8 @@
      "DA_HextechGunblade",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.2339,
-    "count": 171
+    "avg": 4.267,
+    "count": 176
    }
   ]
  },
@@ -2219,17 +2214,17 @@
   "items": [
    {
     "id": "DA_GuinsoosRageblade",
-    "count": 5602,
-    "avg": 3.78
+    "count": 5690,
+    "avg": 3.79
    },
    {
     "id": "DA_InfinityEdge",
-    "count": 5602,
-    "avg": 3.78
+    "count": 5690,
+    "avg": 3.79
    },
    {
     "id": "DA_KrakensFury",
-    "count": 5548,
+    "count": 5636,
     "avg": 3.79
    },
    {
@@ -2246,8 +2241,8 @@
      "DA_InfinityEdge",
      "DA_KrakensFury"
     ],
-    "avg": 3.7877,
-    "count": 5548
+    "avg": 3.7933,
+    "count": 5636
    },
    {
     "comp": "427029",
@@ -2265,28 +2260,28 @@
   "items": [
    {
     "id": "DA_Bloodthirster",
-    "count": 873,
-    "avg": 3.97
+    "count": 892,
+    "avg": 3.99
    },
    {
     "id": "DA_SteraksGage",
-    "count": 744,
-    "avg": 3.97
-   },
-   {
-    "id": "DA_EdgeOfNight",
-    "count": 701,
+    "count": 762,
     "avg": 3.98
    },
    {
+    "id": "DA_EdgeOfNight",
+    "count": 718,
+    "avg": 3.99
+   },
+   {
     "id": "DA_TitansResolve",
-    "count": 172,
-    "avg": 3.94
+    "count": 174,
+    "avg": 3.95
    },
    {
     "id": "DA_LastWhisper",
-    "count": 129,
-    "avg": 3.99
+    "count": 130,
+    "avg": 4.01
    }
   ],
   "builds": [
@@ -2297,8 +2292,8 @@
      "DA_EdgeOfNight",
      "DA_SteraksGage"
     ],
-    "avg": 3.9786,
-    "count": 701
+    "avg": 3.993,
+    "count": 718
    },
    {
     "comp": "427029",
@@ -2307,8 +2302,8 @@
      "DA_LastWhisper",
      "DA_TitansResolve"
     ],
-    "avg": 3.9922,
-    "count": 129
+    "avg": 4.0077,
+    "count": 130
    },
    {
     "comp": "427027",
@@ -2317,8 +2312,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 3.7674,
-    "count": 43
+    "avg": 3.7955,
+    "count": 44
    }
   ]
  },
@@ -2326,23 +2321,23 @@
   "items": [
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 1755,
+    "count": 1770,
     "avg": 4.37
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 1755,
+    "count": 1770,
     "avg": 4.37
    },
    {
     "id": "DA_SpiritVisage",
-    "count": 1695,
-    "avg": 4.41
+    "count": 1709,
+    "avg": 4.4
    },
    {
     "id": "DA_Evenshroud",
-    "count": 60,
-    "avg": 3.43
+    "count": 61,
+    "avg": 3.48
    }
   ],
   "builds": [
@@ -2353,8 +2348,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.4065,
-    "count": 1695
+    "avg": 4.3985,
+    "count": 1709
    },
    {
     "comp": "427029",
@@ -2363,8 +2358,8 @@
      "DA_GargoyleStoneplate",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.4333,
-    "count": 60
+    "avg": 3.4754,
+    "count": 61
    }
   ]
  },
@@ -2372,18 +2367,18 @@
   "items": [
    {
     "id": "DA_Bloodthirster",
-    "count": 452,
-    "avg": 3.49
+    "count": 468,
+    "avg": 3.5
    },
    {
     "id": "DA_SteraksGage",
-    "count": 452,
-    "avg": 3.49
+    "count": 468,
+    "avg": 3.5
    },
    {
     "id": "DA_TitansResolve",
-    "count": 452,
-    "avg": 3.49
+    "count": 468,
+    "avg": 3.5
    }
   ],
   "builds": [
@@ -2394,8 +2389,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 3.4867,
-    "count": 452
+    "avg": 3.5021,
+    "count": 468
    }
   ]
  },
@@ -2403,18 +2398,18 @@
   "items": [
    {
     "id": "DA_SunfireCape",
-    "count": 150,
-    "avg": 3.79
+    "count": 152,
+    "avg": 3.78
    },
    {
     "id": "DA_Evenshroud",
-    "count": 124,
-    "avg": 3.62
+    "count": 126,
+    "avg": 3.61
    },
    {
     "id": "DA_ProtectorsVow",
-    "count": 124,
-    "avg": 3.62
+    "count": 126,
+    "avg": 3.61
    },
    {
     "id": "DA_GargoyleStoneplate",
@@ -2445,8 +2440,8 @@
      "DA_ProtectorsVow",
      "DA_SunfireCape"
     ],
-    "avg": 3.621,
-    "count": 124
+    "avg": 3.6111,
+    "count": 126
    },
    {
     "comp": "427020",
@@ -2474,33 +2469,33 @@
   "items": [
    {
     "id": "DA_Bloodthirster",
-    "count": 258,
-    "avg": 4
+    "count": 264,
+    "avg": 4.03
    },
    {
     "id": "DA_InfinityEdge",
-    "count": 258,
-    "avg": 4
-   },
-   {
-    "id": "DA_LastWhisper",
-    "count": 142,
-    "avg": 3.86
+    "count": 264,
+    "avg": 4.03
    },
    {
     "id": "DA_EdgeOfNight",
-    "count": 141,
-    "avg": 4.09
+    "count": 146,
+    "avg": 4.11
+   },
+   {
+    "id": "DA_LastWhisper",
+    "count": 144,
+    "avg": 3.86
    },
    {
     "id": "DA_GiantSlayer",
-    "count": 25,
-    "avg": 3.68
+    "count": 26,
+    "avg": 3.58
    },
    {
     "id": "DA_HandOfJustice",
-    "count": 25,
-    "avg": 3.68
+    "count": 26,
+    "avg": 3.58
    }
   ],
   "builds": [
@@ -2511,8 +2506,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 3.8592,
-    "count": 142
+    "avg": 3.8611,
+    "count": 144
    },
    {
     "comp": "427012",
@@ -2521,8 +2516,8 @@
      "DA_EdgeOfNight",
      "DA_InfinityEdge"
     ],
-    "avg": 4.181,
-    "count": 116
+    "avg": 4.225,
+    "count": 120
    },
    {
     "comp": "427038",
@@ -2531,37 +2526,37 @@
      "DA_GiantSlayer",
      "DA_HandOfJustice"
     ],
-    "avg": 3.68,
-    "count": 25
+    "avg": 3.5769,
+    "count": 26
    }
   ]
  },
  "DA_Taliyah19": {
   "items": [
    {
-    "id": "DA_RabadonsDeathcap",
-    "count": 1117,
+    "id": "DA_JeweledGauntlet",
+    "count": 1171,
     "avg": 4.17
    },
    {
     "id": "DA_SpearOfShojin",
-    "count": 1090,
+    "count": 1143,
+    "avg": 4.18
+   },
+   {
+    "id": "DA_RabadonsDeathcap",
+    "count": 1080,
     "avg": 4.19
    },
    {
-    "id": "DA_JeweledGauntlet",
-    "count": 1063,
-    "avg": 4.2
-   },
-   {
-    "id": "DA_VoidStaff",
-    "count": 54,
-    "avg": 3.72
+    "id": "DA_ArchangelsStaff",
+    "count": 91,
+    "avg": 3.87
    },
    {
     "id": "DA_NashorsTooth",
-    "count": 27,
-    "avg": 3.56
+    "count": 28,
+    "avg": 3.61
    }
   ],
   "builds": [
@@ -2572,18 +2567,18 @@
      "DA_RabadonsDeathcap",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.2124,
-    "count": 1036
+    "avg": 4.2063,
+    "count": 1052
    },
    {
     "comp": "427012",
     "items": [
-     "DA_RabadonsDeathcap",
-     "DA_SpearOfShojin",
-     "DA_VoidStaff"
+     "DA_ArchangelsStaff",
+     "DA_JeweledGauntlet",
+     "DA_SpearOfShojin"
     ],
-    "avg": 3.7222,
-    "count": 54
+    "avg": 3.8681,
+    "count": 91
    },
    {
     "comp": "427019",
@@ -2592,8 +2587,8 @@
      "DA_NashorsTooth",
      "DA_RabadonsDeathcap"
     ],
-    "avg": 3.5556,
-    "count": 27
+    "avg": 3.6071,
+    "count": 28
    }
   ]
  },
@@ -2601,32 +2596,32 @@
   "items": [
    {
     "id": "DA_SteraksGage",
-    "count": 1016,
+    "count": 1031,
     "avg": 4.87
    },
    {
     "id": "DA_TitansResolve",
-    "count": 1016,
+    "count": 1031,
     "avg": 4.87
    },
    {
     "id": "DA_Bloodthirster",
-    "count": 988,
+    "count": 1003,
     "avg": 4.89
    },
    {
     "id": "DA_HandOfJustice",
-    "count": 373,
+    "count": 378,
     "avg": 3.95
    },
    {
     "id": "DA_EdgeOfNight",
-    "count": 345,
+    "count": 350,
     "avg": 3.92
    },
    {
     "id": "DA_InfinityEdge",
-    "count": 345,
+    "count": 350,
     "avg": 3.92
    }
   ],
@@ -2638,8 +2633,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 4.8877,
-    "count": 988
+    "avg": 4.8903,
+    "count": 1003
    },
    {
     "comp": "427029",
@@ -2648,8 +2643,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 3.9188,
-    "count": 345
+    "avg": 3.9171,
+    "count": 350
    },
    {
     "comp": "427025",
@@ -2667,17 +2662,17 @@
   "items": [
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 368,
+    "count": 378,
     "avg": 3.48
    },
    {
     "id": "DA_SpiritVisage",
-    "count": 368,
+    "count": 378,
     "avg": 3.48
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 368,
+    "count": 378,
     "avg": 3.48
    }
   ],
@@ -2689,8 +2684,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.4837,
-    "count": 368
+    "avg": 3.4841,
+    "count": 378
    }
   ]
  },
@@ -2698,28 +2693,33 @@
   "items": [
    {
     "id": "DA_JeweledGauntlet",
-    "count": 534,
-    "avg": 4.29
+    "count": 548,
+    "avg": 4.3
    },
    {
     "id": "DA_SpearOfShojin",
-    "count": 534,
-    "avg": 4.29
+    "count": 548,
+    "avg": 4.3
    },
    {
     "id": "DA_StrikersFlail",
-    "count": 534,
-    "avg": 4.29
+    "count": 548,
+    "avg": 4.3
    },
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 167,
-    "avg": 3.37
+    "count": 244,
+    "avg": 3.84
    },
    {
     "id": "DA_SpiritVisage",
-    "count": 72,
-    "avg": 3.35
+    "count": 204,
+    "avg": 3.95
+   },
+   {
+    "id": "DA_WarmogsArmor",
+    "count": 187,
+    "avg": 4.03
    },
    {
     "id": "DA_Crownguard",
@@ -2740,18 +2740,18 @@
      "DA_SpearOfShojin",
      "DA_StrikersFlail"
     ],
-    "avg": 4.2921,
-    "count": 534
+    "avg": 4.2993,
+    "count": 548
    },
    {
     "comp": "427015",
     "items": [
      "DA_GargoyleStoneplate",
-     "DA_GargoyleStoneplate",
-     "DA_SpiritVisage"
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
     ],
-    "avg": 3.4364,
-    "count": 55
+    "avg": 4.0267,
+    "count": 187
    },
    {
     "comp": "427031",
@@ -2779,18 +2779,18 @@
   "items": [
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 589,
+    "count": 596,
     "avg": 4.06
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 589,
+    "count": 596,
     "avg": 4.06
    },
    {
     "id": "DA_Crownguard",
-    "count": 572,
-    "avg": 4.09
+    "count": 579,
+    "avg": 4.08
    },
    {
     "id": "DA_DragonsClaw",
@@ -2806,8 +2806,8 @@
      "DA_GargoyleStoneplate",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.0874,
-    "count": 572
+    "avg": 4.0846,
+    "count": 579
    },
    {
     "comp": "427018",
@@ -2825,28 +2825,28 @@
   "items": [
    {
     "id": "DA_InfinityEdge",
-    "count": 2966,
+    "count": 3015,
     "avg": 4.1
    },
    {
     "id": "DA_LastWhisper",
-    "count": 2649,
+    "count": 2696,
     "avg": 4.05
    },
    {
     "id": "DA_Deathblade",
-    "count": 2557,
+    "count": 2604,
     "avg": 4.05
    },
    {
     "id": "DA_GuinsoosRageblade",
-    "count": 409,
-    "avg": 4.41
+    "count": 411,
+    "avg": 4.4
    },
    {
     "id": "DA_StrikersFlail",
-    "count": 317,
-    "avg": 4.5
+    "count": 319,
+    "avg": 4.47
    }
   ],
   "builds": [
@@ -2857,8 +2857,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 4.0481,
-    "count": 2557
+    "avg": 4.0507,
+    "count": 2604
    },
    {
     "comp": "427032",
@@ -2867,8 +2867,8 @@
      "DA_InfinityEdge",
      "DA_StrikersFlail"
     ],
-    "avg": 4.4953,
-    "count": 317
+    "avg": 4.4734,
+    "count": 319
    },
    {
     "comp": "427034",
@@ -2885,29 +2885,34 @@
  "DA_MissFortune19": {
   "items": [
    {
-    "id": "DA_InfinityEdge",
-    "count": 1141,
+    "id": "DA_LastWhisper",
+    "count": 1065,
     "avg": 3.99
    },
    {
-    "id": "DA_LastWhisper",
-    "count": 1085,
-    "avg": 3.97
-   },
-   {
-    "id": "DA_SpearOfShojin",
-    "count": 1026,
+    "id": "DA_InfinityEdge",
+    "count": 1058,
     "avg": 4.08
    },
    {
+    "id": "DA_SpearOfShojin",
+    "count": 1058,
+    "avg": 4.08
+   },
+   {
+    "id": "DA_GuinsoosRageblade",
+    "count": 64,
+    "avg": 2.92
+   },
+   {
     "id": "DA_RedBuff",
-    "count": 115,
-    "avg": 3.22
+    "count": 64,
+    "avg": 2.92
    },
    {
     "id": "DA_Deathblade",
-    "count": 56,
-    "avg": 4.54
+    "count": 57,
+    "avg": 4.51
    }
   ],
   "builds": [
@@ -2918,8 +2923,8 @@
      "DA_LastWhisper",
      "DA_SpearOfShojin"
     ],
-    "avg": 3.9883,
-    "count": 769
+    "avg": 3.9786,
+    "count": 794
    },
    {
     "comp": "427040",
@@ -2928,18 +2933,18 @@
      "DA_LastWhisper",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.3134,
-    "count": 201
+    "avg": 4.3478,
+    "count": 207
    },
    {
     "comp": "427032",
     "items": [
-     "DA_InfinityEdge",
+     "DA_GuinsoosRageblade",
      "DA_LastWhisper",
      "DA_RedBuff"
     ],
-    "avg": 3.2174,
-    "count": 115
+    "avg": 2.9219,
+    "count": 64
    },
    {
     "comp": "427039",
@@ -2948,8 +2953,8 @@
      "DA_InfinityEdge",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.5357,
-    "count": 56
+    "avg": 4.5088,
+    "count": 57
    }
   ]
  },
@@ -2957,28 +2962,28 @@
   "items": [
    {
     "id": "DA_SpiritVisage",
-    "count": 254,
-    "avg": 4.37
+    "count": 262,
+    "avg": 4.38
    },
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 212,
+    "count": 218,
     "avg": 4.58
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 212,
+    "count": 218,
     "avg": 4.58
    },
    {
     "id": "DA_Evenshroud",
-    "count": 42,
-    "avg": 3.29
+    "count": 44,
+    "avg": 3.39
    },
    {
     "id": "DA_SunfireCape",
-    "count": 42,
-    "avg": 3.29
+    "count": 44,
+    "avg": 3.39
    }
   ],
   "builds": [
@@ -2989,8 +2994,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.5802,
-    "count": 212
+    "avg": 4.5826,
+    "count": 218
    },
    {
     "comp": "427035",
@@ -2999,8 +3004,8 @@
      "DA_SpiritVisage",
      "DA_SunfireCape"
     ],
-    "avg": 3.2857,
-    "count": 42
+    "avg": 3.3864,
+    "count": 44
    }
   ]
  },
@@ -3008,31 +3013,26 @@
   "items": [
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 938,
-    "avg": 3.88
+    "count": 458,
+    "avg": 3.57
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 651,
-    "avg": 4.03
+    "count": 92,
+    "avg": 3.9
    },
    {
-    "id": "DA_SpiritVisage",
-    "count": 562,
-    "avg": 4.04
+    "id": "DA_Crownguard",
+    "count": 70,
+    "avg": 3.19
+   },
+   {
+    "id": "DA_ProtectorsVow",
+    "count": 70,
+    "avg": 3.19
    }
   ],
   "builds": [
-   {
-    "comp": "427033",
-    "items": [
-     "DA_GargoyleStoneplate",
-     "DA_SpiritVisage",
-     "DA_WarmogsArmor"
-    ],
-    "avg": 4.0427,
-    "count": 562
-   },
    {
     "comp": "427019",
     "items": [
@@ -3040,8 +3040,18 @@
      "DA_GargoyleStoneplate",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.9213,
-    "count": 89
+    "avg": 3.9022,
+    "count": 92
+   },
+   {
+    "comp": "427033",
+    "items": [
+     "DA_Crownguard",
+     "DA_GargoyleStoneplate",
+     "DA_ProtectorsVow"
+    ],
+    "avg": 3.1857,
+    "count": 70
    },
    {
     "comp": "427020",
@@ -3050,8 +3060,8 @@
      "DA_GargoyleStoneplate",
      "DA_GargoyleStoneplate"
     ],
-    "avg": 3.3788,
-    "count": 66
+    "avg": 3.4118,
+    "count": 68
    }
   ]
  },
@@ -3059,18 +3069,18 @@
   "items": [
    {
     "id": "DA_ArchangelsStaff",
-    "count": 539,
-    "avg": 4
+    "count": 542,
+    "avg": 3.99
    },
    {
     "id": "DA_Morellonomicon",
-    "count": 471,
-    "avg": 3.97
+    "count": 474,
+    "avg": 3.96
    },
    {
     "id": "DA_VoidStaff",
-    "count": 471,
-    "avg": 3.97
+    "count": 474,
+    "avg": 3.96
    },
    {
     "id": "DA_BlueBuff",
@@ -3091,8 +3101,8 @@
      "DA_Morellonomicon",
      "DA_VoidStaff"
     ],
-    "avg": 3.9703,
-    "count": 471
+    "avg": 3.9641,
+    "count": 474
    },
    {
     "comp": "427020",
@@ -3110,18 +3120,18 @@
   "items": [
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 2573,
-    "avg": 4.28
+    "count": 2625,
+    "avg": 4.29
    },
    {
     "id": "DA_SpiritVisage",
-    "count": 2573,
-    "avg": 4.28
+    "count": 2625,
+    "avg": 4.29
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 2573,
-    "avg": 4.28
+    "count": 2625,
+    "avg": 4.29
    }
   ],
   "builds": [
@@ -3132,8 +3142,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.2794,
-    "count": 2573
+    "avg": 4.2853,
+    "count": 2625
    }
   ]
  },
@@ -3141,23 +3151,23 @@
   "items": [
    {
     "id": "DA_HextechGunblade",
-    "count": 182,
-    "avg": 4.44
+    "count": 185,
+    "avg": 4.42
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 182,
-    "avg": 4.44
+    "count": 185,
+    "avg": 4.42
    },
    {
     "id": "DA_BlueBuff",
-    "count": 130,
-    "avg": 4.64
+    "count": 132,
+    "avg": 4.61
    },
    {
     "id": "DA_NashorsTooth",
-    "count": 52,
-    "avg": 3.94
+    "count": 53,
+    "avg": 3.96
    }
   ],
   "builds": [
@@ -3168,8 +3178,8 @@
      "DA_HextechGunblade",
      "DA_JeweledGauntlet"
     ],
-    "avg": 4.6385,
-    "count": 130
+    "avg": 4.6061,
+    "count": 132
    },
    {
     "comp": "427024",
@@ -3178,39 +3188,39 @@
      "DA_JeweledGauntlet",
      "DA_NashorsTooth"
     ],
-    "avg": 3.9423,
-    "count": 52
+    "avg": 3.9623,
+    "count": 53
    }
   ]
  },
  "DA_Yuumi19": {
   "items": [
    {
-    "id": "DA_HextechGunblade",
-    "count": 36,
-    "avg": 3.97
+    "id": "DA_JeweledGauntlet",
+    "count": 95,
+    "avg": 4.25
    },
    {
-    "id": "DA_Morellonomicon",
-    "count": 36,
-    "avg": 3.97
+    "id": "DA_NashorsTooth",
+    "count": 95,
+    "avg": 4.25
    },
    {
-    "id": "DA_VoidStaff",
-    "count": 36,
-    "avg": 3.97
+    "id": "DA_StrikersFlail",
+    "count": 95,
+    "avg": 4.25
    }
   ],
   "builds": [
    {
     "comp": "427034",
     "items": [
-     "DA_HextechGunblade",
-     "DA_Morellonomicon",
-     "DA_VoidStaff"
+     "DA_JeweledGauntlet",
+     "DA_NashorsTooth",
+     "DA_StrikersFlail"
     ],
-    "avg": 3.9722,
-    "count": 36
+    "avg": 4.2526,
+    "count": 95
    }
   ]
  },
@@ -3218,18 +3228,18 @@
   "items": [
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 201,
-    "avg": 4.36
+    "count": 206,
+    "avg": 4.39
    },
    {
     "id": "DA_SpiritVisage",
-    "count": 175,
-    "avg": 4.41
+    "count": 178,
+    "avg": 4.43
    },
    {
     "id": "DA_WarmogsArmor",
-    "count": 149,
-    "avg": 4.46
+    "count": 150,
+    "avg": 4.48
    }
   ],
   "builds": [
@@ -3240,8 +3250,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.4631,
-    "count": 149
+    "avg": 4.48,
+    "count": 150
    },
    {
     "comp": "427034",
@@ -3250,8 +3260,8 @@
      "DA_GargoyleStoneplate",
      "DA_SpiritVisage"
     ],
-    "avg": 4.0769,
-    "count": 26
+    "avg": 4.1429,
+    "count": 28
    }
   ]
  },
@@ -3259,13 +3269,13 @@
   "items": [
    {
     "id": "DA_Bard19_UniqueItem",
-    "count": 127,
-    "avg": 4.34
+    "count": 130,
+    "avg": 4.35
    },
    {
     "id": "DA_TacticiansCrown",
-    "count": 127,
-    "avg": 4.34
+    "count": 130,
+    "avg": 4.35
    },
    {
     "id": "DA_Morellonomicon",
@@ -3285,8 +3295,8 @@
      "DA_Bard19_UniqueItem",
      "DA_TacticiansCrown"
     ],
-    "avg": 4.0632,
-    "count": 95
+    "avg": 4.0619,
+    "count": 97
    },
    {
     "comp": "427035",
@@ -3294,8 +3304,8 @@
      "DA_Bard19_UniqueItem",
      "DA_TacticiansCrown"
     ],
-    "avg": 5.1563,
-    "count": 32
+    "avg": 5.2121,
+    "count": 33
    },
    {
     "comp": "427030",
@@ -3312,18 +3322,18 @@
   "items": [
    {
     "id": "DA_GuinsoosRageblade",
-    "count": 824,
-    "avg": 4.53
+    "count": 829,
+    "avg": 4.52
    },
    {
     "id": "DA_KrakensFury",
-    "count": 824,
-    "avg": 4.53
+    "count": 829,
+    "avg": 4.52
    },
    {
     "id": "DA_LastWhisper",
-    "count": 824,
-    "avg": 4.53
+    "count": 829,
+    "avg": 4.52
    }
   ],
   "builds": [
@@ -3334,8 +3344,8 @@
      "DA_KrakensFury",
      "DA_LastWhisper"
     ],
-    "avg": 4.5598,
-    "count": 736
+    "avg": 4.5568,
+    "count": 740
    },
    {
     "comp": "427042",
@@ -3344,8 +3354,8 @@
      "DA_KrakensFury",
      "DA_LastWhisper"
     ],
-    "avg": 4.25,
-    "count": 88
+    "avg": 4.2584,
+    "count": 89
    }
   ]
  },
@@ -3353,17 +3363,17 @@
   "items": [
    {
     "id": "DA_Bloodthirster",
-    "count": 1981,
+    "count": 2003,
     "avg": 4.8
    },
    {
     "id": "DA_SteraksGage",
-    "count": 1981,
+    "count": 2003,
     "avg": 4.8
    },
    {
     "id": "DA_TitansResolve",
-    "count": 1981,
+    "count": 2003,
     "avg": 4.8
    }
   ],
@@ -3375,8 +3385,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 4.9097,
-    "count": 1705
+    "avg": 4.9077,
+    "count": 1722
    },
    {
     "comp": "427030",
@@ -3385,8 +3395,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 4.1341,
-    "count": 276
+    "avg": 4.1388,
+    "count": 281
    }
   ]
  },
@@ -3394,18 +3404,18 @@
   "items": [
    {
     "id": "DA_EdgeOfNight",
-    "count": 54,
-    "avg": 4.11
+    "count": 55,
+    "avg": 4.09
    },
    {
     "id": "DA_HandOfJustice",
-    "count": 54,
-    "avg": 4.11
+    "count": 55,
+    "avg": 4.09
    },
    {
     "id": "DA_StrikersFlail",
-    "count": 54,
-    "avg": 4.11
+    "count": 55,
+    "avg": 4.09
    }
   ],
   "builds": [
@@ -3416,8 +3426,8 @@
      "DA_HandOfJustice",
      "DA_StrikersFlail"
     ],
-    "avg": 4.1111,
-    "count": 54
+    "avg": 4.0909,
+    "count": 55
    }
   ]
  },
@@ -3425,18 +3435,18 @@
   "items": [
    {
     "id": "DA_Deathblade",
-    "count": 2045,
-    "avg": 4.5
+    "count": 2074,
+    "avg": 4.49
    },
    {
     "id": "DA_InfinityEdge",
-    "count": 2045,
-    "avg": 4.5
+    "count": 2074,
+    "avg": 4.49
    },
    {
     "id": "DA_SpearOfShojin",
-    "count": 2045,
-    "avg": 4.5
+    "count": 2074,
+    "avg": 4.49
    }
   ],
   "builds": [
@@ -3447,8 +3457,8 @@
      "DA_InfinityEdge",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.5037,
-    "count": 2045
+    "avg": 4.4879,
+    "count": 2074
    }
   ]
  },
@@ -3456,22 +3466,22 @@
   "items": [
    {
     "id": "DA_GuinsoosRageblade",
-    "count": 217,
-    "avg": 3.82
+    "count": 221,
+    "avg": 3.81
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 217,
-    "avg": 3.82
+    "count": 221,
+    "avg": 3.81
    },
    {
     "id": "DA_VoidStaff",
-    "count": 113,
-    "avg": 3.75
+    "count": 116,
+    "avg": 3.74
    },
    {
     "id": "DA_HextechGunblade",
-    "count": 104,
+    "count": 105,
     "avg": 3.9
    }
   ],
@@ -3483,8 +3493,8 @@
      "DA_JeweledGauntlet",
      "DA_VoidStaff"
     ],
-    "avg": 3.7522,
-    "count": 113
+    "avg": 3.7414,
+    "count": 116
    },
    {
     "comp": "427037",
@@ -3493,8 +3503,8 @@
      "DA_HextechGunblade",
      "DA_JeweledGauntlet"
     ],
-    "avg": 3.9038,
-    "count": 104
+    "avg": 3.8952,
+    "count": 105
    }
   ]
  },
@@ -3502,18 +3512,18 @@
   "items": [
    {
     "id": "DA_BlueBuff",
-    "count": 103,
-    "avg": 4.35
+    "count": 104,
+    "avg": 4.33
    },
    {
     "id": "DA_HextechGunblade",
-    "count": 103,
-    "avg": 4.35
+    "count": 104,
+    "avg": 4.33
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 103,
-    "avg": 4.35
+    "count": 104,
+    "avg": 4.33
    }
   ],
   "builds": [
@@ -3524,8 +3534,8 @@
      "DA_HextechGunblade",
      "DA_JeweledGauntlet"
     ],
-    "avg": 4.3495,
-    "count": 103
+    "avg": 4.3269,
+    "count": 104
    }
   ]
  },
@@ -3595,17 +3605,17 @@
   "items": [
    {
     "id": "DA_Deathblade",
-    "count": 412,
+    "count": 417,
     "avg": 5.16
    },
    {
     "id": "DA_InfinityEdge",
-    "count": 412,
+    "count": 417,
     "avg": 5.16
    },
    {
     "id": "DA_SpearOfShojin",
-    "count": 412,
+    "count": 417,
     "avg": 5.16
    }
   ],
@@ -3617,8 +3627,8 @@
      "DA_InfinityEdge",
      "DA_SpearOfShojin"
     ],
-    "avg": 5.1553,
-    "count": 412
+    "avg": 5.1631,
+    "count": 417
    }
   ]
  },
@@ -3626,18 +3636,18 @@
   "items": [
    {
     "id": "DA_EdgeOfNight",
-    "count": 534,
-    "avg": 4.2
+    "count": 542,
+    "avg": 4.19
    },
    {
     "id": "DA_HandOfJustice",
-    "count": 534,
-    "avg": 4.2
+    "count": 542,
+    "avg": 4.19
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 534,
-    "avg": 4.2
+    "count": 542,
+    "avg": 4.19
    }
   ],
   "builds": [
@@ -3648,8 +3658,8 @@
      "DA_HandOfJustice",
      "DA_JeweledGauntlet"
     ],
-    "avg": 4.1985,
-    "count": 534
+    "avg": 4.19,
+    "count": 542
    }
   ]
  },
@@ -3657,18 +3667,18 @@
   "items": [
    {
     "id": "DA_Evenshroud",
-    "count": 40,
-    "avg": 4.33
+    "count": 42,
+    "avg": 4.31
    },
    {
     "id": "DA_GargoyleStoneplate",
-    "count": 40,
-    "avg": 4.33
+    "count": 42,
+    "avg": 4.31
    },
    {
     "id": "DA_SunfireCape",
-    "count": 40,
-    "avg": 4.33
+    "count": 42,
+    "avg": 4.31
    }
   ],
   "builds": [
@@ -3679,8 +3689,8 @@
      "DA_GargoyleStoneplate",
      "DA_SunfireCape"
     ],
-    "avg": 4.325,
-    "count": 40
+    "avg": 4.3095,
+    "count": 42
    }
   ]
  },
@@ -3688,18 +3698,18 @@
   "items": [
    {
     "id": "DA_HandOfJustice",
-    "count": 118,
-    "avg": 4.09
+    "count": 119,
+    "avg": 4.11
    },
    {
     "id": "DA_InfinityEdge",
-    "count": 118,
-    "avg": 4.09
+    "count": 119,
+    "avg": 4.11
    },
    {
     "id": "DA_SteraksGage",
-    "count": 118,
-    "avg": 4.09
+    "count": 119,
+    "avg": 4.11
    }
   ],
   "builds": [
@@ -3710,8 +3720,8 @@
      "DA_InfinityEdge",
      "DA_SteraksGage"
     ],
-    "avg": 4.0932,
-    "count": 118
+    "avg": 4.1092,
+    "count": 119
    }
   ]
  },
@@ -3750,18 +3760,18 @@
   "items": [
    {
     "id": "DA_EdgeOfNight",
-    "count": 227,
-    "avg": 4.18
+    "count": 233,
+    "avg": 4.2
    },
    {
     "id": "DA_HandOfJustice",
-    "count": 227,
-    "avg": 4.18
+    "count": 233,
+    "avg": 4.2
    },
    {
     "id": "DA_JeweledGauntlet",
-    "count": 227,
-    "avg": 4.18
+    "count": 233,
+    "avg": 4.2
    }
   ],
   "builds": [
@@ -3772,8 +3782,8 @@
      "DA_HandOfJustice",
      "DA_JeweledGauntlet"
     ],
-    "avg": 4.185,
-    "count": 227
+    "avg": 4.1974,
+    "count": 233
    }
   ]
  },

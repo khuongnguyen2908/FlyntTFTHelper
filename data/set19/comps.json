@@ -47,8 +47,8 @@
      "DA_GargoyleStoneplate",
      "DA_SpiritVisage"
     ],
-    "avg": 2.2604,
-    "count": 6013
+    "avg": 2.2569,
+    "count": 6119
    },
    {
     "unit": "DA_Ziggs19",
@@ -57,8 +57,8 @@
      "DA_JeweledGauntlet",
      "DA_StrikersFlail"
     ],
-    "avg": 2.6024,
-    "count": 7078
+    "avg": 2.6068,
+    "count": 7302
    },
    {
     "unit": "DA_Teemo19",
@@ -67,8 +67,8 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 1.8889,
-    "count": 3330
+    "avg": 1.8897,
+    "count": 3373
    },
    {
     "unit": "DA_Lulu19",
@@ -77,8 +77,8 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 2.8778,
-    "count": 998
+    "avg": 2.8714,
+    "count": 1011
    }
   ],
   "carries": [
@@ -96,9 +96,9 @@
    null,
    null
   ],
-  "count": 114654,
-  "avg": 3.0279,
-  "pick": 0.0802208043587354,
+  "count": 116575,
+  "avg": 3.0297,
+  "pick": 0.07967641427981531,
   "levelling": "lvl 5",
   "levellingVi": "Reroll cấp 5",
   "extraUnits": [
@@ -112,7 +112,7 @@
    "DA_Malzahar19"
   ],
   "tier": "S",
-  "share": 0.07652088717083484
+  "share": 0.07653260522043294
  },
  {
   "id": "427010",
@@ -165,18 +165,18 @@
      "DA_RabadonsDeathcap",
      "DA_StrikersFlail"
     ],
-    "avg": 2.6842,
-    "count": 4481
+    "avg": 2.6893,
+    "count": 4589
    },
    {
     "unit": "DA_Alune19",
     "items": [
-     "DA_ArchangelsStaff",
+     "DA_BlueBuff",
      "DA_Morellonomicon",
      "DA_VoidStaff"
     ],
-    "avg": 2.183,
-    "count": 153
+    "avg": 2.5096,
+    "count": 416
    },
    {
     "unit": "DA_Ekko19",
@@ -185,8 +185,8 @@
      "DA_Crownguard",
      "DA_GargoyleStoneplate"
     ],
-    "avg": 2.527,
-    "count": 1351
+    "avg": 2.5234,
+    "count": 1391
    },
    {
     "unit": "DA_BaronNashor19",
@@ -195,8 +195,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 2.0279,
-    "count": 358
+    "avg": 2.0386,
+    "count": 363
    }
   ],
   "carries": [
@@ -210,9 +210,9 @@
    null,
    null
   ],
-  "count": 46700,
-  "avg": 3.43,
-  "pick": 0.03587353932181518,
+  "count": 47578,
+  "avg": 3.4329,
+  "pick": 0.03585595054869427,
   "levelling": "lvl 7",
   "levellingVi": "Roll cấp 7",
   "extraUnits": [
@@ -220,7 +220,7 @@
    "DA_Seraphine19_Indie"
   ],
   "tier": "S",
-  "share": 0.031167908933643722
+  "share": 0.031235413177591754
  },
  {
   "id": "427005",
@@ -253,8 +253,8 @@
      "DA_SpearOfShojin",
      "DA_StrikersFlail"
     ],
-    "avg": 3.24,
-    "count": 4563
+    "avg": 3.2409,
+    "count": 4690
    },
    {
     "unit": "DA_Gragas19",
@@ -263,8 +263,8 @@
      "DA_GargoyleStoneplate",
      "DA_WarmogsArmor"
     ],
-    "avg": 2.7211,
-    "count": 1022
+    "avg": 2.7258,
+    "count": 1043
    },
    {
     "unit": "DA_AkaliKDA19",
@@ -273,8 +273,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 2.8551,
-    "count": 1787
+    "avg": 2.8653,
+    "count": 1812
    },
    {
     "unit": "DA_Lillia19",
@@ -283,8 +283,8 @@
      "DA_IonicSpark",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.2207,
-    "count": 444
+    "avg": 3.1903,
+    "count": 452
    }
   ],
   "carries": [
@@ -299,23 +299,23 @@
    null,
    null
   ],
-  "count": 63366,
-  "avg": 3.6416,
-  "pick": 0.048376227686572515,
+  "count": 64542,
+  "avg": 3.6397,
+  "pick": 0.04834390680330843,
   "levelling": "lvl 5",
   "levellingVi": "Reroll cấp 5",
   "extraUnits": [
    "DA_Seraphine19_Indie",
    "DA_Ezreal19",
-   "DA_Kennen19",
    "DA_Lux19",
+   "DA_Kennen19",
    "DA_Nasus19",
    "DA_Annie19",
    "DA_Varus19",
    "DA_Qiyana19"
   ],
   "tier": "S",
-  "share": 0.0422909147213976
+  "share": 0.04237244182832668
  },
  {
   "id": "427008",
@@ -359,8 +359,8 @@
      "DA_RabadonsDeathcap",
      "DA_StrikersFlail"
     ],
-    "avg": 2.8203,
-    "count": 3863
+    "avg": 2.8293,
+    "count": 3943
    },
    {
     "unit": "DA_Ekko19",
@@ -369,8 +369,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 2.931,
-    "count": 1637
+    "avg": 2.9347,
+    "count": 1668
    },
    {
     "unit": "DA_Braum19",
@@ -379,8 +379,8 @@
      "DA_GargoyleStoneplate",
      "DA_GargoyleStoneplate"
     ],
-    "avg": 2.6358,
-    "count": 162
+    "avg": 2.6205,
+    "count": 166
    },
    {
     "unit": "DA_BaronNashor19",
@@ -389,8 +389,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 1.99,
-    "count": 300
+    "avg": 1.9868,
+    "count": 302
    }
   ],
   "carries": [
@@ -404,9 +404,9 @@
    null,
    null
   ],
-  "count": 38932,
-  "avg": 3.653,
-  "pick": 0.025141587210552728,
+  "count": 39582,
+  "avg": 3.6577,
+  "pick": 0.025345045484690368,
   "levelling": "lvl 7",
   "levellingVi": "Roll cấp 7",
   "extraUnits": [
@@ -416,7 +416,7 @@
    "DA_Seraphine19_Indie"
   ],
   "tier": "S",
-  "share": 0.025983491019370822
+  "share": 0.025985962511989508
  },
  {
   "id": "427004",
@@ -466,8 +466,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 3.5399,
-    "count": 11360
+    "avg": 3.5421,
+    "count": 11674
    },
    {
     "unit": "DA_Shyvana19",
@@ -477,7 +477,7 @@
      "DA_WarmogsArmor"
     ],
     "avg": 3.2386,
-    "count": 6278
+    "count": 6387
    },
    {
     "unit": "DA_Gwen19",
@@ -486,8 +486,8 @@
      "DA_JeweledGauntlet",
      "DA_StrikersFlail"
     ],
-    "avg": 2.9453,
-    "count": 1042
+    "avg": 2.9461,
+    "count": 1058
    },
    {
     "unit": "DA_Aurora19",
@@ -496,8 +496,8 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 2.848,
-    "count": 487
+    "avg": 2.8571,
+    "count": 497
    }
   ],
   "carries": [
@@ -512,16 +512,16 @@
    null,
    null
   ],
-  "count": 119698,
-  "avg": 3.8686,
-  "pick": 0.07993404545128684,
+  "count": 121687,
+  "avg": 3.8702,
+  "pick": 0.07999549532640114,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "S",
-  "share": 0.07988728829848579
+  "share": 0.07988868223425968
  },
  {
   "id": "427007",
@@ -563,8 +563,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.2445,
-    "count": 4319
+    "avg": 3.248,
+    "count": 4395
    },
    {
     "unit": "DA_19_Ahri",
@@ -573,8 +573,8 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 3.0124,
-    "count": 3720
+    "avg": 3.0182,
+    "count": 3781
    },
    {
     "unit": "DA_AkaliKDA19",
@@ -583,8 +583,8 @@
      "DA_EdgeOfNight",
      "DA_RedBuff"
     ],
-    "avg": 2.5531,
-    "count": 875
+    "avg": 2.5729,
+    "count": 899
    },
    {
     "unit": "DA_Kaisa19",
@@ -593,8 +593,8 @@
      "DA_KrakensFury",
      "DA_RedBuff"
     ],
-    "avg": 3.289,
-    "count": 474
+    "avg": 3.2813,
+    "count": 480
    }
   ],
   "carries": [
@@ -608,9 +608,9 @@
    null,
    null
   ],
-  "count": 102665,
-  "avg": 3.962,
-  "pick": 0.05767438526059216,
+  "count": 104086,
+  "avg": 3.964,
+  "pick": 0.05747212733210706,
   "levelling": "Standard",
   "levellingVi": "Tiêu chuẩn (roll cấp 8)",
   "extraUnits": [
@@ -618,7 +618,7 @@
    "DA_Amumu19"
   ],
   "tier": "S",
-  "share": 0.06851934412575017
+  "share": 0.0683334569759724
  },
  {
   "id": "427001",
@@ -676,8 +676,8 @@
      "DA_GargoyleStoneplate",
      "DA_SpiritVisage"
     ],
-    "avg": 2.8915,
-    "count": 461
+    "avg": 2.9145,
+    "count": 468
    },
    {
     "unit": "DA_Ziggs19",
@@ -686,8 +686,8 @@
      "DA_GuinsoosRageblade",
      "DA_HextechGunblade"
     ],
-    "avg": 2.9832,
-    "count": 119
+    "avg": 3.0313,
+    "count": 128
    },
    {
     "unit": "DA_Teemo19",
@@ -696,8 +696,8 @@
      "DA_SpearOfShojin",
      "DA_StrikersFlail"
     ],
-    "avg": 2.4836,
-    "count": 426
+    "avg": 2.4895,
+    "count": 429
    },
    {
     "unit": "DA_Tristana19",
@@ -706,8 +706,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 2.9054,
-    "count": 74
+    "avg": 2.8933,
+    "count": 75
    }
   ],
   "carries": [
@@ -724,9 +724,9 @@
    null,
    null
   ],
-  "count": 12167,
-  "avg": 4.0438,
-  "pick": 0.004968098071546348,
+  "count": 12282,
+  "avg": 4.0519,
+  "pick": 0.004905089029868488,
   "levelling": "lvl 5",
   "levellingVi": "Reroll cấp 5",
   "extraUnits": [
@@ -740,7 +740,7 @@
    "DA_Amumu19"
   ],
   "tier": "A",
-  "share": 0.008120341498836042
+  "share": 0.00806325075974572
  },
  {
   "id": "427006",
@@ -782,18 +782,18 @@
      "DA_KrakensFury",
      "DA_LastWhisper"
     ],
-    "avg": 4.0764,
-    "count": 2068
+    "avg": 4.0714,
+    "count": 2115
    },
    {
     "unit": "DA_Yorick19",
     "items": [
-     "DA_Crownguard",
+     "DA_Evenshroud",
      "DA_GargoyleStoneplate",
-     "DA_ProtectorsVow"
+     "DA_SpiritVisage"
     ],
-    "avg": 3.8053,
-    "count": 262
+    "avg": 3.7682,
+    "count": 220
    },
    {
     "unit": "DA_Pyke19",
@@ -802,8 +802,8 @@
      "DA_EdgeOfNight",
      "DA_SteraksGage"
     ],
-    "avg": 3.5247,
-    "count": 465
+    "avg": 3.5207,
+    "count": 482
    },
    {
     "unit": "DA_Locke19",
@@ -812,8 +812,8 @@
      "DA_JeweledGauntlet",
      "DA_StrikersFlail"
     ],
-    "avg": 3.9852,
-    "count": 135
+    "avg": 4.0288,
+    "count": 139
    }
   ],
   "carries": [
@@ -826,9 +826,9 @@
    null,
    null
   ],
-  "count": 18925,
-  "avg": 4.3504,
-  "pick": 0.015879274499964156,
+  "count": 19325,
+  "avg": 4.3499,
+  "pick": 0.01603538671371548,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [
@@ -836,7 +836,7 @@
    "DA_Seraphine19_Indie"
   ],
   "tier": "A",
-  "share": 0.012630678299126497
+  "share": 0.01268704778798942
  },
  {
   "id": "427002",
@@ -890,8 +890,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.9357,
-    "count": 902
+    "avg": 3.9262,
+    "count": 921
    },
    {
     "unit": "DA_Xayah19",
@@ -900,8 +900,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 3.5361,
-    "count": 485
+    "avg": 3.5273,
+    "count": 495
    },
    {
     "unit": "DA_Janna19",
@@ -910,8 +910,8 @@
      "DA_Morellonomicon",
      "DA_SpearOfShojin"
     ],
-    "avg": 2.9362,
-    "count": 141
+    "avg": 2.965,
+    "count": 143
    },
    {
     "unit": "DA_LeeSin19",
@@ -920,8 +920,8 @@
      "DA_Heavenscale19_DangerousItem",
      "DA_SteraksGage"
     ],
-    "avg": 2.5328,
-    "count": 122
+    "avg": 2.5242,
+    "count": 124
    }
   ],
   "carries": [
@@ -936,16 +936,16 @@
    null,
    null
   ],
-  "count": 22468,
-  "avg": 4.3526,
-  "pick": 0.01636676464262671,
+  "count": 22912,
+  "avg": 4.3515,
+  "pick": 0.016560931966915673,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [
    "DA_Amumu19"
   ],
   "tier": "A",
-  "share": 0.01499530145441343
+  "share": 0.015041947680124894
  },
  {
   "id": "427011",
@@ -991,8 +991,8 @@
      "DA_JeweledGauntlet",
      "DA_StrikersFlail"
     ],
-    "avg": 3.9478,
-    "count": 6565
+    "avg": 3.9558,
+    "count": 6659
    },
    {
     "unit": "DA_Yorick19",
@@ -1001,8 +1001,8 @@
      "DA_SpiritVisage",
      "DA_SunfireCape"
     ],
-    "avg": 3.3472,
-    "count": 530
+    "avg": 3.3451,
+    "count": 539
    },
    {
     "unit": "DA_Mordekaiser19",
@@ -1011,8 +1011,8 @@
      "DA_EdgeOfNight",
      "DA_GuinsoosRageblade"
     ],
-    "avg": 3.3945,
-    "count": 3754
+    "avg": 3.3981,
+    "count": 3801
    },
    {
     "unit": "DA_Viego19",
@@ -1021,8 +1021,8 @@
      "DA_EdgeOfNight",
      "DA_TitansResolve"
     ],
-    "avg": 3.9206,
-    "count": 340
+    "avg": 3.9244,
+    "count": 344
    }
   ],
   "carries": [
@@ -1036,9 +1036,9 @@
    null,
    null
   ],
-  "count": 88348,
-  "avg": 4.4231,
-  "pick": 0.05032618825722274,
+  "count": 89615,
+  "avg": 4.4248,
+  "pick": 0.050220854136166275,
   "levelling": "Standard",
   "levellingVi": "Tiêu chuẩn (roll cấp 8)",
   "extraUnits": [
@@ -1046,7 +1046,7 @@
    "DA_Seraphine19_Indie"
   ],
   "tier": "A",
-  "share": 0.05896407748328813
+  "share": 0.05883310672810721
  },
  {
   "id": "427003",
@@ -1108,8 +1108,8 @@
      "DA_JeweledGauntlet",
      "DA_StrikersFlail"
     ],
-    "avg": 4.0684,
-    "count": 3216
+    "avg": 4.0763,
+    "count": 3275
    },
    {
     "unit": "DA_Yorick19",
@@ -1118,8 +1118,8 @@
      "DA_SpiritVisage",
      "DA_SunfireCape"
     ],
-    "avg": 3.5523,
-    "count": 239
+    "avg": 3.5391,
+    "count": 243
    },
    {
     "unit": "DA_Smeech19",
@@ -1128,8 +1128,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 2.9418,
-    "count": 1735
+    "avg": 2.9383,
+    "count": 1768
    },
    {
     "unit": "DA_Mel19",
@@ -1138,8 +1138,8 @@
      "DA_Morellonomicon",
      "DA_VoidStaff"
     ],
-    "avg": 2.9695,
-    "count": 131
+    "avg": 2.9848,
+    "count": 132
    }
   ],
   "carries": [
@@ -1153,14 +1153,14 @@
    null,
    null
   ],
-  "count": 21223,
-  "avg": 4.4378,
-  "pick": 0.01606566778980572,
+  "count": 21639,
+  "avg": 4.4362,
+  "pick": 0.016254363902548894,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [],
   "tier": "A",
-  "share": 0.014164379685197445
+  "share": 0.01420621097460818
  },
  {
   "id": "427009",
@@ -1214,8 +1214,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 3.568,
-    "count": 125
+    "avg": 3.5814,
+    "count": 129
    },
    {
     "unit": "DA_Jinx19",
@@ -1224,8 +1224,8 @@
      "DA_GuinsoosRageblade",
      "DA_KrakensFury"
     ],
-    "avg": 3.8653,
-    "count": 438
+    "avg": 3.8568,
+    "count": 447
    },
    {
     "unit": "DA_Wukong19",
@@ -1234,8 +1234,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.8775,
-    "count": 351
+    "avg": 3.8792,
+    "count": 356
    },
    {
     "unit": "DA_Shyvana19",
@@ -1244,8 +1244,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.7655,
-    "count": 371
+    "avg": 3.79,
+    "count": 381
    }
   ],
   "carries": [
@@ -1260,14 +1260,118 @@
    null,
    null
   ],
-  "count": 16671,
-  "avg": 4.5088,
-  "pick": 0.010947021291848878,
+  "count": 16931,
+  "avg": 4.5108,
+  "pick": 0.01087378154835642,
   "levelling": "Fast 8",
   "levellingVi": "Lên nhanh cấp 8",
   "extraUnits": [],
   "tier": "A",
-  "share": 0.011126342822971617
+  "share": 0.011115363834331118
+ },
+ {
+  "id": "427013",
+  "name": "Dũng Sĩ + Kayle",
+  "units": [
+   "DA_Ashe19",
+   "DA_Kayle19",
+   "DA_Locke19",
+   "DA_Olaf19",
+   "DA_Pyke19",
+   "DA_Taric19",
+   "DA_Yorick19",
+   "DA_Zac19",
+   "DA_Zeri19"
+  ],
+  "traits": [
+   {
+    "id": "DA_DemonVision19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Juggernaut19",
+    "tier": 2
+   },
+   {
+    "id": "DA_OceanSong19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Pentakill19",
+    "tier": 1
+   },
+   {
+    "id": "DA_Swiftstriker19",
+    "tier": 3
+   },
+   {
+    "id": "DA_Zeri19_UniqueTrait",
+    "tier": 1
+   }
+  ],
+  "builds": [
+   {
+    "unit": "DA_Kayle19",
+    "items": [
+     "DA_GuinsoosRageblade",
+     "DA_JeweledGauntlet",
+     "DA_RabadonsDeathcap"
+    ],
+    "avg": 4.2231,
+    "count": 130
+   },
+   {
+    "unit": "DA_Zac19",
+    "items": [
+     "DA_Evenshroud",
+     "DA_GargoyleStoneplate",
+     "DA_SunfireCape"
+    ],
+    "avg": 3.1714,
+    "count": 35
+   },
+   {
+    "unit": "DA_Yorick19",
+    "items": [
+     "DA_BrambleVest",
+     "DA_DragonsClaw",
+     "DA_WarmogsArmor"
+    ],
+    "avg": 3.2941,
+    "count": 17
+   },
+   {
+    "unit": "DA_Zeri19",
+    "items": [
+     "DA_InfinityEdge",
+     "DA_RedBuff",
+     "DA_SpearOfShojin"
+    ],
+    "avg": 3.5316,
+    "count": 79
+   }
+  ],
+  "carries": [
+   "DA_Kayle19",
+   "DA_Zac19",
+   "DA_Yorick19",
+   "DA_Zeri19"
+  ],
+  "topItems": [
+   null,
+   null
+  ],
+  "count": 7712,
+  "avg": 4.5967,
+  "pick": 0.004266926936696823,
+  "levelling": "Fast 9",
+  "levellingVi": "Lên nhanh cấp 9",
+  "extraUnits": [
+   "DA_Gnar19",
+   "DA_Seraphine19_Indie"
+  ],
+  "tier": "A",
+  "share": 0.005063001942611871
  },
  {
   "id": "427023",
@@ -1341,8 +1445,8 @@
      "DA_SunfireCape",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.5556,
-    "count": 27
+    "avg": 3.5,
+    "count": 28
    },
    {
     "unit": "DA_Nidalee19",
@@ -1351,8 +1455,8 @@
      "DA_NashorsTooth",
      "DA_RabadonsDeathcap"
     ],
-    "avg": 3.3333,
-    "count": 27
+    "avg": 3.3929,
+    "count": 28
    },
    {
     "unit": "DA_19_Ahri",
@@ -1367,12 +1471,12 @@
    {
     "unit": "DA_Zeri19",
     "items": [
+     "DA_GiantSlayer",
      "DA_InfinityEdge",
-     "DA_LastWhisper",
      "DA_SpearOfShojin"
     ],
-    "avg": 4,
-    "count": 78
+    "avg": 3.7333,
+    "count": 30
    }
   ],
   "carries": [
@@ -1384,123 +1488,18 @@
   "topItems": [
    null,
    null,
-   null,
    null
   ],
-  "count": 11596,
-  "avg": 4.5923,
-  "pick": 0.008473725715105025,
+  "count": 11804,
+  "avg": 4.5993,
+  "pick": 0.008421237033422176,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "A",
-  "share": 0.007739252076970719
- },
- {
-  "id": "427013",
-  "name": "Dũng Sĩ + Kayle",
-  "units": [
-   "DA_Ashe19",
-   "DA_Kayle19",
-   "DA_Locke19",
-   "DA_Olaf19",
-   "DA_Pyke19",
-   "DA_Taric19",
-   "DA_Yorick19",
-   "DA_Zac19",
-   "DA_Zeri19"
-  ],
-  "traits": [
-   {
-    "id": "DA_DemonVision19",
-    "tier": 1
-   },
-   {
-    "id": "DA_Juggernaut19",
-    "tier": 2
-   },
-   {
-    "id": "DA_OceanSong19",
-    "tier": 1
-   },
-   {
-    "id": "DA_Pentakill19",
-    "tier": 1
-   },
-   {
-    "id": "DA_Swiftstriker19",
-    "tier": 3
-   },
-   {
-    "id": "DA_Zeri19_UniqueTrait",
-    "tier": 1
-   }
-  ],
-  "builds": [
-   {
-    "unit": "DA_Kayle19",
-    "items": [
-     "DA_GuinsoosRageblade",
-     "DA_JeweledGauntlet",
-     "DA_RabadonsDeathcap"
-    ],
-    "avg": 4.2362,
-    "count": 127
-   },
-   {
-    "unit": "DA_Zac19",
-    "items": [
-     "DA_Evenshroud",
-     "DA_GargoyleStoneplate",
-     "DA_SunfireCape"
-    ],
-    "avg": 3.1714,
-    "count": 35
-   },
-   {
-    "unit": "DA_Yorick19",
-    "items": [
-     "DA_BrambleVest",
-     "DA_DragonsClaw",
-     "DA_WarmogsArmor"
-    ],
-    "avg": 3.2941,
-    "count": 17
-   },
-   {
-    "unit": "DA_Zeri19",
-    "items": [
-     "DA_InfinityEdge",
-     "DA_RedBuff",
-     "DA_SpearOfShojin"
-    ],
-    "avg": 3.5316,
-    "count": 79
-   }
-  ],
-  "carries": [
-   "DA_Kayle19",
-   "DA_Zac19",
-   "DA_Yorick19",
-   "DA_Zeri19"
-  ],
-  "topItems": [
-   null,
-   null
-  ],
-  "count": 7607,
-  "avg": 4.5988,
-  "pick": 0.004279876693669797,
-  "levelling": "Fast 9",
-  "levellingVi": "Lên nhanh cấp 9",
-  "extraUnits": [
-   "DA_Gnar19",
-   "DA_Seraphine19_Indie"
-  ],
-  "tier": "A",
-  "share": 0.005076965380261837
+  "share": 0.007749439176684456
  },
  {
   "id": "427026",
@@ -1549,8 +1548,8 @@
      "DA_SpearOfShojin",
      "DA_TitansResolve"
     ],
-    "avg": 3.3239,
-    "count": 988
+    "avg": 3.3144,
+    "count": 1056
    },
    {
     "unit": "DA_Nasus19",
@@ -1559,8 +1558,8 @@
      "DA_SpiritVisage",
      "DA_SunfireCape"
     ],
-    "avg": 3.3208,
-    "count": 848
+    "avg": 3.3264,
+    "count": 864
    },
    {
     "unit": "DA_RenataGlasc19",
@@ -1569,8 +1568,8 @@
      "DA_HextechGunblade",
      "DA_SpearOfShojin"
     ],
-    "avg": 3.6731,
-    "count": 3576
+    "avg": 3.6776,
+    "count": 3663
    },
    {
     "unit": "DA_Leona19",
@@ -1579,8 +1578,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 2.5278,
-    "count": 36
+    "avg": 2.6316,
+    "count": 38
    }
   ],
   "carries": [
@@ -1594,9 +1593,9 @@
    null,
    null
   ],
-  "count": 25282,
-  "avg": 4.6227,
-  "pick": 0.03213133557961144,
+  "count": 26052,
+  "avg": 4.6158,
+  "pick": 0.032208416231840536,
   "levelling": "lvl 6",
   "levellingVi": "Reroll cấp 6",
   "extraUnits": [
@@ -1606,7 +1605,7 @@
    "DA_Katarina19"
   ],
   "tier": "A",
-  "share": 0.016873384874954617
+  "share": 0.017103387786426928
  },
  {
   "id": "427016",
@@ -1668,8 +1667,8 @@
      "DA_Heavenscale19_DangerousItem",
      "DA_InfinityEdge"
     ],
-    "avg": 3.6614,
-    "count": 446
+    "avg": 3.6308,
+    "count": 455
    },
    {
     "unit": "DA_Wukong19",
@@ -1678,8 +1677,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.0283,
-    "count": 1482
+    "avg": 4.0364,
+    "count": 1512
    },
    {
     "unit": "DA_Janna19",
@@ -1688,18 +1687,18 @@
      "DA_Morellonomicon",
      "DA_SpearOfShojin"
     ],
-    "avg": 3.2642,
-    "count": 159
+    "avg": 3.2609,
+    "count": 161
    },
    {
     "unit": "DA_LeeSin19",
     "items": [
      "DA_Bloodthirster",
-     "DA_EdgeOfNight",
-     "DA_Heavenscale19_DangerousItem"
+     "DA_Heavenscale19_DangerousItem",
+     "DA_SteraksGage"
     ],
-    "avg": 2.9146,
-    "count": 328
+    "avg": 3.0376,
+    "count": 426
    }
   ],
   "carries": [
@@ -1714,9 +1713,9 @@
    null,
    null
   ],
-  "count": 54024,
-  "avg": 4.6375,
-  "pick": 0.035579611441680405,
+  "count": 55007,
+  "avg": 4.6365,
+  "pick": 0.03612497966640389,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [
@@ -1724,7 +1723,7 @@
    "DA_Kobuko19"
   ],
   "tier": "B",
-  "share": 0.036055998120581766
+  "share": 0.03611262290680124
  },
  {
   "id": "427022",
@@ -1770,18 +1769,18 @@
      "DA_InfinityEdge",
      "DA_KrakensFury"
     ],
-    "avg": 3.7877,
-    "count": 5548
+    "avg": 3.7933,
+    "count": 5636
    },
    {
     "unit": "DA_Alune19",
     "items": [
-     "DA_BlueBuff",
      "DA_Morellonomicon",
+     "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 3.916,
-    "count": 583
+    "avg": 4.1161,
+    "count": 1369
    },
    {
     "unit": "DA_Yone19",
@@ -1790,8 +1789,8 @@
      "DA_EdgeOfNight",
      "DA_SteraksGage"
     ],
-    "avg": 3.9786,
-    "count": 701
+    "avg": 3.993,
+    "count": 718
    },
    {
     "unit": "DA_KSante19",
@@ -1800,8 +1799,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.4065,
-    "count": 1695
+    "avg": 4.3985,
+    "count": 1709
    }
   ],
   "carries": [
@@ -1815,16 +1814,16 @@
    null,
    null
   ],
-  "count": 97662,
-  "avg": 4.6794,
-  "pick": 0.057473654025378164,
+  "count": 99085,
+  "avg": 4.68,
+  "pick": 0.05713427681219265,
   "levelling": "Fast 8",
   "levellingVi": "Lên nhanh cấp 8",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "B",
-  "share": 0.06518030668688465
+  "share": 0.06505025252641303
  },
  {
   "id": "427027",
@@ -1865,8 +1864,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 3.5753,
-    "count": 1229
+    "avg": 3.5749,
+    "count": 1289
    },
    {
     "unit": "DA_Briar19",
@@ -1875,8 +1874,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 3.4867,
-    "count": 452
+    "avg": 3.5021,
+    "count": 468
    },
    {
     "unit": "DA_Yorick19",
@@ -1885,8 +1884,8 @@
      "DA_SunfireCape",
      "DA_WarmogsArmor"
     ],
-    "avg": 2.8033,
-    "count": 61
+    "avg": 2.8548,
+    "count": 62
    },
    {
     "unit": "DA_Yone19",
@@ -1895,8 +1894,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 3.7674,
-    "count": 43
+    "avg": 3.7955,
+    "count": 44
    }
   ],
   "carries": [
@@ -1912,21 +1911,21 @@
    null,
    null
   ],
-  "count": 11671,
-  "avg": 4.6891,
-  "pick": 0.01227328123879848,
+  "count": 11937,
+  "avg": 4.6809,
+  "pick": 0.012181388190247382,
   "levelling": "lvl 7",
   "levellingVi": "Roll cấp 7",
   "extraUnits": [
    "DA_Amumu19",
-   "DA_KSante19",
    "DA_Braum19",
-   "DA_Tibbers19",
+   "DA_KSante19",
    "DA_Draven19",
+   "DA_Tibbers19",
    "DA_Seraphine19_Indie"
   ],
   "tier": "B",
-  "share": 0.007789307605236742
+  "share": 0.007836754951887695
  },
  {
   "id": "427014",
@@ -1972,8 +1971,8 @@
      "DA_KrakensFury",
      "DA_LastWhisper"
     ],
-    "avg": 4.042,
-    "count": 2048
+    "avg": 4.0495,
+    "count": 2080
    },
    {
     "unit": "DA_Swain19",
@@ -1982,8 +1981,8 @@
      "DA_ProtectorsVow",
      "DA_SunfireCape"
     ],
-    "avg": 3.621,
-    "count": 124
+    "avg": 3.6111,
+    "count": 126
    },
    {
     "unit": "DA_Pyke19",
@@ -1992,8 +1991,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 3.4933,
-    "count": 1484
+    "avg": 3.4884,
+    "count": 1503
    },
    {
     "unit": "DA_Locke19",
@@ -2002,8 +2001,8 @@
      "DA_IonicSpark",
      "DA_JeweledGauntlet"
     ],
-    "avg": 4.3139,
-    "count": 137
+    "avg": 4.3043,
+    "count": 138
    }
   ],
   "carries": [
@@ -2017,16 +2016,16 @@
    null,
    null
   ],
-  "count": 59311,
-  "avg": 4.7078,
-  "pick": 0.036418381245967454,
+  "count": 60199,
+  "avg": 4.7071,
+  "pick": 0.03612497966640389,
   "levelling": "Standard",
   "levellingVi": "Tiêu chuẩn (roll cấp 8)",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "B",
-  "share": 0.03958457915981462
+  "share": 0.03952122068766753
  },
  {
   "id": "427012",
@@ -2084,18 +2083,18 @@
      "DA_EdgeOfNight",
      "DA_InfinityEdge"
     ],
-    "avg": 4.181,
-    "count": 116
+    "avg": 4.225,
+    "count": 120
    },
    {
     "unit": "DA_Zac19",
     "items": [
      "DA_Crownguard",
-     "DA_ProtectorsVow",
-     "DA_WarmogsArmor"
+     "DA_Evenshroud",
+     "DA_SpiritVisage"
     ],
-    "avg": 3.6889,
-    "count": 45
+    "avg": 3.7321,
+    "count": 56
    },
    {
     "unit": "DA_Aurora19",
@@ -2104,18 +2103,18 @@
      "DA_Oceansong19_Emblem",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.1719,
-    "count": 64
+    "avg": 4.1818,
+    "count": 66
    },
    {
     "unit": "DA_Taliyah19",
     "items": [
-     "DA_RabadonsDeathcap",
-     "DA_SpearOfShojin",
-     "DA_VoidStaff"
+     "DA_ArchangelsStaff",
+     "DA_JeweledGauntlet",
+     "DA_SpearOfShojin"
     ],
-    "avg": 3.7222,
-    "count": 54
+    "avg": 3.8681,
+    "count": 91
    }
   ],
   "carries": [
@@ -2127,14 +2126,14 @@
   "topItems": [
    null
   ],
-  "count": 14317,
-  "avg": 4.7417,
-  "pick": 0.009341171410136927,
+  "count": 14573,
+  "avg": 4.7366,
+  "pick": 0.009509866486479723,
   "levelling": "Fast 8",
   "levellingVi": "Lên nhanh cấp 8",
   "extraUnits": [],
   "tier": "B",
-  "share": 0.009555266642462038
+  "share": 0.00956731422584061
  },
  {
   "id": "427029",
@@ -2184,8 +2183,8 @@
      "DA_LastWhisper",
      "DA_TitansResolve"
     ],
-    "avg": 3.9922,
-    "count": 129
+    "avg": 4.0077,
+    "count": 130
    },
    {
     "unit": "DA_Yasuo19",
@@ -2194,8 +2193,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 3.9188,
-    "count": 345
+    "avg": 3.9171,
+    "count": 350
    },
    {
     "unit": "DA_Aphelios19",
@@ -2214,8 +2213,8 @@
      "DA_GargoyleStoneplate",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.4333,
-    "count": 60
+    "avg": 3.4754,
+    "count": 61
    }
   ],
   "carries": [
@@ -2231,9 +2230,9 @@
    null,
    null
   ],
-  "count": 16833,
-  "avg": 4.7554,
-  "pick": 0.010581403684851961,
+  "count": 17091,
+  "avg": 4.7578,
+  "pick": 0.01053593102844201,
   "levelling": "Fast 8",
   "levellingVi": "Lên nhanh cấp 8",
   "extraUnits": [
@@ -2241,7 +2240,7 @@
    "DA_Seraphine19_Indie"
   ],
   "tier": "B",
-  "share": 0.011234462764026227
+  "share": 0.011220405368410203
  },
  {
   "id": "427041",
@@ -2307,8 +2306,8 @@
      "DA_SpearOfShojin",
      "DA_StrikersFlail"
     ],
-    "avg": 3.7125,
-    "count": 779
+    "avg": 3.7079,
+    "count": 832
    },
    {
     "unit": "DA_DrMundo19",
@@ -2317,8 +2316,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.4837,
-    "count": 368
+    "avg": 3.4841,
+    "count": 378
    },
    {
     "unit": "DA_Kayle19",
@@ -2337,8 +2336,8 @@
      "DA_GargoyleStoneplate",
      "DA_SpiritVisage"
     ],
-    "avg": 3.9425,
-    "count": 87
+    "avg": 3.9091,
+    "count": 88
    }
   ],
   "carries": [
@@ -2353,14 +2352,14 @@
    null,
    null
   ],
-  "count": 18570,
-  "avg": 4.8001,
-  "pick": 0.019807871532009462,
+  "count": 19060,
+  "avg": 4.7915,
+  "pick": 0.020039541023812207,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [],
   "tier": "B",
-  "share": 0.012393748798667321
+  "share": 0.012513072747170936
  },
  {
   "id": "427017",
@@ -2396,8 +2395,8 @@
      "DA_SpearOfShojin",
      "DA_StrikersFlail"
     ],
-    "avg": 4.2921,
-    "count": 534
+    "avg": 4.2993,
+    "count": 548
    },
    {
     "unit": "DA_Tibbers19",
@@ -2406,8 +2405,8 @@
      "DA_GargoyleStoneplate",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.0874,
-    "count": 572
+    "avg": 4.0846,
+    "count": 579
    },
    {
     "unit": "DA_Gwen19",
@@ -2416,8 +2415,8 @@
      "DA_JeweledGauntlet",
      "DA_NashorsTooth"
     ],
-    "avg": 3.5091,
-    "count": 55
+    "avg": 3.5179,
+    "count": 56
    },
    {
     "unit": "DA_Shyvana19",
@@ -2441,9 +2440,9 @@
    null,
    null
   ],
-  "count": 24519,
-  "avg": 4.8154,
-  "pick": 0.014717900924797477,
+  "count": 24884,
+  "avg": 4.8207,
+  "pick": 0.014671471651838783,
   "levelling": "lvl 6",
   "levellingVi": "Reroll cấp 6",
   "extraUnits": [
@@ -2454,10 +2453,10 @@
    "DA_Gragas19",
    "DA_Zoe19",
    "DA_Seraphine19_Indie",
-   "DA_Illaoi19"
+   "DA_Taric19"
   ],
   "tier": "B",
-  "share": 0.016364153300728275
+  "share": 0.01633658458764961
  },
  {
   "id": "427032",
@@ -2527,18 +2526,18 @@
      "DA_InfinityEdge",
      "DA_StrikersFlail"
     ],
-    "avg": 4.4953,
-    "count": 317
+    "avg": 4.4734,
+    "count": 319
    },
    {
     "unit": "DA_MissFortune19",
     "items": [
-     "DA_InfinityEdge",
+     "DA_GuinsoosRageblade",
      "DA_LastWhisper",
      "DA_RedBuff"
     ],
-    "avg": 3.2174,
-    "count": 115
+    "avg": 2.9219,
+    "count": 64
    },
    {
     "unit": "DA_Smeech19",
@@ -2547,8 +2546,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 2.6623,
-    "count": 228
+    "avg": 2.6949,
+    "count": 236
    },
    {
     "unit": "DA_Galio19",
@@ -2557,8 +2556,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.5802,
-    "count": 212
+    "avg": 4.5826,
+    "count": 218
    }
   ],
   "carries": [
@@ -2572,16 +2571,16 @@
    null,
    null
   ],
-  "count": 30234,
-  "avg": 4.8376,
-  "pick": 0.019442253925012545,
+  "count": 30771,
+  "avg": 4.8348,
+  "pick": 0.019682921030569216,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "B",
-  "share": 0.020178384554599235
+  "share": 0.020201456532171924
  },
  {
   "id": "427020",
@@ -2631,8 +2630,8 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 4.3233,
-    "count": 266
+    "avg": 4.3297,
+    "count": 273
    },
    {
     "unit": "DA_Rell19",
@@ -2641,8 +2640,8 @@
      "DA_GargoyleStoneplate",
      "DA_GargoyleStoneplate"
     ],
-    "avg": 3.3788,
-    "count": 66
+    "avg": 3.4118,
+    "count": 68
    },
    {
     "unit": "DA_Vladimir19",
@@ -2677,16 +2676,16 @@
    null,
    null
   ],
-  "count": 23235,
-  "avg": 4.8496,
-  "pick": 0.014380959208545416,
+  "count": 23547,
+  "avg": 4.8517,
+  "pick": 0.014164695871967167,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "B",
-  "share": 0.015507202656813959
+  "share": 0.01545883126850126
  },
  {
   "id": "427021",
@@ -2744,8 +2743,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.2794,
-    "count": 2573
+    "avg": 4.2853,
+    "count": 2625
    },
    {
     "unit": "DA_Jhin19",
@@ -2754,8 +2753,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 4.0481,
-    "count": 2557
+    "avg": 4.0507,
+    "count": 2604
    },
    {
     "unit": "DA_Vladimir19",
@@ -2764,8 +2763,8 @@
      "DA_Morellonomicon",
      "DA_VoidStaff"
     ],
-    "avg": 3.9703,
-    "count": 471
+    "avg": 3.9641,
+    "count": 474
    },
    {
     "unit": "DA_RenataGlasc19",
@@ -2774,8 +2773,8 @@
      "DA_HextechGunblade",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.2339,
-    "count": 171
+    "avg": 4.267,
+    "count": 176
    }
   ],
   "carries": [
@@ -2788,16 +2787,16 @@
    null,
    null
   ],
-  "count": 52166,
-  "avg": 4.8558,
-  "pick": 0.036275001792243175,
+  "count": 53048,
+  "avg": 4.853,
+  "pick": 0.036031132299761,
   "levelling": "Fast 8",
   "levellingVi": "Lên nhanh cấp 8",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "B",
-  "share": 0.03481595583367149
+  "share": 0.03482652062392045
  },
  {
   "id": "427028",
@@ -2843,8 +2842,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.2513,
-    "count": 2101
+    "avg": 4.2478,
+    "count": 2127
    },
    {
     "unit": "DA_Taliyah19",
@@ -2853,8 +2852,8 @@
      "DA_RabadonsDeathcap",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.2124,
-    "count": 1036
+    "avg": 4.2063,
+    "count": 1052
    },
    {
     "unit": "DA_Graves19",
@@ -2863,8 +2862,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 3.8592,
-    "count": 142
+    "avg": 3.8611,
+    "count": 144
    },
    {
     "unit": "DA_Syndra19",
@@ -2873,8 +2872,8 @@
      "DA_HextechGunblade",
      "DA_JeweledGauntlet"
     ],
-    "avg": 4.6385,
-    "count": 130
+    "avg": 4.6061,
+    "count": 132
    }
   ],
   "carries": [
@@ -2887,16 +2886,16 @@
    null,
    null
   ],
-  "count": 59018,
-  "avg": 4.8623,
-  "pick": 0.035278514588859416,
+  "count": 59882,
+  "avg": 4.8589,
+  "pick": 0.03508014565111303,
   "levelling": "Standard",
   "levellingVi": "Tiêu chuẩn (roll cấp 8)",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "B",
-  "share": 0.039389028896055354
+  "share": 0.039313107148273345
  },
  {
   "id": "427019",
@@ -2942,8 +2941,8 @@
      "DA_RabadonsDeathcap",
      "DA_SpearOfShojin"
     ],
-    "avg": 3.6563,
-    "count": 32
+    "avg": 3.5758,
+    "count": 33
    },
    {
     "unit": "DA_Zac19",
@@ -2962,8 +2961,8 @@
      "DA_GargoyleStoneplate",
      "DA_WarmogsArmor"
     ],
-    "avg": 3.9213,
-    "count": 89
+    "avg": 3.9022,
+    "count": 92
    },
    {
     "unit": "DA_Taliyah19",
@@ -2972,8 +2971,8 @@
      "DA_NashorsTooth",
      "DA_RabadonsDeathcap"
     ],
-    "avg": 3.5556,
-    "count": 27
+    "avg": 3.6071,
+    "count": 28
    }
   ],
   "carries": [
@@ -2987,16 +2986,16 @@
    null,
    null
   ],
-  "count": 9570,
-  "avg": 4.872,
-  "pick": 0.006072119865223313,
+  "count": 9715,
+  "avg": 4.8706,
+  "pick": 0.006037513920692719,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "B",
-  "share": 0.0063870854067445484
+  "share": 0.0063779906473644095
  },
  {
   "id": "427034",
@@ -3054,12 +3053,12 @@
    {
     "unit": "DA_Yuumi19",
     "items": [
-     "DA_HextechGunblade",
-     "DA_Morellonomicon",
-     "DA_VoidStaff"
+     "DA_JeweledGauntlet",
+     "DA_NashorsTooth",
+     "DA_StrikersFlail"
     ],
-    "avg": 3.9722,
-    "count": 36
+    "avg": 4.2526,
+    "count": 95
    },
    {
     "unit": "DA_Jhin19",
@@ -3088,8 +3087,8 @@
      "DA_GargoyleStoneplate",
      "DA_SpiritVisage"
     ],
-    "avg": 4.0769,
-    "count": 26
+    "avg": 4.1429,
+    "count": 28
    }
   ],
   "carries": [
@@ -3103,16 +3102,16 @@
    null,
    null
   ],
-  "count": 12489,
-  "avg": 5.0545,
-  "pick": 0.009004229693884867,
+  "count": 12683,
+  "avg": 5.0525,
+  "pick": 0.008902986848855687,
   "levelling": "Fast 8",
   "levellingVi": "Lên nhanh cấp 8",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "C",
-  "share": 0.008335246566858167
+  "share": 0.008326511104531427
  },
  {
   "id": "427033",
@@ -3182,8 +3181,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 3.2266,
-    "count": 481
+    "avg": 3.1988,
+    "count": 493
    },
    {
     "unit": "DA_MissFortune19",
@@ -3192,18 +3191,18 @@
      "DA_LastWhisper",
      "DA_SpearOfShojin"
     ],
-    "avg": 3.9883,
-    "count": 769
+    "avg": 3.9786,
+    "count": 794
    },
    {
     "unit": "DA_Rell19",
     "items": [
+     "DA_Crownguard",
      "DA_GargoyleStoneplate",
-     "DA_SpiritVisage",
-     "DA_WarmogsArmor"
+     "DA_ProtectorsVow"
     ],
-    "avg": 4.0427,
-    "count": 562
+    "avg": 3.1857,
+    "count": 70
    },
    {
     "unit": "DA_Bard19",
@@ -3211,8 +3210,8 @@
      "DA_Bard19_UniqueItem",
      "DA_TacticiansCrown"
     ],
-    "avg": 4.0632,
-    "count": 95
+    "avg": 4.0619,
+    "count": 97
    }
   ],
   "carries": [
@@ -3227,16 +3226,16 @@
    null,
    null
   ],
-  "count": 38273,
-  "avg": 5.1085,
-  "pick": 0.028640045881425193,
+  "count": 39012,
+  "avg": 5.102,
+  "pick": 0.028861193488244053,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "C",
-  "share": 0.025543669777673365
+  "share": 0.02561175204683277
  },
  {
   "id": "427030",
@@ -3284,8 +3283,8 @@
      "DA_KrakensFury",
      "DA_LastWhisper"
     ],
-    "avg": 4.5598,
-    "count": 736
+    "avg": 4.5568,
+    "count": 740
    },
    {
     "unit": "DA_Renekton19",
@@ -3294,8 +3293,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 4.1341,
-    "count": 276
+    "avg": 4.1388,
+    "count": 281
    },
    {
     "unit": "DA_Jax19",
@@ -3327,9 +3326,9 @@
    null,
    null
   ],
-  "count": 7532,
-  "avg": 5.1281,
-  "pick": 0.004251200802924941,
+  "count": 7626,
+  "avg": 5.1246,
+  "pick": 0.0041855925522729836,
   "levelling": "lvl 6",
   "levellingVi": "Reroll cấp 6",
   "extraUnits": [
@@ -3343,7 +3342,7 @@
    "DA_Gragas19"
   ],
   "tier": "C",
-  "share": 0.005026909851995814
+  "share": 0.005006542118044363
  },
  {
   "id": "427038",
@@ -3405,12 +3404,12 @@
    {
     "unit": "DA_Pyke19",
     "items": [
+     "DA_EdgeOfNight",
      "DA_HandOfJustice",
-     "DA_SteraksGage",
-     "DA_TitansResolve"
+     "DA_LastWhisper"
     ],
-    "avg": 3.4048,
-    "count": 42
+    "avg": 3.5179,
+    "count": 56
    },
    {
     "unit": "DA_Graves19",
@@ -3419,8 +3418,8 @@
      "DA_GiantSlayer",
      "DA_HandOfJustice"
     ],
-    "avg": 3.68,
-    "count": 25
+    "avg": 3.5769,
+    "count": 26
    },
    {
     "unit": "DA_Aurora19",
@@ -3439,8 +3438,8 @@
      "DA_HandOfJustice",
      "DA_StrikersFlail"
     ],
-    "avg": 4.1111,
-    "count": 54
+    "avg": 4.0909,
+    "count": 55
    }
   ],
   "carries": [
@@ -3453,9 +3452,9 @@
    null,
    null
   ],
-  "count": 14953,
-  "avg": 5.1836,
-  "pick": 0.010108251487561832,
+  "count": 15221,
+  "avg": 5.1819,
+  "pick": 0.010166798052979967,
   "levelling": "Standard",
   "levellingVi": "Tiêu chuẩn (roll cấp 8)",
   "extraUnits": [
@@ -3464,7 +3463,7 @@
    "DA_Seraphine19_Indie"
   ],
   "tier": "C",
-  "share": 0.009979737522157913
+  "share": 0.009992732438860903
  },
  {
   "id": "427037",
@@ -3504,8 +3503,8 @@
      "DA_InfinityEdge",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.5037,
-    "count": 2045
+    "avg": 4.4879,
+    "count": 2074
    },
    {
     "unit": "DA_Braum19",
@@ -3514,8 +3513,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.3979,
-    "count": 847
+    "avg": 4.3791,
+    "count": 860
    },
    {
     "unit": "DA_Kaisa19",
@@ -3524,8 +3523,8 @@
      "DA_LastWhisper",
      "DA_RedBuff"
     ],
-    "avg": 3.7131,
-    "count": 495
+    "avg": 3.7048,
+    "count": 498
    },
    {
     "unit": "DA_TwistedFate19",
@@ -3534,8 +3533,8 @@
      "DA_HextechGunblade",
      "DA_JeweledGauntlet"
     ],
-    "avg": 3.9038,
-    "count": 104
+    "avg": 3.8952,
+    "count": 105
    }
   ],
   "carries": [
@@ -3550,9 +3549,9 @@
    null,
    null
   ],
-  "count": 29300,
-  "avg": 5.2039,
-  "pick": 0.018875905082801635,
+  "count": 29739,
+  "avg": 5.2017,
+  "pick": 0.018650599997497404,
   "levelling": "lvl 7",
   "levellingVi": "Roll cấp 7",
   "extraUnits": [
@@ -3563,7 +3562,7 @@
    "DA_Seraphine19_Indie"
   ],
   "tier": "C",
-  "share": 0.019555026375926363
+  "share": 0.01952393863736183
  },
  {
   "id": "427035",
@@ -3621,8 +3620,8 @@
      "DA_SpiritVisage",
      "DA_SunfireCape"
     ],
-    "avg": 3.2857,
-    "count": 42
+    "avg": 3.3864,
+    "count": 44
    },
    {
     "unit": "DA_Xayah19",
@@ -3631,8 +3630,8 @@
      "DA_InfinityEdge",
      "DA_LastWhisper"
     ],
-    "avg": 4.5135,
-    "count": 74
+    "avg": 4.4868,
+    "count": 76
    },
    {
     "unit": "DA_Smeech19",
@@ -3641,8 +3640,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 3.0353,
-    "count": 85
+    "avg": 3.0879,
+    "count": 91
    },
    {
     "unit": "DA_Bard19",
@@ -3650,8 +3649,8 @@
      "DA_Bard19_UniqueItem",
      "DA_TacticiansCrown"
     ],
-    "avg": 5.1563,
-    "count": 32
+    "avg": 5.2121,
+    "count": 33
    }
   ],
   "carries": [
@@ -3666,9 +3665,9 @@
    null,
    null
   ],
-  "count": 17302,
-  "avg": 5.2812,
-  "pick": 0.011341314789590651,
+  "count": 17599,
+  "avg": 5.2817,
+  "pick": 0.011474404694870929,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [
@@ -3676,7 +3675,7 @@
    "DA_Seraphine19_Indie"
   ],
   "tier": "C",
-  "share": 0.011547476667449758
+  "share": 0.011553912239111296
  },
  {
   "id": "427025",
@@ -3722,18 +3721,18 @@
      "DA_Heavenscale19_DangerousItem",
      "DA_InfinityEdge"
     ],
-    "avg": 3.6949,
-    "count": 59
+    "avg": 3.7778,
+    "count": 63
    },
    {
     "unit": "DA_Wukong19",
     "items": [
      "DA_GargoyleStoneplate",
-     "DA_SpiritVisage",
-     "DA_SpiritVisage"
+     "DA_ProtectorsVow",
+     "DA_WarmogsArmor"
     ],
-    "avg": 3.55,
-    "count": 20
+    "avg": 4.1385,
+    "count": 65
    },
    {
     "unit": "DA_Yasuo19",
@@ -3768,14 +3767,14 @@
    null,
    null
   ],
-  "count": 8722,
-  "avg": 5.2978,
-  "pick": 0.006581116925944512,
+  "count": 8871,
+  "avg": 5.2961,
+  "pick": 0.006475468298359548,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [],
   "tier": "C",
-  "share": 0.005821124233816714
+  "share": 0.005823896555097239
  },
  {
   "id": "427031",
@@ -3820,8 +3819,8 @@
      "DA_HextechGunblade",
      "DA_JeweledGauntlet"
     ],
-    "avg": 4.3495,
-    "count": 103
+    "avg": 4.3269,
+    "count": 104
    },
    {
     "unit": "DA_Mel19",
@@ -3830,8 +3829,8 @@
      "DA_SpearOfShojin",
      "DA_VoidStaff"
     ],
-    "avg": 3.7333,
-    "count": 30
+    "avg": 3.75,
+    "count": 32
    },
    {
     "unit": "DA_Annie19",
@@ -3864,19 +3863,20 @@
    null,
    null
   ],
-  "count": 8957,
-  "avg": 5.5156,
-  "pick": 0.005290701842425981,
+  "count": 9071,
+  "avg": 5.5165,
+  "pick": 0.0052116570942352695,
   "levelling": "lvl 6",
   "levellingVi": "Reroll cấp 6",
   "extraUnits": [
    "DA_Taric19",
    "DA_Seraphine19_Indie",
    "DA_Illaoi19",
-   "DA_Renekton19"
+   "DA_Renekton19",
+   "DA_Varus19"
   ],
   "tier": "C",
-  "share": 0.005977964889050253
+  "share": 0.005955198472696094
  },
  {
   "id": "427039",
@@ -3938,28 +3938,28 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.1558,
-    "count": 199
+    "avg": 4.1805,
+    "count": 205
    },
    {
     "unit": "DA_Jinx19",
     "items": [
      "DA_GuinsoosRageblade",
-     "DA_KrakensFury",
-     "DA_LastWhisper"
+     "DA_InfinityEdge",
+     "DA_RedBuff"
     ],
-    "avg": 3.6774,
-    "count": 31
+    "avg": 3.7143,
+    "count": 42
    },
    {
     "unit": "DA_Zeri19",
     "items": [
+     "DA_Deathblade",
      "DA_InfinityEdge",
-     "DA_SpearOfShojin",
-     "DA_StrikersFlail"
+     "DA_SpearOfShojin"
     ],
-    "avg": 3.8281,
-    "count": 64
+    "avg": 3.7857,
+    "count": 56
    },
    {
     "unit": "DA_MissFortune19",
@@ -3968,8 +3968,8 @@
      "DA_InfinityEdge",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.5357,
-    "count": 56
+    "avg": 4.5088,
+    "count": 57
    }
   ],
   "carries": [
@@ -3982,16 +3982,16 @@
    null,
    null
   ],
-  "count": 12257,
+  "count": 12471,
   "avg": 5.5341,
-  "pick": 0.008151121944225393,
+  "pick": 0.00820225984458876,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [
    "DA_Yunara19"
   ],
   "tier": "C",
-  "share": 0.00818040813275527
+  "share": 0.00818733107187664
  },
  {
   "id": "427015",
@@ -4031,11 +4031,11 @@
     "unit": "DA_Annie19",
     "items": [
      "DA_GargoyleStoneplate",
-     "DA_GargoyleStoneplate",
-     "DA_SpiritVisage"
+     "DA_SpiritVisage",
+     "DA_WarmogsArmor"
     ],
-    "avg": 3.4364,
-    "count": 55
+    "avg": 4.0267,
+    "count": 187
    },
    {
     "unit": "DA_Gwen19",
@@ -4068,9 +4068,9 @@
    null,
    null
   ],
-  "count": 13228,
-  "avg": 5.5475,
-  "pick": 0.007792673309914689,
+  "count": 13411,
+  "avg": 5.5522,
+  "pick": 0.007689227573607618,
   "levelling": "lvl 6",
   "levellingVi": "Reroll cấp 6",
   "extraUnits": [
@@ -4080,7 +4080,7 @@
    "DA_Kobuko19"
   ],
   "tier": "D",
-  "share": 0.008828460372039382
+  "share": 0.008804450084591261
  },
  {
   "id": "427043",
@@ -4142,8 +4142,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 4.8877,
-    "count": 988
+    "avg": 4.8903,
+    "count": 1003
    },
    {
     "unit": "DA_Ekko19",
@@ -4152,8 +4152,8 @@
      "DA_GargoyleStoneplate",
      "DA_SpiritVisage"
     ],
-    "avg": 4.9286,
-    "count": 210
+    "avg": 4.9252,
+    "count": 214
    },
    {
     "unit": "DA_Senna19",
@@ -4162,8 +4162,8 @@
      "DA_InfinityEdge",
      "DA_SpearOfShojin"
     ],
-    "avg": 5.1553,
-    "count": 412
+    "avg": 5.1631,
+    "count": 417
    },
    {
     "unit": "DA_Akali_TrueDamage19",
@@ -4172,8 +4172,8 @@
      "DA_HandOfJustice",
      "DA_JeweledGauntlet"
     ],
-    "avg": 4.1985,
-    "count": 534
+    "avg": 4.19,
+    "count": 542
    }
   ],
   "carries": [
@@ -4186,16 +4186,16 @@
    null,
    null
   ],
-  "count": 61034,
-  "avg": 5.6548,
-  "pick": 0.03765144454799627,
+  "count": 62055,
+  "avg": 5.6546,
+  "pick": 0.03805197892813794,
   "levelling": "Standard",
   "levellingVi": "Tiêu chuẩn (roll cấp 8)",
   "extraUnits": [
    "DA_Seraphine19_Indie"
   ],
   "tier": "D",
-  "share": 0.04073452149584606
+  "share": 0.04073970248298491
  },
  {
   "id": "427042",
@@ -4236,8 +4236,8 @@
      "DA_SteraksGage",
      "DA_TitansResolve"
     ],
-    "avg": 4.9097,
-    "count": 1705
+    "avg": 4.9077,
+    "count": 1722
    },
    {
     "unit": "DA_Illaoi19",
@@ -4246,8 +4246,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.4631,
-    "count": 149
+    "avg": 4.48,
+    "count": 150
    },
    {
     "unit": "DA_Swain19",
@@ -4266,8 +4266,8 @@
      "DA_KrakensFury",
      "DA_LastWhisper"
     ],
-    "avg": 4.25,
-    "count": 88
+    "avg": 4.2584,
+    "count": 89
    }
   ],
   "carries": [
@@ -4279,9 +4279,9 @@
   "topItems": [
    null
   ],
-  "count": 18033,
-  "avg": 5.8156,
-  "pick": 0.010803641838124597,
+  "count": 18286,
+  "avg": 5.8141,
+  "pick": 0.010704856288399215,
   "levelling": "lvl 6",
   "levellingVi": "Reroll cấp 6",
   "extraUnits": [
@@ -4293,7 +4293,7 @@
    "DA_Karthus19"
   ],
   "tier": "D",
-  "share": 0.012035351216282596
+  "share": 0.012004934326063366
  },
  {
   "id": "427040",
@@ -4355,8 +4355,8 @@
      "DA_SpiritVisage",
      "DA_WarmogsArmor"
     ],
-    "avg": 4.7178,
-    "count": 241
+    "avg": 4.6898,
+    "count": 245
    },
    {
     "unit": "DA_Zeri19",
@@ -4365,8 +4365,8 @@
      "DA_InfinityEdge",
      "DA_StrikersFlail"
     ],
-    "avg": 3.7561,
-    "count": 82
+    "avg": 3.8095,
+    "count": 84
    },
    {
     "unit": "DA_TwistedFate19",
@@ -4375,8 +4375,8 @@
      "DA_JeweledGauntlet",
      "DA_VoidStaff"
     ],
-    "avg": 3.7522,
-    "count": 113
+    "avg": 3.7414,
+    "count": 116
    },
    {
     "unit": "DA_MissFortune19",
@@ -4385,8 +4385,8 @@
      "DA_LastWhisper",
      "DA_SpearOfShojin"
     ],
-    "avg": 4.3134,
-    "count": 201
+    "avg": 4.3478,
+    "count": 207
    }
   ],
   "carries": [
@@ -4396,14 +4396,14 @@
    "DA_MissFortune19"
   ],
   "topItems": [],
-  "count": 47657,
-  "avg": 5.9717,
-  "pick": 0.029686715893612447,
+  "count": 48497,
+  "avg": 5.9751,
+  "pick": 0.030350238372311274,
   "levelling": "Fast 9",
   "levellingVi": "Lên nhanh cấp 9",
   "extraUnits": [],
   "tier": "D",
-  "share": 0.03180661747431818
+  "share": 0.03183874548895849
  },
  {
   "id": "427036",
@@ -4440,8 +4440,8 @@
      "DA_GargoyleStoneplate",
      "DA_SunfireCape"
     ],
-    "avg": 4.325,
-    "count": 40
+    "avg": 4.3095,
+    "count": 42
    },
    {
     "unit": "DA_Kayn19",
@@ -4450,8 +4450,8 @@
      "DA_InfinityEdge",
      "DA_SteraksGage"
     ],
-    "avg": 4.0932,
-    "count": 118
+    "avg": 4.1092,
+    "count": 119
    },
    {
     "unit": "DA_Ezreal19",
@@ -4470,8 +4470,8 @@
      "DA_HandOfJustice",
      "DA_JeweledGauntlet"
     ],
-    "avg": 4.185,
-    "count": 227
+    "avg": 4.1974,
+    "count": 233
    }
   ],
   "carries": [
@@ -4481,9 +4481,9 @@
    "DA_Katarina19"
   ],
   "topItems": [],
-  "count": 17136,
-  "avg": 6.2487,
-  "pick": 0.010416517313069038,
+  "count": 17389,
+  "avg": 6.2494,
+  "pick": 0.010304440857389541,
   "levelling": "lvl 5",
   "levellingVi": "Reroll cấp 5",
   "extraUnits": [
@@ -4496,7 +4496,7 @@
    "DA_Taric19"
   ],
   "tier": "D",
-  "share": 0.01143668709822096
+  "share": 0.011416045225632498
  },
  {
   "id": "427024",
@@ -4549,8 +4549,8 @@
      "DA_JeweledGauntlet",
      "DA_NashorsTooth"
     ],
-    "avg": 3.9423,
-    "count": 52
+    "avg": 3.9623,
+    "count": 53
    },
    {
     "unit": "DA_Viego19",
@@ -4559,8 +4559,8 @@
      "DA_HandOfJustice",
      "DA_InfinityEdge"
     ],
-    "avg": 3.8261,
-    "count": 69
+    "avg": 3.8333,
+    "count": 72
    },
    {
     "unit": "DA_Zac19",
@@ -4593,21 +4593,21 @@
    null,
    null
   ],
-  "count": 5385,
-  "avg": 5.0433,
-  "pick": 0.0032045307907376873,
+  "count": 5452,
+  "avg": 5.0429,
+  "pick": 0.0031094760814344884,
   "levelling": "lvl 7",
   "levellingVi": "Roll cấp 7",
   "extraUnits": [
-   "DA_Swain19",
    "DA_Amumu19",
+   "DA_Swain19",
    "DA_Briar19",
    "DA_Malzahar19",
    "DA_Draven19",
    "DA_Seraphine19_Indie"
   ],
   "tier": "?",
-  "share": 0.003593986929500459
+  "share": 0.003579290273744803
  },
  {
   "id": "427018",
@@ -4656,12 +4656,12 @@
    {
     "unit": "DA_Jax19",
     "items": [
-     "DA_EdgeOfNight",
-     "DA_HandOfJustice",
-     "DA_JeweledGauntlet"
+     "DA_Bloodthirster",
+     "DA_SpearOfShojin",
+     "DA_TitansResolve"
     ],
-    "avg": 3.6585,
-    "count": 41
+    "avg": 3.3478,
+    "count": 23
    },
    {
     "unit": "DA_Annie19",
@@ -4704,22 +4704,22 @@
    null,
    null
   ],
-  "count": 4646,
-  "avg": 5.4542,
-  "pick": 0.0028890959925442685,
+  "count": 4703,
+  "avg": 5.4561,
+  "pick": 0.002821677490396286,
   "levelling": "lvl 6",
   "levellingVi": "Reroll cấp 6",
   "extraUnits": [
    "DA_Seraphine19_Indie",
-   "DA_Kobuko19",
    "DA_Nasus19",
-   "DA_Lillia19",
+   "DA_Kobuko19",
    "DA_Zoe19",
    "DA_Taric19",
    "DA_Gragas19",
-   "DA_Ashe19"
+   "DA_Ashe19",
+   "DA_Kennen19"
   ],
   "tier": "?",
-  "share": 0.003100773124319245
+  "share": 0.0030875645923370888
  }
 ]

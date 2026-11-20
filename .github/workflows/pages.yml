@@ -1,0 +1,43 @@
+# Đưa web/ lên GitHub Pages. Trước khi đưa lên, tải dữ liệu MetaTFT mới (lỗi thì giữ dữ liệu có sẵn trong repo).
+name: Deploy TFT Helper
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "0 3 * * *" # 10:00 giờ Việt Nam mỗi ngày
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Tải dữ liệu mới
+        run: node scripts/update-data.mjs --strict || echo "::warning::Không tải được dữ liệu mới, dùng dữ liệu có sẵn trong repo."
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -2,7 +2,7 @@
 
 Tool hỗ trợ chơi Teamfight Tactics Set 19 (Prismatic Tour). Gồm hai phần:
 
-1. **Web tra cứu** chạy trên máy (`web/index.html`).
+1. **Web tra cứu**: dùng online tại **https://khuongnguyen2908.github.io/FlyntTFTHelper/**, hoặc mở trên máy (`web/index.html`).
 2. **Claude tư vấn trong chat**: dán ảnh chụp game vào chat Claude ở thư mục này để được khuyên theo tình huống.
 
 ## Mở web
@@ -10,14 +10,20 @@ Tool hỗ trợ chơi Teamfight Tactics Set 19 (Prismatic Tour). Gồm hai phầ
 Bấm đúp vào `web/index.html` (mở bằng Chrome / Edge). Không cần cài gì thêm.
 Ảnh tướng / đồ được tải từ MetaTFT, nên máy cần có mạng.
 
+Giao diện tối kiểu TFT, hợp nhất khi mở trên màn hình thứ 2. Rê chuột lên tướng / đồ / tộc hệ / lõi để xem nhanh; bấm vào để mở chi tiết ở ngăn bên phải (Esc để đóng).
+
 Các tab:
-- **Tình huống của tôi**: chọn tướng đang có, tướng nhà khác đang tranh, mảnh trang bị (bấm để thêm, chuột phải để bớt), lõi, vòng / cấp / vàng / máu.
-  Tool gợi ý đội hợp nhất, bước tiếp theo, cách ghép đồ và tướng nên bán. Các lựa chọn được nhớ lại cho lần mở sau.
-  - Bấm **Nhắm đội này** (ở đây hoặc ở tab Đội hình mạnh): khung **Đội đang nhắm** hiện trên cùng, gồm mức khớp với bàn của bạn (Hợp / Tạm được / Chưa hợp), việc nên làm, tướng mua theo thứ tự (kèm điều kiện mở khoá), tướng có thể bán, đồ cần cho từng chủ lực (ghép được ngay / thiếu mảnh nào) và lõi hợp tộc hệ của đội.
-- **Đội hình mạnh**: đội hình từ số liệu MetaTFT (bậc S–D theo hạng trung bình), đồ chủ lực, lối chơi (reroll / lên nhanh).
-- **📋 Copy mã**: có ở mỗi đội hình, ở khung Đội đang nhắm, và nút "Copy mã bàn của tôi". Vào game: Team Planner → Import → dán. Một số tướng PBE chưa có mã đúng (hiện là Graves, Mordekaiser, Nasus) sẽ bị bỏ qua và tool có báo.
-- **Tướng**: kỹ năng, chỉ số, điều kiện mở khoá, đồ hay lên, lên đồ từ mảnh đang có.
-- **Tộc hệ**, **Trang bị** (bảng ghép đồ), **Lõi**, **Mẹo nhanh**.
+- **🎯 Tình huống**: chia 2 cột.
+  - Cột trái nhập: Vòng / Cấp / Vàng / Máu bằng nút − / + (lăn chuột cũng được, Shift = ×5); Bàn của tôi; Nhà khác tranh; mảnh trang bị (trái thêm, phải bớt); lõi đang có; bảng chọn tướng.
+  - Chọn tướng: **bấm trái** = thêm vào Bàn của tôi, **bấm phải** = Nhà khác tranh. Hoặc bấm `/`, gõ vài chữ tên rồi **Enter** (Shift+Enter = Nhà khác tranh). Bấm tướng ở Bàn của tôi để bỏ.
+  - Cột phải: gợi ý đội hợp nhất (thanh % khớp). Bấm **🎯 Nhắm** để xem kế hoạch: mức khớp, việc cần làm, mua / bán (kèm điều kiện mở khoá), đồ cần cho chủ lực (ghép ngay / thiếu mảnh nào), lõi hợp tộc hệ.
+  - Các lựa chọn được nhớ lại cho lần mở sau.
+- **🏆 Đội hình mạnh**: đội hình từ số liệu MetaTFT (bậc S–D theo hạng trung bình), đồ chủ lực, lối chơi (reroll / lên nhanh).
+- **📋 Copy mã**: có ở mỗi đội hình, ở khung Đội đang nhắm, và nút "Copy mã" của Bàn của tôi. Vào game: Team Planner → Import → dán. Một số tướng PBE chưa có mã đúng (hiện là Graves, Mordekaiser, Nasus) sẽ bị bỏ qua và tool có báo.
+- **🧙 Tướng**: lọc theo giá / tộc hệ; kỹ năng, chỉ số, điều kiện mở khoá, đồ hay lên, lên đồ từ mảnh đang có.
+- **🔷 Tộc hệ**, **⚔️ Trang bị** (bảng ghép đồ), **✨ Lõi**, **💡 Mẹo** (có danh sách phím tắt).
+
+Sau khi cập nhật tool, nhấn **Ctrl+F5** nếu trang vẫn hiện giao diện cũ.
 
 ## Hỏi Claude khi đang chơi
 
@@ -42,6 +48,16 @@ node scripts/update-data.mjs --queue 1100
 ```
 
 Cần Node.js 18 trở lên.
+
+## Bản online (GitHub Pages)
+
+Workflow `.github/workflows/pages.yml` tự đưa thư mục `web/` lên GitHub Pages:
+- mỗi lần push lên nhánh `main`;
+- mỗi ngày lúc 10:00 (giờ Việt Nam), kèm tải dữ liệu MetaTFT mới;
+- hoặc bấm tay: tab **Actions** → **Deploy TFT Helper** → **Run workflow**.
+
+Nếu không tải được dữ liệu mới (MetaTFT lỗi, hoặc đội hình không đúng Set), bản online giữ dữ liệu có sẵn trong repo.
+Lưu ý: GitHub tự tắt lịch chạy hằng ngày nếu repo không có hoạt động trong 60 ngày.
 
 ## Lưu ý
 
